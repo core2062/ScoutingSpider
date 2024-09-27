@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Match Data Viewer</title>
+    <link rel="stylesheet" href="/statsic/CSS/index.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: rgba(255, 128, 49);
+        }
+        div.a {
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            gap: 2%;
+        }
+        #matchListContainer {
+            width: 30%;
+            max-height: 80vh;
+            overflow-y: auto;
+            background-color: #f2f2f2;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        #matchList {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            font-size: 14px;
+        }
+        #matchList li {
+            cursor: pointer;
+            margin: 5px 0;
+            padding: 5px;
+            background-color: #f0f0f0;
+            border-radius: 3px;
+            word-wrap: break-word;
+            word-break: break-word;
+        }
+        #matchList li:hover {
+            background-color: #ddd;
+        }
+        #matchDataTableContainer {
+            width: 65%;
+            padding: 10px;
+            background-color: #ffffff;
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            max-height: 400px;
+            overflow-y: auto;
+            overflow-x: hidden;
+        }
+        #matchDataTable, #avgDataTable {
+            width: 100%;
+            table-layout: fixed;
+            border-collapse: collapse;
+            margin-top: 10px;
+            display: none;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        td {
+            background-color: #f2f2f2;
+        }
+        th {
+            background-color: #c1bfbf;
+        }
+        #clearButton {
+            background-color: #f44336;
+            color: white;
+            border: none;
+            padding: 5px 10px;
+            border-radius: 3px;
+            cursor: pointer;
+            margin-bottom: 10px;
+        }
+        #clearButton:hover {
+            background-color: #d32f2f;
+        }
+    </style>
+</head>
+<body>
+    <div id="navbar-placeholder"></div><br>
+    <div class="a">
+        <div id="matchListContainer">
+            <ul id="matchList"></ul>
+        </div>
+        <div id="matchDataTableContainer">
+            <button id="clearButton" style="display: none;">Clear</button>
+            <table id="avgDataTable">
+                <thead>
+                    <tr><th>Team Number</th><th>Match Number</th><th>Name</th><th>Starting Position</th><th>Speaker Autos</th><th>Auto Moved</th><th>Amp Teleop</th><th>Speaker Teleop 1</th><th>Speaker Teleop 2</th><th>Co-op Point</th><th>Parking Type</th><th>Match Comment</th></tr></thead>
+                <tbody></tbody>
+            </table>
+            <table id="matchDataTable">
+                <thead>
+                    <tr></tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+    </div>
+
+    <script>
+        const csvUrl = 'CSV/Testing2024_NorthernLightsRegional_RawExport.CSV';
+
+        fetch(csvUrl)
+            .then(response => response.text())
+            .then(csvData => {
+                const data = parseCSV(csvData);
+                const teamData = getTeamDataWithMatches(data);
+
+                displayTeamData(teamData);
+                setupTeamClickHandler(data);
+            })
+            .catch(error => console.error('Error fetching the CSV file:', error));
+
+        function parseCSV(csvData) {
+            const lines = csvData.split('\n').map(line => line.split(',').map(cell => cell.replace(/"/g, '').trim()));
+            const headers = lines[0];
+            const rows = lines.slice(1);
+            return { headers, rows };
+        }
+
+        function getTeamDataWithMatches(data) {
+            const teamMap = {};
+
+            data.rows.forEach(row => {
+                const teamNumber = row[0];
+                const matchNumber = row[1];
+
+                if (!teamMap[teamNumber]) {
+                    teamMap[teamNumber] = [];
+                }
+                teamMap[teamNumber].push(row);
+            });
+
+            return Object.entries(teamMap).map(([teamNumber, matches]) => ({
+                team: teamNumber,
+                matches: matches.map(match => match[1]).join(', '),
+                details: matches
+            }));
+        }
+
+        function displayTeamData(teamData) {
+            const matchList = document.getElementById('matchList');
+            matchList.innerHTML = '';
+
+            teamData.forEach(item => {
+                const li = document.createElement('li');
+                li.textContent = `Team ${item.team}: Matches ${item.matches}`;
+                li.dataset.teamDetails = JSON.stringify(item.details);
+                matchList.appendChild(li);
+            });
+        }
+
+        function setupTeamClickHandler(data) {
+            const matchList = document.getElementById('matchList');
+            matchList.addEventListener('click', event => {
+                if (event.target.tagName === 'LI') {
+                    const teamDetails = JSON.parse(event.target.dataset.teamDetails);
+                    displayMatchDetails(teamDetails);
+                }
+            });
+        }
+
+        function displayMatchDetails(teamDetails) {
+            const table = document.getElementById('matchDataTable');
+            const thead = table.querySelector('thead tr');
+            const tbody = table.querySelector('tbody');
+            const avgTable = document.getElementById('avgDataTable');
+            const avgTbody = avgTable.querySelector('tbody');
+            const clearButton = document.getElementById('clearButton');
+
+            thead.innerHTML = '';
+            tbody.innerHTML = '';
+            avgTbody.innerHTML = '';
+
+            const headers = [
+                "Team Number", "Match Number", "Name", "Starting Position", 
+                "Speaker Autos", "Auto Moved", "Amp Teleop", 
+                "Speaker Teleop 1", "Speaker Teleop 2", "Co-op Point", 
+                "Parking Type", "Match Comment"
+            ];
+            headers.forEach(header => {
+                const th = document.createElement('th');
+                th.textContent = header;
+                thead.appendChild(th);
+            });
+
+            teamDetails.forEach(row => {
+                const tr = document.createElement('tr');
+                row.forEach(cell => {
+                    const td = document.createElement('td');
+                    td.textContent = cell;
+                    tr.appendChild(td);
+                });
+                tbody.appendChild(tr);
+            });
+
+            const numericColumns = [3, 4, 6, 7, 8];
+            const averages = Array(headers.length).fill(0);
+            const valueCounts = Array.from({ length: headers.length }, () => ({}));
+            let allComments = [];
+
+            teamDetails.forEach(row => {
+                row.forEach((cell, index) => {
+                    if (numericColumns.includes(index)) {
+                        const value = parseFloat(cell);
+                        if (!isNaN(value)) {
+                            averages[index] += value;
+                        }
+                    }
+                    if (index === headers.length - 1) {
+                        allComments.push(cell); // Collect all comments in an array
+                    }
+                    if (valueCounts[index]) {
+                        valueCounts[index][cell] = (valueCounts[index][cell] || 0) + 1;
+                    }
+                });
+            });
+
+            numericColumns.forEach(index => {
+                averages[index] = (averages[index] / teamDetails.length).toFixed(2);
+            });
+
+            const avgRow = document.createElement('tr');
+            avgRow.appendChild(createCell("N/A")); // Team Number as "N/A"
+            avgRow.appendChild(createCell("N/A")); // Match Number
+            avgRow.appendChild(createCell("N/A")); // Name
+
+            headers.slice(3).forEach((header, index) => {
+                const td = document.createElement('td');
+                if (numericColumns.includes(index + 3)) {
+                    td.textContent = averages[index + 3];
+                } else if (index === headers.length - 1) {
+                    // List all comments
+                    td.textContent = allComments.join('; ').trim();
+                } else {
+                    const mostFrequentValue = Object.entries(valueCounts[index + 3])
+                        .reduce((a, b) => (b[1] > a[1] ? b : a), ["N/A", 0])[0];
+                    td.textContent = `Most Likely: ${mostFrequentValue}`;
+                }
+                avgRow.appendChild(td);
+            });
+
+            avgTbody.appendChild(avgRow);
+            table.style.display = 'block';
+            avgTable.style.display = 'block';
+            clearButton.style.display = 'block';
+        }
+
+        function createCell(content) {
+            const td = document.createElement('td');
+            td.textContent = content;
+            return td;
+        }
+
+        document.getElementById('clearButton').addEventListener('click', function() {
+            const table = document.getElementById('matchDataTable');
+            const avgTable = document.getElementById('avgDataTable');
+            const clearButton = document.getElementById('clearButton');
+
+            table.style.display = 'none';
+            avgTable.style.display = 'none';
+            clearButton.style.display = 'none';
+        });
+    </script>
+    <script src="/statsic/javascript/LoadNavBar.js"></script>
+</body>
+</html>
