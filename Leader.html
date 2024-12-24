@@ -90,7 +90,7 @@
 
         // Function to fetch and parse the CSV file
         async function fetchCSV() {
-            const response = await fetch('static/YearlyCSV/Summary2024.csv'); // Update path as needed
+            const response = await fetch('YearlyCSV/Summary2024.csv'); // Update path as needed
             const data = await response.text();
             return data;
         }

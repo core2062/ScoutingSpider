@@ -110,7 +110,7 @@
             let teamsData = [];
     
             async function fetchCSV() {
-                const response = await fetch('static/YearlyCSV/Summary2024.csv');
+                const response = await fetch('YearlyCSV/Summary2024.csv');
                 const data = await response.text();
                 return data;
             }
