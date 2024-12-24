@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CORE SCOUTING WEB</title>
+    <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='images/favIcon.png') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .table-container {
+            overflow-x: auto;
+            margin-bottom: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        th, td {
+            padding: 12px;
+            text-align: center;
+            border-bottom: 1px solid #ddd;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        tr:hover {
+            background-color: #f1f1f1;
+        }
+        #match-details-table th {
+            position: sticky;
+            top: 0;
+            background-color: #f1f1f1;
+            z-index: 2;
+        }
+        #2nd-table {
+            display: none;
+            margin-top: 20px;
+        }
+        #clear-btn {
+            display: inline-block;
+            margin: 10px 0;
+            padding: 10px 15px;
+            background-color: #f44336;
+            color: white;
+            border: none;
+            cursor: pointer;
+            text-align: center;
+        }
+        #clear-btn:hover {
+            background-color: #d32f2f;
+        }
+    </style>
+</head>
+<body>
+    <div id="navbar-placeholder"></div>
+    <div class="container">
+        <h1>Teams</h1>
+        <div class="table-container">
+            <table id="main-table">
+                <tr>
+                    <th>Team Number</th>
+                    <th>Matches</th>
+                    <th>Show</th>
+                </tr>
+            </table>
+        </div>
+        <div id="2nd-table" class="table-container">
+            <button id="clear-btn" onclick="clearTable(); document.getElementById('target-pointTop').scrollIntoView({behavior: 'smooth'});">Clear & Go Up</button>
+            <table id="match-details-table"></table>
+        </div>
+    </div>
+    <script>
+        async function loadData() {
+            const csvResponse = await fetch('static/YearlyCSV/RawData2024.csv');
+            const csvText = await csvResponse.text();
+            const csvData = parseCSV(csvText);
+
+            const teamsDict = {};
+            const matchDataDict = {};
+
+            for (const row of csvData) {
+                const matchNumber = row['Match Number'];
+                const teamNumber = row['Team Number'];
+                if (!teamsDict[teamNumber]) {
+                    teamsDict[teamNumber] = [];
+                }
+                teamsDict[teamNumber].push(matchNumber);
+                if (!matchDataDict[teamNumber]) {
+                    matchDataDict[teamNumber] = [];
+                }
+                matchDataDict[teamNumber].push(row);
+            }
+
+            generateHTML(teamsDict, matchDataDict, Object.keys(csvData[0]));
+        }
+
+        function parseCSV(csvText) {
+            const lines = csvText.split('\n');
+            const headers = lines[0].split(',');
+            const data = [];
+            for (let i = 1; i < lines.length; i++) {
+                if (lines[i].trim() === '') continue;
+                const row = lines[i].split(',');
+                const rowData = {};
+                for (let j = 0; j < headers.length; j++) {
+                    rowData[headers[j].trim()] = row[j].trim();
+                }
+                data.push(rowData);
+            }
+            return data;
+        }
+
+        function generateHTML(teamsDict, matchDataDict, headers) {
+            const mainTable = document.getElementById('main-table');
+            let firstTable = '';
+            for (const teamNumber in teamsDict) {
+                const matchesList = teamsDict[teamNumber].join(', ');
+                firstTable += `
+                    <tr>
+                        <td>${teamNumber}</td>
+                        <td>${matchesList}</td>
+                        <td><button onclick="showTeamMatches('${teamNumber}');">Show</button></td>
+                    </tr>
+                `;
+            }
+            mainTable.innerHTML += firstTable;
+
+            const allHeaders = headers.join('</th><th>');
+
+            window.showTeamMatches = function(teamNumber) {
+                const table = document.getElementById('match-details-table');
+                const teamMatches = matchDataDict[teamNumber];
+                const matchRows = teamMatches.map(row => {
+                    return `<tr>${headers.map(header => `<td>${row[header]}</td>`).join('')}</tr>`;
+                }).join('');
+                table.innerHTML = `<tr><th>${allHeaders}</th></tr>` + matchRows;
+                document.getElementById('2nd-table').style.display = 'block';
+                document.getElementById('2nd-table').scrollIntoView({behavior: 'smooth'});
+            };
+        }
+
+        function clearTable() {
+            document.getElementById('2nd-table').style.display = 'none';
+        }
+
+        loadData();
+    </script>
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
