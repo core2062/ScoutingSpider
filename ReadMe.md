@@ -1,8 +1,7 @@
 # Welcome to the (Flask Build) Scouting Spider 
 
-> Heads Up Most Important information about the website will be found on [Here](https://github.com/Magicflash67/ScoutingSpider/tree/FlaskServerBuild?tab=readme-ov-file#scoutingspider-flask-build)
->  *(if Link doesn't work https://github.com/Magicflash67/ScoutingSpider/tree/FlaskServerBuild?tab=readme-ov-file#scoutingspider-flask-build)*
-> the Main branch this file goes over the static or git hub pages  version
+> Heads Up Most Important information about the website will be found on [Here]([https://github.com/Magicflash67/ScoutingSpider/tree/FlaskServerBuild?tab=readme-ov-file#scoutingspider-flask-build]) The main branch
+>  *(if Link doesn't work [https://github.com/Magicflash67/ScoutingSpider/tree/FlaskServerBuild?tab=readme-ov-file#scoutingspider-flask-build](https://github.com/Magicflash67/ScoutingSpider?tab=readme-ov-file#welcome-to-the-static-build-scouting-spider))*
 # Files and Architecture
 The Flask build has The standard flask file architecture; the main difference is the added directories to the system 
 
