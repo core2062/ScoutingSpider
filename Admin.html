@@ -3,137 +3,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>File Backup and Overwrite</title>
+    <title>ADMIN</title>
+    <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='images/favIcon.png') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
     <style>
-        #dropZone, #dropZone2 {
-            width: 300px;
-            height: 150px;
-            border: 2px dashed #ccc;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin-bottom: 10px;
-            color: #888;
+        textarea {
+            width: 100%;
+            resize: vertical;
+            padding: 10px;
+            font-size: 16px;
+            display: none; /* Initially hidden */
         }
-        #dropZone.dragover, #dropZone2.dragover {
-            border-color: #000;
-            color: #000;
+        .drag-over {
+            border: 2px dashed #00aaff;
+            background-color: #f0f8ff;
         }
     </style>
 </head>
 <body>
-    <h2>Drag and Drop or Select Two Files to Overwrite</h2>
+    <div id="navbar-placeholder"></div>
+    <br>
+    
+    <div>
+        <div style="padding: 1%;" class="login-container" id="login-container">
+            <h1 >Admin Login</h1>
+            <form id="login-form">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+                <br>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                <br>
+                <button type="submit">Login</button>
+            </form>
+        </div>
+        
+        <div class="content-container" id="content-container" style="display: none; padding: 1%;">
+            <h1>Welcome, Admin!</h1>
+            <br>
+            <h2>Summary CSV</h2>
+            <button id="show-summary">Show Summary Data</button>
+            <button id="update-summary">Push Update: Summary</button>
+            <textarea id="summary-textarea" placeholder="Drag and drop a CSV file here or press 'Show Summary Data'"></textarea>
+            <br><br>
+            
+            <h2>Raw Data CSV</h2>
+            <button id="show-raw">Show Raw Data</button>
+            <button id="update-raw">Push Update: Raw Data</button>
+            <textarea id="raw-textarea" placeholder="Drag and drop a CSV file here or press 'Show Raw Data'"></textarea>
+            <br><br>
+            
+            <h2>Points JSON</h2>
+            <button id="show-json">Show JSON</button>
+            <button id="update-json">Push Update: Points JSON</button>
+            <textarea id="json-textarea" placeholder="Drag and drop a JSON file here or press 'Show JSON'"></textarea>
+            <br>
+            <br>
+            <h2>Style and links JSON</h2>
+            <button id="show-Stylejson">Show JSON</button>
+            <button id="update-Stylejson">Push Update: Points JSON</button>
+            <textarea id="Stylejson-textarea" placeholder="Drag and drop a JSON file here or press 'Show JSON'"></textarea>
 
-    <div id="dropZone">Drop File 1 Here</div>
-    <input type="file" id="fileInput1" /><br><br>
-
-    <div id="dropZone2">Drop File 2 Here</div>
-    <input type="file" id="fileInput2" /><br><br>
-
-    <button onclick="processFiles()">Process Files</button>
-    <p id="status"></p>
-
-    <script>
-        // Paths to the original files that need to be overwritten
-        let originalFilePath1 = "originalFile1.txt"; // Example path for File 1
-        let originalFilePath2 = "originalFile2.txt"; // Example path for File 2
-
-        // Paths where the backup files will be saved
-        let backupFilePath1 = "backupFile1.txt"; // Backup path for File 1
-        let backupFilePath2 = "backupFile2.txt"; // Backup path for File 2
-
-        let file1 = null;
-        let file2 = null;
-
-        // Handle drag and drop for File 1
-        const dropZone1 = document.getElementById("dropZone");
-        dropZone1.addEventListener("dragover", (e) => {
-            e.preventDefault();
-            dropZone1.classList.add("dragover");
-        });
-        dropZone1.addEventListener("dragleave", () => dropZone1.classList.remove("dragover"));
-        dropZone1.addEventListener("drop", (e) => {
-            e.preventDefault();
-            dropZone1.classList.remove("dragover");
-            file1 = e.dataTransfer.files[0];
-            document.getElementById("status").textContent = `File 1 Selected: ${file1.name}`;
-        });
-
-        // Handle drag and drop for File 2
-        const dropZone2 = document.getElementById("dropZone2");
-        dropZone2.addEventListener("dragover", (e) => {
-            e.preventDefault();
-            dropZone2.classList.add("dragover");
-        });
-        dropZone2.addEventListener("dragleave", () => dropZone2.classList.remove("dragover"));
-        dropZone2.addEventListener("drop", (e) => {
-            e.preventDefault();
-            dropZone2.classList.remove("dragover");
-            file2 = e.dataTransfer.files[0];
-            document.getElementById("status").textContent = `File 2 Selected: ${file2.name}`;
-        });
-
-        // Handle file input change events
-        document.getElementById("fileInput1").addEventListener("change", (e) => {
-            file1 = e.target.files[0];
-            document.getElementById("status").textContent = `File 1 Selected: ${file1.name}`;
-        });
-        document.getElementById("fileInput2").addEventListener("change", (e) => {
-            file2 = e.target.files[0];
-            document.getElementById("status").textContent = `File 2 Selected: ${file2.name}`;
-        });
-
-        function processFiles() {
-            if (!file1 || !file2) {
-                alert("Please select both files before processing.");
-                return;
-            }
-
-            // Simulate reading the original files (as we're not using a server to access files on the actual system)
-            // Here we only simulate that files were read
-            const originalContent1 = "Original content of file 1";
-            const originalContent2 = "Original content of file 2";
-
-            // Backup original files
-            createBackup(backupFilePath1, originalContent1);
-            createBackup(backupFilePath2, originalContent2);
-
-            // Read and overwrite with new content from selected files
-            overwriteFile(file1, originalFilePath1);
-            overwriteFile(file2, originalFilePath2);
-        }
-
-        function createBackup(backupPath, content) {
-            // Simulate writing backup file
-            const blob = new Blob([content], { type: "text/plain" });
-            const a = document.createElement("a");
-            a.href = URL.createObjectURL(blob);
-            a.download = backupPath;
-            document.body.appendChild(a);
-            a.click();
-            a.remove();
-
-            document.getElementById("status").textContent += `\nBackup created: ${backupPath}`;
-        }
-
-        function overwriteFile(newFile, originalPath) {
-            const reader = new FileReader();
-            reader.onload = function(event) {
-                const newContent = event.target.result;
-                
-                // Simulate writing the new content to the original file path
-                const blob = new Blob([newContent], { type: newFile.type });
-                const a = document.createElement("a");
-                a.href = URL.createObjectURL(blob);
-                a.download = originalPath;
-                document.body.appendChild(a);
-                a.click();
-                a.remove();
-
-                document.getElementById("status").textContent += `\nFile overwritten: ${originalPath}`;
-            };
-            reader.readAsText(newFile);
-        }
-    </script>
+        </div>
+    </div>
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/Admin.js') }}"></script>
+   
 </body>
 </html>

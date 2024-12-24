@@ -1,0 +1,211 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Team Gen</title>
+        <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='images/favIcon.png') }}">
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+        <style>
+            table, th, td {
+                border: 1px solid black;
+                border-collapse: collapse;
+                padding: 5px;
+            }
+            .team-data {
+                margin-top: 20px;
+            }
+    
+            table th td {
+                center: auto;
+            }
+            .Results {
+                text-align: center;
+            }
+            ul {
+                list-style: none; /* Removes the dots */
+                padding: 0; /* Removes default padding */
+            }
+        </style>
+    </head>
+    <body>
+        <div id="navbar-placeholder"></div>
+        <div class="backbox">
+        <h1>Enhanced Team Generator</h1>
+            <div>
+                <label for="redTeam1">Red Team 1:</label>
+                <select id="redTeam1"></select>
+                <label for="redTeam2">Red Team 2:</label>
+                <select id="redTeam2"></select>
+                <label for="redTeam3">Red Team 3:</label>
+                <select id="redTeam3"></select>
+            </div>
+    
+            <div>
+                <label for="blueTeam1">Blue Team 1:</label>
+                <select id="blueTeam1"></select>
+                <label for="blueTeam2">Blue Team 2:</label>
+                <select id="blueTeam2"></select>
+                <label for="blueTeam3">Blue Team 3:</label>
+                <select id="blueTeam3"></select>
+            </div>
+    
+            <br>
+            <button onclick="generateTeams();">Generate Teams</button>
+        </div>
+        <br><br>
+        <div class="backbox">
+            <h2 class="Results">Results</h2>
+            <div id="results" class="Results"></div>
+            <div class="team-data Results" id="teamData"></div>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+        <script>
+            const JsonFilePath = 'static/YearlyCSV/Points.json';
+            let Points = {};
+            let compatibility = {
+                "1114-254": 0.05, // Example compatibility boost
+                "1678-118": -0.03 // Example compatibility penalty
+            };
+    
+            fetch(JsonFilePath)
+                .then(response => response.json())
+                .then(data => {
+                    Points = data;
+                })
+                .catch(error => console.error('Error loading JSON:', error));
+    
+            let teamsData = [];
+    
+            async function fetchCSV() {
+                const response = await fetch('static/YearlyCSV/Summary2024.csv');
+                const data = await response.text();
+                return data;
+            }
+    
+            fetchCSV().then(csvData => {
+                Papa.parse(csvData, {
+                    header: true,
+                    dynamicTyping: true,
+                    complete: function(results) {
+                        teamsData = results.data;
+                        populateDropdowns();
+                    }
+                });
+            });
+    
+            function populateDropdowns() {
+                let dropdowns = [
+                    'redTeam1', 'redTeam2', 'redTeam3',
+                    'blueTeam1', 'blueTeam2', 'blueTeam3'
+                ];
+    
+                dropdowns.forEach(dropdownId => {
+                    const dropdown = document.getElementById(dropdownId);
+                    teamsData.forEach(team => {
+                        const option = document.createElement("option");
+                        option.value = team["Team Number"];
+                        option.text = team["Team Names"];
+                        dropdown.appendChild(option);
+                    });
+                });
+            }
+    
+            function calcPosition(teamData) {
+                let total = 0;
+                let details = [];
+    
+                for (let key in Points) {
+                    if (teamData[key] !== null && Points[key] !== null) {
+                        const value = Points[key] * (teamData[key] || 0);
+                        total += value;
+                        details.push({ role: key, contribution: value });
+                    }
+                }
+                return { total: total, details: details };
+            }
+    
+            function applyCompatibility(teams) {
+                let adjustment = 0;
+                for (let i = 0; i < teams.length; i++) {
+                    for (let j = i + 1; j < teams.length; j++) {
+                        const key = `${teams[i]}-${teams[j]}`;
+                        const reverseKey = `${teams[j]}-${teams[i]}`;
+                        if (compatibility[key]) adjustment += compatibility[key];
+                        if (compatibility[reverseKey]) adjustment += compatibility[reverseKey];
+                    }
+                }
+                return adjustment;
+            }
+    
+            function generateTeams() {
+                let redTeams = [
+                    document.getElementById('redTeam1').value,
+                    document.getElementById('redTeam2').value,
+                    document.getElementById('redTeam3').value
+                ];
+    
+                let blueTeams = [
+                    document.getElementById('blueTeam1').value,
+                    document.getElementById('blueTeam2').value,
+                    document.getElementById('blueTeam3').value
+                ];
+    
+                let redTotal = 0;
+                let blueTotal = 0;
+                let redDetails = [];
+                let blueDetails = [];
+    
+                redTeams.forEach(teamNum => {
+                    let teamData = teamsData.find(team => team["Team Number"] == teamNum);
+                    const { total, details } = calcPosition(teamData);
+                    redTotal += total;
+                    redDetails.push({ team: teamNum, details });
+                });
+    
+                blueTeams.forEach(teamNum => {
+                    let teamData = teamsData.find(team => team["Team Number"] == teamNum);
+                    const { total, details } = calcPosition(teamData);
+                    blueTotal += total;
+                    blueDetails.push({ team: teamNum, details });
+                });
+    
+                const redAdjustment = applyCompatibility(redTeams);
+                const blueAdjustment = applyCompatibility(blueTeams);
+                redTotal += redAdjustment;
+                blueTotal += blueAdjustment;
+    
+                let winner = redTotal > blueTotal ? 'Red Team' : 'Blue Team';
+    
+                document.getElementById('results').innerHTML = '';
+                document.getElementById('teamData').innerHTML = '';
+    
+                document.getElementById('results').innerHTML = `
+                    <p>Red Team Total: ${redTotal.toFixed(2)}</p>
+                    <p>Blue Team Total: ${blueTotal.toFixed(2)}</p>
+                    <h3>Winner: ${winner}</h3>
+                `;
+    
+                displayTeamData('Red Team', redDetails);
+                displayTeamData('Blue Team', blueDetails);
+            }
+    
+            function displayTeamData(teamName, teamDetails) {
+                let container = document.getElementById('teamData');
+                let teamHtml = `<h3>${teamName} Data</h3><ul>`;
+    
+                teamDetails.forEach(team => {
+                    teamHtml += `<li>Team ${team.team}:<ul>`;
+                    team.details.forEach(detail => {
+                        teamHtml += `<li>${detail.role}: ${detail.contribution.toFixed(2)}</li>`;
+                    });
+                    teamHtml += '</ul></li>';
+                });
+    
+                teamHtml += '</ul>';
+                container.innerHTML += teamHtml;
+            }
+        </script>
+        <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+    </body>
+    </html>
