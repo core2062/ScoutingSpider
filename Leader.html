@@ -31,12 +31,12 @@
     <ul class="nav-links">
         <!-- Left side links -->
         <div class="nav-left">
-            <li><a href="./index.html">Home</a></li>
-            <li><a href="./OurMatches.html">Our Matches</a></li>
-            <li><a href="./Matches.html">Review matches</a></li>
-            <li><a href="./Team.html">Review teams</a></li>
-            <li><a href="./Leader.html">Review Leaderboard</a></li>
-            <li><a href="./TeamVS.html">Team VS</a></li>
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/OurMatches.html">Our Matches</a></li>
+            <li><a href="/Matches.html">Review matches</a></li>
+            <li><a href="/Team.html">Review teams</a></li>
+            <li><a href="/Leader.html">Review Leaderboard</a></li>
+            <li><a href="/TeamVS.html">Team VS</a></li>
         </div>
         <!-- Right side links -->
         <div class="nav-right">
@@ -59,7 +59,7 @@
     <h1 >Teams  Gen</h1>
     <div id="tableContainer"></div>
     <br>
-</div>
+</div> 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
     <script>
         // Path to the JSON file relative to the server's working directory
@@ -91,7 +91,7 @@
 
         // Function to fetch and parse the CSV file
         async function fetchCSV() {
-            const response = await fetch('static/YearlyCSV/Summary2024.csv'); // Update path as needed
+            const response = await fetch('/YearlyCSV/Summary2024.csv'); // Update path as needed
             const data = await response.text();
             return data;
         }
