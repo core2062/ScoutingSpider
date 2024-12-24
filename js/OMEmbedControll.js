@@ -1,5 +1,5 @@
 // File path to the JSON file
-var jsonFilePath = "static/YearlyCSV/StyleAndLinks.json";
+var jsonFilePath = "YearlyCSV/StyleAndLinks.json";
 
 // Function to fetch JSON data and update links
 function LoadLinks() {
