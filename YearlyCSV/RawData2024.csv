@@ -1,1033 +1,541 @@
-Team Number,Match Number,Alliance Color,Scouter Name,Competition,Starting Position,Auto Notes in Speaker,Auto Notes in Amp,Auto Pickup Location,Tele Notes in Speaker,Tele Notes in Amp,Notes in Trap,Where Notes Scored,Climb,Driver Confidence,Intake Preference,Disabled,Defense Ratiing,Comments
-93,1,"""Red""","""""",2024wimi,1,0,0,None,0,0,0,None,"""Not Attempted""",1,Neither,"""No""",0,""""""
-93,6,"""Red""","""Ethan 930""",2024wimi,2,1,0,"""Wing""",7,1,0,"""Subwoofer""","""Single Climb""",1,"""Ground""","""No""",0,"""It got note stuck just below speaker."""
-93,12,"""Blue""","""Everett Hilby 5148""",2024wimi,2,1,0,None,9,0,0,"""Subwoofer""","""Harmonized""",1,"""Ground""","""No""",0,""""""
-93,35,"""Red""","""""",2024wimi,2,1,0,"""Wing""",8,0,0,"""Subwoofer"", ""Wing""","""Harmonized""",1,"""Ground""","""No""",0,"""Really fast cycle times\nBarely stop before scoring into speaker\nHigh accuracy"""
-93,43,"""Red""","""Lawson 930""",2024wimi,2,0,0,None,11,0,0,"""Subwoofer""","""Single Climb""",1,"""Ground""","""No""",0,""""""
-93,51,"""Red""","""Nathan 930""",2024wimi,4,1,0,None,9,0,0,"""Subwoofer""","""Harmonized""",1,"""Ground""","""No""",0,"""Very fast at intake system.  """
-93,58,"""Red""","""Ellen Halvorsen 6381""",2024wimi,2,1,0,"""Wing""",8,0,0,"""Subwoofer""","""Harmonized""",1,"""Ground""","""No""",0,""""""
-93,68,"""Blue""","""AQ6421""",2024wimi,2,1,0,None,9,0,0,None,"""Not Attempted""",1,"""Ground""","""No""",0,"""It's 93"""
-93,76,"""Red""","""Aidan L 6421""",2024wimi,2,1,0,None,7,0,0,"""Subwoofer"", ""Wing""","""Harmonized""",1,"""Ground"", ""Source(Fed By Human Player)""","""No""",0,""""""
-93,82,"""Red""","""Eirian  W 930\n\n""",2024wimi,1,0,0,None,8,0,0,"""Podium""","""Single Climb""",1,"""Ground""","""No""",0,"""Good cycling"""
-537,3,"""Blue""","""Aidan6421""",2024wimi,3,0,0,None,2,0,0,None,"""Not Attempted""",2,Neither,"""No""",0,""""""
-537,10,"""Red""","""Evan 930""",2024wimi,3,1,0,None,2,1,0,"""Subwoofer""","""Parked""",2,"""Ground"", ""Source(Fed By Human Player)""","""No""",0,""""""
-537,21,"""Blue""","""Michael 1675""",2024wimi,3,0,0,None,1,5,0,"""Subwoofer"", ""Wing""","""Not Attempted""",1,"""Ground""","""No""",1,""""""
-537,29,"""Red""","""Logan K 930""",2024wimi,1,0,0,None,0,2,0,None,"""Parked""",3,"""Ground""","""No""",0,"""Tiny and fast and only scores amp, speaker probably possible"""
-537,37,"""Red""","""Landon 6381""",2024wimi,1,0,0,None,5,1,0,"""Subwoofer""","""Not Attempted""",1,"""Ground""","""No""",0,""""""
-537,52,"""Red""","""Liam 6421""",2024wimi,1,0,0,None,0,0,0,None,"""Not Attempted""",3,Neither,"""No""",0,"""Enable, but no reaponse."""
-537,62,"""Blue""","""Eirian 930""",2024wimi,1,0,0,None,2,0,0,None,"""Not Attempted""",2,"""Source(Fed By Human Player)""","""No""",0,"""They were cycling notes to their Alliance partners."""
-537,69,"""Red""","""Casey Frahmann 6421""",2024wimi,1,0,0,None,0,7,0,None,"""Not Attempted""",1,"""Ground""","""No""",0,"""Scores solely in amp, but does very well"""
-537,75,"""Red""","""Lauren 5148""",2024wimi,4,0,0,None,3,1,0,"""Subwoofer""","""Not Attempted""",2,"""Ground"", ""Source(Fed By Human Player)""","""No""",0,""""""
-537,82,"""Blue""","""Leonardo 5148""",2024wimi,4,1,0,"""Center Line""",2,4,0,"""Subwoofer"", ""Podium""","""Parked""",2,"""Ground""","""No""",0,""""""
-706,8,"""Red""","""Nathan 6421""",2024wimi,2,0,0,None,0,0,0,None,"""Parked""",3,Neither,"""No""",1,""""""
-706,14,"""Red""","""Luke 5148 New Berlin Blitz\n""",2024wimi,1,0,0,None,0,0,0,None,"""Single Climb""",3,"""Ground""","""No""",0,""""""
-706,22,"""Blue""","""Michael 1675""",2024wimi,4,0,0,None,0,0,0,None,"""Not Attempted""",3,Neither,"""Yes - Rest Of Match""",0,""""""
-706,39,"""Red""","""Jay 1675""",2024wimi,1,0,0,None,0,1,0,None,"""Single Climb""",3,Neither,"""No""",0,"""Seemed confused for the most part and moved around with out scoring"""
-706,53,"""Blue""","""Liam 6421""",2024wimi,4,0,0,None,0,0,0,None,"""Attempted But Failed""",3,Neither,"""No""",0,"""Shoots too high"""
-706,60,"""Red""","""Alayna 6421""",2024wimi,1,0,0,None,0,0,0,None,"""Not Attempted""",3,"""Ground""","""Yes - Rest Of Match""",1,""""""
-706,69,"""Red""","""Noah 1675""",2024wimi,1,0,0,None,1,0,0,"""Subwoofer""","""Parked""",3,"""Ground""","""No""",0,""""""
-706,76,"""Red""","""""",2024wimi,4,1,0,"""Wing""",0,1,0,None,"""Not Attempted""",1,Neither,"""Yes - Part Of Match""",1,""""""
-706,84,"""Blue""","""Boden 930""",2024wimi,1,0,0,None,1,0,0,"""Subwoofer""","""Attempted But Failed""",3,"""Ground""","""No""",0,"""Take too long to aim """
-930,4,"""Red""","""Lukas Tonkovic 5148""",2024wimi,2,0,0,None,3,0,0,"""Podium"", ""Wing""","""Parked""",2,"""Ground""","""No""",0,""""""
-930,18,"""Blue""","""Zackary k 930""",2024wimi,2,2,0,"""Wing"", ""Center Line""",6,0,0,"""Podium"", ""Wing""","""Not Attempted""",1,"""Ground""","""No""",0,"""Really cool turrent,and very confident"""
-930,26,"""Blue""","""Kai 1675""",2024wimi,1,2,0,"""Wing""",7,0,0,"""Subwoofer"", ""Podium"", ""Wing""","""Not Attempted""",1,"""Ground""","""No""",0,""""""
-930,34,"""Blue""","""Olive Lens ink 6381""",2024wimi,4,3,0,"""Wing"", ""Center Line""",2,0,0,"""Wing""","""Not Attempted""",2,"""Ground""","""No""",2,""""""
-930,45,"""Red""","""Lawson 930""",2024wimi,4,2,0,"""Center Line""",1,0,0,"""Podium"", ""Wing""","""Not Attempted""",2,"""Ground""","""No""",0,""""""
-930,54,"""Red""","""Alex 6421""",2024wimi,2,1,0,"""Wing"", ""Center Line""",6,0,0,"""Podium""","""Parked""",1,"""Ground"", ""Source(Fed By Human Player)""","""No""",0,""""""
-930,60,"""Red""","""Noah Dinan 1675""",2024wimi,4,1,0,None,8,0,0,"""Podium""","""Parked""",1,"""Ground""","""No""",0,""""""
-930,66,"""Red""","""Asher v 930 :P""",2024wimi,2,0,0,"""Wing""",0,0,0,None,"""Parked""",2,"""Ground""","""No""",0,""""""
-930,73,"""Red""","""Aidan L 6421""",2024wimi,2,1,0,None,1,0,0,"""Wing""","""Not Attempted""",2,"""Source(Fed By Human Player)""","""No""",0,""""""
-930,82,"""Red""","""Kabao 6381""",2024wimi,1,2,0,"""Wing""",2,0,0,"""Subwoofer"", ""Podium""","""Parked""",3,"""Ground""","""No""",1,""""""
-1091,4,"""Red""","""Ethan 930""",2024wimi,1,0,0,None,2,0,0,"""Subwoofer""","""Single Climb""",1,"""Ground""","""No""",0,"""They had a hard time picking g notes up."""
-1091,16,"""Red""","""""",2024wimi,3,1,0,"""Wing""",1,0,0,"""Subwoofer""","""Single Climb""",1,"""Ground""","""No""",0,"""Didn't shoot accurately"""
-1091,24,"""Blue""","""Richard 6421""",2024wimi,4,1,0,None,0,0,0,None,"""Not Attempted""",3,Neither,"""No""",1,"""Played In front of the red speker """
-1091,32,"""Red""","""Nathan 6421""",2024wimi,3,0,0,None,0,0,0,None,"""Single Climb""",2,Neither,"""No""",1,""""""
-1091,42,"""Red""","""Jay 1675""",2024wimi,2,0,1,"""Center Line""",0,2,0,"""Wing"", ""Center Line""","""Single Climb""",1,Neither,"""No""",0,"""Did an ok job scoring and climbing"""
-1091,48,"""Blue""","""Shane 6381""",2024wimi,3,0,0,None,5,0,0,"""Subwoofer""","""Harmonized""",3,"""Ground""","""No""",0,""""""
-1091,55,"""Blue""","""Nikolae Munguia 6381""",2024wimi,3,0,0,None,0,0,0,None,"""Single Climb""",3,"""Ground""","""Yes - Part Of Match""",0,"""Didn't preform well, was disabled in the beginning, but was able to climb in the end."""
-1091,65,"""Red""","""Noah 1675""",2024wimi,3,2,0,"""Wing""",3,0,0,"""Subwoofer""","""Attempted But Failed""",3,"""Ground""","""No""",0,""""""
-1091,74,"""Blue""","""Dhakshesh K 5148""",2024wimi,3,0,0,"""Wing""",4,0,0,"""Wing"", ""Center Line""","""Single Climb""",2,"""Ground""","""No""",1,"""Multiple missed shots into speaker, hit and bounced off. Driving was good and confident, mire of a mechanical issue than drive team"""
-1259,8,"""Blue""","""Aidan 6421""",2024wimi,2,1,0,None,0,0,0,None,"""Parked""",3,Neither,"""No""",0,""""""
-1259,13,"""Red""","""Casey Frahmann 6421""",2024wimi,3,0,0,None,0,0,0,None,"""Not Attempted""",3,Neither,"""Yes - Rest Of Match""",0,"""Broke early, didn't see much done"""
-1259,21,"""Red""","""Noah Dinan 1675""",2024wimi,4,1,0,None,0,0,0,None,"""Single Climb""",1,"""Ground""","""No""",2,""""""
-1259,21,"""Red""","""Aidan L 6421""",2024wimi,3,1,0,None,0,0,0,None,"""Harmonized""",3,"""Neither""","""No""",1,""""""
-1259,35,"""Red""","""Kai 1675""",2024wimi,3,1,0,"""Wing""",3,3,0,"""Subwoofer"", ""Wing""","""Harmonized""",2,"""Ground""","""No""",0,""""""
-1259,42,"""Blue""","""Susheel Kumar Kata 5148""",2024wimi,4,1,0,None,6,1,0,"""Subwoofer""","""Not Attempted""",2,"""Ground""","""No""",0,""""""
-1259,51,"""Blue""","""Logan W 930""",2024wimi,3,0,0,"""Wing""",0,4,0,None,"""Parked""",1,"""Ground""","""No""",2,"""Consistent amp shooting, auto attempted to shoot in speaker but fell short, lays good defense for second half of match."""
-1259,63,"""Blue""","""Michael 1675""",2024wimi,2,0,0,None,0,0,0,None,"""Single Climb""",3,"""Ground""","""No""",2,""""""
-1259,72,"""Red""","""Casey Frahmann 6421""",2024wimi,3,0,0,None,4,2,0,"""Subwoofer"", ""Center Line""","""Parked""",1,"""Ground""","""No""",0,"""Cannot climb, but good at scoring speaker"""
-1259,80,"""Red""","""Lauren 5148""",2024wimi,3,1,0,"""Wing""",2,2,0,"""Subwoofer"", ""Podium""","""Single Climb""",2,"""Ground""","""No""",0,""""""
-1259,90,"""Blue""","""Liam 6421""",2024wimi,2,3,0,"""Wing""",3,3,0,"""Subwoofer"", ""Podium""","""Parked""",1,"""Ground""","""No""",0,""""""
-1306,9,"""Red""","""Evan 930""",2024wimi,2,1,0,None,0,0,0,None,"""Parked""",3,"""Ground""","""No""",1,""""""
-1306,16,"""Blue""","""Keegan 930""",2024wimi,4,1,0,None,0,3,0,None,"""Parked""",2,"""Ground""","""No""",0,""""""
-1306,23,"""Blue""","""Michael 1675""",2024wimi,4,1,0,None,0,0,0,None,"""Parked""",3,"""Ground""","""No""",2,""""""
-1306,31,"""Red""","""Nathan 6421""",2024wimi,2,1,0,None,3,0,0,"""Subwoofer""","""Parked""",3,"""Ground""","""No""",0,""""""
-1306,37,"""Blue""","""Olive Lensink 6381""",2024wimi,3,1,0,None,3,0,0,"""Subwoofer""","""Parked""",2,"""Ground""","""No""",2,""""""
-1306,50,"""Red""","""Ellen Halvorsen 6381""",2024wimi,4,1,0,None,0,6,0,None,"""Parked""",1,"""Ground""","""No""",0,""""""
-1306,60,"""Red""","""Ashley kohls 930""",2024wimi,3,1,0,None,0,4,0,None,"""Not Attempted""",1,"""Ground""","""No""",0,""""""
-1306,74,"""Red""","""Casey Frahmann 6421""",2024wimi,3,1,0,"""Center Line""",1,6,0,"""Subwoofer""","""Not Attempted""",1,"""Ground""","""No""",0,"""Amp, very good at scoring amp"""
-1306,87,"""Blue""","""Liam 6421""",2024wimi,2,1,0,None,0,4,0,None,"""Parked""",1,"""Ground""","""No""",0,"""Powered off 2358"""
-1675,1,"""Red""","""Aidan L 6421""",2024wimi,2,1,0,None,1,4,0,"""Subwoofer""","""Not Attempted""",1,"""Ground""","""No""",0,""""""
-1675,18,"""Red""","""Noah Dinan 1675""",2024wimi,4,1,0,None,4,3,0,"""Subwoofer""","""Parked""",1,"""Ground""","""No""",0,""""""
-1675,24,"""Red""","""Noah Dinan""",2024wimi,4,1,0,None,0,2,0,None,"""Parked""",2,"""Ground""","""No""",2,""""""
-1675,31,"""Blue""","""Aidan 6421""",2024wimi,4,1,0,None,1,2,0,"""Subwoofer""","""Parked""",2,Neither,"""No""",0,""""""
-1675,39,"""Red""","""Landon 6381""",2024wimi,2,1,0,None,1,4,0,None,"""Not Attempted""",2,"""Ground""","""No""",1,""""""
-1675,46,"""Red""","""Lawson 930""",2024wimi,2,0,0,None,1,5,0,"""Subwoofer""","""Not Attempted""",2,"""Ground""","""No""",0,""""""
-1675,61,"""Blue""","""Michael 1675""",2024wimi,2,1,0,None,1,6,0,"""Subwoofer"", ""Wing"", ""Center Line""","""Not Attempted""",1,"""Ground""","""No""",0,""""""
-1675,71,"""Blue""","""Michael 1675""",2024wimi,4,1,0,None,1,4,0,"""Subwoofer"", ""Center Line""","""Not Attempted""",1,"""Ground""","""No""",0,""""""
-1675,82,"""Blue""","""Liam 6421""",2024wimi,4,1,0,None,3,3,0,"""Subwoofer""","""Parked""",1,"""Ground""","""No""",0,""""""
-1714,1,"""Red""","""Nathan 6421""",2024wimi,2,1,0,None,2,4,0,"""Subwoofer""","""Attempted But Failed""",1,"""Ground""","""No""",0,""""""
-1714,10,"""Blue""","""Everett Hilby 5148""",2024wimi,2,1,0,"""Wing""",3,5,0,"""Subwoofer"", ""Wing""","""Not Attempted""",1,"""Ground""","""No""",0,""""""
-1714,11,"""Red""","""""",2024wimi,1,0,0,None,0,0,0,None,"""Not Attempted""",1,Neither,"""No""",0,""""""
-1714,27,"""Red""","""Logan K 930""",2024wimi,3,1,0,None,0,0,0,"""Subwoofer""","""Parked""",3,"""Ground""","""No""",0,"""Seemed to be having communication issues. spinning in circles the whole time"""
-1714,33,"""Red""","""Nathan 6421""",2024wimi,2,1,0,None,4,6,0,"""Subwoofer""","""Not Attempted""",1,"""Ground""","""No""",0,""""""
-1714,44,"""Blue""","""Shane 6381""",2024wimi,3,3,0,"""Wing"", ""Center Line""",2,5,0,"""Subwoofer"", ""Podium"", ""Wing""","""Attempted But Failed""",2,"""Ground""","""No""",0,""""""
-1714,51,"""Red""","""Ellen Halvorsen 6381""",2024wimi,3,2,0,"""Wing""",3,6,0,"""Wing""","""Single Climb""",2,"""Ground""","""No""",0,""""""
-1714,59,"""Blue""","""Aidan 6421""",2024wimi,3,1,0,None,0,0,0,None,"""Single Climb""",1,Neither,"""No""",2,"""Cycled notes to blue side, pinned a lot of enemies, 3 we one c!imb"""
-1714,70,"""Blue""","""AQ6421""",2024wimi,3,4,0,None,1,6,0,None,"""Not Attempted""",1,"""Ground""","""No""",0,"""High amp score"""
-1714,77,"""Blue""","""Dhakshesh K 5148""",2024wimi,3,2,0,"""Wing"", ""Center Line""",5,6,0,"""Subwoofer"", ""Wing""","""Single Climb""",1,"""Ground"", ""Source(Fed By Human Player)""","""No""",0,"""Very strong and confident driving, efficient. does not do well against defending as it was. very shaky and unstable when accidentally bumped by another robot"""
-1714,84,"""Red""","""Rishi Jangam 5148""",2024wimi,3,3,0,None,4,7,0,"""Subwoofer"", ""Wing""","""Harmonized""",1,"""Ground""","""No""",0,"""They had really smooth cycling and the communication was phenomenal"""
-1732,2,"""Red""","""Nathan 6421""",2024wimi,4,0,0,"""Wing""",4,6,1,"""Wing""","""Single Climb""",1,"""Ground""","""No""",0,""""""
-1732,10,"""Red""","""""",2024wimi,1,0,0,None,1,4,0,"""Wing""","""Single Climb""",2,"""Ground"", ""Source(Fed By Human Player)""","""No""",1,"""Very versatile robot"""
-1732,19,"""Blue""","""Richard 6421""",2024wimi,2,3,0,None,2,3,0,None,"""Single Climb""",1,"""Ground""","""No""",0,"""Attempted trap"""
-1732,32,"""Red""","""Jay 1675""",2024wimi,2,0,1,"""Center Line""",7,3,0,"""Podium"", ""Wing"", ""Center Line""","""Single Climb""",1,"""Ground""","""No""",0,"""Team was good at scoring between amp and speaker and had a good plan on what they wanted to do during the match"""
-1732,40,"""Red""","""Jay 1675""",2024wimi,2,0,1,"""Center Line""",3,3,0,"""Wing"", ""Center Line""","""Parked""",2,Neither,"""No""",0,"""Did an alright job scoring and getting around"""
-1732,49,"""Blue""","""Liam 6421""",2024wimi,2,1,0,"""Center Line""",2,6,0,"""Wing""","""Parked""",1,"""Ground""","""No""",0,"""Very precise movements """
-1732,58,"""Red""","""Eirian  930""",2024wimi,2,0,0,None,2,1,0,"""Subwoofer"", ""Podium""","""Parked""",1,"""Ground"", ""Source(Fed By Human Player)""","""No""",0,"""I missed some data because we had issues connecting."""
-1732,64,"""Red""","""Ava H 930""",2024wimi,2,1,0,"""Center Line""",2,5,0,"""Subwoofer""","""Parked""",1,"""Ground""","""No""",0,""""""
-1732,80,"""Blue""","""Dhakshesh K 5148""",2024wimi,2,0,0,"""Wing"", ""Center Line""",3,4,1,"""Podium"", ""Wing""","""Single Climb""",1,"""Ground"", ""Source(Fed By Human Player)""","""No""",1,"""Efficient at moving and scoring. a bit rough at scoring on speaker"""
-1732,87,"""Blue""","""Ethan 930""",2024wimi,4,0,0,"""Center Line""",6,3,0,"""Subwoofer"", ""Wing""","""Single Climb""",2,"""Ground""","""No""",0,"""They tried to put note in the trap."""
-1781,15,"""Blue""","""Keegan 930""",2024wimi,3,2,0,"""Wing""",5,1,0,"""Subwoofer"", ""Podium"", ""Wing""","""Single Climb""",1,"""Ground"", ""Source(Fed By Human Player)""","""No""",0,""""""
-1781,28,"""Red""","""Jay 1675""",2024wimi,3,0,2,"""Wing""",3,4,0,"""Wing"", ""Center Line""","""Not Attempted""",1,"""Ground""","""No""",0,"""Did a pretty god job scoring, driver(s) knew what they were doing"""
-1781,37,"""Red""","""Jay 1675""",2024wimi,3,0,0,None,2,1,0,None,"""Single Climb""",2,"""Ground""","""No""",0,"""Was decent at scoring and was good climbing during endgame"""
-1781,47,"""Red""","""""",2024wimi,2,3,0,None,6,1,0,"""Subwoofer"", ""Podium"", ""Wing"", ""Center Line""","""Not Attempted""",1,"""Ground""","""No""",0,""""""
-1781,55,"""Blue""","""Liam 6421""",2024wimi,4,1,0,None,1,4,0,None,"""Single Climb""",1,"""Ground""","""No""",0,""""""
-1781,64,"""Red""","""Casey Frahmann 6421""",2024wimi,4,0,0,None,2,3,0,"""Subwoofer""","""Single Climb""",1,"""Ground""","""No""",0,"""Consistently scored in amp"""
-1781,77,"""Blue""","""Olive 6381""",2024wimi,2,1,0,None,7,2,0,"""Subwoofer"", ""Wing""","""Parked""",2,"""Ground""","""No""",0,""""""
-1781,83,"""Blue""","""Boden 930""",2024wimi,2,1,0,None,3,2,0,"""Subwoofer""","""Parked""",3,"""Ground""","""No""",0,"""Dangerous intake """
-1792,5,"""Red""","""Nathan 6421""",2024wimi,3,1,0,None,4,0,0,"""Subwoofer"", ""Wing""","""Not Attempted""",2,"""Ground""","""No""",0,""""""
-1792,19,"""Blue""","""Michael 1675""",2024wimi,4,1,0,None,0,2,0,"""Subwoofer""","""Single Climb""",3,"""Ground""","""No""",0,""""""
-1792,36,"""Blue""","""Liam 6421""",2024wimi,4,1,0,None,0,0,0,"""Subwoofer""","""Single Climb""",3,"""Ground""","""No""",0,"""Kept getting under 2358\nNote stuck\n"""
-1792,45,"""Red""","""Kabao 6381""",2024wimi,2,2,0,"""Wing""",2,0,0,"""Subwoofer""","""Not Attempted""",3,Neither,"""No""",1,""""""
-1792,50,"""Blue""","""Nikolae Munguia 6381""",2024wimi,2,0,0,None,2,0,0,"""Subwoofer""","""Not Attempted""",2,"""Ground""","""Yes - Part Of Match""",0,"""didn't preform well, had a weak auto and disabled during the match"""
-1792,63,"""Red""","""Ashley kohls 930""",2024wimi,4,0,0,None,3,0,0,"""Subwoofer""","""Not Attempted""",1,"""Ground""","""No""",2,""""""
-1792,70,"""Blue""","""Ava H 930""",2024wimi,2,1,0,None,4,0,0,"""Subwoofer""","""Not Attempted""",2,"""Ground""","""No""",0,""""""
-1792,76,"""Blue""","""Olive 6381""",2024wimi,2,1,0,None,1,0,0,"""Subwoofer""","""Not Attempted""",3,"""Ground""","""No""",0,""""""
-1792,85,"""Red""","""Eirian W 930""",2024wimi,2,1,0,None,4,4,0,"""Subwoofer""","""Not Attempted""",1,"""Ground""","""No""",0,"""Good amp cycling."""
-2062,6,"""Blue""","""Aidan 6421""",2024wimi,1,1,0,None,2,0,0,None,"""Single Climb""",3,"""Ground""","""No""",0,""""""
-2062,16,"""Blue""","""Everett Hilby 5148""",2024wimi,2,1,0,None,3,0,0,"""Subwoofer"", ""Wing""","""Parked""",2,"""Ground""","""No""",0,""""""
-2062,26,"""Blue""","""6421 K""",2024wimi,2,0,0,None,3,3,0,"""Subwoofer"", ""Podium""","""Single Climb""",3,"""Ground""","""No""",0,""""""
-2062,35,"""Red""","""Landon 6381""",2024wimi,4,0,0,None,2,1,0,"""Subwoofer"", ""Wing""","""Not Attempted""",3,"""Ground""","""Yes - Rest Of Match""",0,""""""
-2062,44,"""Red""","""Ava H 930""",2024wimi,2,0,0,None,6,2,0,"""Subwoofer"", ""Podium""","""Parked""",1,"""Ground""","""No""",0,""""""
-2062,53,"""Blue""","""Logan W 930""",2024wimi,2,1,0,"""Wing""",2,4,0,"""Subwoofer""","""Parked""",2,"""Ground""","""No""",0,"""Has the ability to either shoot amp or speaker very accurately but didn't  have time to complete climb. Overall performed well and efficiently."""
-2062,59,"""Blue""","""Michael 1675""",2024wimi,4,1,0,None,0,1,0,"""Center Line""","""Attempted But Failed""",2,"""Ground""","""No""",2,""""""
-2062,67,"""Red""","""Noah 1675""",2024wimi,4,1,0,None,1,2,0,"""Subwoofer""","""Single Climb""",1,"""Ground""","""Yes - Part Of Match""",0,""""""
-2062,75,"""Red""","""Casey Frahmann 6421""",2024wimi,3,0,0,None,1,3,0,"""Subwoofer"", ""Center Line""","""Parked""",3,"""Ground""","""No""",0,""""""
-2062,82,"""Red""","""Rishi Jangam 5148""",2024wimi,2,0,0,None,4,5,0,"""Subwoofer"", ""Wing""","""Parked""",2,"""Ground""","""No""",0,"""There was a lot of communication between the drivers"""
-2077,2,"""Blue""","""Asher v, bears 930""",2024wimi,1,0,0,None,0,0,0,None,"""Harmonized""",3,"""Ground""","""No""",2,""""""
-2077,12,"""Blue""","""Keegan 930""",2024wimi,3,0,0,None,0,0,0,None,"""Harmonized""",2,"""Ground""","""No""",0,"""Robot was in rough shape mechanically. unsure of driver confidence."""
-2077,20,"""Red""","""Noah Dinan 1675""",2024wimi,4,1,0,None,0,0,0,"""Subwoofer""","""Attempted But Failed""",1,"""Ground""","""No""",0,""""""
-2077,31,"""Red""","""Jay 1675""",2024wimi,4,0,0,None,0,0,0,None,"""Harmonized""",2,Neither,"""No""",1,"""Didn't really score anything, but only focused on defense and climbing during endgame"""
-2077,39,"""Red""","""Casey Frahmann 6421""",2024wimi,4,0,0,None,0,0,0,None,"""Not Attempted""",3,"""Ground""","""Yes - Rest Of Match""",0,"""Broke at the start of the match"""
-2077,47,"""Blue""","""Shane 6381""",2024wimi,4,0,0,None,0,0,0,None,"""Parked""",3,Neither,"""No""",0,""""""
-2077,60,"""Blue""","""Michael 1675""",2024wimi,2,0,0,None,0,0,0,None,"""Attempted But Failed""",3,"""Ground""","""No""",1,""""""
-2077,67,"""Red""","""Casey Frahmann 6421""",2024wimi,3,0,0,None,1,2,0,"""Subwoofer""","""Parked""",3,"""Ground""","""No""",0,""""""
-2077,75,"""Blue""","""Richard 6421""",2024wimi,1,1,0,None,0,0,0,None,"""Not Attempted""",3,"""Ground""","""No""",0,""""""
-2194,8,"""Red""","""Ethan 930""",2024wimi,3,2,0,"""Wing""",5,0,0,"""Subwoofer""","""Single Climb""",1,"""Ground""","""No""",0,"""It got weird connection problem thing in middle of match."""
-2194,18,"""Blue""","""Richard 6421""",2024wimi,3,2,0,"""Wing""",5,0,0,None,"""Single Climb""",2,"""Ground""","""No""",0,""""""
-2194,24,"""Blue""","""Michael 1675""",2024wimi,3,1,0,"""Wing""",3,0,0,"""Subwoofer"", ""Center Line""","""Single Climb""",1,"""Ground""","""No""",0,""""""
-2194,30,"""Red""","""Jay 1675""",2024wimi,4,0,1,"""Center Line""",0,10,0,"""Podium"", ""Wing"", ""Center Line""","""Parked""",1,"""Ground""","""No""",0,"""Scored a high amount of points during match"""
-2194,38,"""Blue""","""Olive Lensink 6381""",2024wimi,3,3,0,"""Wing""",9,0,0,"""Subwoofer""","""Single Climb""",1,"""Ground""","""No""",0,""""""
-2194,47,"""Red""","""Lawson 930""",2024wimi,3,2,0,"""Wing""",8,0,0,"""Subwoofer""","""Not Attempted""",1,"""Ground""","""No""",0,""""""
-2194,56,"""Blue""","""Nikolae Munguia 6381""",2024wimi,3,1,0,"""Wing""",5,0,0,"""Subwoofer""","""Attempted But Failed""",1,"""Ground""","""No""",0,"""Great performance, scored multiple notes, but failed climb"""
-2194,72,"""Red""","""Noah 1675""",2024wimi,3,2,0,None,8,0,0,"""Subwoofer""","""Attempted But Failed""",2,"""Ground""","""No""",0,""""""
-2194,81,"""Blue""","""Boden 930""",2024wimi,3,3,0,None,7,0,0,"""Subwoofer""","""Harmonized""",1,"""Ground""","""No""",0,"""Good grab notes from the other alliancw"""
-2194,87,"""Red""","""Kabao 6381""",2024wimi,3,2,0,None,5,0,0,"""Subwoofer""","""Not Attempted""",2,"""Ground""","""No""",0,""""""
-2202,1,"""Red""","""Ethan 930""",2024wimi,4,1,0,"""Wing""",6,0,0,"""Subwoofer""","""Single Climb""",3,"""Ground""","""No""",0,"""The shoot is slow at moving to line up the angle."""
-2202,5,"""Red""","""""",2024wimi,4,1,0,"""Center Line""",0,0,0,None,"""Not Attempted""",1,"""Ground""","""Yes - Part Of Match""",0,""""""
-2202,14,"""Red""","""Casey Frahmann 6421Q""",2024wimi,3,1,0,"""Center Line""",2,0,0,None,"""Not Attempted""",3,"""Ground"", ""Source(Fed By Human Player)""","""No""",0,""""""
-2202,31,"""Blue""","""Kai 1675""",2024wimi,2,0,0,None,0,0,0,None,"""Not Attempted""",3,Neither,"""Yes - Rest Of Match""",0,"""disabled all of match"""
-2202,40,"""Blue""","""Olive Lensink 6381""",2024wimi,4,2,0,"""Wing""",0,0,0,None,"""Single Climb""",3,"""Ground""","""No""",2,""""""
-2202,48,"""Red""","""Kabao 6381""",2024wimi,1,0,0,None,0,0,0,None,"""Not Attempted""",1,"""Ground""","""No""",2,""""""
-2202,58,"""Blue""","""Aidan 6421""",2024wimi,4,1,0,None,1,0,0,"""Subwoofer""","""Single Climb""",3,"""Ground""","""No""",0,""""""
-2202,72,"""Blue""","""Michael 1675""",2024wimi,4,1,0,"""Wing""",4,0,0,"""Subwoofer""","""Single Climb""",2,"""Ground""","""No""",0,""""""
-2202,78,"""Blue""","""Olive 6381""",2024wimi,4,1,0,"""Wing""",6,0,0,"""Podium""","""Not Attempted""",1,"""Ground""","""No""",0,""""""
-2202,85,"""Blue""","""Leonardo 5148""",2024wimi,4,1,0,"""Wing""",6,0,0,"""Subwoofer"", ""Podium"", ""Wing"", ""Center Line""","""Parked""",1,"""Ground""","""No""",0,""""""
-2220,5,"""Blue""","""Asher v, BEARS 930""",2024wimi,4,1,0,"""Wing""",1,0,0,"""Wing""","""Parked""",3,"""Ground""","""No""",0,""""""
-2220,13,"""Red""","""Evan 930""",2024wimi,3,0,0,None,0,6,0,None,"""Not Attempted""",1,"""Ground""","""Yes - Rest Of Match""",0,""""""
-2220,20,"""Blue""","""Zachary k 2220""",2024wimi,2,1,0,None,0,7,0,"""Podium""","""Attempted But Failed""",3,"""Ground""","""No""",1,""""""
-2220,29,"""Red""","""Jay 1675""",2024wimi,4,0,0,None,0,5,0,"""Wing"", ""Center Line""","""Single Climb""",1,"""Ground""","""No""",0,"""At the start of the match, driver(s) seemed confused at first, as time progressed in the match, they got a better understanding and did better"""
-2220,41,"""Blue""","""Susheel Kumar Kata 5148""",2024wimi,2,0,0,None,0,0,0,None,"""Attempted But Failed""",1,"""Ground""","""No""",0,""""""
-2220,49,"""Red""","""Ellen Halvorsen 6381""",2024wimi,2,0,0,None,0,0,0,"""Subwoofer""","""Single Climb""",3,"""Ground""","""No""",2,""""""
-2220,55,"""Red""","""Alex 6421""",2024wimi,1,0,0,None,0,1,0,None,"""Single Climb""",2,"""Source(Fed By Human Player)""","""No""",0,""""""
-2220,72,"""Blue""","""AQ 6421""",2024wimi,2,0,0,None,3,1,0,"""Subwoofer""","""Attempted But Failed""",3,"""Ground""","""No""",0,""""""
-2220,87,"""Red""","""Whitaker 930""",2024wimi,2,0,0,None,2,4,0,"""Subwoofer""","""Parked""",1,"""Ground""","""No""",0,"""Good weaving through the field and opponents."""
-2358,14,"""Red""","""Luke 5148 New Berlin Blitz""",2024wimi,1,0,0,None,3,0,0,"""Center Line""","""Not Attempted""",2,"""Ground""","""No""",0,""""""
-2358,22,"""Blue""","""""",2024wimi,2,1,0,None,8,0,0,"""Podium"", ""Wing""","""Not Attempted""",2,"""Ground"", ""Source(Fed By Human Player)""","""Yes - Rest Of Match""",0,"""Didn't know controls crashed"""
-2358,22,"""Blue""","""Zack k 930""",2024wimi,2,4,0,"""Wing""",9,0,0,"""Podium"", ""Wing""","""Not Attempted""",3,"""Ground"", ""Source(Fed By Human Player)""","""No""",2,"""Very talented, and confident"""
-2358,36,"""Red""","""Jay 1675""",2024wimi,4,0,1,None,0,2,0,"""Subwoofer""","""Not Attempted""",3,"""Ground""","""Yes - Part Of Match""",0,"""Robot was disabled during second half of match """
-2358,42,"""Red""","""Ava H 930""",2024wimi,1,0,0,None,0,0,0,None,"""Not Attempted""",3,"""Neither""","""No""",0,"""*Robot wasn't at match, no info could be scouted """
-2358,54,"""Blue""","""Logan W 930""",2024wimi,2,1,0,None,2,0,0,"""Subwoofer""","""Parked""",2,"""Ground""","""No""",1,"""Had troubles driving around the field in the second half of the match and the threat was inaccurate at times."""
-2358,62,"""Red""","""Aidan 6421""",2024wimi,2,0,0,None,0,0,0,None,"""Not Attempted""",3,Neither,"""No""",0,"""Wasn't in the match"""
-2358,68,"""Red""","""Noah 1675""",2024wimi,2,0,0,None,0,0,0,None,"""Parked""",3,"""Ground""","""Yes - Rest Of Match""",2,""""""
-2358,75,"""Blue""","""Dhakshesh K 5148""",2024wimi,4,0,0,None,0,0,0,None,"""Parked""",2,"""Neither""","""No""",0,"""had mechanical issues with shooter and note was stuck. attempted to play defense but was not very effective"""
-2358,87,"""Red""","""Ellen Halvorsen 6381""",2024wimi,4,0,0,None,0,0,0,None,"""Not Attempted""",3,Neither,"""Yes - Part Of Match""",0,"""For most of the match the robot was disabled and when it wasn't it looked like they were having troubles with the indexer or outake"""
-2506,7,"""Red""","""Nathan 6421""",2024wimi,2,1,0,None,3,0,0,"""Subwoofer""","""Harmonized""",3,"""Ground""","""No""",0,""""""
-2506,18,"""Red""","""Madalynn 930""",2024wimi,2,0,0,None,4,0,0,"""Podium""","""Harmonized""",3,"""Ground""","""No""",0,""""""
-2506,25,"""Red""","""Logan K 930""",2024wimi,2,1,0,None,5,0,0,"""Subwoofer""","""Attempted But Failed""",2,"""Ground""","""No""",0,"""Seemed to have trouble intaking but scored okay"""
-2506,31,"""Red""","""Logan K 930""",2024wimi,3,1,0,None,2,3,0,"""Podium""","""Harmonized""",1,"""Ground""","""No""",0,"""Overall middle of the road robot, decent at everything"""
-2506,40,"""Blue""","""Liam 6421""",2024wimi,2,1,0,None,3,0,0,"""Wing""","""Single Climb""",1,Neither,"""No""",0,""""""
-2506,53,"""Blue""","""Nikolae Munguia 6381""",2024wimi,3,1,0,None,7,0,0,"""Subwoofer""","""Single Climb""",1,"""Ground""","""No""",0,"""Great performance, scored many notes and climbed, only weakness was its auto."""
-2506,63,"""Blue""","""Eirian 930""",2024wimi,3,1,0,"""Wing""",6,0,0,"""Podium""","""Single Climb""",1,"""Ground""","""No""",0,"""Good at avoiding defense."""
-2506,69,"""Blue""","""Ava H 930""",2024wimi,3,2,0,"""Wing""",4,0,0,"""Subwoofer""","""Not Attempted""",1,"""Ground""","""No""",0,""""""
-2506,76,"""Blue""","""Richard 6421""",2024wimi,3,1,0,None,5,0,0,"""Subwoofer""","""Single Climb""",1,"""Ground""","""No""",0,""""""
-2506,83,"""Red""","""Rishi Jangam 5148""",2024wimi,3,3,0,"""Wing""",4,0,0,"""Subwoofer""","""Not Attempted""",1,"""Ground""","""No""",0,"""The drivers could do  better"""
-2667,4,"""Blue""","""Leonardo 5148""",2024wimi,2,0,0,None,3,0,0,"""Subwoofer""","""Attempted But Failed""",3,"""Ground""","""No""",0,""""""
-2667,20,"""Blue""","""Richard 6421""",2024wimi,4,0,1,None,1,0,0,None,"""Not Attempted""",3,"""Ground""","""No""",0,""""""
-2667,33,"""Blue""","""Liam 6421""",2024wimi,2,1,0,None,1,0,0,None,"""Single Climb""",1,"""Ground""","""No""",1,"""Power issues"""
-2667,43,"""Red""","""Kabao 6381""",2024wimi,3,1,0,None,4,0,0,"""Subwoofer""","""Not Attempted""",2,"""Ground""","""No""",0,""""""
-2667,53,"""Red""","""Ellen Halvorsen 6381""",2024wimi,3,1,0,"""Wing""",0,0,0,"""Subwoofer""","""Single Climb""",3,Neither,"""No""",0,""""""
-2667,63,"""Red""","""Noah Dinan 1675""",2024wimi,2,1,0,None,3,0,0,"""Subwoofer""","""Single Climb""",3,"""Ground""","""No""",1,""""""
-2667,71,"""Red""","""Casey Frahmann 6421""",2024wimi,4,1,0,"""Wing""",2,1,0,"""Subwoofer""","""Single Climb""",2,"""Ground""","""No""",0,""""""
-2667,78,"""Red""","""Aidan L 6421""",2024wimi,3,1,0,None,3,0,0,"""Subwoofer""","""Single Climb""",1,"""Ground""","""No""",0,""""""
-2667,87,"""Blue""","""Nikolae Munguia 6381""",2024wimi,3,1,0,None,2,0,0,"""Subwoofer""","""Parked""",3,"""Ground""","""No""",0,""""""
-2830,4,"""Red""","""Nathan 6421""",2024wimi,3,3,0,"""Wing""",0,2,0,None,"""Not Attempted""",3,"""Ground""","""No""",0,""""""
-2830,10,"""Blue""","""Aneeq 6421""",2024wimi,3,3,0,"""Wing""",8,0,0,"""Subwoofer""","""Parked""",1,"""Ground""","""No""",0,"""High score"""
-2830,11,"""Red""","""""",2024wimi,1,0,0,None,0,0,0,None,"""Not Attempted""",1,Neither,"""No""",0,""""""
-2830,24,"""Red""","""Madalynn 930""",2024wimi,3,3,0,"""Wing""",3,1,0,"""Podium""","""Not Attempted""",1,"""Ground""","""No""",1,""""""
-2830,25,"""Red""","""""",2024wimi,1,0,0,None,0,0,0,None,"""Not Attempted""",1,Neither,"""No""",0,""""""
-2830,36,"""Blue""","""Olive Lensink 6381""",2024wimi,3,4,0,"""Wing""",1,2,0,"""Subwoofer"", ""Wing""","""Parked""",2,"""Ground""","""No""",2,""""""
-2830,44,"""Red""","""Kabao 6381""",2024wimi,2,2,0,None,6,0,0,"""Subwoofer"", ""Wing""","""Parked""",2,"""Ground""","""No""",0,""""""
-2830,50,"""Blue""","""Liam 6421""",2024wimi,2,1,0,None,0,0,0,None,"""Parked""",2,Neither,"""No""",1,""""""
-2830,57,"""Red""","""Ellen Halvorsen 6381""",2024wimi,3,3,0,"""Wing""",0,2,0,"""Subwoofer""","""Not Attempted""",2,"""Ground""","""No""",0,""""""
-2830,67,"""Blue""","""Michael 1675""",2024wimi,3,2,0,"""Wing""",6,0,0,"""Center Line""","""Not Attempted""",2,"""Ground""","""No""",0,""""""
-2830,80,"""Blue""","""Richard 6421""",2024wimi,2,3,0,None,6,0,0,None,"""Not Attempted""",2,Neither,"""No""",0,""""""
-2830,88,"""Blue""","""Nikolae Munguia 6381""",2024wimi,3,4,0,"""Wing""",0,0,0,None,"""Parked""",1,"""Ground""","""No""",1,"""Not very good performance, had a strong auto and tried to play defense, but they did not impede the red team and was penalized."""
-3197,1,"""Red""","""Sudan 6421""",2024wimi,2,0,0,None,3,0,0,None,"""Parked""",2,"""Ground""","""No""",1,"""Good defense but got an amp penalty"""
-3197,7,"""Blue""","""Asher  v 930""",2024wimi,2,2,0,"""Center Line""",1,3,0,"""Subwoofer"", ""Wing""","""Single Climb""",1,"""Ground""","""No""",0,""""""
-3197,16,"""Red""","""Madalynn 930""",2024wimi,2,0,0,"""Center Line""",5,2,0,"""Podium""","""Harmonized""",2,"""Ground""","""No""",0,""""""
-3197,22,"""Blue""","""Richard 6421""",2024wimi,2,0,0,None,2,1,0,None,"""Not Attempted""",1,"""Ground""","""No""",0,""""""
-3197,29,"""Blue""","""Boden 930""",2024wimi,2,0,0,None,2,1,0,"""Subwoofer"", ""Podium""","""Single Climb""",1,"""Ground""","""No""",0,""""""
-3197,45,"""Red""","""Ava H 930""",2024wimi,1,0,0,"""Center Line""",5,1,0,"""Subwoofer""","""Attempted But Failed""",1,"""Ground""","""No""",0,""""""
-3197,51,"""Red""","""Alex 6421""",2024wimi,2,1,0,"""Center Line""",3,0,0,"""Podium""","""Harmonized""",3,"""Ground"", ""Source(Fed By Human Player)""","""No""",0,""""""
-3197,57,"""Blue""","""Logan W 930""",2024wimi,1,0,0,"""Center Line""",7,0,0,"""Subwoofer"", ""Podium""","""Not Attempted""",2,"""Ground""","""No""",0,"""Consistent intake and accurate shooter. overall goid performance and consistent with shooting."""
-3197,64,"""Red""","""aidan 6421""",2024wimi,2,0,0,None,3,0,0,"""Subwoofer""","""Not Attempted""",2,"""Ground""","""No""",1,"""Got an amp penalty"""
-3197,81,"""Blue""","""Leonardo 5148""",2024wimi,2,3,0,"""Center Line""",6,1,0,"""Subwoofer"", ""Podium"", ""Wing"", ""Center Line""","""Harmonized""",1,"""Ground"", ""Source(Fed By Human Player)""","""No""",0,""""""
-3197,89,"""Red""","""Ethan 930""",2024wimi,2,2,0,"""Center Line""",6,0,0,"""Subwoofer""","""Parked""",1,"""Ground""","""No""",0,"""Mist tries at Amp shot."""
-3381,2,"""Red""","""Ethan 930""",2024wimi,3,1,0,None,2,1,0,"""Subwoofer""","""Not Attempted""",3,"""Ground"", ""Source(Fed By Human Player)""","""No""",0,"""They have to be strait in ground of speaker to score they miss on side."""
-3381,15,"""Blue""","""Everett Hilby 5148""",2024wimi,4,1,0,None,0,0,0,None,"""Single Climb""",2,"""Ground""","""No""",2,""""""
-3381,23,"""Red""","""Noah Dinan 1675""",2024wimi,2,1,0,None,1,0,0,"""Podium""","""Single Climb""",3,"""Ground""","""No""",0,""""""
-3381,29,"""Red""","""Nathan 6421""",2024wimi,3,0,0,None,5,0,0,"""Subwoofer""","""Parked""",2,"""Ground"", ""Source(Fed By Human Player)""","""No""",0,""""""
-3381,37,"""Blue""","""Liam 6421""",2024wimi,2,1,0,None,4,0,0,"""Subwoofer""","""Attempted But Failed""",3,"""Ground""","""No""",0,"""Immediately A-stopped"""
-3381,46,"""Red""","""Ava H 930""",2024wimi,2,1,0,None,5,1,0,"""Subwoofer""","""Parked""",2,"""Ground""","""No""",0,""""""
-3381,61,"""Blue""","""Eirian 930""",2024wimi,3,0,0,None,7,0,0,"""Subwoofer"", ""Podium""","""Single Climb""",2,"""Source(Fed By Human Player)""","""No""",0,"""Good cycle time"""
-3381,68,"""Red""","""Asher v 930""",2024wimi,4,0,0,None,5,1,0,"""Subwoofer""","""Parked""",2,"""Ground"", ""Source(Fed By Human Player)""","""No""",0,""""""
-3381,76,"""Red""","""Casey Frahmann 6421""",2024wimi,3,0,0,None,6,0,0,"""Subwoofer""","""Not Attempted""",2,"""Ground""","""No""",0,""""""
-3381,90,"""Blue""","""Ethan 939""",2024wimi,2,1,0,None,10,1,0,"""Subwoofer"", ""Wing""","""Parked""",2,"""Ground"", ""Source(Fed By Human Player)""","""No""",0,"""They fast at pick up from ground."""
-3596,15,"""Red""","""Noah Dinan 1675""",2024wimi,4,1,0,None,0,0,0,None,"""Attempted But Failed""",3,"""Ground""","""No""",0,""""""
-3596,33,"""Blue""","""Kai 1675""",2024wimi,3,1,0,"""Wing""",4,0,0,None,"""Harmonized""",2,"""Ground""","""No""",2,""""""
-3596,39,"""Red""","""Liam 6421""",2024wimi,4,0,0,None,1,0,0,None,"""Harmonized""",2,"""Ground""","""No""",0,"""Transfers Notes from Source"""
-3596,46,"""Blue""","""Shane 6381""",2024wimi,3,1,0,"""Wing""",2,0,0,"""Subwoofer""","""Not Attempted""",1,Neither,"""No""",0,""""""
-3596,56,"""Red""","""Nathan 930""",2024wimi,2,0,0,None,1,0,0,None,"""Parked""",2,"""Ground""","""No""",0,"""Tried to cycle notes but was inefficient.  """
-3596,67,"""Blue""","""AQ 6421""",2024wimi,2,0,0,None,0,0,0,None,"""Single Climb""",3,Neither,"""No""",2,"""Great defense, couldn't line up with note"""
-3596,73,"""Blue""","""""",2024wimi,3,1,0,None,0,0,0,None,"""Not Attempted""",1,Neither,"""No""",2,""""""
-3596,85,"""Red""","""Rishi Jangam 5148""",2024wimi,4,0,0,None,0,0,0,"""Center Line""","""Not Attempted""",3,"""Source(Fed By Human Player)""","""Yes - Rest Of Match""",2,"""They could do better"""
-3630,7,"""Red""","""Lukas Tonkovic 5148""",2024wimi,3,3,0,"""Wing""",1,5,0,"""Wing""","""Parked""",2,"""Ground""","""No""",0,""""""
-3630,16,"""Red""","""Casey Frahmann 6421""",2024wimi,3,0,0,None,3,3,0,"""Subwoofer"", ""Wing"", ""Center Line""","""Parked""",2,"""Ground"", ""Source(Fed By Human Player)""","""No""",0,"""Towards the end it started wobbling"""
-3630,26,"""Blue""","""6421 K""",2024wimi,2,4,0,"""Wing"", ""Center Line""",1,3,0,"""Subwoofer""","""Parked""",3,"""Ground""","""Yes - Part Of Match""",0,""""""
-3630,35,"""Red""","""Casey Frahmann 6421""",2024wimi,3,0,0,"""Center Line""",1,3,0,"""Subwoofer"", ""Center Line""","""Not Attempted""",1,"""Ground""","""Yes - Rest Of Match""",0,""""""
-3630,42,"""Blue""","""Shane 6381""",2024wimi,3,3,0,"""Wing"", ""Center Line""",3,6,0,"""Subwoofer"", ""Wing""","""Not Attempted""",1,"""Ground""","""No""",0,""""""
-3630,50,"""Blue""","""Logan W 930""",2024wimi,3,1,0,"""Center Line""",0,0,0,"""Subwoofer""","""Not Attempted""",3,"""Ground""","""Yes - Part Of Match""",0,"""Went through auto but after that it was disabled and had a note stuck in its base."""
-3630,61,"""Red""","""Noah Dinan 1675""",2024wimi,3,1,0,None,0,0,0,None,"""Not Attempted""",2,"""Ground""","""Yes - Rest Of Match""",2,""""""
-3630,72,"""Blue""","""Ava H 930""",2024wimi,3,3,0,"""Wing""",2,4,0,"""Subwoofer""","""Not Attempted""",1,Neither,"""No""",0,""""""
-3630,79,"""Red""","""Aidan L 6421""",2024wimi,3,2,0,"""Wing""",2,2,0,"""Subwoofer"", ""Wing""","""Not Attempted""",1,"""Ground"", ""Source(Fed By Human Player)""","""No""",2,""""""
-3630,88,"""Red""","""Whitaker 930""",2024wimi,3,3,0,"""Wing""",3,5,0,"""Subwoofer"", ""Wing""","""Not Attempted""",1,"""Ground""","""No""",0,"""Really good amp bot and fast cycle times."""
-3692,1,"""Red""","""Lukas To movie 5148""",2024wimi,3,1,0,None,1,0,0,"""Podium""","""Not Attempted""",2,"""Ground"", ""Source(Fed By Human Player)""","""No""",0,""""""
-3692,13,"""Blue""","""AQ6421""",2024wimi,4,0,0,None,1,3,0,"""Subwoofer""","""Attempted But Failed""",2,"""Ground""","""No""",0,"""Not very consistent"""
-3692,25,"""Blue""","""Boden 3692""",2024wimi,3,1,0,None,2,0,0,"""Subwoofer""","""Parked""",2,"""Ground""","""No""",0,"""Intake didn't work very well"""
-3692,32,"""Red""","""Logan k 930""",2024wimi,4,0,0,None,0,0,0,None,"""Not Attempted""",3,Neither,"""No""",0,"""Did not move the whole match and the orange light blinked funny near the end but never disabled"""
-3692,38,"""Red""","""Jay 1675""",2024wimi,2,0,1,None,0,2,0,"""Subwoofer"", ""Wing""","""Not Attempted""",1,Neither,"""No""",0,"""Did okay scoring, but struggled to pick up notes"""
-3692,51,"""Blue""","""Liam 6421""",2024wimi,4,0,0,None,0,0,0,None,"""Parked""",3,"""Ground""","""No""",0,"""Tried to transfer Notes from Source to Wing, but the cycle times are too long and weren't helpful to alliance partners."""
-3692,61,"""Red""","""Ashley kohls 930""",2024wimi,4,0,0,None,1,0,0,None,"""Parked""",2,"""Ground"", ""Source(Fed By Human Player)""","""No""",0,""""""
-3692,69,"""Blue""","""Michael 1675""",2024wimi,2,1,0,None,0,0,0,None,"""Not Attempted""",3,"""Ground"", ""Source(Fed By Human Player)""","""Yes - Part Of Match""",0,""""""
-3692,78,"""Red""","""Lauren 5148""",2024wimi,2,1,0,None,0,0,0,None,"""Not Attempted""",2,"""Source(Fed By Human Player)""","""No""",1,""""""
-3692,88,"""Blue""","""Liam 6421""",2024wimi,4,1,0,None,1,2,0,None,"""Parked""",3,"""Source(Fed By Human Player)""","""No""",0,""""""
-3734,8,"""Red""","""Lukas Tonkovic 5148""",2024wimi,4,0,0,None,0,2,0,"""Subwoofer""","""Not Attempted""",2,"""Ground"", ""Source(Fed By Human Player)""","""No""",0,""""""
-3734,15,"""Red""","""Casey Frahmann 6421""",2024wimi,3,0,0,None,2,0,0,"""Subwoofer"", ""Podium"", ""Wing"", ""Center Line""","""Not Attempted""",1,"""Ground"", ""Source(Fed By Human Player)""","""No""",0,"""Very good at scoring, good overall, very strong teammate"""
-3734,41,"""Red""","""Lily Lo 6381 """,2024wimi,2,2,0,"""Wing""",0,2,0,"""Wing""","""Parked""",2,"""Source(Fed By Human Player)""","""No""",0,"""driver a 2; amp robot """
-3734,54,"""Red""","""Nathan 930""",2024wimi,4,1,0,"""Wing""",0,3,0,"""Wing""","""Not Attempted""",3,"""Ground""","""No""",0,"""was having problems with scoring into the amp"""
-3734,61,"""Blue""","""Aidan 6421""",2024wimi,4,1,0,"""Wing""",2,0,0,None,"""Parked""",3,"""Ground""","""No""",0,""""""
-3734,69,"""Blue""","""AQ6421""",2024wimi,4,1,0,None,0,4,0,None,"""Not Attempted""",2,"""Source(Fed By Human Player)""","""No""",0,"""Intake wobble"""
-3734,79,"""Red""","""Lauren 5148""",2024wimi,4,1,0,None,2,2,0,"""Subwoofer""","""Not Attempted""",2,"""Ground"", ""Source(Fed By Human Player)""","""No""",2,""""""
-3734,86,"""Blue""","""Leonardo 5148""",2024wimi,4,1,0,"""Wing""",2,3,0,"""Subwoofer"", ""Podium""","""Harmonized""",1,"""Ground""","""No""",0,""""""
-3891,7,"""Blue""","""Aidan 6421""",2024wimi,4,0,0,None,0,0,0,None,"""Not Attempted""",3,"""Source(Fed By Human Player)""","""Yes - Rest Of Match""",0,""""""
-3891,17,"""Red""","""""",2024wimi,2,2,0,"""Wing""",6,0,0,"""Podium""","""Attempted But Failed""",1,"""Source(Fed By Human Player)""","""No""",0,""""""
-3891,24,"""Red""","""Aidan L 6421""",2024wimi,2,1,0,None,2,1,0,"""Wing""","""Not Attempted""",3,"""Source(Fed By Human Player)""","""Yes - Part Of Match""",2,""""""
-3891,30,"""Red""","""Logan K 930""",2024wimi,2,0,0,None,0,3,0,None,"""Parked""",2,"""Source(Fed By Human Player)""","""No""",0,"""Very effective as navigating the field and dodging defence """
-3891,48,"""Red""","""Lawson 930""",2024wimi,4,1,0,None,7,1,0,"""Subwoofer""","""Harmonized""",1,"""Source(Fed By Human Player)""","""No""",0,""""""
-3891,59,"""Red""","""Ashley kohls 930""",2024wimi,2,0,0,None,0,0,0,None,"""Single Climb""",2,"""Source(Fed By Human Player)""","""No""",0,""""""
-3891,80,"""Red""","""Rishi Jangam 5148""",2024wimi,2,0,0,None,5,0,0,"""Subwoofer""","""Attempted But Failed""",1,"""Source(Fed By Human Player)""","""No""",0,"""the drivers were really confident in their skills"""
-3891,86,"""Red""","""Liam 6421""",2024wimi,3,0,0,None,0,0,0,None,"""Not Attempted""",3,Neither,"""Yes - Rest Of Match""",0,""""""
-4531,2,"""Blue""","""""",2024wimi,4,2,0,None,2,0,0,"""Subwoofer""","""Harmonized""",1,Neither,"""No""",0,""""""
-4531,11,"""Blue""","""Keegan 930""",2024wimi,2,1,0,None,2,0,0,"""Subwoofer"", ""Podium""","""Single Climb""",3,"""Ground""","""No""",1,""""""
-4531,26,"""Blue""","""Boden 930""",2024wimi,3,1,0,"""Wing""",3,0,0,"""Subwoofer""","""Harmonized""",2,"""Ground""","""Yes - Part Of Match""",0,"""Got defended"""
-4531,34,"""Red""","""Kai 1675""",2024wimi,2,2,0,"""Wing""",6,0,0,"""Subwoofer"", ""Wing""","""Single Climb""",1,"""Ground""","""No""",1,""""""
-4531,42,"""Red""","""Kabao 6381""",2024wimi,1,1,0,"""Wing""",5,0,0,"""Subwoofer"", ""Podium"", ""Wing"", ""Center Line""","""Single Climb""",2,"""Ground"", ""Source(Fed By Human Player)""","""No""",0,""""""
-4531,53,"""Red""","""Alex 6421""",2024wimi,4,1,0,None,2,0,0,"""Subwoofer""","""Single Climb""",2,"""Ground"", ""Source(Fed By Human Player)""","""No""",0,""""""
-4531,62,"""Red""","""Alex 6421""",2024wimi,4,2,0,"""Wing""",0,0,0,"""Subwoofer""","""Harmonized""",2,"""Ground""","""No""",1,""""""
-4531,70,"""Blue""","""Michael 1675""",2024wimi,4,0,0,None,0,0,0,None,"""Not Attempted""",3,"""Ground""","""Yes - Rest Of Match""",0,"""Had connectivity issues and an underpowered shooter"""
-4531,81,"""Red""","""Eirian""",2024wimi,2,1,0,None,5,0,0,"""Podium""","""Single Climb""",3,"""Ground""","""No""",0,""""""
-4531,88,"""Red""","""Ellen Halvorsen 6381""",2024wimi,4,2,0,"""Wing""",3,0,0,"""Subwoofer"", ""Podium""","""Attempted But Failed""",3,"""Ground""","""No""",0,""""""
-4645,5,"""Blue""","""Aidan 6421""",2024wimi,3,1,0,"""Wing""",2,0,0,None,"""Not Attempted""",2,"""Ground""","""No""",0,""""""
-4645,11,"""Red""","""Evan 930""",2024wimi,2,0,0,None,0,0,0,None,"""Single Climb""",2,"""Neither""","""No""",0,""""""
-4645,21,"""Blue""","""Zachary kokalj 4645""",2024wimi,3,0,0,None,2,0,0,"""Podium""","""Attempted But Failed""",2,"""Ground""","""No""",0,"""Intake didn't work, and not very confident"""
-4645,30,"""Blue""","""Aidan 6421""",2024wimi,2,0,0,None,0,0,0,None,"""Single Climb""",3,"""Ground""","""Yes - Part Of Match""",0,""""""
-4645,43,"""Blue""","""Susheel Kumar Kata 5148""",2024wimi,4,0,0,None,2,0,0,"""Subwoofer""","""Not Attempted""",3,"""Ground""","""No""",0,""""""
-4645,54,"""Red""","""Ellen Halvorsen 6381""",2024wimi,3,0,0,None,4,0,0,"""Subwoofer""","""Attempted But Failed""",2,"""Ground""","""No""",0,""""""
-4645,61,"""Red""","""Alayna 6421""",2024wimi,2,0,0,None,3,1,0,"""Subwoofer""","""Attempted But Failed""",3,"""Source(Fed By Human Player)""","""No""",0,""""""
-4645,67,"""Red""","""Asher before 930""",2024wimi,3,1,0,None,3,0,0,"""Subwoofer""","""Single Climb""",2,"""Source(Fed By Human Player)""","""No""",0,""""""
-4645,74,"""Red""","""Aidan L 6421""",2024wimi,3,1,0,None,1,0,0,"""Wing""","""Not Attempted""",3,"""Ground""","""No""",0,""""""
-4645,89,"""Blue""","""Nikolae Munguia 6381""",2024wimi,3,0,0,None,4,0,0,"""Subwoofer""","""Single Climb""",2,"""Ground"", ""Source(Fed By Human Player)""","""No""",0,"""Did pretty well, scored multiple notes and climbed, but was a bit slow and was penalized"""
-4786,14,"""Blue""","""Keegan 930""",2024wimi,4,1,0,None,10,0,0,"""Subwoofer""","""Not Attempted""",1,"""Ground""","""No""",0,""""""
-4786,22,"""Red""","""Aidan L 6421""",2024wimi,4,0,0,None,3,2,0,"""Wing""","""Not Attempted""",1,"""Ground""","""No""",1,""""""
-4786,23,"""Red""","""""",2024wimi,1,0,0,None,0,0,0,None,"""Not Attempted""",1,Neither,"""No""",0,""""""
-4786,33,"""Red""","""Logan K 930""",2024wimi,4,0,0,None,0,0,0,None,"""Parked""",2,Neither,"""No""",2,"""Played defense the whole match, very good defence"""
-4786,42,"""Red""","""Lawson 930""",2024wimi,1,0,0,None,0,0,0,None,"""Parked""",3,Neither,"""No""",1,""""""
-4786,56,"""Red""","""Ellen Halvorsen 6381""",2024wimi,4,0,0,None,0,0,0,None,"""Parked""",3,"""Ground""","""No""",2,""""""
-4786,64,"""Blue""","""Alayna 6421""",2024wimi,1,0,0,None,0,0,0,None,"""Parked""",3,Neither,"""No""",2,""""""
-4786,73,"""Red""","""Casey Frahmann 6421""",2024wimi,3,1,0,"""Center Line""",3,3,0,"""Subwoofer"", ""Center Line""","""Single Climb""",1,"""Ground""","""No""",0,"""Overall, good scoring and fast"""
-4787,6,"""Red""","""Nathan 6421""",2024wimi,3,0,0,None,0,0,0,None,"""Parked""",2,Neither,"""No""",1,""""""
-4787,14,"""Red""","""Evan 930""",2024wimi,1,0,0,None,0,0,0,None,"""Single Climb""",2,"""Neither""","""No""",0,""""""
-4787,15,"""Red""","""""",2024wimi,1,0,0,None,0,0,0,None,"""Not Attempted""",1,Neither,"""No""",0,""""""
-4787,20,"""Red""","""Aidan L 6421""",2024wimi,3,0,0,None,0,0,0,None,"""Parked""",3,"""Neither""","""No""",1,""""""
-4787,30,"""Red""","""Nathan 6421""",2024wimi,4,0,0,None,1,0,0,"""Subwoofer""","""Attempted But Failed""",3,"""Source(Fed By Human Player)""","""No""",0,""""""
-4787,40,"""Blue""","""Susheel Kumar Kata 5148""",2024wimi,1,1,0,None,2,0,0,None,"""Harmonized""",2,Neither,"""No""",0,""""""
-4787,55,"""Red""","""Ellen Halvorsen 6381""",2024wimi,4,0,0,None,0,0,0,None,"""Single Climb""",3,"""Ground""","""No""",0,""""""
-4787,66,"""Blue""","""Ava H 930""",2024wimi,3,0,0,None,0,0,0,"""Subwoofer""","""Parked""",3,"""Ground""","""No""",0,"""Had a note stuck on robot first part of game, and when attempting to shoot in speaker,would consistently shoot low"""
-4787,88,"""Blue""","""Ethan 930""",2024wimi,2,0,0,None,1,0,0,"""Subwoofer""","""Single Climb""",2,"""Source(Fed By Human Player)""","""No""",0,"""Take many tries to be fed by human player."""
-5096,9,"""Blue""","""Asher v 930""",2024wimi,4,0,0,None,0,0,0,None,"""Not Attempted""",2,Neither,"""Yes - Rest Of Match""",0,""""""
-5096,18,"""Blue""","""Michael 1675""",2024wimi,4,1,0,None,0,2,0,"""Subwoofer"", ""Center Line""","""Not Attempted""",3,"""Ground""","""No""",0,""""""
-5096,27,"""Red""","""Nathan 6421""",2024wimi,4,0,0,None,0,2,0,None,"""Parked""",1,"""Ground""","""No""",0,""""""
-5096,34,"""Red""","""Nathan 6421""",2024wimi,4,0,0,None,0,0,0,None,"""Not Attempted""",1,"""Ground""","""No""",1,""""""
-5096,41,"""Blue""","""Shane 6381""",2024wimi,4,0,0,None,0,0,0,None,"""Parked""",2,Neither,"""No""",1,""""""
-5096,49,"""Red""","""Everett Hilby 5148""",2024wimi,1,0,0,None,0,0,0,None,"""Parked""",3,Neither,"""Yes - Part Of Match""",2,""""""
-5096,57,"""Red""","""Nathan 930""",2024wimi,4,0,0,None,0,0,0,None,"""Parked""",1,"""Neither""","""No""",2,"""Good defense.  """
-5096,70,"""Red""","""Casey Frahmann 6421""",2024wimi,3,1,0,None,0,3,0,"""Subwoofer""","""Parked""",2,"""Ground""","""No""",0,"""Amp scoring mostly, attempted speaker"""
-5096,76,"""Blue""","""Dhakshesh K 5148""",2024wimi,4,0,0,None,0,3,0,None,"""Not Attempted""",2,"""Source(Fed By Human Player)""","""No""",2,"""Attempted to score in speaker but missed and moves onto amp. jerky movements when driving"""
-5096,90,"""Blue""","""Nikolae Munguia 6381""",2024wimi,4,1,0,None,0,1,0,None,"""Not Attempted""",3,"""Ground""","""No""",0,"""Didn't preform well, mainly went for amp, but failed most of their attempts."""
-5148,7,"""Red""","""Ethan 930""",2024wimi,4,1,0,None,2,0,0,"""Subwoofer""","""Harmonized""",1,"""Ground""","""No""",0,"""Take a few times to intake note."""
-5148,13,"""Red""","""Luke 5148 New Berlin Blitz""",2024wimi,1,0,0,None,1,0,0,"""Center Line""","""Single Climb""",2,"""Ground""","""No""",1,""""""
-5148,22,"""Red""","""Madalynn 930""",2024wimi,1,0,0,None,4,0,0,"""Podium""","""Not Attempted""",1,"""Ground""","""No""",0,""""""
-5148,29,"""Blue""","""Aidan 6421""",2024wimi,4,1,0,None,3,0,0,None,"""Not Attempted""",2,"""Ground""","""No""",0,""""""
-5148,40,"""Red""","""Landon 6381""",2024wimi,4,0,0,None,0,0,0,None,"""Not Attempted""",3,"""Ground""","""Yes - Rest Of Match""",1,""""""
-5148,47,"""Red""","""Ava H 930""",2024wimi,2,0,0,None,0,0,0,None,"""Not Attempted""",3,"""Ground""","""No""",1,""""""
-5148,56,"""Red""","""Liam 6421""",2024wimi,2,1,0,None,2,0,0,"""Subwoofer""","""Parked""",2,"""Ground""","""No""",0,""""""
-5148,65,"""Blue""","""Alayna 6421""",2024wimi,4,1,0,None,5,0,0,"""Subwoofer""","""Not Attempted""",1,"""Ground""","""No""",0,""""""
-5148,74,"""Blue""","""Olive 6381""",2024wimi,4,1,0,None,5,0,0,"""Subwoofer""","""Harmonized""",2,"""Ground""","""No""",0,""""""
-5148,81,"""Blue""","""Liam 6421""",2024wimi,4,0,0,None,0,0,0,None,"""Not Attempted""",3,Neither,"""Yes - Rest Of Match""",0,"""Had issues before the match started, then turned their robot off and tucked it into the corner"""
-5586,3,"""Red""","""Ethan 930""",2024wimi,4,0,0,None,0,4,0,"""Wing""","""Parked""",3,"""Ground""","""No""",0,"""They broke there intake."""
-5586,19,"""Red""","""Madalynn 930""",2024wimi,1,0,0,None,0,1,0,"""Podium""","""Not Attempted""",2,"""Ground""","""No""",2,""""""
-5586,28,"""Red""","""Logan K 930""",2024wimi,1,0,0,None,1,1,0,"""Subwoofer""","""Parked""",2,"""Ground""","""No""",0,"""Possessed a lot of notes but didn't score much"""
-5586,38,"""Blue""","""Liam 6421""",2024wimi,3,3,0,"""Wing""",0,3,0,"""Subwoofer""","""Parked""",3,"""Ground""","""No""",0,"""Seemed disoriented"""
-5586,48,"""Red""","""Ava H 930""",2024wimi,3,0,0,None,2,3,0,"""Subwoofer""","""Not Attempted""",2,"""Ground""","""Yes - Part Of Match""",0,""""""
-5586,60,"""Blue""","""Eirian 930""",2024wimi,4,0,0,None,0,6,0,"""Subwoofer""","""Parked""",2,"""Ground""","""No""",0,"""Good amp bot"""
-5586,66,"""Blue""","""AQ 6421""",2024wimi,4,0,0,None,0,4,0,None,"""Not Attempted""",2,"""Ground""","""No""",0,"""slow, align with amp failed"""
-5586,79,"""Blue""","""Olive 6381""",2024wimi,4,0,0,None,0,1,0,None,"""Parked""",3,"""Ground""","""No""",2,""""""
-5586,89,"""Blue""","""Liam 6421""",2024wimi,4,0,0,None,0,0,0,None,"""Parked""",3,Neither,"""No""",1,""""""
-6223,1,"""Blue""","""6421 K""",2024wimi,3,0,0,None,4,0,0,"""Subwoofer""","""Single Climb""",3,"""Ground""","""No""",0,""""""
-6223,8,"""Blue""","""Asher  v, 930""",2024wimi,2,0,0,None,6,0,0,"""Podium""","""Not Attempted""",2,"""Ground""","""No""",0,""""""
-6223,15,"""Red""","""""",2024wimi,4,2,0,"""Wing""",3,0,0,None,"""Not Attempted""",2,Neither,"""No""",1,""""""
-6223,41,"""Red""","""Jay 1675""",2024wimi,3,0,1,None,0,4,0,"""Wing"", ""Center Line""","""Single Climb""",2,"""Ground""","""No""",0,"""Was very quick to scoring and managed to climb"""
-6223,50,"""Red""","""Alex 6421""",2024wimi,2,1,0,None,5,0,0,"""Subwoofer""","""Attempted But Failed""",2,"""Ground""","""Yes - Rest Of Match""",0,""""""
-6223,62,"""Red""","""Ashley kohls 930""",2024wimi,3,2,0,"""Wing""",5,0,0,"""Subwoofer""","""Harmonized""",1,"""Ground""","""No""",0,""""""
-6223,71,"""Blue""","""AQ 6421""",2024wimi,2,2,0,"""Wing""",6,0,0,"""Subwoofer""","""Parked""",2,"""Ground""","""No""",0,""""""
-6223,80,"""Blue""","""Liam 6421""",2024wimi,4,1,0,"""Wing""",3,0,0,"""Subwoofer""","""Single Climb""",2,"""Ground""","""No""",0,"""Bumpers must be in full and flush with the Subwoofer to score"""
-6223,89,"""Red""","""Ellen Halvorsen 6381""",2024wimi,4,2,0,"""Wing""",4,0,0,"""Subwoofer""","""Not Attempted""",2,"""Ground""","""No""",2,"""There was a note stuck on their wheel at the end"""
-6381,2,"""Red""","""Lukas Tonkovic""",2024wimi,2,1,0,None,4,0,0,"""Podium"", ""Wing"", ""Center Line""","""Single Climb""",2,"""Ground"", ""Source(Fed By Human Player)""","""No""",0,""""""
-6381,18,"""Red""","""Aidan L 6421""",2024wimi,3,1,0,"""Wing""",2,0,0,"""Wing""","""Attempted But Failed""",2,"""Ground""","""No""",0,""""""
-6381,25,"""Red""","""""",2024wimi,1,0,1,None,2,0,0,"""Wing""","""Single Climb""",1,"""Ground""","""No""",0,""""""
-6381,36,"""Blue""","""Kai 1675""",2024wimi,2,0,0,None,7,0,0,"""Subwoofer""","""Harmonized""",1,"""Ground""","""No""",1,""""""
-6381,44,"""Red""","""Lawson 930""",2024wimi,2,1,0,"""Center Line""",8,0,0,"""Subwoofer""","""Parked""",1,"""Ground""","""No""",0,""""""
-6381,52,"""Red""","""Nathan 930""",2024wimi,2,1,0,"""Center Line""",9,0,0,"""Subwoofer""","""Parked""",1,"""Ground""","""No""",0,"""Only missed one shot.  """
-6381,58,"""Red""","""Ashley kohls 930""",2024wimi,1,0,0,None,0,3,0,None,"""Attempted But Failed""",2,"""Ground""","""No""",0,""""""
-6381,64,"""Red""","""""",2024wimi,3,0,0,None,0,0,0,None,"""Single Climb""",3,Neither,"""No""",2,""""""
-6381,74,"""Blue""","""Richard 6421""",2024wimi,2,1,0,None,4,1,0,None,"""Not Attempted""",1,"""Ground""","""Yes - Part Of Match""",0,""""""
-6381,82,"""Blue""","""Liam 6421""",2024wimi,1,0,0,None,0,0,0,None,"""Not Attempted""",1,Neither,"""No""",0,""""""
-6381,84,"""Blue""","""Liam 6421""",2024wimi,3,1,0,None,6,0,0,"""Subwoofer""","""Not Attempted""",1,"""Ground""","""No""",0,"""Defensed on by 6421\nContacted 8847"""
-6421,6,"""Blue""","""Leonardo 5148""",2024wimi,1,6,0,"""Center Line""",3,0,0,None,"""Attempted But Failed""",2,"""Ground""","""No""",0,"""very close note shooting, almost making it into the speaker. missing one climber to fully climb"""
-6421,17,"""Blue""","""KP 6421""",2024wimi,1,1,0,"""Center Line""",1,4,0,"""Subwoofer""","""Single Climb""",1,"""Ground""","""No""",0,""""""
-6421,23,"""Red""","""Madalynn 930""",2024wimi,1,0,0,None,4,0,0,"""Wing""","""Parked""",2,"""Ground""","""No""",1,""""""
-6421,29,"""Blue""","""Kai 1675""",2024wimi,4,1,0,None,2,0,0,"""Subwoofer""","""Not Attempted""",3,"""Ground""","""No""",0,""""""
-6421,54,"""Blue""","""Liam 6421""",2024wimi,3,2,0,"""Wing"", ""Center Line""",3,5,0,"""Subwoofer"", ""Wing""","""Parked""",1,"""Ground""","""No""",0,"""Yay!!!\nQuick cycles\nAuto is reliable"""
-6421,63,"""Red""","""Alex 6421""",2024wimi,3,3,0,"""Wing""",0,4,0,"""Subwoofer"", ""Podium""","""Parked""",2,"""Ground"", ""Source(Fed By Human Player)""","""No""",0,""""""
-6421,70,"""Red""","""Noah 1675""",2024wimi,3,1,0,"""Wing""",4,4,0,"""Subwoofer"", ""Podium""","""Parked""",1,"""Ground""","""No""",0,""""""
-6421,77,"""Red""","""""",2024wimi,3,1,0,"""Wing""",1,2,0,"""Subwoofer""","""Not Attempted""",2,"""Ground""","""No""",2,""""""
-6421,84,"""Red""","""Kabao 6381""",2024wimi,4,0,0,None,0,0,0,None,"""Not Attempted""",3,Neither,"""No""",1,""""""
-6574,5,"""Red""","""Ethan 930""",2024wimi,2,0,0,None,0,0,0,"""Wing""","""Single Climb""",3,"""Ground""","""No""",0,"""They were over shooting the Amp and launching notes out of arena."""
-6574,15,"""Red""","""Luke Genatiempo 5148 New Berlin Blitz""",2024wimi,1,0,1,None,0,4,0,"""Center Line""","""Harmonized""",2,"""Source(Fed By Human Player)""","""No""",0,""""""
-6574,27,"""Red""","""Jay 1675""",2024wimi,1,0,0,None,2,2,0,"""Podium"", ""Wing""","""Single Climb""",2,"""Ground""","""No""",0,"""Decent at scoring for amp and speaker\n"""
-6574,34,"""Blue""","""Liam 6421""",2024wimi,3,1,0,None,1,0,0,"""Subwoofer""","""Not Attempted""",3,Neither,"""No""",0,"""Made a noodle! Out of a Note! Twice!\n"""
-6574,41,"""Red""","""Casey Frahmann 6421""",2024wimi,3,1,0,None,3,3,0,"""Subwoofer"", ""Podium"", ""Wing"", ""Center Line""","""Not Attempted""",1,"""Ground"", ""Source(Fed By Human Player)""","""No""",0,"""Very good at scoring, missed only a few times"""
-6574,47,"""Blue""","""Susheel Kumar Kata 5148""",2024wimi,1,0,0,None,1,2,0,None,"""Parked""",2,Neither,"""No""",0,""""""
-6574,62,"""Blue""","""Michael 1675""",2024wimi,3,0,0,None,3,5,0,"""Subwoofer"", ""Wing"", ""Center Line""","""Single Climb""",1,"""Ground""","""No""",0,""""""
-6574,68,"""Blue""","""Ava H 930""",2024wimi,3,0,0,None,2,6,0,"""Subwoofer""","""Not Attempted""",2,"""Ground""","""No""",0,""""""
-6574,78,"""Red""","""""",2024wimi,1,0,0,None,2,2,0,None,"""Not Attempted""",2,"""Ground""","""No""",0,""""""
-6574,86,"""Red""","""Kabao 6381""",2024wimi,4,1,0,None,3,2,0,None,"""Not Attempted""",1,"""Ground""","""No""",0,""""""
-6643,3,"""Blue""","""Asher v BEARS 930""",2024wimi,4,1,0,None,1,2,0,"""Subwoofer"", ""Wing""","""Parked""",1,"""Ground"", ""Source(Fed By Human Player)""","""Yes - Part Of Match""",0,""""""
-6643,23,"""Blue""","""Richard 6421""",2024wimi,2,1,0,None,1,1,0,None,"""Not Attempted""",2,"""Ground""","""No""",0,""""""
-6643,34,"""Red""","""Landon 6381""",2024wimi,2,0,0,None,0,0,0,None,"""Not Attempted""",3,Neither,"""No""",0,""""""
-6643,41,"""Red""","""Kabao 6381""",2024wimi,1,0,0,None,0,0,0,None,"""Parked""",3,Neither,"""No""",0,""""""
-6643,53,"""Red""","""Nathan 930""",2024wimi,2,1,0,"""Wing""",0,4,0,"""Wing""","""Parked""",1,"""Ground""","""No""",0,"""Very slow bot but able to score in AMP.  """
-6643,59,"""Blue""","""Eirian  W 930""",2024wimi,4,0,0,None,0,0,0,None,"""Not Attempted""",3,Neither,"""No""",0,"""They were not moving for the whole match but not disabled."""
-6643,65,"""Blue""","""AQ 6421""",2024wimi,2,1,0,None,0,3,0,None,"""Not Attempted""",2,Neither,"""Yes - Rest Of Match""",0,"""Only amp, slow cycle"""
-6643,79,"""Blue""","""Richard 6421""",2024wimi,2,1,0,None,3,0,0,"""Subwoofer""","""Not Attempted""",2,"""Ground""","""No""",0,""""""
-6643,85,"""Blue""","""Liam 6421""",2024wimi,2,1,0,"""Wing""",0,2,0,"""Subwoofer""","""Parked""",3,"""Ground"", ""Source(Fed By Human Player)""","""No""",0,"""Auto: tried to get the Podium note, but shot it out of their intake\nHad a note stolen from intake"""
-6823,3,"""Red""","""Nathan 6421""",2024wimi,2,0,0,None,9,0,0,"""Wing""","""Single Climb""",2,"""Ground""","""No""",0,""""""
-6823,11,"""Blue""","""Everett Hilby 5148""",2024wimi,3,1,0,None,3,0,0,"""Subwoofer""","""Single Climb""",2,"""Ground""","""No""",0,""""""
-6823,26,"""Red""","""Nathan 6421""",2024wimi,4,1,0,None,4,0,0,"""Wing""","""Attempted But Failed""",2,"""Ground""","""No""",0,""""""
-6823,32,"""Blue""","""Kai 1675""",2024wimi,4,0,0,None,5,0,0,"""Wing""","""Parked""",1,"""Ground""","""No""",1,""""""
-6823,38,"""Red""","""Landon 6381""",2024wimi,3,0,0,None,1,1,0,"""Subwoofer""","""Single Climb""",2,"""Ground""","""No""",1,""""""
-6823,55,"""Blue""","""Liam 6421""",2024wimi,1,0,0,None,0,0,0,None,"""Not Attempted""",1,Neither,"""No""",0,""""""
-6823,64,"""Blue""","""AQ 6421""",2024wimi,4,1,0,None,9,0,0,"""Podium""","""Single Climb""",1,"""Ground""","""No""",0,"""real quick cycle"""
-6823,73,"""Blue""","""Shake hash K 5148""",2024wimi,2,0,0,None,4,0,0,"""Subwoofer""","""Not Attempted""",2,"""Ground""","""No""",1,"""Missed a few shots into speaker by shooting too early. manipulator controller may not be very confident"""
-6823,90,"""Red""","""Kabao 6381""",2024wimi,4,1,0,None,6,0,0,"""Subwoofer""","""Single Climb""",1,"""Ground""","""No""",0,""""""
-7103,4,"""Blue""","""Aidan 6421""",2024wimi,4,2,0,"""Wing"", ""Center Line""",5,0,0,None,"""Parked""",1,Neither,"""No""",2,""""""
-7103,13,"""Blue""","""Keegan 930""",2024wimi,3,2,0,None,6,0,0,"""Subwoofer"", ""Podium"", ""Wing""","""Parked""",1,"""Ground""","""No""",0,"""Tried trap """
-7103,39,"""Blue""","""Olive Lensink 6381""",2024wimi,1,0,0,None,6,0,0,"""Podium""","""Not Attempted""",1,"""Ground""","""No""",0,""""""
-7103,49,"""Red""","""Alex 6421""",2024wimi,4,1,0,"""Wing"", ""Center Line""",7,0,0,"""Subwoofer""","""Not Attempted""",1,"""Ground"", ""Source(Fed By Human Player)""","""No""",0,""""""
-7103,59,"""Red""","""Noah Dinan 1675""",2024wimi,3,1,0,"""Wing"", ""Center Line""",8,0,0,"""Subwoofer""","""Parked""",1,"""Ground""","""No""",0,""""""
-7103,68,"""Red""","""Casey Frahmann 6421""",2024wimi,3,1,0,"""Wing""",2,0,0,"""Subwoofer""","""Parked""",1,"""Ground""","""No""",0,""""""
-7103,81,"""Red""","""Rishi Jangam 5148""",2024wimi,3,4,0,"""Wing"", ""Center Line""",7,0,0,"""Subwoofer"", ""Wing""","""Not Attempted""",2,"""Ground""","""No""",0,"""There was a little miscommunication going on with the drivers"""
-7103,90,"""Red""","""Ellen Halvorsen 6381""",2024wimi,3,5,0,"""Wing"", ""Center Line""",1,0,0,"""Wing""","""Parked""",2,"""Ground""","""No""",1,""""""
-7900,6,"""Red""","""Lukas Tonkovic 5148""",2024wimi,4,0,0,None,1,0,0,"""Wing""","""Not Attempted""",3,"""Ground""","""No""",0,""""""
-7900,15,"""Blue""","""AQ6421""",2024wimi,2,1,0,None,1,0,0,"""Subwoofer""","""Single Climb""",2,"""Ground""","""No""",0,"""no accuracy"""
-7900,21,"""Blue""","""Richard 6421""",2024wimi,4,0,0,None,1,0,0,None,"""Single Climb""",3,"""Ground""","""No""",0,""""""
-7900,32,"""Blue""","""Aidan 6421""",2024wimi,1,0,0,None,0,0,0,None,"""Harmonized""",3,"""Ground""","""No""",0,""""""
-7900,49,"""Blue""","""Nikolae Munguia 6381""",2024wimi,1,0,0,None,3,0,0,"""Subwoofer""","""Single Climb""",3,"""Ground""","""No""",0,"""good performance, scored multiple notes and c\nclimbed, but had a weak auto and was outperformed by its teammates"""
-7900,56,"""Blue""","""Logan W 930""",2024wimi,4,1,0,None,2,0,0,"""Subwoofer""","""Single Climb""",3,"""Ground""","""No""",0,"""Had troubles for lining up shots for the speaker and intake had trouble at times picking up a note. Also had a good climb that was able to adapt to having a robot  already on the chain."""
-7900,70,"""Red""","""Asher verlee 930""",2024wimi,4,0,0,None,0,0,0,None,"""Not Attempted""",3,"""Ground""","""Yes - Part Of Match""",0,""""""
-7900,79,"""Red""","""Casey Frahmann 6421""",2024wimi,1,0,0,None,1,0,0,"""Subwoofer""","""Not Attempted""",3,Neither,"""No""",0,"""Slow moving, infrequent firing"""
-7900,86,"""Red""","""Eirian 930""",2024wimi,2,0,0,None,5,0,0,"""Subwoofer"", ""Podium""","""Parked""",1,"""Ground""","""No""",0,""""""
-8029,7,"""Blue""","""Leonardo 5148""",2024wimi,3,1,0,None,0,0,0,None,"""Not Attempted""",2,"""Ground""","""No""",2,""""""
-8029,14,"""Red""","""Everett Hilby 5148""",2024wimi,3,0,0,None,0,0,0,None,"""Single Climb""",1,"""Neither""","""No""",1,""""""
-8029,36,"""Red""","""Landon 6381""",2024wimi,3,1,0,"""Wing""",4,0,0,"""Subwoofer""","""Not Attempted""",2,"""Ground""","""No""",0,""""""
-8029,43,"""Red""","""Jay 1675""",2024wimi,4,0,0,None,0,3,0,"""Wing"", ""Center Line""","""Single Climb""",3,Neither,"""No""",0,"""Had a bit of trouble scoring but did decent overall"""
-8029,49,"""Red""","""Ellen Halvorsen 6381""",2024wimi,3,1,0,"""Wing""",0,0,0,None,"""Not Attempted""",2,"""Ground""","""No""",0,"""I believe there was a note stuck under the robot so they couldn't do much"""
-8029,57,"""Red""","""Alex 6421""",2024wimi,2,0,0,None,2,0,0,"""Subwoofer""","""Parked""",3,"""Ground"", ""Source(Fed By Human Player)""","""No""",0,""""""
-8029,71,"""Blue""","""Ava H 930""",2024wimi,3,2,0,"""Wing""",1,0,0,"""Subwoofer""","""Not Attempted""",3,"""Ground""","""Yes - Part Of Match""",0,""""""
-8029,77,"""Red""","""Richard 6421""",2024wimi,1,1,0,None,2,0,0,None,"""Not Attempted""",3,"""Ground""","""No""",0,""""""
-8029,85,"""Red""","""""",2024wimi,3,0,0,None,4,0,0,None,"""Not Attempted""",2,Neither,"""No""",0,""""""
-8096,8,"""Blue""","""Leonardo 5148""",2024wimi,3,2,0,None,0,1,0,"""Subwoofer""","""Single Climb""",1,"""Ground""","""No""",0,""""""
-8096,17,"""Blue""","""""",2024wimi,1,0,0,"""Center Line""",2,0,0,"""Podium"", ""Wing""","""Single Climb""",2,"""Ground""","""No""",0,"""Scored few notes"""
-8096,25,"""Red""","""Nathan 6421""",2024wimi,3,3,0,"""Wing""",1,3,0,"""Wing""","""Parked""",3,"""Ground""","""No""",0,""""""
-8096,34,"""Red""","""Jay 1675""",2024wimi,3,0,2,"""Center Line""",0,0,0,None,"""Parked""",2,"""Ground""","""No""",0,"""Struggled to pick up notes the entire match\n"""
-8096,43,"""Red""","""Ava H 930""",2024wimi,3,4,0,"""Wing"", ""Center Line""",0,2,0,"""Subwoofer"", ""Podium""","""Parked""",1,"""Ground""","""No""",0,"""Very fast at first, and very good auto, but halfway through the game they were having problems moving (they were moving very slow) so parked the rest of match """
-8096,49,"""Red""","""Logan W 930""",2024wimi,4,2,0,"""Center Line""",4,0,0,"""Podium""","""Single Climb""",2,"""Ground""","""No""",0,"""Some trouble intaking against the wall and had a very accurate shooter from the podium"""
-8096,55,"""Red""","""Nathan 930""",2024wimi,3,4,0,"""Wing"", ""Center Line""",0,0,0,"""Subwoofer"", ""Wing""","""Parked""",1,"""Ground""","""No""",1,"""Got a note a note stuck and couldn't get it off for the whole match.  """
-8096,66,"""Red""","""Casey Frahmann 6421""",2024wimi,3,1,0,"""Center Line""",1,6,1,"""Subwoofer""","""Single Climb""",1,"""Ground"", ""Source(Fed By Human Player)""","""No""",0,"""Overall great robot, good auto, amp scoring, and speaker"""
-8096,75,"""Red""","""Aidan L 6421""",2024wimi,3,1,0,None,1,2,0,"""Wing""","""Single Climb""",1,"""Source(Fed By Human Player)""","""No""",1,""""""
-8096,83,"""Blue""","""Leonardo 5148""",2024wimi,3,3,0,"""Center Line""",4,2,0,"""Subwoofer"", ""Podium"", ""Wing"", ""Center Line""","""Harmonized""",2,"""Ground""","""No""",0,""""""
-8531,1,"""Red""","""""",2024wimi,3,1,0,None,3,0,0,"""Subwoofer""","""Parked""",2,"""Ground""","""No""",1,""""""
-8531,19,"""Red""","""Noah Dinan 1675""",2024wimi,4,2,0,None,1,0,0,"""Subwoofer""","""Parked""",3,"""Ground""","""No""",1,""""""
-8531,19,"""Red""","""Aidan L 6421""",2024wimi,3,1,0,"""Wing"", ""Center Line""",1,0,0,"""Wing""","""Not Attempted""",3,"""Ground"", ""Source(Fed By Human Player)""","""No""",0,""""""
-8531,28,"""Red""","""Kai 1675""",2024wimi,2,0,0,None,3,0,0,"""Subwoofer""","""Parked""",3,"""Ground""","""No""",0,""""""
-8531,38,"""Red""","""Casey Frahmann 6421""",2024wimi,3,0,0,None,1,0,0,"""Subwoofer""","""Parked""",3,"""Ground""","""No""",0,""""""
-8531,46,"""Red""","""Kabao 6381""",2024wimi,2,1,0,None,5,0,0,"""Subwoofer""","""Parked""",1,"""Ground""","""No""",0,""""""
-8531,56,"""Red""","""Alex 6421""",2024wimi,3,1,0,"""Wing""",5,0,0,"""Subwoofer""","""Parked""",1,"""Ground""","""No""",0,""""""
-8531,72,"""Red""","""Asher v 930""",2024wimi,4,0,0,None,1,0,0,None,"""Not Attempted""",3,"""Ground""","""No""",0,""""""
-8531,78,"""Blue""","""Dhakshesh K 5148""",2024wimi,3,1,0,"""Wing""",0,0,0,None,"""Not Attempted""",3,"""Ground""","""No""",2,"""Note got stuck in robot so they played defense. quite good at defense and keeping the red Alliance from scoring. pushed the other robots when they attempted to score and guided the source"""
-8531,84,"""Blue""","""Leonardo 5148""",2024wimi,2,1,0,None,2,0,0,"""Subwoofer""","""Parked""",2,"""Ground""","""No""",0,""""""
-8701,1,"""Blue""","""Asher verlee , bears 930""",2024wimi,1,1,0,"""Wing""",3,0,0,"""Subwoofer""","""Single Climb""",2,"""Ground""","""No""",0,""""""
-8701,11,"""Blue""","""AQ 6421""",2024wimi,3,1,0,"""Wing""",2,0,0,"""Subwoofer""","""Single Climb""",2,"""Ground""","""No""",0,"""Not very accurate """
-8701,20,"""Blue""","""Michael 1675""",2024wimi,3,2,0,"""Wing""",2,0,0,"""Wing"", ""Center Line""","""Single Climb""",1,"""Ground""","""No""",2,""""""
-8701,28,"""Blue""","""6421 K""",2024wimi,1,0,0,None,0,0,0,None,"""Single Climb""",2,"""Neither""","""No""",0,""""""
-8701,40,"""Red""","""Casey Frahmann 6421""",2024wimi,3,1,0,"""Center Line""",2,0,0,"""Subwoofer"", ""Center Line""","""Single Climb""",1,"""Ground""","""No""",2,"""something went later in the match"""
-8701,50,"""Red""","""Nathan 930""",2024wimi,3,1,0,"""Wing""",1,0,0,"""Subwoofer""","""Single Climb""",3,"""Ground""","""No""",1,"""Had a hard time picking up notes.  """
-8701,58,"""Blue""","""Nathan 6421""",2024wimi,3,1,0,None,0,0,0,None,"""Attempted But Failed""",2,"""Ground""","""No""",2,""""""
-8701,65,"""Red""","""Asher v 930""",2024wimi,2,1,0,None,4,0,0,"""Subwoofer"", ""Podium""","""Single Climb""",1,"""Ground""","""No""",0,""""""
-8701,75,"""Blue""","""Olive 6381""",2024wimi,3,3,0,"""Wing""",4,1,0,"""Podium"", ""Wing""","""Single Climb""",1,"""Ground""","""No""",0,""""""
-8701,86,"""Red""","""Rishi Jangam 5148""",2024wimi,3,1,0,None,1,0,0,"""Subwoofer"", ""Wing""","""Harmonized""",3,"""Ground""","""No""",0,"""They could do better"""
-8744,3,"""Red""","""Lukas Tonkovic 5148""",2024wimi,3,4,0,"""Wing""",2,0,0,"""Subwoofer"", ""Wing""","""Parked""",1,"""Ground""","""No""",0,""""""
-8744,13,"""Blue""","""Everett Hilby 5148""",2024wimi,1,2,0,"""Wing""",2,0,0,"""Subwoofer"", ""Wing""","""Parked""",2,"""Ground""","""No""",0,""""""
-8744,23,"""Blue""","""Zack k 930""",2024wimi,3,1,0,None,7,1,0,"""Subwoofer"", ""Podium"", ""Wing""","""Single Climb""",2,"""Ground"", ""Source(Fed By Human Player)""","""No""",0,"""Very resilient"""
-8744,33,"""Red""","""Jay 1675""",2024wimi,3,0,2,"""Center Line""",0,4,0,"""Podium"", ""Wing"", ""Center Line""","""Attempted But Failed""",3,"""Ground"", ""Source(Fed By Human Player)""","""No""",0,"""Knew what they were doing but struggled a bit"""
-8744,45,"""Red""","""Susheel Kumar Kata 5148""",2024wimi,1,0,0,"""Wing""",11,0,0,"""Wing""","""Not Attempted""",1,"""Ground""","""No""",0,""""""
-8744,52,"""Blue""","""Logan W 930""",2024wimi,3,4,0,"""Wing""",6,0,0,"""Podium""","""Single Climb""",1,"""Ground""","""No""",0,"""Had a very accurate shooter and attempted amp. Overall performed very well."""
-8744,58,"""Red""","""""",2024wimi,3,1,0,None,1,0,0,"""Subwoofer""","""Harmonized""",3,"""Ground""","""No""",0,""""""
-8744,67,"""Blue""","""Ava H 930""",2024wimi,1,1,0,"""Wing""",8,0,0,"""Wing""","""Parked""",1,"""Ground""","""No""",0,""""""
-8744,77,"""Red""","""Casey Frahmann 6421""",2024wimi,2,1,0,"""Center Line""",3,0,0,"""Subwoofer""","""Not Attempted""",3,"""Ground""","""No""",0,""""""
-8744,88,"""Red""","""""",2024wimi,1,1,0,"""Center Line""",5,0,0,"""Subwoofer"", ""Podium"", ""Wing""","""Single Climb""",2,"""Ground""","""No""",0,""""""
-8802,17,"""Blue""","""Michael 1675""",2024wimi,2,0,0,None,2,0,0,"""Subwoofer"", ""Center Line""","""Not Attempted""",3,"""Ground""","""Yes - Rest Of Match""",0,""""""
-8802,26,"""Red""","""Logan K 930""",2024wimi,2,1,0,"""Wing""",1,0,0,"""Subwoofer""","""Not Attempted""",3,"""Ground""","""No""",1,"""Small robot was being thrown around and had trouble because of that"""
-8802,35,"""Red""","""Jay 1675""",2024wimi,2,0,0,None,0,2,0,"""Wing""","""Parked""",2,"""Ground""","""No""",0,"""Struggled for the first half of the match, but made up for it for the rest of the match"""
-8802,46,"""Red""","""Everett Hilby 5148""",2024wimi,4,0,0,None,5,0,0,"""Subwoofer""","""Not Attempted""",2,"""Ground""","""No""",0,""""""
-8802,52,"""Blue""","""Nikolae Munguia 6381""",2024wimi,4,1,0,None,3,0,0,"""Subwoofer""","""Parked""",2,"""Ground""","""No""",0,"""preformed well, was able to score multiple times and park, but didn't have the best auto."""
-8802,59,"""Red""","""Alayna 6421""",2024wimi,4,0,0,None,2,0,0,None,"""Parked""",3,"""Ground""","""No""",2,""""""
-8802,65,"""Blue""","""Ava H 930""",2024wimi,3,1,0,None,5,0,0,"""Subwoofer""","""Parked""",2,"""Ground""","""No""",0,""""""
-8802,78,"""Red""","""Casey Frahmann 6421""",2024wimi,4,0,0,None,5,0,0,"""Subwoofer""","""Parked""",1,"""Ground""","""Yes - Part Of Match""",0,"""shooter isn't very strong """
-8802,89,"""Red""","""Whitaker 930""",2024wimi,2,1,0,None,6,0,0,"""Subwoofer""","""Parked""",3,"""Ground""","""No""",0,"""Fast and nimble but this made aiming difficult it seemed."""
-8847,11,"""Red""","""Ramcharan 5148 New Berlin Blitz""",2024wimi,1,1,1,"""Center Line""",1,1,0,"""Podium"", ""Wing"", ""Center Line""","""Not Attempted""",1,"""Ground""","""No""",1,""""""
-8847,35,"""Blue""","""Olive Lensink 6381""",2024wimi,4,1,0,"""Wing""",2,0,0,"""Subwoofer"", ""Wing""","""Harmonized""",3,"""Ground""","""No""",2,""""""
-8847,41,"""Red""","""Lawson  930""",2024wimi,4,1,0,"""Wing""",3,0,0,"""Subwoofer""","""Single Climb""",1,"""Ground""","""No""",0,""""""
-8847,48,"""Red""","""Everett Hilby 5148""",2024wimi,4,2,0,"""Wing""",3,0,0,"""Subwoofer""","""Single Climb""",2,"""Ground""","""No""",0,""""""
-8847,57,"""Blue""","""Liam 6421""",2024wimi,4,2,0,"""Wing""",1,0,0,None,"""Parked""",1,Neither,"""No""",1,"""Too much defense of the whole match."""
-8847,73,"""Blue""","""Olive 6381""",2024wimi,1,1,0,"""Wing""",3,0,0,"""Subwoofer""","""Attempted But Failed""",3,"""Ground""","""No""",2,""""""
-8847,84,"""Red""","""Eirian W 930""",2024wimi,4,0,0,None,4,0,0,"""Podium""","""Single Climb""",2,"""Ground""","""No""",0,""""""
-9425,12,"""Red""","""Casey Frahmann 6421""",2024wimi,2,0,0,None,3,0,0,"""Subwoofer"", ""Center Line""","""Parked""",2,"""Source(Fed By Human Player)""","""No""",1,"""Very good at scoring speaker"""
-9425,21,"""Red""","""Madalynn 930""",2024wimi,4,1,0,None,4,0,0,"""Podium""","""Attempted But Failed""",2,"""Source(Fed By Human Player)""","""No""",0,""""""
-9425,30,"""Red""","""Kai 1675""",2024wimi,3,1,0,"""Center Line""",1,0,0,"""Subwoofer""","""Attempted But Failed""",1,"""Source(Fed By Human Player)""","""No""",1,""""""
-9425,44,"""Blue""","""""",2024wimi,4,0,0,None,3,0,0,"""Podium""","""Not Attempted""",3,Neither,"""Yes - Part Of Match""",0,""""""
-9425,50,"""Blue""","""Nikolae Munguia 6381""",2024wimi,4,1,0,None,4,0,0,"""Wing""","""Parked""",1,"""Source(Fed By Human Player)""","""No""",0,"""Preformed well, scored multiple times and parked"""
-9425,57,"""Blue""","""Nikolae Munguia 6381""",2024wimi,3,1,0,None,1,0,0,"""Subwoofer""","""Not Attempted""",3,Neither,"""Yes - Part Of Match""",0,"""Not bad performance, but was disabled in the later parts of the match"""
-9425,65,"""Red""","""Casey Frahmann 6421""",2024wimi,3,0,0,None,2,0,0,"""Subwoofer""","""Not Attempted""",2,"""Source(Fed By Human Player)""","""No""",0,"""Can't climb, not much power behind launcher, overall, mediocre"""
-9425,73,"""Red""","""Lauren groeschel 5148""",2024wimi,1,1,0,None,3,0,0,None,"""Not Attempted""",1,"""Ground""","""No""",0,""""""
-9425,83,"""Red""","""Kabao 6381""",2024wimi,1,1,0,None,2,0,0,"""Subwoofer""","""Not Attempted""",2,"""Source(Fed By Human Player)""","""No""",0,""""""
-9535,6,"""Blue""","""Asher v 930""",2024wimi,3,1,0,None,2,1,0,"""Wing""","""Attempted But Failed""",1,"""Ground""","""No""",0,""""""
-9535,12,"""Red""","""Evan 930""",2024wimi,3,0,0,None,3,2,0,None,"""Single Climb""",1,"""Ground"", ""Source(Fed By Human Player)""","""No""",1,""""""
-9535,36,"""Red""","""Casey Frahmann 6421""",2024wimi,3,1,0,"""Center Line""",1,3,0,"""Subwoofer"", ""Podium"", ""Wing"", ""Center Line""","""Parked""",1,"""Ground"", ""Source(Fed By Human Player)""","""No""",0,"""Very good at amp, but scores in speaker as well"""
-9535,43,"""Blue""","""Shane 6381""",2024wimi,3,1,0,"""Wing""",1,3,0,"""Wing""","""Single Climb""",2,"""Ground""","""No""",0,""""""
-9535,52,"""Red""","""Ellen Halvorsen 6381""",2024wimi,3,2,0,"""Wing""",2,5,0,"""Subwoofer""","""Single Climb""",2,"""Ground""","""No""",1,""""""
-9535,60,"""Blue""","""Aidan 6421""",2024wimi,1,2,0,"""Wing""",5,0,0,"""Subwoofer"", ""Podium""","""Single Climb""",1,"""Ground""","""No""",1,""""""
-9535,69,"""Red""","""Asher v 930""",2024wimi,3,2,0,"""Wing""",5,2,0,"""Subwoofer"", ""Podium""","""Parked""",1,"""Ground""","""No""",0,""""""
-9535,89,"""Red""","""Kabao 6381""",2024wimi,3,1,0,"""Wing""",2,4,0,"""Subwoofer"", ""Podium""","""Single Climb""",1,"""Ground""","""No""",0,""""""
-9676,5,"""Red""","""Lukas Tonkovic 5148""",2024wimi,4,1,0,None,1,2,0,"""Podium"", ""Wing""","""Parked""",1,"""Ground""","""No""",0,""""""
-9676,12,"""Blue""","""AQ6421""",2024wimi,4,0,0,None,1,2,0,"""Subwoofer""","""Parked""",2,"""Ground""","""No""",0,"""Good amp bot"""
-9676,21,"""Red""","""Aidan L 6421""",2024wimi,3,1,0,None,1,3,0,"""Wing""","""Not Attempted""",1,"""Ground"", ""Source(Fed By Human Player)""","""No""",1,""""""
-9676,22,"""Red""","""Noah Dinan 1675""",2024wimi,3,1,0,None,1,3,0,"""Subwoofer""","""Parked""",3,"""Ground""","""No""",0,""""""
-9676,44,"""Red""","""Jay 1675""",2024wimi,3,0,1,"""Center Line""",0,3,0,"""Wing"", ""Center Line""","""Parked""",2,"""Ground""","""No""",0,"""Did a decent job with scoring and managed to park in endgame"""
-9676,52,"""Red""","""Alex 6421""",2024wimi,4,0,0,None,1,4,0,"""Subwoofer""","""Parked""",3,"""Ground"", ""Source(Fed By Human Player)""","""No""",0,""""""
-9676,63,"""Blue""","""Aidan6421""",2024wimi,4,0,0,None,0,4,0,None,"""Not Attempted""",2,"""Ground""","""No""",1,""""""
-9676,71,"""Red""","""Asher v 930""",2024wimi,3,1,0,None,0,6,0,"""Wing""","""Parked""",3,Neither,"""No""",2,""""""
-9676,79,"""Blue""","""Dhakshesh K 5148""",2024wimi,3,2,0,"""Wing""",0,6,0,"""Wing""","""Parked""",1,"""Ground""","""No""",1,"""was able to score in speaker during auto buy not teleop, manipulator controller issue with angling and speed. consistent scoring on amp"""
-9676,90,"""Red""","""Whitaker 930""",2024wimi,2,0,0,None,0,5,0,"""Subwoofer""","""Parked""",3,"""Ground""","""No""",0,""""""
-9760,1,"""Blue""","""Aidan 6421""",2024wimi,4,0,0,None,0,0,0,None,"""Not Attempted""",3,"""Source(Fed By Human Player)""","""No""",1,"""Played defense, but got Penalty"""
-9760,14,"""Red""","""""",2024wimi,2,1,0,None,1,0,0,"""Subwoofer""","""Parked""",3,Neither,"""No""",0,"""Kitbot"""
-9760,20,"""Red""","""Madalynn 930""",2024wimi,2,0,0,None,0,0,0,None,"""Parked""",3,"""Source(Fed By Human Player)""","""No""",1,""""""
-9760,28,"""Red""","""Nathan 6421""",2024wimi,2,0,0,None,1,0,0,"""Subwoofer""","""Not Attempted""",3,"""Source(Fed By Human Player)""","""No""",0,""""""
-9760,45,"""Blue""","""Shane 6381""",2024wimi,2,1,0,None,1,0,0,"""Subwoofer""","""Parked""",3,"""Source(Fed By Human Player)""","""No""",0,""""""
-9760,54,"""Blue""","""Nikolae Munguia 6381""",2024wimi,4,0,0,None,0,0,0,None,"""Not Attempted""",3,"""Source(Fed By Human Player)""","""No""",0,"""didn't preform well, many notes got stuck in it, and some notes it launched towards the blue wing either went out of the field or were taken by the red team."""
-9760,62,"""Red""","""Noah Dinan 1675""",2024wimi,2,0,0,None,0,0,0,None,"""Parked""",3,"""Source(Fed By Human Player)""","""No""",0,""""""
-9760,68,"""Blue""","""Michael 1675""",2024wimi,4,0,0,None,0,0,0,None,"""Parked""",3,"""Source(Fed By Human Player)""","""No""",1,""""""
-9760,74,"""Red""","""Lauren  5148""",2024wimi,2,0,0,None,0,0,0,None,"""Not Attempted""",3,"""Source(Fed By Human Player)""","""No""",0,"""Would feed notes to the other side of the arena for other robots to use"""
-9760,83,"""Red""","""Eirian 930""",2024wimi,2,0,0,None,0,0,0,None,"""Not Attempted""",3,"""Source(Fed By Human Player)""","""No""",0,"""They fed notes onto the red side for their alliance partners."""
-93,12,Blue,Amelia 1714,2024wimi,2,0,0,Center Line,11,0,0,"Subwoofer, ""Wing""",Harmonized,2,Ground,No,0,
-93,24,Blue,Zoe 6574,2024wimi,2,0,0,Wing,6,2,0,"Subwoofer, ""Wing""",Single Climb,1,Ground,No,0,2 second climb because they got hooks up while shooting 
-93,35,Blue,Georgia 6574,2024wimi,2,2,0,None,10,0,0,"Wing, ""Center Line""",Harmonized,1,Neither,No,0,
-93,43,Blue,Chacha 6574,2024wimi,2,0,0,None,9,0,0,None,Single Climb,1,Ground,No,0,Very fast shooter
-93,51,Red,Alex R 2062,2024wimi,4,1,0,None,8,0,0,Subwoofer,Harmonized,1,Ground,No,0,
-93,58,Red,Leo 1714,2024wimi,2,0,0,None,7,0,0,"Subwoofer, ""Podium""",Harmonized,1,Ground,No,0,
-93,68,Blue,Diego 1714,2024wimi,1,1,0,Wing,8,0,0,Subwoofer,Not Attempted,1,Ground,No,0,
-93,76,Red,Zoe 6574,2024wimi,2,0,0,None,7,1,0,"Subwoofer, ""Wing""",Not Attempted,1,"Ground, ""Source (Fed By Human Player)""",No,0,
-93,82,Red,Shane 6381,2024wimi,1,1,0,None,8,0,0,Subwoofer,Single Climb,1,Ground,No,0,
-537,3,Blue,Cohen 2062,2024wimi,3,0,0,None,2,1,0,Subwoofer,Not Attempted,3,Ground,No,0,
-537,10,Red,Leah 1714,2024wimi,3,0,0,None,2,1,0,Subwoofer,Attempted But Failed,3,Ground,No,0,
-537,21,Blue,Vitor 1714,2024wimi,3,0,0,None,1,4,0,Subwoofer,Parked,1,Ground,No,0,Speaker shot takes long time
-537,29,Red,April 1714,2024wimi,1,0,0,None,0,3,0,Subwoofer,Not Attempted,1,"Ground, ""Source (Fed By Human Player)""",No,1,
-537,37,Red,April 1714,2024wimi,4,0,0,None,4,1,0,"Subwoofer, ""Wing""",Parked,3,Ground,No,0,
-537,52,Blue,Carson 6574,2024wimi,1,0,0,None,0,0,0,None,Not Attempted,3,Neither,Yes - All Of Match,0,
-537,62,Blue,Vitor 1714,2024wimi,1,0,0,None,2,0,0,Subwoofer,Not Attempted,2,Ground,No,0,shooter didn't work for mos of match
-537,69,Red,Jessica 1714,2024wimi,4,0,0,None,0,4,0,Wing,Not Attempted,2,Ground,No,0,
-537,75,Red,Landon 6381,2024wimi,4,0,0,None,3,0,0,Subwoofer,Parked,3,Ground,No,0,
-537,82,Red,"Liam Wagner, Core 2062",2024wimi,3,1,0,None,0,4,0,None,Parked,2,Ground,No,0,
-706,8,Red,Adam Grouse 2062,2024wimi,2,0,0,None,0,0,0,None,Parked,3,Neither,No,0,Drive train broke/had issues. it was pushed by a blue robot to park
-706,14,Red,Chacha 6574,2024wimi,4,0,0,None,0,0,0,None,Attempted But Failed,1,Ground,No,0,"Teammates drive train broke, they couldn't score"
-706,22,Blue,Vitor 1714,2024wimi,4,0,0,None,0,1,0,None,Not Attempted,3,Ground,Yes - All Of Match,0,Robot got shut off
-706,30,Blue,Isabella 6574,2024wimi,4,0,0,None,1,0,0,Subwoofer,Single Climb,2,Ground,No,0,
-706,39,Red,Jonathan M #2062,2024wimi,1,0,0,None,2,0,0,Wing,Attempted But Failed,3,Ground,No,2,
-706,53,Blue,Carson 6574,2024wimi,4,0,0,None,1,0,0,None,Attempted But Failed,3,Ground,No,0,
-706,60,Red,Kiersten 2062,2024wimi,1,0,0,None,0,0,0,None,Not Attempted,3,Neither,Yes - All Of Match,0,Lost power in first few seconds of teleope
-706,69,Red,Jonathan M #2062,2024wimi,1,0,0,None,2,0,0,"Subwoofer, ""Wing""",Not Attempted,3,Ground,No,0,
-706,76,Red,Landon 6381,2024wimi,4,0,0,None,0,0,0,None,Not Attempted,3,Neither,No,1,
-706,84,Blue,Preston 6574,2024wimi,1,0,0,None,0,0,0,None,Parked,2,Neither,No,1,missed the speaker When shooting
-930,18,Red,,2024wimi,2,3,0,Wing,5,0,0,Wing,Not Attempted,1,Ground,No,0,
-930,27,Blue,Kevin Fajardo 1714,2024wimi,4,2,0,Wing,9,0,0,"Subwoofer, ""Podium""",Parked,1,Ground,No,0,
-930,34,Blue,Toby 6574,2024wimi,4,2,0,None,0,0,0,None,Not Attempted,1,Neither,No,0,
-930,45,Blue,Chacha 6574,2024wimi,4,2,0,Center Line,2,0,0,Wing,Not Attempted,2,Ground,No,0,Good at spoon feeding notes
-930,54,Red,"Liam Wagner, Core 2062",2024wimi,2,1,0,Center Line,6,0,0,Podium,Not Attempted,2,Ground,No,0,
-930,60,Red,Leo 1714,2024wimi,4,1,0,Wing,9,0,0,"Subwoofer, ""Podium""",Not Attempted,1,Ground,No,0,
-930,66,Red,Isabella 6574,2024wimi,2,0,0,Wing,0,0,0,None,Not Attempted,2,Ground,No,1,
-930,73,Red,Jonathan M #2062,2024wimi,2,2,0,Wing,1,0,0,Wing,Not Attempted,1,Ground,No,0,Note got stuck in the back of the shooter.
-930,82,Red,Kevin Fajardo 1714,2024wimi,4,1,0,Center Line,3,0,0,Podium,Parked,2,Ground,No,0,Shot notes to their teammates for whole match\n
-930,4,Red,Georgia 6574,2024wimi,2,0,0,None,3,0,0,Wing,Parked,1,Ground,No,1,
-1091,4,Red,Jessica 1714,2024wimi,1,0,0,None,2,0,0,Subwoofer,Single Climb,3,Ground,No,0,
-1091,16,Blue,Cohen 2062,2024wimi,3,0,0,None,1,0,0,Subwoofer,Single Climb,3,Ground,No,0,
-1091,24,Blue,Kiersten 2062,2024wimi,4,0,0,None,0,0,0,None,Attempted But Failed,1,Ground,No,2,"Attempted auto speaker, played hard defense"
-1091,32,Red,Grady 2062,2024wimi,3,0,0,None,0,0,0,None,Single Climb,3,Neither,No,2,
-1091,42,Red,Jessica 1714,2024wimi,3,1,0,Wing,1,0,0,Subwoofer,Attempted But Failed,3,Ground,No,0,Kept getting defended on 
-1091,48,Blue,Rae 6574,2024wimi,3,0,0,Wing,5,0,0,Subwoofer,Attempted But Failed,2,Ground,No,0,
-1091,55,Blue,Amelia 1714,2024wimi,3,0,0,None,0,0,0,None,Single Climb,3,Ground,Yes - Part Of Match,0,
-1091,65,Red,Jonathan M #2062,2024wimi,3,2,0,Wing,3,0,0,Wing,Attempted But Failed,1,Ground,No,0,
-1091,74,Blue,Carson 6574,2024wimi,3,1,0,Wing,4,0,0,Subwoofer,Single Climb,2,Ground,No,0,
-1091,85,Blue,Preston 6574,2024wimi,3,1,0,Wing,0,0,0,Subwoofer,Single Climb,2,Ground,No,0,Shooter wasn't strong enough to get note in speaker
-1259,8,Blue,Cohen 2062,2024wimi,2,1,0,None,0,1,0,None,Parked,2,Ground,No,2,
-1259,12,Red,,2024wimi,1,0,0,None,0,0,0,None,Not Attempted,3,Ground,Yes - Part Of Match,2,
-1259,14,Red,Adam Grouse 2062,2024wimi,3,1,0,None,0,0,0,None,Not Attempted,3,Neither,No,0,Drive train issues
-1259,21,Red,Carson 6574,2024wimi,3,1,0,None,0,0,0,None,Single Climb,2,Neither,No,2,
-1259,35,Blue,Kevin Fajardo 1714,2024wimi,3,1,0,None,3,3,0,Subwoofer,Single Climb,2,Ground,No,0,
-1259,42,Blue,Diego 1714,2024wimi,4,1,0,None,5,1,0,Subwoofer,Parked,3,Ground,No,0,
-1259,51,Blue,Rae 6574,2024wimi,3,0,0,Wing,0,4,0,Wing,Not Attempted,2,Ground,No,2,
-1259,63,Blue,Margaret 6574,2024wimi,3,0,0,None,0,0,0,None,Single Climb,3,Neither,No,2,
-1259,72,Red,Jessica 1714,2024wimi,2,0,0,None,6,3,0,Subwoofer,Parked,1,Ground,No,0,
-1259,80,Red,Shane 6381,2024wimi,3,0,0,None,2,2,0,Subwoofer,Single Climb,2,Ground,No,0,
-1259,90,Red,April 1714,2024wimi,3,3,0,Wing,5,2,0,Subwoofer,Parked,1,Ground,No,0,
-1306,9,Red,Leah 1714,2024wimi,2,1,0,None,0,0,0,None,Parked,3,Ground,No,2,
-1306,16,Red,,2024wimi,4,0,0,None,0,1,0,Wing,Not Attempted,1,Ground,No,0,
-1306,23,Blue,Vitor 1714,2024wimi,4,1,0,None,0,0,0,None,Parked,3,Ground,No,2,Robot became unable to shoot
-1306,31,Red,Grady 2062,2024wimi,2,1,0,None,4,0,0,Subwoofer,Parked,3,Ground,No,0,
-1306,34,Blue,Toby 6574,2024wimi,4,0,0,None,0,0,0,None,Parked,3,Neither,No,2,
-1306,50,Red,Leah 1714,2024wimi,4,0,0,None,0,3,0,None,Parked,2,Ground,No,0,Robot tips easily
-1306,60,Red,Brandon cesarec core 2062,2024wimi,3,1,0,None,0,6,0,None,Not Attempted,2,Source (Fed By Human Player),No,0,This bot didn't go for anything but amp and did very well by quickly getting it in and getting a new piece otherwise known as cycle time
-1306,66,Blue,Grady 2062,2024wimi,1,0,0,Wing,3,1,0,Subwoofer,Not Attempted,1,"Ground, ""Source (Fed By Human Player)""",No,0,
-1306,74,Red,\nLeah 1714,2024wimi,4,0,0,None,2,3,0,None,Not Attempted,1,Ground,No,0,
-1306,87,Red,April 1714,2024wimi,2,1,0,Wing,2,2,0,Subwoofer,Parked,1,Ground,No,0,
-1675,18,Red,Carson 6574,2024wimi,4,0,0,None,3,5,0,Wing,Parked,1,Source (Fed By Human Player),No,0,
-1675,24,Red,Carson 6574,2024wimi,4,0,0,None,0,2,0,None,Parked,3,Ground,No,0,Got a note stuck in their robot
-1675,31,Blue,Preston 6574,2024wimi,4,1,0,None,0,3,0,Subwoofer,Parked,2,Source (Fed By Human Player),No,0,
-1675,39,Red,April 1714,2024wimi,3,0,0,None,1,5,0,"Subwoofer, ""Wing""",Parked,3,Ground,No,1,
-1675,46,Blue, Chacha 6574,2024wimi,1,1,0,None,0,4,0,None,Not Attempted,1,Ground,No,0,Good at amp
-1675,61,Blue,Margaret 6574,2024wimi,2,1,0,None,0,7,0,Wing,Not Attempted,1,Ground,No,0,
-1675,71,Blue,Grady 2062,2024wimi,4,1,0,None,1,3,0,None,Not Attempted,2,Ground,No,0,
-1675,77,Red,Zoe 6574,2024wimi,2,1,0,None,2,4,0,Subwoofer,Not Attempted,3,Ground,No,0,
-1675,83,Red,April 1714,2024wimi,4,1,0,None,4,3,0,Subwoofer,Parked,1,Ground,No,0,
-1714,1,Red,Adam Grouse 2062,2024wimi,2,1,0,Wing,3,4,0,"Subwoofer, ""Wing""",Attempted But Failed,1,Ground,No,0,"Low chance for a note to get stuck in intake, easly fixable."
-1714,10,Blue,Amelia 1714,2024wimi,2,1,0,Center Line,3,6,0,Wing,Not Attempted,1,Ground,No,0,
-1714,27,Red,April 1714,2024wimi,2,1,0,None,0,0,0,None,Not Attempted,1,Neither,Yes - Part Of Match,0,
-1714,33,Red,Grady 2062,2024wimi,2,1,0,Center Line,5,6,0,"Subwoofer, ""Podium""",Not Attempted,3,Neither,No,0,
-1714,44,Blue,Isabella Cohen 6574,2024wimi,3,4,0,"Wing, ""Center Line""",2,5,0,"Subwoofer, ""Wing""",Single Climb,1,Ground,No,0,
-1714,51,Red,Leah 1714,2024wimi,3,3,0,"Wing, ""Center Line""",3,4,0,"Podium, ""Wing""",Harmonized,1,Ground,No,2,
-1714,59,Blue,Preston 6574,2024wimi,3,1,0,Wing,0,0,0,None,Single Climb,1,Neither,No,1,Shooter was broken
-1714,70,Blue,Diego 1714,2024wimi,3,4,0,"Wing, ""Center Line""",4,5,0,Wing,Single Climb,1,Ground,No,0,
-1714,77,Blue,Carson 6574,2024wimi,3,3,0,"Wing, ""Center Line""",5,6,0,Wing,Single Climb,1,Ground,No,0,
-1732,2,Red,Adam Grouse 2062,2024wimi,4,0,0,Wing,3,3,1,"Subwoofer, ""Podium""",Not Attempted,1,Ground,No,0,They had a 2 point score in speaker auto.
-1732,10,Red,Adam Grouse 2062,2024wimi,4,1,0,"Wing, ""Center Line""",2,5,0,"Subwoofer, ""Wing""",Parked,1,Ground,No,0,"Has a 3 point auto, but 2 missed."
-1732,19,Blue,Kiersten  2062,2024wimi,2,3,0,Wing,2,5,0,Subwoofer,Single Climb,1,Ground,No,0,
-1732,32,Red,Jonathan M #2062,2024wimi,2,1,0,Center Line,2,7,0,Wing,Single Climb,1,Ground,No,0,
-1732,40,Red,Jonathan M #2062,2024wimi,2,1,0,Center Line,4,4,0,Wing,Parked,1,Ground,No,0,
-1732,49,Blue,Carson 6574,2024wimi,2,0,0,None,3,4,0,"Subwoofer, ""Wing""",Parked,1,Ground,No,0,
-1732,58,Blue,Vitor 1714,2024wimi,2,1,0,Wing,6,5,0,"Subwoofer, ""Podium"", ""Wing""",Parked,1,Ground,No,0,Very good amp and speaker shots
-1732,64,Blue,Chacha 6574,2024wimi,2,1,0,Center Line,1,5,0,"Subwoofer, ""Podium""",Parked,2,Ground,No,0,"Accurate shooter, fast amp"
-1732,80,Blue,Preston 6574,2024wimi,2,0,0,None,3,4,1,"Subwoofer, ""Wing""",Single Climb,1,Ground,No,0,
-1732,87,Blue,Preston 6574,2024wimi,4,0,0,"Wing, ""Center Line""",6,3,0,Subwoofer,Single Climb,1,Source (Fed By Human Player),No,0,
-1781,15,Blue,,2024wimi,3,3,0,Wing,6,2,0,Subwoofer,Single Climb,1,Ground,No,0,
-1781,21,Red,Brandon cesarec core 2062,2024wimi,2,2,0,"Wing, ""Center Line""",8,0,0,"Subwoofer, ""Podium""",Harmonized,1,"Ground, ""Source (Fed By Human Player)""",No,0,very comfortable with moving around the field stealing notes and scoring them. over all very well built robot.
-1781,28,Red,Jonathan M #2062,2024wimi,3,2,0,Wing,2,3,0,Wing,Not Attempted,2,Ground,No,0,
-1781,37,Red,Jonathan M #2062,2024wimi,3,0,0,None,3,4,0,Wing,Attempted But Failed,1,Ground,No,0,
-1781,47,Red,Alex R 2062,2024wimi,3,3,0,Wing,5,1,0,Subwoofer,Not Attempted,1,Ground,No,0,
-1781,55,Blue,Carson 6574,2024wimi,4,1,0,None,2,4,0,Subwoofer,Single Climb,2,Ground,No,0,
-1781,64,Red,Jessica 1714,2024wimi,4,0,0,None,1,5,0,Subwoofer,Single Climb,2,Ground,No,0,Notes shot in speaker keep bouncing out and  not making it
-1781,77,Blue,"Liam Wagner, Core 2062",2024wimi,2,1,0,Center Line,6,2,0,Subwoofer,Parked,2,Ground,No,0,
-1781,83,Blue,Preston 6574,2024wimi,2,1,0,None,6,2,0,Subwoofer,Single Climb,1,Source (Fed By Human Player),No,0,
-1781,9,Red,Georgia 6574,2024wimi,3,3,0,None,3,6,0,Wing,Attempted But Failed,1,Neither,No,0,
-1792,5,Red,Adam Grouse 2062,2024wimi,1,1,0,None,5,0,0,Podium,Not Attempted,1,Ground,No,0,It drives spiny 
-1792,11,Red,Adam Grouse 2062,2024wimi,3,1,0,Wing,0,3,0,"Subwoofer, ""Wing""",Single Climb,1,Neither,No,0,
-1792,19,Red,Vitor 1714,2024wimi,4,1,0,None,0,2,0,Subwoofer,Single Climb,3,Ground,No,0,\nsluggish and underpowered shooter
-1792,36,Blue,Georgia 6574,2024wimi,4,1,0,None,0,0,0,None,Single Climb,3,Neither,No,0,
-1792,45,Red,Alex R,2024wimi,3,2,0,Wing,0,0,0,None,Not Attempted,1,Ground,No,2,
-1792,51,Blue,,2024wimi,2,0,0,None,3,0,0,"Subwoofer, ""Wing""",Not Attempted,3,Ground,Yes - Part Of Match,0,
-1792,63,Red,Brandon cesarec core 2062,2024wimi,4,0,0,None,6,0,0,"Subwoofer, ""Wing""",Not Attempted,2,Ground,No,0,the robot did a very good job st scoring the notes in the speaker. otherwise they did very well.
-1792,70,Blue, Chacha 6574,2024wimi,2,1,0,None,3,0,0,Subwoofer,Not Attempted,3,Ground,No,0,"Not the most accurate shooter, had trouble"
-1792,76,Blue,Grady2062,2024wimi,2,1,0,None,1,0,0,None,Not Attempted,2,Ground,No,1,
-1792,85,Red,Shane 6381,2024wimi,2,1,0,None,3,4,0,"Subwoofer, ""Wing""",Not Attempted,1,Neither,No,0,
-2062,6,Blue,Cohen 2062,2024wimi,2,1,0,None,1,2,0,Subwoofer,Single Climb,2,Ground,No,0,
-2062,16,Red,Amelia 1714,2024wimi,2,1,0,Wing,2,2,0,Subwoofer,Not Attempted,1,Ground,No,0,
-2062,26,Blue,Preston 6574,2024wimi,2,1,0,None,1,4,0,"Subwoofer, ""Podium""",Single Climb,1,"Ground, ""Source (Fed By Human Player)""",No,0,
-2062,35,Red,April 1714,2024wimi,3,0,0,Wing,3,1,0,Podium,Parked,2,Ground,No,1,
-2062,44,Red,"Liam Wagner, Core 2062",2024wimi,2,0,0,None,6,2,0,Subwoofer,Parked,2,Ground,No,0,
-2062,53,Blue,Rae 6574,2024wimi,2,2,0,Wing,3,2,0,"Subwoofer, ""Wing""",Parked,2,"Ground, ""Source (Fed By Human Player)""",No,1,
-2062,59,Blue,,2024wimi,2,1,0,None,0,0,0,None,Parked,2,Ground,No,2,
-2062,67,Red,Jonathan M #2062,2024wimi,4,1,0,None,1,2,0,"Subwoofer, ""Wing""",Harmonized,2,Ground,No,0,Experienced a lot of communication stabilization issues (coms/RSL light kept going in/out).
-2062,75,Red,Leah 1714,2024wimi,2,0,0,None,6,1,0,"Subwoofer, ""Podium"", ""Wing""",Single Climb,2,Ground,No,0,
-2077,2,Blue,Diego 1714,2024wimi,1,0,0,None,0,0,0,None,Attempted But Failed,2,Ground,No,2,intake broke but played good defense
-2077,12,Red,,2024wimi,3,0,0,None,0,0,0,None,Harmonized,1,Ground,No,2,Intake seemed to have broken down but driver was skilled and pushed notes next to the speaker for teammates.
-2077,20,Red,Carson 6564,2024wimi,3,0,0,None,0,0,0,None,Attempted But Failed,2,Neither,No,0,Seem to have a hard time moving across the field
-2077,31,Red,Jonathan M #2062,2024wimi,4,0,0,None,0,0,0,None,Single Climb,2,Neither,No,1,
-2077,38,Red,Grady 2062,2024wimi,4,1,0,Wing,0,0,0,None,Not Attempted,1,Neither,Yes - Part Of Match,1,
-2077,47,Blue,Isabella Cohen 6574,2024wimi,4,1,0,None,0,0,0,None,Not Attempted,3,Source (Fed By Human Player),No,2,They had a note stuck on their climber so they were unable to shoot.
-2077,60,Blue,Margaret 6574,2024wimi,2,1,0,None,0,0,0,None,Not Attempted,3,Ground,No,2,Shooter broke (I think)
-2077,67,Red,Jessica 1714,2024wimi,2,0,0,None,0,0,0,Subwoofer,Attempted But Failed,3,Ground,No,0,
-2077,75,Blue,Amelia 1714,2024wimi,2,1,0,None,1,0,0,Subwoofer,Not Attempted,3,Ground,Yes - Part Of Match,0,
-2077,86,Blue,Preston 6574,2024wimi,2,0,0,None,0,0,0,None,Not Attempted,2,Neither,No,1,Played defense most of the time 
-2194,8,Red,Jessica 1714,2024wimi,3,2,0,Wing,5,0,0,Subwoofer,Single Climb,1,Ground,No,0,Something happened to their robot mid round and just climbed
-2194,18,Blue,Kirsten 2062,2024wimi,3,2,0,Wing,7,0,0,Subwoofer,Single Climb,2,Ground,No,0,"Very fast, missed a couple of shots"
-2194,24,Blue,Vitor 1714,2024wimi,3,1,0,None,4,0,0,Subwoofer,Single Climb,2,Ground,No,1,
-2194,30,Red,Jonathan M #2062,2024wimi,3,1,0,Wing,14,0,0,Wing,Parked,1,Ground,No,0,
-2194,38,Blue,Toby 6574,2024wimi,3,3,0,None,7,0,0,None,Single Climb,1,Neither,No,0,
-2194,47,Blue,Chacha 6574,2024wimi,3,2,0,Wing,7,0,0,None,Not Attempted,1,Ground,No,0,Fast speaker shooter
-2194,56,Blue,Amelia 1714,2024wimi,3,1,0,Wing,5,0,0,Subwoofer,Attempted But Failed,1,Ground,No,0,
-2194,72,Red,,2024wimi,3,2,0,Wing,8,0,0,"Subwoofer, ""Wing""",Attempted But Failed,2,Ground,No,0,
-2194,81,Blue,Preston 6574,2024wimi,3,3,0,Wing,6,0,0,Subwoofer,Harmonized,1,Ground,No,0,
-2194,87,Red,Kevin Fajardo 1714,2024wimi,3,2,0,Wing,8,0,0,Subwoofer,Attempted But Failed,1,Ground,No,0,
-2202,1,Red,Jessica 1714,2024wimi,4,1,0,Wing,6,0,0,Subwoofer,Single Climb,2,Ground,No,0,
-2202,15,Red,Adam Grouse 2062,2024wimi,3,1,0,None,4,0,0,None,Not Attempted,1,Neither,No,0,
-2202,31,Blue,Kevin Fajardo 1714,2024wimi,2,0,0,None,0,0,0,None,Not Attempted,3,Neither,Yes - All Of Match,0,
-2202,48,Red,Alex R 2062,2024wimi,4,0,0,None,0,0,0,None,Single Climb,1,Neither,No,1,
-2202,50,Blue,Toby 6574,2024wimi,4,2,0,None,1,0,0,None,Harmonized,2,Neither,No,0,
-2202,58,Blue,Preston 6574,2024wimi,4,1,0,Wing,4,0,0,Subwoofer,Single Climb,3,Ground,No,0,
-2202,72,Blue,Grady2062,2024wimi,4,1,0,None,4,0,0,Subwoofer,Single Climb,1,"Ground, ""Source (Fed By Human Player)""",No,0,
-2202,78,Blue,"Liam Wagner,. Core 2062",2024wimi,4,3,0,Wing,6,0,0,"Subwoofer, ""Podium"", ""Wing""",Not Attempted,2,Ground,No,0,
-2202,85,Blue,"Liam Wagner, Core 2062",2024wimi,4,1,0,None,5,0,0,"Subwoofer, ""Podium""",Single Climb,1,Ground,No,0,
-2220,5,Blue,Diego 1714,2024wimi,4,1,0,None,0,2,0,None,Parked,1,Ground,Yes - Part Of Match,0,disabled for a long part of match but played good when enabled
-2220,12,Red,Leah 1714,2024wimi,3,1,0,None,0,4,0,None,Not Attempted,3,Ground,Yes - Part Of Match,0,
-2220,20,Blue,Zoe 6574,2024wimi,2,1,0,Wing,0,8,0,None,Attempted But Failed,1,Ground,No,0,
-2220,22,Red,Brandon cesarec core 2062,2024wimi,4,0,0,Wing,1,0,0,None,Single Climb,3,Ground,Yes - Part Of Match,0,Came back to life in the last 20 seconds. otherwise it was down all game.
-2220,29,Red,Jonathan M #2062,2024wimi,4,0,0,None,4,0,0,Wing,Attempted But Failed,2,Ground,No,2,
-2220,41,Blue,Chacha 6574,2024wimi,2,0,0,Wing,0,1,0,Podium,Attempted But Failed,2,Ground,No,0,
-2220,49,Red,Alex R 2062,2024wimi,2,0,0,None,0,0,0,None,Single Climb,2,Neither,No,1,
-2220,55,Red,"Liam Wagner, Core 2062",2024wimi,2,0,0,None,0,2,0,None,Single Climb,2,Source (Fed By Human Player),No,0,
-2220,72,Blue,Diego 1714,2024wimi,2,0,0,None,3,2,0,Subwoofer,Attempted But Failed,2,Ground,No,0,Took a while to score s
-2220,80,Red,Kevin Fajardo 1714,2024wimi,4,0,0,None,3,3,0,Subwoofer,Single Climb,1,Ground,No,0,
-2220,87,Red,Shane 6381,2024wimi,2,0,0,None,2,4,0,Subwoofer,Parked,2,Ground,No,0,
-2358,9,Red,Adam Grouse 2062,2024wimi,4,0,0,None,6,0,0,Subwoofer,Not Attempted,2,Neither,No,0,
-2358,15,Red,Chacha 6574,2024wimi,2,0,0,None,3,0,0,None,Parked,3,Ground,No,0,"Note got stuck in intake, overall good shooter"
-2358,22,Blue,Zoe 6574,2024wimi,3,1,0,None,5,0,0,Subwoofer,Not Attempted,1,Ground,Yes - Part Of Match,0,"Very wide, so they clogged the path to the source "
-2358,36,Red,Jonathan M #2062,2024wimi,4,0,0,None,3,0,0,Wing,Not Attempted,1,Ground,No,2,"Stopped moving around the 20 second mark, did not become disabled however."
-2358,42,Red,"Liam Wagner, Core 2062",2024wimi,1,0,0,None,0,0,0,None,Not Attempted,3,Neither,No,0,
-2358,54,Blue,Rae 6574,2024wimi,2,0,0,None,2,0,0,Subwoofer,Parked,3,Ground,No,0,
-2358,62,Blue,Preston 6574,2024wimi,1,0,0,None,0,0,0,None,Not Attempted,1,Neither,No,0,Didn't show up
-2358,68,Red,Jonathan M #2062,2024wimi,2,0,0,Wing,0,0,0,None,Not Attempted,3,Neither,Yes - Part Of Match,2,
-2358,75,Blue,Carson 6574,2024wimi,4,0,0,None,0,0,0,None,Parked,2,Neither,No,1,
-2506,7,Red,Adam Grouse 2062,2024wimi,2,1,0,None,3,0,0,None,Harmonized,2,Ground,No,0,"Harmonized with 6148, missed a fair bit"
-2506,18,Red,Leo 1714,2024wimi,2,1,0,None,5,0,0,Subwoofer,Single Climb,3,Ground,No,0,
-2506,25,Red,April 1714\n,2024wimi,1,0,0,None,0,0,0,None,Not Attempted,1,Neither,No,0,
-2506,31,Red,April 1714,2024wimi,2,1,0,None,2,3,0,None,Harmonized,2,"Ground, ""Source (Fed By Human Player)""",No,1,
-2506,40,Blue,Georgia 6574,2024wimi,2,1,0,None,2,0,0,Wing,Harmonized,1,Neither,No,0,
-2506,53,Blue,Amelia 1714,2024wimi,3,2,0,Wing,8,0,0,Subwoofer,Parked,1,Ground,No,0,
-2506,63,Blue,Vitor 1714,2024wimi,3,1,0,Wing,5,0,0,Subwoofer,Single Climb,1,Ground,No,0,Shooter was missing in beginning of match
-2506,69,Blue,Chacha 6574,2024wimi,3,2,0,Wing,5,0,0,Subwoofer,Not Attempted,1,Ground,No,0,Powerful shooter
-2506,76,Blue,Amelia 1714,2024wimi,3,1,0,Wing,4,0,0,Subwoofer,Single Climb,1,Ground,No,0,
-2667,10,Red,Margaret 6574,2024wimi,4,1,0,None,3,0,0,Subwoofer,Single Climb,3,Ground,No,0,
-2667,20,Blue,Kiersten 2062,2024wimi,4,0,0,None,0,0,0,None,Single Climb,2,Ground,No,1,Attempted to score multiple times in tele.
-2667,33,Blue,Georgia 6574,2024wimi,2,0,0,None,1,0,0,None,Single Climb,2,Neither,No,0,
-2667,43,Red,Alex R 2062,2024wimi,2,1,0,Wing,2,0,0,Subwoofer,Not Attempted,1,Ground,No,0,
-2667,53,Red,Leah 1714,2024wimi,3,1,0,None,0,0,0,None,Single Climb,3,Ground,No,0,
-2667,63,Red,Leo 1714,2024wimi,2,1,0,None,3,0,0,Subwoofer,Single Climb,3,Ground,No,0,
-2667,71,Red,Jessica 1714,2024wimi,4,1,0,None,3,0,0,Subwoofer,Single Climb,3,Neither,No,0,
-2667,78,Red,Zoe 6574,2024wimi,3,0,0,None,4,0,0,Subwoofer,Single Climb,2,Ground,No,0,
-2667,87,Red,"Liam Wagner, Core 2062",2024wimi,3,1,0,None,2,0,0,Subwoofer,Attempted But Failed,1,Ground,No,0,
-2830,4,Red,Adam Grouse,2024wimi,3,3,0,Wing,0,2,0,"Subwoofer, ""Wing""",Not Attempted,2,Neither,No,0,Notes would get jammed
-2830,10,Blue,Cohen 2062,2024wimi,3,4,0,Wing,6,0,0,Subwoofer,Parked,2,Ground,No,0,
-2830,24,Red,Leo 1714,2024wimi,3,3,0,None,4,1,0,Subwoofer,Not Attempted,1,Ground,No,0,
-2830,36,Blue,Toby6753,2024wimi,3,3,0,None,1,2,0,None,Parked,2,Neither,No,2,
-2830,44,Red,Alex R 2062,2024wimi,3,1,0,None,6,0,0,Subwoofer,Parked,2,Ground,No,0,
-2830,50,Blue,Carson 6574,2024wimi,2,1,0,None,0,1,0,Wing,Parked,2,Ground,No,2,
-2830,57,Red,1714 Leah ,2024wimi,3,3,0,Wing,0,2,0,None,Not Attempted,3,Ground,No,0,
-2830,67,Blue,Grady 2062,2024wimi,3,3,0,Wing,7,0,0,Subwoofer,Not Attempted,2,"Ground, ""Source (Fed By Human Player)""",No,0,
-2830,80,Blue,April 1714,2024wimi,3,3,0,Wing,5,0,0,Subwoofer,Parked,2,Ground,No,2,
-2830,88,Blue,"Liam Wagner, Core 2062",2024wimi,3,4,0,Wing,0,0,0,None,Parked,3,Ground,No,1,
-3197,7,Blue,Diego 1714,2024wimi,3,3,0,Center Line,2,2,0,"Subwoofer, ""Wing""",Single Climb,1,Ground,Yes - Part Of Match,0,Was doing good but disabled a bit
-3197,16,Red,Leah 1714,2024wimi,1,1,0,None,4,1,0,"Subwoofer, ""Podium""",Harmonized,1,Ground,No,1,
-3197,22,Blue,Kiersten  2062,2024wimi,2,0,0,Wing,2,4,0,Subwoofer,Attempted But Failed,2,Ground,No,0,Attempted auto shots
-3197,29,Blue,Isabella 6574,2024wimi,2,0,0,"Wing, ""Center Line""",3,2,0,"Subwoofer, ""Wing""",Single Climb,2,Ground,No,0,
-3197,45,Red,"Liam Wagner, Core 2062",2024wimi,2,0,0,Center Line,5,1,0,"Subwoofer, ""Podium""",Single Climb,2,Ground,No,0,
-3197,51,Red,"Liam Wagner, Core 2062",2024wimi,2,1,0,Center Line,3,1,0,"Subwoofer, ""Podium"", ""Wing""",Harmonized,2,Ground,No,0,
-3197,57,Red,Rae 6574,2024wimi,1,0,0,Center Line,7,0,0,"Subwoofer, ""Wing""",Not Attempted,1,"Ground, ""Source (Fed By Human Player)""",Yes - Part Of Match,1,
-3197,64,Red,Jonathan M #2062,2024wimi,2,0,0,None,7,1,0,Wing,Parked,2,Ground,No,0,
-3197,81,Blue,"Liam Wagner, Core 2062",2024wimi,2,3,0,Center Line,3,3,0,Podium,Harmonized,1,Ground,No,1,
-3197,89,Blue,Preston 6574,2024wimi,2,2,0,Center Line,6,0,0,"Subwoofer, ""Wing""",Attempted But Failed,1,Ground,No,0,
-3381,2,Red,Jessica 1714,2024wimi,3,1,0,None,2,1,0,Subwoofer,Parked,3,"Ground, ""Source (Fed By Human Player)""",No,0,
-3381,15,Blue,Amelia 1714,2024wimi,4,1,0,None,0,0,0,None,Not Attempted,3,Ground,No,2,
-3381,23,Red,Carson 6574,2024wimi,2,1,0,None,1,1,0,"Subwoofer, ""Wing""",Single Climb,3,Ground,No,0,
-3381,29,Red,Grady 2062,2024wimi,3,0,0,None,4,0,0,Subwoofer,Parked,3,Neither,Yes - Part Of Match,0,
-3381,37,Blue,Georgia 6574,2024wimi,2,0,0,None,4,1,0,None,Attempted But Failed,2,Neither,No,0,
-3381,46,Red,"Liam Wagner, Core 2062",2024wimi,2,1,0,None,4,1,0,Subwoofer,Parked,2,"Ground, ""Source (Fed By Human Player)""",No,0,
-3381,61,Blue,Vitor 1714,2024wimi,3,1,0,None,7,0,0,Subwoofer,Single Climb,2,"Ground, ""Source (Fed By Human Player)""",No,0,had a slow start but got way better in the second half of the match
-3381,68,Red,Isabella 6574,2024wimi,4,0,0,None,4,0,0,Subwoofer,Single Climb,2,"Ground, ""Source (Fed By Human Player)""",No,0,
-3381,76,Red,Leah 1714,2024wimi,3,0,0,Wing,6,0,0,Subwoofer,Parked,2,"Ground, ""Source (Fed By Human Player)""",No,0,
-3381,90,Blue,Preston 6574,2024wimi,2,1,0,None,8,0,0,Subwoofer,Attempted But Failed,1,"Ground, ""Source (Fed By Human Player)""",No,0,
-3596,9,Blue,Margaret 6574,2024wimi,1,0,0,None,0,0,0,None,Not Attempted,3,Neither,Yes - All Of Match,0,
-3596,17,Red,Carson 6574,2024wimi,4,0,0,None,0,0,0,None,Attempted But Failed,3,Ground,No,0,shot notes over to the red side
-3596,25,Red,Jonathan M #2062,2024wimi,4,1,0,None,0,0,0,Wing,Single Climb,2,Source (Fed By Human Player),No,1,
-3596,33,Blue,Kevin Fajardo 1714,2024wimi,3,2,0,Wing,4,0,0,Subwoofer,Parked,1,Ground,No,0,
-3596,39,Blue,Georgia 6574,2024wimi,4,0,0,None,1,0,0,None,Harmonized,2,Neither,No,1,
-3596,46,Blue,Isabella Cohen 6574,2024wimi,3,2,0,Wing,2,0,0,Subwoofer,Not Attempted,2,Ground,No,0,
-3596,56,Red,Alex R 2062,2024wimi,2,1,0,None,0,0,0,None,Attempted But Failed,1,Ground,No,0,
-3596,67,Red,Diego 1714,2024wimi,1,0,0,None,0,0,0,None,Single Climb,3,Source (Fed By Human Player),No,1,
-3596,73,Blue,Amelia 1714,2024wimi,3,1,0,Wing,0,0,0,Subwoofer,Single Climb,3,Ground,No,2,
-3630,17,Red,Adam Grouse 2062,2024wimi,3,2,0,None,1,5,0,Subwoofer,Not Attempted,1,Neither,No,0,Shooter uncontrollably shaky by end game
-3630,27,Red,,2024wimi,3,4,0,None,0,2,0,"Subwoofer, ""Podium""",Not Attempted,2,Ground,Yes - Part Of Match,0,
-3630,35,Red,Grady 2062,2024wimi,3,1,0,"Wing, ""Center Line""",2,3,0,Subwoofer,Not Attempted,1,Ground,Yes - Part Of Match,0,
-3630,42,Blue,Isabella Cohen 6574,2024wimi,3,3,0,"Wing, ""Center Line""",6,4,0,Subwoofer,Not Attempted,1,Source (Fed By Human Player),No,0,
-3630,50,Blue,Rae 6574,2024wimi,3,0,0,Wing,0,0,0,None,Not Attempted,3,Neither,Yes - All Of Match,0,
-3630,61,Red,Leo 1714,2024wimi,3,1,0,None,0,0,0,None,Not Attempted,2,Neither,Yes - Part Of Match,2,
-3630,72,Blue,Chacha 6574,2024wimi,3,2,0,Wing,2,3,0,Subwoofer,Not Attempted,3,Ground,No,0,
-3630,79,Red,Zoe 6574,2024wimi,3,3,0,Wing,3,3,0,"Subwoofer, ""Wing""",Parked,1,Ground,No,0,
-3630,88,Red,Shane 6381,2024wimi,3,3,0,"Wing, ""Center Line""",4,4,0,"Subwoofer, ""Wing""",Not Attempted,1,Ground,No,0,
-3630,7,Red,Georgia 6574,2024wimi,3,3,0,None,1,5,0,None,Parked,1,Neither,No,0,
-3692,13,Blue,Cohen 2062,2024wimi,4,1,0,None,0,0,0,None,Parked,3,Ground,No,0,
-3692,32,Red,April 1714,2024wimi,1,0,0,None,0,0,0,None,Not Attempted,1,Neither,Yes - All Of Match,0,
-3692,38,Red,Jonathan M #2062,2024wimi,2,0,0,None,1,0,0,Wing,Not Attempted,2,Ground,No,0,
-3692,51,Blue,Carson 6574,2024wimi,4,1,0,None,0,0,0,None,Parked,1,Neither,No,0,
-3692,61,Red,Brandon cesarec core 2062,2024wimi,4,1,0,None,2,0,0,Subwoofer,Parked,3,Source (Fed By Human Player),No,0,Very incontinent and had a very hard time making it into speaker. 
-3692,69,Blue,Grady 2062,2024wimi,2,1,0,None,2,0,0,Subwoofer,Not Attempted,2,Source (Fed By Human Player),No,0,
-3692,78,Red,Landon 6381,2024wimi,2,1,0,None,0,0,0,None,Not Attempted,3,Source (Fed By Human Player),No,1,
-3692,88,Red,April 1714,2024wimi,4,1,0,None,0,2,0,Subwoofer,Parked,1,Source (Fed By Human Player),No,0,
-3692,1,Red,Georgia 6574,2024wimi,3,1,0,None,0,0,0,None,Not Attempted,3,Neither,No,0,
-3734,16,Red,Adam Grouse 2062,2024wimi,4,1,0,None,2,0,0,None,Parked,3,Neither,No,0,
-3734,26,Blue,Kevin Fajardo 1714,2024wimi,4,0,0,Wing,2,1,0,Subwoofer,Harmonized,3,Source (Fed By Human Player),No,0,
-3734,33,Blue,Toby 6574,2024wimi,4,0,0,None,0,0,0,None,Not Attempted,3,Neither,Yes - All Of Match,0,
-3734,41,Red,"Liam Wagner, Core 2062",2024wimi,2,1,0,None,1,3,0,Subwoofer,Not Attempted,2,Ground,No,0,
-3734,54,Red,Alex R 2062,2024wimi,4,0,0,Wing,0,3,0,None,Not Attempted,3,Ground,No,0,
-3734,61,Blue,Preston 6574,2024wimi,4,1,0,Wing,3,0,0,Subwoofer,Attempted But Failed,3,Source (Fed By Human Player),No,0,
-3734,69,Blue,Diego 1714,2024wimi,4,1,0,Wing,1,2,0,Wing,Parked,3,Source (Fed By Human Player),No,0,
-3734,79,Red,Landon 6381,2024wimi,4,2,0,None,1,2,0,Subwoofer,Attempted But Failed,2,"Ground, ""Source (Fed By Human Player)""",No,1,
-3734,86,Blue,"Liam Wagner, Core 2062",2024wimi,4,1,0,Wing,1,3,0,Subwoofer,Harmonized,2,"Ground, ""Source (Fed By Human Player)""",No,0,
-3734,8,Red,Georgia 6574,2024wimi,4,0,0,None,0,2,0,None,Not Attempted,2,Neither,No,0,
-3891,7,Blue,Cohen 2062,2024wimi,4,0,0,None,0,0,0,None,Not Attempted,3,Neither,Yes - Part Of Match,0,
-3891,17,Red,Leo 1714,2024wimi,2,1,0,None,6,0,0,Subwoofer,Attempted But Failed,2,Source (Fed By Human Player),No,0,
-3891,24,Red,Brandon cesarec core 2062,2024wimi,2,1,0,None,3,0,0,Podium,Not Attempted,2,Source (Fed By Human Player),No,0,It was only able to pick up the notes from the Human and couldn't get it in amp than got stuck in amp.
-3891,30,Red,April 1714,2024wimi,3,0,0,Wing,0,3,0,Wing,Attempted But Failed,1,Source (Fed By Human Player),No,0,
-3891,37,Blue,Kevin Fajardo 1714,2024wimi,4,1,0,None,4,0,0,Subwoofer,Single Climb,1,Source (Fed By Human Player),No,0,
-3891,48,Blue,chacha 6574,2024wimi,4,1,0,None,5,1,0,Subwoofer,Harmonized,1,Source (Fed By Human Player),No,0,
-3891,59,Red,Brandon cesarec core 2062,2024wimi,2,0,0,None,0,0,0,None,Single Climb,3,Neither,Yes - Part Of Match,0,The robot broke the metal part for the shooter. kinda waited until climb all game.
-3891,71,Red,Jonathan M #2062,2024wimi,2,1,0,None,4,0,0,"Subwoofer, ""Wing""",Not Attempted,1,Source (Fed By Human Player),No,0,
-3891,86,Red,April 1714,2024wimi,3,0,0,None,0,0,0,None,Not Attempted,1,Neither,Yes - All Of Match,0,
-4531,2,Blue,Cohen 2062,2024wimi,4,2,0,Wing,2,0,0,Wing,Harmonized,1,Ground,No,0,
-4531,11,Blue,,2024wimi,2,1,0,None,3,0,0,Wing,Single Climb,2,Ground,No,0,Cannot adjust the angle they shoot at.
-4531,34,Blue,Kevin Fajardo 1714,2024wimi,2,2,0,Wing,6,0,0,"Subwoofer, ""Podium""",Single Climb,3,Ground,No,0,
-4531,42,Red,Alex R 2062,2024wimi,4,1,0,Wing,6,0,0,Subwoofer,Single Climb,1,Ground,No,0,
-4531,53,Red,"Liam Wagner, Core 2062",2024wimi,4,1,0,None,3,0,0,"Subwoofer, ""Podium""",Single Climb,2,Ground,No,0,
-4531,62,Red,Kiersten 2062,2024wimi,4,1,0,Wing,0,0,0,None,Harmonized,2,Ground,No,2,note got stuck in beginning of tele.
-4531,70,Blue,Grady2062,2024wimi,4,0,0,None,0,0,0,Subwoofer,Not Attempted,2,Ground,No,1,
-4531,81,Red,Shane 6381,2024wimi,2,1,0,None,5,0,0,Subwoofer,Harmonized,2,Ground,No,0,
-4645,5,Blue,Cohen 2062,2024wimi,3,1,0,None,2,0,0,Subwoofer,Not Attempted,2,Ground,No,0,
-4645,11,Red,1714,2024wimi,2,1,0,None,0,0,0,None,Harmonized,3,Ground,No,0,
-4645,21,Blue,Zoe 6574,2024wimi,1,0,0,None,3,0,0,Subwoofer,Not Attempted,2,Ground,No,0,Missed most of its shots
-4645,30,Blue,Preston 6574,2024wimi,2,0,0,None,0,0,0,None,Single Climb,3,Neither,Yes - Part Of Match,0,
-4645,43,Blue,Diego 1714,2024wimi,4,0,0,None,2,0,0,Subwoofer,Not Attempted,3,Ground,No,1,
-4645,54,Red,Leah 1714,2024wimi,3,0,0,None,4,0,0,"Subwoofer, ""Podium"", ""Wing""",Not Attempted,2,Ground,No,1,
-4645,61,Red,Kiersten 2062,2024wimi,2,0,0,None,2,0,0,Subwoofer,Attempted But Failed,1,Source (Fed By Human Player),No,1,Moved partner out of blue zone to avoid penalties
-4645,67,Red,Isabella 6574,2024wimi,3,1,0,None,3,0,0,Subwoofer,Single Climb,1,"Ground, ""Source (Fed By Human Player)""",No,0,
-4645,74,Red,Zoe 6574,2024wimi,3,0,0,Wing,1,0,0,Subwoofer,Not Attempted,2,Ground,No,0,"Very unstable, got caught up briefly on the stage "
-4645,89,Red,"Liam Wagner, Core 2062",2024wimi,3,1,0,None,3,0,0,Subwoofer,Single Climb,3,"Ground, ""Source (Fed By Human Player)""",No,0,
-4786,5,Blue,Tony kapfer 6574,2024wimi,1,0,0,None,0,0,0,None,Parked,3,Neither,No,0,
-4786,14,Blue,Margaret 6574,2024wimi,4,2,0,Wing,9,1,0,"Subwoofer, ""Wing""",Not Attempted,1,Ground,No,1,
-4786,23,Red,Brandon cesarec core 2062,2024wimi,4,1,0,None,4,0,0,"Subwoofer, ""Podium""",Not Attempted,2,Ground,No,0,the robot was pretty fast have pretty good cycle times. didn't try with amp.
-4786,33,Red,April 1714,2024wimi,1,0,0,None,0,0,0,None,Parked,2,Neither,No,2,
-4786,42,Blue,Chacha 6574,2024wimi,1,0,0,None,0,0,0,None,Parked,2,Neither,No,2,"Intake/shooter seemed broken, played amazing defense."
-4786,48,Blue,Diego 1714,2024wimi,1,0,0,None,0,0,0,None,Parked,1,Neither,No,2,Great defense and moved notes for team
-4786,56,Red,Leah 1714,2024wimi,4,0,0,None,0,0,0,None,Parked,3,Ground,No,1,
-4786,73,Red,Leah 1714,2024wimi,4,1,0,Wing,1,3,0,Subwoofer,Single Climb,1,Ground,No,0,
-4786,82,Blue,Preston 6574,2024wimi,2,1,0,Center Line,2,0,0,Subwoofer,Not Attempted,2,Ground,No,1,
-4787,6,Red,Adam Grouse,2024wimi,3,0,0,None,0,0,0,None,Not Attempted,3,Neither,No,1,"Shooter broke, climb seems broken"
-4787,14,Red,Leah 1714,2024wimi,1,0,0,None,0,0,0,None,Single Climb,2,Ground,No,0,
-4787,30,Red,Grady 2062,2024wimi,4,0,0,None,1,0,0,Subwoofer,Single Climb,2,Source (Fed By Human Player),No,0,
-4787,40,Red,Kevin Fajardo 1714,2024wimi,3,1,0,None,2,0,0,Subwoofer,Harmonized,3,Source (Fed By Human Player),No,0,
-4787,45,Red,Diego 1714,2024wimi,4,0,0,None,0,0,0,None,Parked,3,Source (Fed By Human Player),No,1,Shooter was not shooting hard enough to score
-4787,55,Red,Leah 1714,2024wimi,4,0,0,None,0,0,0,None,Single Climb,3,Source (Fed By Human Player),No,0,
-4787,64,Blue,Grady 2062,2024wimi,1,0,0,None,0,0,0,None,Parked,2,Neither,No,1,
-4787,66,Blue,Chacha 6574,2024wimi,3,0,0,Wing,0,0,0,None,Attempted But Failed,3,Source (Fed By Human Player),No,0,"Shooter not strong enough, easily gets hooked on chains/other bots"
-4787,81,Red,Kevin Fajardo 1714,2024wimi,4,0,0,None,0,0,0,None,Harmonized,3,Source (Fed By Human Player),No,0,
-4787,88,Blue,Preston 6574,2024wimi,2,0,0,None,1,0,0,Subwoofer,Single Climb,3,Source (Fed By Human Player),No,0,
-5096,9,Blue,Amelia 1714,2024wimi,4,0,0,None,0,1,0,None,Not Attempted,2,Ground,Yes - Part Of Match,0,
-5096,18,Red,Vitor 1714,2024wimi,4,1,0,None,0,3,0,None,Not Attempted,3,Ground,No,0,Very sluggish
-5096,27,Red,Grady 2062,2024wimi,4,0,0,None,1,0,0,None,Parked,1,Ground,No,0,
-5096,34,Red,Grady 2062,2024wimi,4,0,0,None,0,0,0,None,Not Attempted,1,Neither,No,1,
-5096,41,Blue,Ava H 930,2024wimi,1,0,0,None,0,0,0,None,Parked,3,Neither,No,1,
-5096,48,Red,Jessica 1714,2024wimi,1,0,0,None,0,0,0,None,Parked,3,Neither,No,1,showed up late and only played defensw
-5096,49,Red,,2024wimi,1,0,0,None,0,0,0,None,Not Attempted,1,Neither,No,0,
-5096,57,Red,Alex R 2062,2024wimi,4,0,0,None,0,0,0,None,Parked,1,Neither,No,2,
-5096,70,Red,Jessica 1714,2024wimi,4,0,0,None,0,2,0,Wing,Not Attempted,2,Ground,No,0,
-5096,76,Blue,Carson 6574,2024wimi,4,0,0,None,0,3,0,Wing,Not Attempted,2,Ground,No,0,
-5096,90,Red,"Liam Wagner, Core 2062",2024wimi,4,1,0,None,0,3,0,None,Not Attempted,3,Ground,No,0,
-5148,7,Red,Jessica 1714,2024wimi,4,1,0,Wing,2,0,0,Subwoofer,Harmonized,3,Ground,No,0,Notes kept popping out of intake 
-5148,13,Red,Chacha 6574,2024wimi,4,0,0,Wing,0,0,0,None,Single Climb,2,Ground,No,2,"Got a note stuck, but defended well."
-5148,22,Red,Leo 1714,2024wimi,1,1,0,None,4,0,0,Subwoofer,Not Attempted,2,Ground,No,0,
-5148,29,Blue,Preston 6574,2024wimi,4,1,0,None,2,0,0,Subwoofer,Single Climb,3,Source (Fed By Human Player),No,0,
-5148,40,Red,April 1714,2024wimi,1,0,0,Wing,0,0,0,None,Not Attempted,1,Neither,Yes - Part Of Match,1,
-5148,47,Red,"Liam Wagner, Core 2062",2024wimi,2,0,0,None,0,0,0,None,Not Attempted,3,Ground,No,0,
-5148,56,Blue,Carson 6574,2024wimi,2,1,0,None,2,0,0,Subwoofer,Parked,2,Ground,No,0,
-5148,65,Blue,Grady 2062,2024wimi,4,1,0,None,4,0,0,Subwoofer,Not Attempted,2,"Ground, ""Source (Fed By Human Player)""",No,0,
-5148,74,Blue,Grady2062,2024wimi,4,1,0,Center Line,4,0,0,Subwoofer,Harmonized,3,"Ground, ""Source (Fed By Human Player)""",No,0,
-5148,82,Red,April 1714,2024wimi,4,0,0,None,0,0,0,None,Not Attempted,1,Neither,Yes - All Of Match,0,
-5586,3,Red,Jessica 1714,2024wimi,4,0,0,None,0,6,0,Wing,Parked,2,Ground,No,0,Think intake broke at the end. they could not pick up any notes.
-5586,10,Red,Chacha 6574,2024wimi,2,0,0,None,0,2,0,Subwoofer,Not Attempted,2,Ground,No,0,Good at amp
-5586,19,Red,Leo 1714,2024wimi,1,0,0,None,0,4,0,Wing,Not Attempted,2,Ground,No,0,
-5586,28,Red,April 1714,2024wimi,1,0,0,None,1,0,0,Wing,Not Attempted,1,"Ground, ""Source (Fed By Human Player)""",No,0,
-5586,38,Blue,Georgia 6574,2024wimi,4,0,0,None,0,3,0,Wing,Parked,3,Neither,No,0,
-5586,48,Red,"Liam Wagner, Core 2062",2024wimi,3,0,0,None,2,4,0,Subwoofer,Not Attempted,2,Ground,Yes - Part Of Match,0,
-5586,60,Blue,Vitor 1714,2024wimi,4,0,0,None,0,5,0,None,Parked,2,Ground,No,0,
-5586,66,Blue,Diego 1714,2024wimi,4,0,0,None,0,2,0,None,Parked,2,Source (Fed By Human Player),No,0,
-5586,79,Blue,"Liam Wagner, Core 2062",2024wimi,4,0,0,None,0,3,0,None,Parked,2,Ground,No,2,
-5586,89,Red,April 1714,2024wimi,4,0,0,None,0,0,0,None,Parked,1,Neither,Yes - Part Of Match,1,
-6223,8,Red,Diego 1714,2024wimi,1,0,0,None,7,0,0,Subwoofer,Not Attempted,1,Ground,No,0,Broke a bit but still scored gppd
-6223,14,Red,Leah 1714,2024wimi,4,2,0,Wing,2,0,0,Subwoofer,Parked,2,Ground,No,0,
-6223,25,Blue,Preston 6574,2024wimi,2,2,0,None,4,0,0,Subwoofer,Single Climb,3,Ground,No,0,
-6223,32,Blue,toby kapfer 6574,2024wimi,3,2,0,None,9,0,0,None,Parked,2,Neither,No,0,
-6223,41,Red,Jessica 1714,2024wimi,3,2,0,Wing,6,0,0,Subwoofer,Single Climb,2,Ground,No,0,
-6223,50,Red,"Liam Wagner, Core 2062",2024wimi,2,1,0,None,6,0,0,Subwoofer,Attempted But Failed,2,Ground,No,0,
-6223,62,Red,Brandon cesarec core 2062,2024wimi,3,2,0,Wing,6,0,0,"Subwoofer, ""Podium""",Harmonized,1,Ground,No,0,The cycle time was pretty fast with the speaker shots 
-6223,71,Blue,Diego 1714,2024wimi,2,2,0,Wing,5,0,0,Subwoofer,Attempted But Failed,1,Ground,No,0,"tippy if played defense on, missed few shots, attempted to climb very early yet still couldnt climb"
-6223,81,Red,April 1714,2024wimi,4,1,0,Wing,3,0,0,Subwoofer,Single Climb,1,Ground,No,0,
-6381,18,Red,Brandon Cesarec Core 2062,2024wimi,3,0,0,None,6,0,0,"Subwoofer, ""Podium""",Not Attempted,2,"Ground, ""Source (Fed By Human Player)""",No,1,They didn't really do much besides collector notes and shooting into speaker but did pretty good defence.
-6381,25,Blue,Kevin Fajardo 1714,2024wimi,3,1,0,None,6,1,0,Subwoofer,Single Climb,2,Ground,No,0,
-6381,36,Blue,Kevin Fajardo 1714,2024wimi,2,1,0,None,8,0,0,Subwoofer,Attempted But Failed,1,Ground,No,0,
-6381,44,Blue,Chacha 6574,2024wimi,2,0,0,Center Line,7,0,0,Subwoofer,Attempted But Failed,2,Ground,No,0,Very accurate in teleop
-6381,52,Red,Alex R 2062,2024wimi,2,1,0,Center Line,7,0,0,Subwoofer,Parked,1,Ground,No,0,
-6381,58,Red,Brandon cesarec core 2062,2024wimi,4,1,0,None,1,4,0,Subwoofer,Attempted But Failed,3,Source (Fed By Human Player),No,0,The robot has very fast cycle time and was able to comfortably shoot the speaker shots.
-6381,64,Red,Isabella 6574,2024wimi,3,0,0,None,0,0,0,None,Single Climb,1,Neither,No,2,Was unable to shoot.
-6381,74,Blue,Amelia 1714,2024wimi,2,0,0,None,3,1,0,"Subwoofer, ""Wing""",Harmonized,1,Ground,No,0,
-6381,84,Red,April 1714,2024wimi,2,0,0,None,5,1,0,Subwoofer,Not Attempted,1,Ground,No,0,
-6381,2,Red,Georgia 6574,2024wimi,2,0,0,None,4,0,0,None,Single Climb,2,Ground,No,0,
-6421,6,Blue,Toby kapfer 6%74,2024wimi,1,3,0,None,3,0,0,None,Attempted But Failed,1,Neither,No,0,
-6421,17,Blue,Kiersten 2062,2024wimi,3,3,0,"Wing, ""Center Line""",2,3,0,Subwoofer,Single Climb,1,Ground,No,0,Effective at both speaker and amp. 
-6421,23,Red,Leo 1714,2024wimi,1,0,0,Center Line,5,0,0,"Subwoofer, ""Podium""",Not Attempted,1,Ground,No,1,
-6421,29,Blue,Kevin Fajardo 1714,2024wimi,3,3,0,"Wing, ""Center Line""",3,4,0,"Subwoofer, ""Podium""",Parked,1,Ground,No,0,
-6421,38,Blue,Kevin Fajardo 1714,2024wimi,1,2,0,Center Line,7,0,0,Subwoofer,Parked,2,Ground,No,0,
-6421,54,Blue,Carson 6574,2024wimi,3,2,0,Wing,1,5,0,Wing,Parked,1,Ground,No,0,
-6421,63,Red,Kiersten 2062,2024wimi,3,4,0,Wing,0,4,0,None,Parked,1,Ground,No,1,Very quick transition from source
-6421,70,Red,Jonathan M #2062,2024wimi,3,1,0,Wing,4,4,0,"Subwoofer, ""Wing""",Parked,1,Ground,No,0,
-6421,77,Red,Landon 6381,2024wimi,3,1,0,Wing,1,2,0,"Subwoofer, ""Wing""",Parked,2,Ground,No,1,
-6421,84,Red,Kevin Fajardo 1714,2024wimi,1,1,0,Center Line,0,0,0,None,Not Attempted,3,Ground,No,1,Only played defense
-6574,5,Red,Jessica 1714,2024wimi,2,0,0,None,0,0,0,None,Parked,3,Ground,No,0,missed every shot while trying to do amp as well as being easily defended on 
-6574,6,Red,93,2024wimi,2,1,0,None,8,1,0,Subwoofer,Single Climb,1,Ground,No,0,Fast and would drive and shoot at the same time 
-6574,16,Red,Carson 6574,2024wimi,3,1,0,None,1,4,0,Wing,Single Climb,2,Ground,No,0,
-6574,27,Red,Jonathan M #2062,2024wimi,2,0,0,None,2,4,0,Wing,Single Climb,2,Ground,No,0,
-6574,34,Blue,Georgia 6574,2024wimi,3,1,0,None,1,3,0,Wing,Not Attempted,2,Neither,No,0,
-6574,40,Red,Grady2062,2024wimi,3,1,0,Wing,3,4,0,Subwoofer,Not Attempted,2,Ground,No,0,
-6574,46,Blue,Diego 1714,2024wimi,2,0,0,None,0,2,0,None,Parked,2,Ground,No,0,Struggled scoring on amp and speaker
-6574,62,Blue,Margaret 6574,2024wimi,3,0,0,None,3,5,0,Wing,Single Climb,1,Ground,No,0,"Scores quickly in amp, barely takes time to line up."
-6574,68,Blue,Chacha 6574,2024wimi,3,0,0,Wing,2,5,0,None,Not Attempted,3,Ground,No,0,consistent amp scorer
-6574,78,Blue,Amelia 1714,2024wimi,2,0,0,None,3,7,0,Subwoofer,Parked,2,Neither,No,0,
-6574,86,Red,Kevin Fajardo 1714,2024wimi,4,1,0,None,4,3,0,Subwoofer,Parked,1,Ground,No,0,
-6643,3,Blue,Tobykapfef6574,2024wimi,4,1,0,None,0,2,0,None,Parked,1,Neither,No,0,
-6643,12,Red,Chacha 6574,2024wimi,2,1,0,Wing,0,0,0,Subwoofer,Not Attempted,3,Ground,Yes - All Of Match,0,Couldn't move after auto
-6643,23,Blue,Kiersten  2026,2024wimi,2,1,0,None,0,1,0,Subwoofer,Parked,2,Source (Fed By Human Player),No,1,"Three notes stuck at once, chain fell off"
-6643,34,Red,April 1714,2024wimi,3,0,0,None,0,0,0,None,Not Attempted,1,Neither,No,0,
-6643,41,Red,Alex R 2062,2024wimi,4,0,0,None,0,0,0,None,Parked,1,Neither,No,1,
-6643,53,Red,Alex R 2062,2024wimi,2,1,0,None,0,3,0,None,Parked,1,Neither,No,0,
-6643,59,Blue,Vitor  1714,2024wimi,4,0,0,None,0,0,0,None,Not Attempted,3,Neither,Yes - All Of Match,0,Robot was disabled since beginning of match
-6643,65,Blue,Diego 1714,2024wimi,2,1,0,None,0,3,0,None,Attempted But Failed,3,"Ground, ""Neither""",Yes - Part Of Match,0,Was doing well on amp but took a while to.collect from source
-6643,79,Blue,,2024wimi,2,1,0,None,2,1,0,Subwoofer,Parked,1,Ground,No,0,
-6643,85,Red,April 1714,2024wimi,2,1,0,None,0,2,0,None,Parked,1,"Ground, ""Source (Fed By Human Player)""",No,1,
-6823,3,Red,Adam Grouse 2062,2024wimi,2,0,0,None,5,0,0,"Subwoofer, ""Podium""",Single Climb,1,Ground,No,0,Fast shooter
-6823,11,Blue,Amelia 1714,2024wimi,4,1,0,None,6,0,0,Wing,Not Attempted,1,Ground,No,1,
-6823,26,Red,Grady 2062,2024wimi,3,3,0,Wing,2,0,0,Subwoofer,Not Attempted,1,Ground,No,1,
-6823,32,Blue,Kevin Fajardo 1714,2024wimi,4,0,0,None,5,1,0,"Subwoofer, ""Podium""",Attempted But Failed,2,Ground,No,0,
-6823,38,Red,April 1714,2024wimi,2,1,0,None,0,1,0,Subwoofer,Single Climb,2,Ground,No,1,
-6823,46,Red,Jessica 1714,2024wimi,4,1,0,None,2,0,0,Subwoofer,Not Attempted,3,Ground,No,0,
-6823,55,Blue,Rae 6574,2024wimi,2,1,0,None,9,0,0,"Subwoofer, ""Wing""",Not Attempted,1,"Ground, ""Source (Fed By Human Player)""",No,0,
-6823,64,Red,Diego 1714,2024wimi,4,1,0,None,6,0,0,"Subwoofer, ""Wing""",Single Climb,1,Neither,No,0,A little tippy
-6823,73,Blue,Carson 6574,2024wimi,4,1,0,None,5,0,0,Wing,Attempted But Failed,1,Ground,No,0,
-6823,90,Red,Kevin Fajardo 1714,2024wimi,4,1,0,None,6,0,0,"Subwoofer, ""Podium""",Single Climb,1,Ground,No,0,
-7103,4,Blue,Cohen 2062,2024wimi,4,2,0,"Wing, ""Center Line""",5,0,0,Wing,Parked,1,Ground,No,0,
-7103,13,Blue,Margaret 6574,2024wimi,3,2,0,"Wing, ""Center Line""",4,0,0,"Subwoofer, ""Wing""",Not Attempted,2,Ground,No,0,Shot multiple notes out of the field.
-7103,19,Blue,Zoe 6574,2024wimi,3,2,0,"Wing, ""Center Line""",5,0,0,"Subwoofer, ""Wing""",Not Attempted,2,Ground,No,0,
-7103,31,Blue,Isabella 6574,2024wimi,3,1,0,None,9,0,0,Subwoofer,Attempted But Failed,1,Ground,No,0,
-7103,39,Blue,Toby6574,2024wimi,3,1,0,None,8,0,0,None,Parked,1,Neither,No,0,
-7103,49,Red,"Liam Wagner, Core 2062",2024wimi,4,1,0,"Wing, ""Center Line""",6,0,0,"Subwoofer, ""Podium"", ""Wing""",Not Attempted,2,Ground,No,0,
-7103,59,Red,Leo 1714,2024wimi,3,1,0,Wing,6,0,0,"Subwoofer, ""Podium""",Parked,1,Ground,No,0,
-7103,68,Red,Jessica 1714,2024wimi,3,1,0,"Wing, ""Center Line""",4,0,0,Subwoofer,Parked,1,Ground,No,0,Missed more than made some notes in speaker
-7900,21,Blue,Kiersten  2062,2024wimi,4,0,0,None,1,0,0,Subwoofer,Attempted But Failed,3,Ground,No,1,Got notes stuck in intake multiple times
-7900,32,Blue,Georgia 6574,2024wimi,1,0,0,None,0,0,0,None,Harmonized,3,Neither,No,0,Had note stuck for almost all of match
-7900,39,Blue,Kevin Fajardo 1714,2024wimi,2,1,0,None,2,0,0,Subwoofer,Harmonized,3,Ground,No,0,
-7900,49,Blue,Amelia 1714,2024wimi,1,0,0,None,3,0,0,Subwoofer,Single Climb,3,Ground,No,0,
-7900,56,Blue,Rae 6574,2024wimi,4,1,0,None,2,0,0,Subwoofer,Single Climb,3,"Ground, ""Source (Fed By Human Player)""",No,1,
-7900,70,Red,Isabella 6574,2024wimi,4,0,0,None,0,0,0,None,Not Attempted,3,Ground,Yes - Part Of Match,0,
-7900,79,Red,Leah 1714,2024wimi,1,0,0,None,0,0,0,None,Not Attempted,3,Neither,No,0,
-7900,86,Red,Shane 6381,2024wimi,2,1,0,None,3,0,0,Subwoofer,Parked,2,Ground,No,0,
-7900,6,Red,Georgia 6574,2024wimi,4,0,0,None,1,0,0,None,Parked,2,Neither,No,0,
-8029,7,Blue,Toby kapfer6574,2024wimi,3,0,0,None,0,0,0,None,Not Attempted,2,Neither,No,2,
-8029,14,Blue,Amelia 1714,2024wimi,3,1,0,None,0,0,0,None,Not Attempted,3,Ground,No,2,
-8029,26,Red,Jonathan M #2062,2024wimi,3,3,0,Wing,2,0,0,None,Not Attempted,2,Ground,No,1,
-8029,36,Red,April 1714,2024wimi,2,1,0,Wing,3,0,0,Subwoofer,Parked,1,Neither,No,1,
-8029,43,Red,Jessica 1714,2024wimi,4,0,0,None,2,0,0,Subwoofer,Not Attempted,3,Ground,No,0,
-8029,49,Red,1714 Leah ,2024wimi,3,1,0,None,0,0,0,None,Not Attempted,3,Ground,Yes - All Of Match,0,
-8029,57,Red,"Liam Wagner, Core 2062",2024wimi,2,0,0,None,2,0,0,Subwoofer,Parked,3,Ground,No,0,
-8029,71,Blue,Chacha 6574,2024wimi,1,1,0,Wing,1,0,0,Subwoofer,Not Attempted,3,Ground,Yes - All Of Match,0,Disabled little before halfway 
-8029,77,Blue,Amelia 1714,2024wimi,4,0,0,None,2,0,0,Subwoofer,Not Attempted,3,Ground,No,0,
-8029,85,Red,Kevin Fajardo 1714,2024wimi,3,0,0,Wing,2,0,0,Subwoofer,Not Attempted,3,Ground,No,0,High centered on a note for almost all of the match
-8096,8,Blue,Toby kapfer 6574,2024wimi,3,0,0,None,0,0,0,None,Single Climb,3,Neither,No,0,
-8096,17,Blue,,2024wimi,3,4,0,"Wing, ""Center Line""",1,0,0,Wing,Single Climb,2,Ground,No,0,
-8096,25,Red,Grady 2062,2024wimi,3,2,0,"Wing, ""Center Line""",1,3,0,"Subwoofer, ""Podium""",Parked,3,Ground,No,0,
-8096,34,Red,Jonathan M #2062,2024wimi,3,2,0,"Wing, ""Center Line""",0,0,0,None,Parked,2,Neither,No,0,
-8096,43,Red,"Liam Wagner, core 2062",2024wimi,3,4,0,"Wing, ""Center Line""",0,2,0,None,Parked,1,Ground,No,0,
-8096,49,Blue,Rae 6574,2024wimi,3,1,0,"Wing, ""Center Line""",4,0,0,"Subwoofer, ""Podium"", ""Wing""",Single Climb,1,"Ground, ""Source (Fed By Human Player)""",No,1,
-8096,55,Red,Alex R 2062,2024wimi,3,4,0,"Wing, ""Center Line""",0,0,0,None,Parked,1,Ground,No,1,
-8096,66,Red,Jessica 1714,2024wimi,3,2,0,Wing,2,8,1,"Subwoofer, ""Wing""",Single Climb,1,Ground,No,0,
-8096,75,Red,Zoe 6574,2024wimi,3,3,0,Wing,1,3,0,"Subwoofer, ""Wing""",Single Climb,1,Ground,No,0,
-8096,83,Blue,"Liam Wagner, Core 2062",2024wimi,3,3,0,"Wing, ""Center Line""",3,2,0,Podium,Single Climb,2,Ground,No,0,
-8531,4,Blue,Toby kapfer6574,2024wimi,2,0,0,None,2,0,0,None,Not Attempted,2,Neither,No,0,
-8531,11,Red,Adam Grouse 2062,2024wimi,4,0,0,None,2,0,0,Subwoofer,Not Attempted,2,Ground,No,0,Lost coms 3 times
-8531,19,Red,Carson 6574,2024wimi,3,1,0,None,1,0,0,Wing,Parked,3,Ground,No,0,Had a hard time getting there intake to work
-8531,28,Blue,Kevin Fajardo 1714,2024wimi,2,0,0,None,3,0,0,Subwoofer,Parked,3,Ground,No,0,
-8531,37,Red,Grady 2062,2024wimi,2,0,0,None,1,0,0,None,Not Attempted,2,Source (Fed By Human Player),No,1,
-8531,46,Red,Alex R 2062,2024wimi,1,1,0,Wing,5,0,0,Subwoofer,Not Attempted,1,Ground,No,0,
-8531,56,Red,"Liam Wagner, Core 2062",2024wimi,3,1,0,Wing,5,0,0,Subwoofer,Parked,2,Ground,No,0,
-8531,78,Blue,Carson 6574,2024wimi,3,1,0,None,0,0,0,None,Not Attempted,1,Ground,No,1,
-8531,84,Blue,"Liam Wagner, Core 206",2024wimi,1,1,0,None,1,0,0,Subwoofer,Parked,3,Ground,No,0,
-8701,1,Blue,Toby kapfer 6574,2024wimi,1,0,0,None,3,1,0,None,Single Climb,2,Neither,No,0,
-8701,11,Red,Cohen 2062,2024wimi,3,1,0,Wing,0,0,0,None,Single Climb,3,Ground,No,0,
-8701,20,Blue,Vitor 1714,2024wimi,3,2,0,Wing,1,0,0,Subwoofer,Single Climb,3,Ground,No,2,Intake seemed to.have broke 
-8701,28,Blue,Preston 6574,2024wimi,1,0,0,None,0,0,0,None,Single Climb,2,Neither,No,1,Played defense entire time
-8701,39,Red,Grady 2062,2024wimi,3,1,0,None,1,0,0,"Subwoofer, ""Podium""",Single Climb,2,Ground,No,0,
-8701,50,Red,Alex R 2062,2024wimi,3,1,0,Wing,0,0,0,None,Single Climb,1,Ground,No,2,
-8701,58,Blue,Margaret 6574,2024wimi,3,1,0,None,0,0,0,None,Attempted But Failed,2,Ground,No,2,Played good defense in front of other alliance speaker.
-8701,65,Red,Isabella 6574,2024wimi,2,0,0,Wing,4,0,0,Wing,Single Climb,2,Ground,No,0,"They broke two notes, unintentionaly."
-8701,75,Blue,Grady2062,2024wimi,3,3,0,Wing,4,0,0,"Subwoofer, ""Podium""",Single Climb,3,"Ground, ""Source (Fed By Human Player)""",No,0,
-8744,12,Blue,Amelia 1714,2024wimi,1,1,0,Center Line,5,0,0,"Podium, ""Wing""",Not Attempted,1,Ground,No,0,
-8744,23,Blue,Zoe 6574,2024wimi,2,4,0,Wing,8,0,0,"Subwoofer, ""Wing""",Not Attempted,1,Ground,No,0,"Driver was very aggressive, got some penalties "
-8744,33,Red,Jonathan M #2602,2024wimi,3,2,0,Wing,5,0,0,Wing,Parked,2,Ground,No,0,
-8744,45,Blue,,2024wimi,3,2,0,Wing,12,0,0,"Subwoofer, ""Wing""",Not Attempted,1,Ground,No,0,930 threw them notes and they kept scoring them
-8744,52,Blue,Rae 6574,2024wimi,3,4,0,Wing,5,0,0,"Subwoofer, ""Podium"", ""Wing""",Attempted But Failed,1,"Ground, ""Source (Fed By Human Player)""",No,1,
-8744,58,Red,Kiersten 2062,2024wimi,3,3,0,Wing,2,0,0,"Subwoofer, ""Wing""",Harmonized,2,Ground,No,0,Attempted multiple shots from wing
-8744,67,Blue,Chacha 6674,2024wimi,2,1,0,Center Line,9,0,0,"Subwoofer, ""Podium"", ""Wing""",Parked,1,Ground,No,0,Very accurate and fast shooter.
-8744,77,Red,Leah 1714,2024wimi,1,2,0,Wing,4,0,0,"Subwoofer, ""Podium"", ""Wing""",Not Attempted,1,Ground,No,0,
-8744,88,Red,Kevin Fajardo 1714,2024wimi,1,2,0,Center Line,5,0,0,"Subwoofer, ""Podium""",Single Climb,2,Ground,No,0,
-8744,3,Red,Georgia 6574,2024wimi,3,4,0,Center Line,2,0,0,Wing,Not Attempted,3,Neither,No,0,"Started strong ,  couldn't get any toward the end\n"
-8802,17,Blue,Amelia 1714,2024wimi,2,0,0,None,2,0,0,Subwoofer,Not Attempted,3,Ground,No,0,Stopped moving about half way through match
-8802,26,Red,April 1714,2024wimi,1,1,0,Wing,3,0,0,None,Not Attempted,1,"Ground, ""Source (Fed By Human Player)""",No,0,
-8802,35,Red,Jonathan M #2062,2024wimi,2,1,0,None,3,0,0,Wing,Not Attempted,2,Ground,No,0,
-8802,45,Red,Jessica 1714,2024wimi,4,1,0,None,7,0,0,Subwoofer,Not Attempted,2,Ground,No,0,
-8802,52,Red,Amelia 1714,2024wimi,4,1,0,None,3,0,0,Subwoofer,Parked,2,Ground,No,0,
-8802,59,Red,Kiersten 2062,2024wimi,4,1,0,None,1,0,0,Subwoofer,Parked,2,Ground,No,1,A note was stuck for most of the match
-8802,65,Blue,Chacha 6674,2024wimi,3,1,0,None,6,0,0,Subwoofer,Not Attempted,1,Ground,No,0,Fast mover and shooter
-8802,78,Red,Leah 1714,2024wimi,4,0,0,None,5,0,0,Subwoofer,Parked,1,Ground,Yes - Part Of Match,0,
-8802,89,Red,Shane 6381,2024wimi,2,2,0,Wing,3,0,0,Subwoofer,Parked,2,Ground,No,0,
-8847,11,Red,Chacha 6574,2024wimi,4,1,0,Wing,2,0,0,Subwoofer,Attempted But Failed,2,Ground,Yes - Part Of Match,0,
-8847,19,Red,Brandon Created core 2062,2024wimi,4,2,0,Wing,0,0,0,None,Single Climb,1,Neither,Yes - Part Of Match,1,Their robot broke down but after they got the robot to move they went straight into defence. their defence was get good.
-8847,20,Red,Brandon Cesarec core 2062,2024wimi,3,0,0,None,0,0,0,None,Attempted But Failed,3,Source (Fed By Human Player),No,0,They weren't able to make a single auto or driver shot. didn't do all game.
-8847,35,Blue,Toby 6574,2024wimi,4,1,0,None,2,0,0,None,Harmonized,3,Neither,No,2,
-8847,47,Red,Jessica 1714,2024wimi,4,2,0,Wing,2,0,0,Subwoofer,Single Climb,3,Ground,No,0,Note got stuck easily and couldn't get it out
-8847,57,Blue,Carson 6574,2024wimi,4,2,0,Wing,0,0,0,None,Attempted But Failed,2,Neither,No,1,
-8847,66,Red,Jonathan M #2062,2024wimi,1,0,0,None,0,0,0,None,Parked,3,Ground,No,2,Appeared to have intake issues.
-8847,73,Red,Grady2062,2024wimi,3,1,0,Wing,2,1,0,Subwoofer,Attempted But Failed,2,Ground,No,0,
-8847,84,Red,Shane 6381,2024wimi,4,0,0,None,4,0,0,None,Not Attempted,2,Ground,No,0,
-9425,2,Blue,Toby kapfer6574,2024wimi,3,0,0,None,4,0,0,None,Harmonized,3,Source (Fed By Human Player),No,0,
-9425,12,Red,Adam Grouse 2062,2024wimi,4,1,0,None,5,0,0,Subwoofer,Attempted But Failed,1,Source (Fed By Human Player),No,0,Failed at harmonizing
-9425,20,Red,Leo 1714,2024wimi,4,1,0,None,4,0,0,Subwoofer,Attempted But Failed,3,Source (Fed By Human Player),No,0,
-9425,30,Blue,Kevin Fajardo 1714,2024wimi,3,1,0,None,2,0,0,Subwoofer,Attempted But Failed,1,Source (Fed By Human Player),No,0,
-9425,44,Red,Diego 1714,2024wimi,4,0,0,None,1,0,0,Subwoofer,Attempted But Failed,3,Ground,No,1,
-9425,50,Blue,,2024wimi,4,0,0,None,4,0,0,Subwoofer,Parked,1,Source (Fed By Human Player),No,0,
-9425,57,Blue,Amelia 1714,2024wimi,3,1,0,None,1,0,0,Subwoofer,Not Attempted,3,Ground,Yes - Part Of Match,2,
-9425,65,Red,Jessica 1714,2024wimi,4,0,0,None,4,0,0,Subwoofer,Not Attempted,3,Source (Fed By Human Player),No,0,Struggle In getting notes from human player and had to wait for subwoofer to be free in order to shoot
-9425,73,Red,Zoe 6574,2024wimi,3,0,0,None,2,0,0,Subwoofer,Not Attempted,3,Source (Fed By Human Player),No,0,
-9425,83,Red,Kevin Fajardo 1714,2024wimi,4,1,0,None,1,0,0,Subwoofer,Parked,1,Source (Fed By Human Player),No,0,
-9535,6,Blue,Diego 1714,2024wimi,3,1,0,None,2,3,0,Subwoofer,Attempted But Failed,3,Ground,No,0,
-9535,12,Red,Leah 1714,2024wimi,3,0,0,None,3,3,0,"Subwoofer, ""Podium""",Harmonized,1,Ground,No,1,
-9535,36,Red,Grady 2062,2024wimi,2,1,0,Wing,1,3,0,Subwoofer,Attempted But Failed,3,Source (Fed By Human Player),No,0,
-9535,43,Blue,Isabella Cohen 6574,2024wimi,3,2,0,Wing,3,2,0,"Subwoofer, ""Wing""",Single Climb,2,Ground,No,1,
-9535,52,Red,1714,2024wimi,3,2,0,None,2,1,0,None,Single Climb,2,Ground,No,0,
-9535,60,Blue,Preston 6574,2024wimi,3,2,0,Wing,5,3,0,Subwoofer,Single Climb,1,Ground,No,0,
-9535,69,Red,Isabella 6574,2024wimi,3,2,0,Wing,6,2,0,"Subwoofer, ""Wing""",Not Attempted,1,Ground,No,0,
-9535,80,Blue,"Liam Wagner, Core 2062",2024wimi,4,0,0,None,2,3,0,Subwoofer,Single Climb,2,Ground,No,1,
-9535,89,Red,Kevin Fajardo 1714,2024wimi,3,1,0,Wing,2,4,0,Subwoofer,Single Climb,1,Ground,No,0,
-9676,12,Blue,Cohen 2062,2024wimi,4,0,0,None,1,5,0,"Subwoofer, ""Wing""",Parked,3,Ground,No,0,
-9676,22,Red,Carson 6574,2024wimi,3,1,0,None,1,2,0,Wing,Not Attempted,1,Ground,No,0,
-9676,28,Blue,Isabella 6574,2024wimi,4,0,0,Wing,0,8,0,Wing,Not Attempted,1,Ground,No,0,
-9676,44,Red,Jessica 1714,2024wimi,4,1,0,None,0,4,0,Wing,Parked,2,Ground,No,0,
-9676,52,Red,"Liam Wagner, Core 2062",2024wimi,4,0,0,None,1,4,0,Subwoofer,Parked,2,Ground,No,0,
-9676,63,Red,Preston 6574,2024wimi,4,0,0,None,0,5,0,Wing,Parked,2,Source (Fed By Human Player),No,0,
-9676,71,Red,Isabella 6574,2024wimi,3,1,0,Wing,0,5,0,Wing,Not Attempted,2,Neither,No,0,
-9676,79,Blue,Carson 6574,2024wimi,3,2,0,Wing,0,4,0,Subwoofer,Parked,3,Ground,No,0,
-9676,90,Red,Shane 6381,2024wimi,2,0,0,None,0,4,0,Wing,Parked,2,Ground,No,0,
-9676,5,Red,Georgia 6574,2024wimi,4,1,0,None,1,2,0,None,Parked,2,Neither,No,0,
-9760,1,Blue,Cohen 2062,2024wimi,4,0,0,None,0,0,0,None,Parked,3,Neither,No,0,
-9760,14,Blue,Cohen 2062,2024wimi,2,0,0,None,0,0,0,None,Parked,3,Source (Fed By Human Player),No,0,
-9760,20,Red,,2024wimi,2,0,0,None,0,0,0,None,Not Attempted,3,Source (Fed By Human Player),No,1,
-9760,28,Red,Grady2062,2024wimi,2,0,0,None,1,0,0,Subwoofer,Not Attempted,1,Source (Fed By Human Player),No,0,
-9760,45,Blue,Isabella Cohen 6574,2024wimi,2,0,0,None,2,0,0,Subwoofer,Parked,3,Source (Fed By Human Player),No,1,
-9760,54,Blue,Amelia 1714,2024wimi,4,0,0,None,0,0,0,None,Not Attempted,2,Source (Fed By Human Player),No,0,
-9760,62,Red,Leo 1714,2024wimi,2,0,0,None,0,0,0,None,Parked,3,Source (Fed By Human Player),No,0,
-9760,68,Red,Grady 2062,2024wimi,4,0,0,None,0,0,0,None,Parked,2,Source (Fed By Human Player),No,0,
-9760,74,Red,Landon 6381,2024wimi,2,0,0,None,0,0,0,None,Not Attempted,3,Neither,No,1,
-9760,83,Red,Shane 6381,2024wimi,2,0,0,None,0,0,0,None,Parked,3,Source (Fed By Human Player),No,0,
+Team Number,Match Number,Alliance Color,Scouter Name,Competition,Starting Position,Auto Notes in Speaker,Auto Notes in Amp,Auto Pickup Location,Tele Notes in Speaker,Tele Notes in Amp,Notes in Trap,Where Notes Scored,Climb,Driver Confidence,Intake Preference,Disabled,Defense Rating,Comments
+2683,1,Red,Scouter1,Northern Lights,Place1,0,0,LocationA,7,2,1,Location2,Yes,5,Ground,Yes,1,Generic comment
+1402,1,Red,Scouter3,Northern Lights,Place3,1,2,LocationB,7,3,0,Location1,No,5,Ground,Yes,4,Generic comment
+4601,1,Red,Scouter2,Northern Lights,Place2,1,0,LocationA,4,3,0,Location1,No,3,Source,Yes,5,Generic comment
+9968,1,Blue,Scouter1,Northern Lights,Place3,3,0,LocationC,7,5,1,Location3,No,2,Ground,Yes,2,Generic comment
+1778,1,Blue,Scouter3,Northern Lights,Place2,3,1,LocationA,10,2,0,Location3,Yes,4,Source,No,2,Generic comment
+8228,1,Blue,Scouter2,Northern Lights,Place3,3,2,LocationA,10,2,0,Location3,Yes,3,Ground,No,4,Generic comment
+4837,2,Red,Scouter3,Northern Lights,Place2,0,0,LocationA,6,0,1,Location1,Yes,5,Ground,No,4,Generic comment
+3797,2,Red,Scouter3,Northern Lights,Place2,3,2,LocationA,6,2,2,Location2,No,2,Source,Yes,4,Generic comment
+8820,2,Red,Scouter1,Northern Lights,Place2,1,2,LocationC,0,5,2,Location2,Yes,5,Source,No,4,Generic comment
+4740,2,Blue,Scouter2,Northern Lights,Place2,2,0,LocationB,8,2,1,Location2,No,2,Ground,Yes,2,Generic comment
+8375,2,Blue,Scouter3,Northern Lights,Place2,2,0,LocationB,9,3,1,Location1,No,2,Ground,Yes,2,Generic comment
+3943,2,Blue,Scouter2,Northern Lights,Place1,0,3,LocationC,9,2,1,Location2,Yes,4,Source,No,5,Generic comment
+6200,3,Red,Scouter1,Northern Lights,Place3,1,1,LocationA,4,1,0,Location3,No,2,Ground,Yes,5,Generic comment
+5603,3,Red,Scouter1,Northern Lights,Place3,1,1,LocationA,7,3,1,Location2,No,1,Source,No,3,Generic comment
+8456,3,Red,Scouter1,Northern Lights,Place3,0,2,LocationB,6,2,1,Location3,Yes,2,Ground,No,3,Generic comment
+8820,3,Blue,Scouter1,Northern Lights,Place2,2,2,LocationB,8,4,2,Location2,Yes,3,Ground,Yes,1,Generic comment
+967,3,Blue,Scouter2,Northern Lights,Place2,0,2,LocationA,10,5,1,Location1,Yes,3,Ground,No,5,Generic comment
+4452,3,Blue,Scouter3,Northern Lights,Place2,0,0,LocationB,10,5,1,Location2,Yes,4,Source,No,3,Generic comment
+9577,4,Red,Scouter1,Northern Lights,Place3,2,2,LocationC,7,3,2,Location1,Yes,4,Source,No,4,Generic comment
+3872,4,Red,Scouter1,Northern Lights,Place1,0,3,LocationA,8,5,0,Location3,Yes,4,Ground,No,4,Generic comment
+9085,4,Red,Scouter3,Northern Lights,Place3,3,0,LocationA,5,5,0,Location2,Yes,5,Source,Yes,1,Generic comment
+1147,4,Blue,Scouter2,Northern Lights,Place3,3,0,LocationB,10,4,2,Location2,No,2,Ground,No,5,Generic comment
+6775,4,Blue,Scouter2,Northern Lights,Place2,3,1,LocationB,6,5,2,Location1,No,1,Ground,Yes,5,Generic comment
+9139,4,Blue,Scouter1,Northern Lights,Place1,2,3,LocationB,3,0,1,Location2,Yes,5,Source,Yes,2,Generic comment
+3816,5,Red,Scouter1,Northern Lights,Place2,0,3,LocationC,1,1,1,Location2,No,3,Ground,No,4,Generic comment
+1286,5,Red,Scouter1,Northern Lights,Place1,2,2,LocationB,3,1,1,Location1,No,3,Source,No,2,Generic comment
+8246,5,Red,Scouter2,Northern Lights,Place1,1,0,LocationC,2,0,1,Location1,Yes,5,Ground,Yes,2,Generic comment
+8954,5,Blue,Scouter1,Northern Lights,Place2,2,2,LocationB,8,3,2,Location2,Yes,3,Source,Yes,5,Generic comment
+1844,5,Blue,Scouter2,Northern Lights,Place3,2,3,LocationB,6,0,0,Location2,No,3,Source,No,5,Generic comment
+8612,5,Blue,Scouter2,Northern Lights,Place2,2,1,LocationB,8,0,0,Location2,No,5,Source,No,1,Generic comment
+7590,6,Red,Scouter3,Northern Lights,Place2,1,0,LocationC,6,3,0,Location2,Yes,3,Source,No,4,Generic comment
+4349,6,Red,Scouter1,Northern Lights,Place2,0,0,LocationB,9,2,0,Location2,No,3,Source,No,4,Generic comment
+3089,6,Red,Scouter3,Northern Lights,Place1,0,0,LocationB,9,5,2,Location3,No,4,Ground,Yes,2,Generic comment
+3797,6,Blue,Scouter3,Northern Lights,Place1,0,3,LocationC,10,3,1,Location2,Yes,5,Source,No,1,Generic comment
+5704,6,Blue,Scouter3,Northern Lights,Place3,1,1,LocationA,2,1,2,Location3,No,4,Source,Yes,1,Generic comment
+6841,6,Blue,Scouter2,Northern Lights,Place2,3,0,LocationB,10,2,1,Location3,Yes,3,Ground,No,4,Generic comment
+2552,7,Red,Scouter3,Northern Lights,Place3,3,0,LocationA,5,0,2,Location1,Yes,3,Ground,No,1,Generic comment
+5672,7,Red,Scouter1,Northern Lights,Place3,2,3,LocationA,7,2,1,Location1,Yes,5,Ground,Yes,1,Generic comment
+6200,7,Red,Scouter3,Northern Lights,Place3,2,3,LocationB,1,0,0,Location3,No,5,Source,No,4,Generic comment
+9577,7,Blue,Scouter2,Northern Lights,Place2,1,2,LocationA,2,0,1,Location1,No,4,Ground,No,1,Generic comment
+3974,7,Blue,Scouter3,Northern Lights,Place3,2,1,LocationC,0,4,2,Location1,Yes,3,Ground,No,2,Generic comment
+8077,7,Blue,Scouter2,Northern Lights,Place3,1,1,LocationB,3,4,1,Location3,No,1,Source,No,1,Generic comment
+4636,8,Red,Scouter3,Northern Lights,Place1,2,0,LocationB,8,0,1,Location1,Yes,4,Ground,Yes,1,Generic comment
+8820,8,Red,Scouter1,Northern Lights,Place3,2,3,LocationB,9,3,0,Location2,Yes,3,Ground,Yes,4,Generic comment
+2244,8,Red,Scouter3,Northern Lights,Place3,3,0,LocationB,6,5,1,Location1,No,3,Source,No,4,Generic comment
+1147,8,Blue,Scouter3,Northern Lights,Place2,2,0,LocationC,5,0,2,Location1,Yes,5,Source,No,1,Generic comment
+6200,8,Blue,Scouter3,Northern Lights,Place1,2,0,LocationC,3,3,2,Location3,Yes,5,Ground,Yes,5,Generic comment
+1840,8,Blue,Scouter2,Northern Lights,Place3,3,2,LocationA,7,2,1,Location1,No,5,Ground,No,1,Generic comment
+8192,9,Red,Scouter1,Northern Lights,Place2,0,0,LocationA,4,1,0,Location3,No,1,Ground,Yes,2,Generic comment
+1036,9,Red,Scouter2,Northern Lights,Place1,0,3,LocationA,9,1,1,Location1,No,2,Ground,No,4,Generic comment
+8375,9,Red,Scouter3,Northern Lights,Place1,2,3,LocationA,6,0,2,Location2,No,5,Ground,Yes,2,Generic comment
+9577,9,Blue,Scouter1,Northern Lights,Place1,0,3,LocationA,2,3,2,Location1,No,4,Source,Yes,2,Generic comment
+8228,9,Blue,Scouter3,Northern Lights,Place1,3,2,LocationB,10,0,0,Location1,Yes,5,Ground,No,1,Generic comment
+4886,9,Blue,Scouter1,Northern Lights,Place2,2,0,LocationB,5,1,1,Location3,No,5,Source,Yes,4,Generic comment
+6200,10,Red,Scouter1,Northern Lights,Place1,0,1,LocationA,6,3,1,Location1,No,5,Ground,No,5,Generic comment
+1402,10,Red,Scouter2,Northern Lights,Place2,2,3,LocationB,6,1,1,Location2,No,2,Ground,Yes,5,Generic comment
+1120,10,Red,Scouter1,Northern Lights,Place3,0,0,LocationC,7,4,1,Location3,No,4,Ground,Yes,3,Generic comment
+8820,10,Blue,Scouter3,Northern Lights,Place2,1,1,LocationB,5,5,0,Location2,No,5,Ground,No,3,Generic comment
+2683,10,Blue,Scouter1,Northern Lights,Place1,1,3,LocationA,1,2,2,Location2,No,2,Ground,Yes,2,Generic comment
+1036,10,Blue,Scouter2,Northern Lights,Place2,1,2,LocationA,4,3,0,Location1,No,4,Ground,No,2,Generic comment
+1647,11,Red,Scouter2,Northern Lights,Place1,3,3,LocationB,0,4,0,Location3,Yes,2,Source,No,4,Generic comment
+3835,11,Red,Scouter1,Northern Lights,Place3,1,3,LocationC,10,5,2,Location1,No,3,Source,Yes,5,Generic comment
+1844,11,Red,Scouter2,Northern Lights,Place1,1,2,LocationA,4,5,2,Location3,Yes,1,Ground,No,4,Generic comment
+3557,11,Blue,Scouter2,Northern Lights,Place3,0,0,LocationB,2,3,1,Location1,Yes,3,Source,Yes,4,Generic comment
+8228,11,Blue,Scouter2,Northern Lights,Place3,0,1,LocationA,7,4,0,Location3,No,3,Ground,Yes,5,Generic comment
+9085,11,Blue,Scouter3,Northern Lights,Place2,1,1,LocationC,4,2,0,Location2,Yes,3,Source,Yes,2,Generic comment
+4740,12,Red,Scouter2,Northern Lights,Place1,1,0,LocationA,7,3,1,Location2,Yes,3,Ground,No,5,Generic comment
+1402,12,Red,Scouter1,Northern Lights,Place3,1,0,LocationB,10,0,2,Location3,No,3,Ground,Yes,5,Generic comment
+5951,12,Red,Scouter3,Northern Lights,Place3,0,1,LocationA,7,0,1,Location2,No,2,Ground,Yes,1,Generic comment
+3510,12,Blue,Scouter3,Northern Lights,Place1,1,3,LocationA,5,5,1,Location2,No,1,Source,Yes,5,Generic comment
+1545,12,Blue,Scouter2,Northern Lights,Place3,1,2,LocationB,10,2,2,Location1,No,3,Source,Yes,1,Generic comment
+7590,12,Blue,Scouter2,Northern Lights,Place3,3,1,LocationB,9,2,2,Location3,Yes,1,Source,Yes,3,Generic comment
+1769,13,Red,Scouter2,Northern Lights,Place3,3,2,LocationB,3,3,1,Location3,Yes,1,Ground,Yes,2,Generic comment
+4601,13,Red,Scouter3,Northern Lights,Place2,3,0,LocationA,6,3,0,Location2,No,5,Ground,No,2,Generic comment
+3341,13,Red,Scouter2,Northern Lights,Place1,1,2,LocationB,0,2,2,Location1,No,5,Ground,Yes,3,Generic comment
+8077,13,Blue,Scouter3,Northern Lights,Place3,2,2,LocationC,5,3,0,Location3,No,5,Ground,No,5,Generic comment
+9605,13,Blue,Scouter1,Northern Lights,Place3,3,2,LocationA,9,3,2,Location2,No,2,Source,Yes,3,Generic comment
+3987,13,Blue,Scouter2,Northern Lights,Place1,2,3,LocationB,3,1,0,Location1,No,2,Ground,Yes,2,Generic comment
+9171,14,Red,Scouter2,Northern Lights,Place2,1,2,LocationC,1,1,1,Location2,Yes,1,Ground,Yes,3,Generic comment
+6831,14,Red,Scouter1,Northern Lights,Place1,1,3,LocationC,1,5,1,Location2,Yes,1,Ground,No,5,Generic comment
+1084,14,Red,Scouter3,Northern Lights,Place2,2,1,LocationC,1,0,1,Location2,Yes,3,Ground,No,5,Generic comment
+1532,14,Blue,Scouter1,Northern Lights,Place3,2,3,LocationB,7,5,0,Location3,Yes,1,Source,Yes,1,Generic comment
+4740,14,Blue,Scouter2,Northern Lights,Place1,0,0,LocationA,9,3,2,Location3,Yes,4,Ground,No,4,Generic comment
+8314,14,Blue,Scouter2,Northern Lights,Place3,3,0,LocationB,2,1,0,Location3,Yes,5,Source,No,1,Generic comment
+3557,15,Red,Scouter3,Northern Lights,Place2,2,3,LocationC,7,4,0,Location3,No,2,Source,No,4,Generic comment
+2244,15,Red,Scouter1,Northern Lights,Place1,1,0,LocationC,10,1,1,Location1,Yes,2,Ground,No,2,Generic comment
+6440,15,Red,Scouter2,Northern Lights,Place1,1,0,LocationA,8,2,1,Location1,Yes,5,Ground,Yes,4,Generic comment
+6680,15,Blue,Scouter3,Northern Lights,Place1,3,2,LocationA,1,4,0,Location2,Yes,1,Source,Yes,2,Generic comment
+5704,15,Blue,Scouter1,Northern Lights,Place3,3,3,LocationA,6,1,0,Location1,Yes,2,Source,Yes,3,Generic comment
+8456,15,Blue,Scouter3,Northern Lights,Place3,2,0,LocationC,5,1,1,Location3,No,5,Ground,No,5,Generic comment
+2683,16,Red,Scouter1,Northern Lights,Place2,1,3,LocationA,1,4,0,Location3,Yes,2,Ground,Yes,1,Generic comment
+9605,16,Red,Scouter2,Northern Lights,Place1,2,2,LocationB,8,3,2,Location3,Yes,5,Ground,Yes,4,Generic comment
+1647,16,Red,Scouter1,Northern Lights,Place2,1,2,LocationB,3,0,2,Location1,Yes,4,Source,Yes,4,Generic comment
+1545,16,Blue,Scouter3,Northern Lights,Place2,3,1,LocationA,0,1,1,Location3,Yes,2,Ground,No,2,Generic comment
+4740,16,Blue,Scouter1,Northern Lights,Place1,3,0,LocationA,5,2,0,Location1,No,3,Source,Yes,1,Generic comment
+1532,16,Blue,Scouter2,Northern Lights,Place1,3,2,LocationB,10,0,0,Location1,Yes,1,Ground,No,4,Generic comment
+4452,17,Red,Scouter1,Northern Lights,Place2,3,0,LocationA,3,3,2,Location3,No,2,Ground,Yes,3,Generic comment
+3987,17,Red,Scouter1,Northern Lights,Place3,0,2,LocationC,10,2,2,Location2,Yes,2,Source,Yes,3,Generic comment
+3974,17,Red,Scouter3,Northern Lights,Place1,3,0,LocationB,1,4,1,Location3,No,4,Ground,Yes,4,Generic comment
+8246,17,Blue,Scouter1,Northern Lights,Place3,3,3,LocationA,10,2,2,Location1,No,4,Source,No,4,Generic comment
+8509,17,Blue,Scouter1,Northern Lights,Place3,3,2,LocationC,6,0,2,Location3,No,4,Source,No,4,Generic comment
+1769,17,Blue,Scouter2,Northern Lights,Place3,3,2,LocationA,6,2,2,Location1,Yes,3,Ground,Yes,5,Generic comment
+3650,18,Red,Scouter1,Northern Lights,Place3,1,0,LocationC,3,1,1,Location1,No,1,Ground,No,2,Generic comment
+1769,18,Red,Scouter1,Northern Lights,Place2,3,3,LocationB,1,2,0,Location1,Yes,5,Ground,No,4,Generic comment
+1147,18,Red,Scouter1,Northern Lights,Place1,2,2,LocationA,7,2,2,Location3,Yes,1,Ground,Yes,4,Generic comment
+9171,18,Blue,Scouter3,Northern Lights,Place1,3,2,LocationA,2,4,2,Location2,No,1,Source,Yes,4,Generic comment
+7982,18,Blue,Scouter2,Northern Lights,Place2,3,0,LocationC,6,4,1,Location1,Yes,2,Ground,Yes,1,Generic comment
+4636,18,Blue,Scouter3,Northern Lights,Place2,0,2,LocationB,7,3,2,Location1,Yes,1,Ground,No,4,Generic comment
+8212,19,Red,Scouter3,Northern Lights,Place3,3,3,LocationB,3,1,2,Location1,Yes,3,Source,Yes,2,Generic comment
+5951,19,Red,Scouter2,Northern Lights,Place2,3,0,LocationC,9,5,0,Location3,Yes,1,Source,Yes,2,Generic comment
+8235,19,Red,Scouter3,Northern Lights,Place3,2,3,LocationC,9,3,2,Location3,No,1,Ground,Yes,5,Generic comment
+8954,19,Blue,Scouter2,Northern Lights,Place3,3,2,LocationB,8,1,2,Location3,Yes,2,Source,No,5,Generic comment
+9144,19,Blue,Scouter3,Northern Lights,Place2,3,2,LocationA,9,3,2,Location3,Yes,5,Ground,Yes,5,Generic comment
+6788,19,Blue,Scouter3,Northern Lights,Place3,3,0,LocationB,3,5,1,Location2,Yes,1,Source,No,2,Generic comment
+6009,20,Red,Scouter1,Northern Lights,Place3,3,0,LocationA,8,3,1,Location2,Yes,4,Ground,No,5,Generic comment
+3650,20,Red,Scouter1,Northern Lights,Place1,0,1,LocationC,10,2,1,Location2,Yes,3,Ground,Yes,4,Generic comment
+3557,20,Red,Scouter1,Northern Lights,Place2,2,2,LocationA,0,5,1,Location3,No,3,Ground,Yes,1,Generic comment
+3940,20,Blue,Scouter3,Northern Lights,Place2,3,2,LocationC,0,1,2,Location2,No,2,Ground,No,4,Generic comment
+5406,20,Blue,Scouter3,Northern Lights,Place1,3,0,LocationC,1,4,0,Location1,No,4,Ground,No,3,Generic comment
+6200,20,Blue,Scouter2,Northern Lights,Place3,3,1,LocationB,2,3,1,Location1,Yes,5,Ground,No,2,Generic comment
+9662,21,Red,Scouter3,Northern Lights,Place3,2,3,LocationC,3,1,2,Location3,No,5,Ground,No,2,Generic comment
+7982,21,Red,Scouter2,Northern Lights,Place3,1,2,LocationA,10,2,2,Location2,Yes,2,Ground,Yes,3,Generic comment
+1769,21,Red,Scouter1,Northern Lights,Place3,2,2,LocationC,4,5,2,Location1,Yes,2,Ground,Yes,5,Generic comment
+7482,21,Blue,Scouter2,Northern Lights,Place1,0,3,LocationB,2,3,0,Location3,No,3,Ground,Yes,1,Generic comment
+5672,21,Blue,Scouter3,Northern Lights,Place1,3,3,LocationC,5,5,2,Location3,No,5,Ground,Yes,2,Generic comment
+8509,21,Blue,Scouter1,Northern Lights,Place1,1,2,LocationA,7,0,1,Location1,Yes,3,Source,Yes,3,Generic comment
+9081,22,Red,Scouter1,Northern Lights,Place2,1,2,LocationA,8,4,1,Location1,Yes,3,Ground,Yes,3,Generic comment
+2244,22,Red,Scouter3,Northern Lights,Place2,2,3,LocationA,4,4,1,Location3,No,5,Ground,No,2,Generic comment
+942,22,Red,Scouter1,Northern Lights,Place1,3,2,LocationA,7,4,1,Location1,Yes,5,Source,Yes,4,Generic comment
+2683,22,Blue,Scouter3,Northern Lights,Place2,3,0,LocationC,0,2,0,Location2,Yes,1,Source,No,2,Generic comment
+7788,22,Blue,Scouter2,Northern Lights,Place2,2,3,LocationA,10,2,2,Location1,No,3,Source,Yes,3,Generic comment
+1286,22,Blue,Scouter3,Northern Lights,Place2,0,3,LocationA,7,1,1,Location1,Yes,3,Ground,No,3,Generic comment
+1545,23,Red,Scouter3,Northern Lights,Place3,2,0,LocationB,7,4,0,Location3,No,3,Ground,Yes,5,Generic comment
+9015,23,Red,Scouter3,Northern Lights,Place2,1,3,LocationC,10,3,2,Location1,No,4,Ground,Yes,1,Generic comment
+9605,23,Red,Scouter2,Northern Lights,Place2,1,3,LocationC,10,3,1,Location1,No,2,Ground,No,5,Generic comment
+1532,23,Blue,Scouter2,Northern Lights,Place1,3,2,LocationB,2,3,0,Location3,Yes,4,Ground,Yes,4,Generic comment
+4754,23,Blue,Scouter2,Northern Lights,Place2,2,3,LocationA,4,1,2,Location3,No,1,Source,Yes,3,Generic comment
+4452,23,Blue,Scouter3,Northern Lights,Place3,1,2,LocationC,6,0,0,Location2,Yes,4,Ground,No,1,Generic comment
+1647,24,Red,Scouter1,Northern Lights,Place1,1,0,LocationA,6,0,2,Location3,Yes,2,Ground,No,5,Generic comment
+3557,24,Red,Scouter1,Northern Lights,Place1,3,3,LocationA,5,1,1,Location2,No,3,Source,No,2,Generic comment
+967,24,Red,Scouter3,Northern Lights,Place3,1,1,LocationA,5,1,0,Location2,No,4,Ground,Yes,4,Generic comment
+6697,24,Blue,Scouter2,Northern Lights,Place2,1,2,LocationC,10,0,2,Location2,No,2,Ground,No,3,Generic comment
+1844,24,Blue,Scouter1,Northern Lights,Place2,2,0,LocationA,7,1,1,Location2,Yes,2,Ground,No,5,Generic comment
+6788,24,Blue,Scouter3,Northern Lights,Place2,3,1,LocationC,8,5,0,Location3,No,2,Ground,Yes,3,Generic comment
+9214,25,Red,Scouter2,Northern Lights,Place2,2,0,LocationC,0,2,1,Location3,Yes,5,Ground,Yes,4,Generic comment
+3650,25,Red,Scouter2,Northern Lights,Place3,0,0,LocationA,0,1,1,Location2,Yes,5,Source,Yes,4,Generic comment
+3341,25,Red,Scouter2,Northern Lights,Place3,1,0,LocationB,6,5,2,Location1,Yes,4,Ground,Yes,2,Generic comment
+4601,25,Blue,Scouter3,Northern Lights,Place1,3,0,LocationA,1,2,1,Location3,Yes,4,Ground,Yes,3,Generic comment
+8456,25,Blue,Scouter3,Northern Lights,Place1,1,1,LocationC,10,4,0,Location2,Yes,1,Source,Yes,3,Generic comment
+3557,25,Blue,Scouter2,Northern Lights,Place1,0,2,LocationA,4,0,0,Location3,Yes,3,Source,No,4,Generic comment
+7788,26,Red,Scouter2,Northern Lights,Place1,1,1,LocationB,3,5,2,Location1,No,5,Source,Yes,5,Generic comment
+9036,26,Red,Scouter3,Northern Lights,Place1,2,1,LocationB,6,0,2,Location1,Yes,4,Source,No,1,Generic comment
+9968,26,Red,Scouter1,Northern Lights,Place1,0,2,LocationB,1,2,2,Location1,Yes,1,Ground,No,1,Generic comment
+6788,26,Blue,Scouter1,Northern Lights,Place2,0,2,LocationB,6,5,0,Location2,Yes,2,Ground,Yes,5,Generic comment
+4886,26,Blue,Scouter3,Northern Lights,Place3,3,1,LocationB,10,5,2,Location2,Yes,4,Source,Yes,5,Generic comment
+6440,26,Blue,Scouter3,Northern Lights,Place1,3,1,LocationA,4,0,1,Location2,Yes,1,Source,Yes,4,Generic comment
+1147,27,Red,Scouter1,Northern Lights,Place1,3,3,LocationC,8,1,1,Location1,Yes,5,Source,Yes,2,Generic comment
+4740,27,Red,Scouter3,Northern Lights,Place2,0,2,LocationB,5,1,2,Location1,Yes,5,Source,Yes,1,Generic comment
+1769,27,Red,Scouter2,Northern Lights,Place1,3,0,LocationC,7,4,1,Location3,No,4,Source,Yes,3,Generic comment
+6009,27,Blue,Scouter3,Northern Lights,Place1,0,0,LocationA,1,4,2,Location3,No,3,Ground,Yes,5,Generic comment
+2244,27,Blue,Scouter3,Northern Lights,Place2,2,3,LocationB,8,1,0,Location3,No,2,Ground,No,1,Generic comment
+4349,27,Blue,Scouter1,Northern Lights,Place3,1,3,LocationC,0,1,1,Location1,Yes,2,Ground,No,5,Generic comment
+3650,28,Red,Scouter3,Northern Lights,Place2,3,2,LocationC,7,1,1,Location3,No,5,Source,Yes,1,Generic comment
+8212,28,Red,Scouter2,Northern Lights,Place2,3,0,LocationC,7,0,2,Location1,No,3,Source,Yes,5,Generic comment
+1545,28,Red,Scouter2,Northern Lights,Place3,0,3,LocationA,9,4,2,Location3,Yes,1,Source,Yes,4,Generic comment
+1036,28,Blue,Scouter3,Northern Lights,Place3,0,1,LocationA,4,3,2,Location1,No,1,Ground,No,2,Generic comment
+3943,28,Blue,Scouter1,Northern Lights,Place1,0,2,LocationC,1,3,1,Location3,No,1,Source,No,5,Generic comment
+8456,28,Blue,Scouter1,Northern Lights,Place1,2,2,LocationC,9,2,1,Location2,No,3,Ground,No,5,Generic comment
+1647,29,Red,Scouter2,Northern Lights,Place2,2,2,LocationB,1,1,1,Location2,No,3,Ground,No,4,Generic comment
+8612,29,Red,Scouter3,Northern Lights,Place2,3,0,LocationC,2,2,0,Location1,Yes,1,Source,No,5,Generic comment
+6009,29,Red,Scouter2,Northern Lights,Place1,1,3,LocationB,9,0,1,Location2,Yes,5,Ground,Yes,4,Generic comment
+9085,29,Blue,Scouter2,Northern Lights,Place1,0,3,LocationB,3,3,2,Location3,No,5,Source,Yes,2,Generic comment
+1502,29,Blue,Scouter2,Northern Lights,Place2,2,1,LocationA,0,2,0,Location1,No,1,Ground,No,2,Generic comment
+1545,29,Blue,Scouter3,Northern Lights,Place1,1,0,LocationC,6,4,1,Location2,Yes,3,Source,No,3,Generic comment
+3835,30,Red,Scouter1,Northern Lights,Place3,0,1,LocationC,5,3,2,Location2,No,1,Ground,Yes,5,Generic comment
+8192,30,Red,Scouter2,Northern Lights,Place2,0,2,LocationA,8,3,2,Location2,No,5,Source,Yes,5,Generic comment
+9144,30,Red,Scouter1,Northern Lights,Place2,0,1,LocationA,9,5,1,Location3,Yes,5,Ground,Yes,5,Generic comment
+8456,30,Blue,Scouter2,Northern Lights,Place1,3,0,LocationC,3,0,2,Location3,Yes,2,Ground,No,1,Generic comment
+4452,30,Blue,Scouter1,Northern Lights,Place1,1,0,LocationC,5,2,2,Location3,Yes,4,Ground,Yes,5,Generic comment
+5406,30,Blue,Scouter3,Northern Lights,Place3,2,0,LocationB,7,3,2,Location1,Yes,4,Source,No,2,Generic comment
+967,31,Red,Scouter3,Northern Lights,Place3,0,1,LocationB,9,0,1,Location2,Yes,4,Source,Yes,2,Generic comment
+9015,31,Red,Scouter3,Northern Lights,Place3,3,0,LocationC,10,0,1,Location1,No,5,Ground,No,2,Generic comment
+6788,31,Red,Scouter1,Northern Lights,Place2,3,3,LocationB,8,3,0,Location2,Yes,1,Ground,Yes,5,Generic comment
+1751,31,Blue,Scouter2,Northern Lights,Place1,2,0,LocationA,1,5,2,Location2,Yes,3,Ground,Yes,4,Generic comment
+6680,31,Blue,Scouter1,Northern Lights,Place3,2,3,LocationB,3,0,2,Location3,No,3,Source,No,4,Generic comment
+9605,31,Blue,Scouter3,Northern Lights,Place2,0,3,LocationB,10,5,1,Location3,No,3,Ground,No,4,Generic comment
+4636,32,Red,Scouter1,Northern Lights,Place1,1,2,LocationC,7,3,1,Location2,Yes,5,Ground,Yes,2,Generic comment
+1402,32,Red,Scouter3,Northern Lights,Place3,0,1,LocationC,10,4,0,Location1,No,5,Source,Yes,2,Generic comment
+4740,32,Red,Scouter3,Northern Lights,Place3,3,2,LocationC,1,0,2,Location3,Yes,3,Ground,No,4,Generic comment
+7111,32,Blue,Scouter2,Northern Lights,Place1,2,2,LocationA,10,1,2,Location3,Yes,1,Ground,No,5,Generic comment
+7597,32,Blue,Scouter1,Northern Lights,Place3,3,1,LocationA,5,1,2,Location2,Yes,3,Ground,Yes,4,Generic comment
+8409,32,Blue,Scouter2,Northern Lights,Place1,1,0,LocationB,3,2,2,Location3,No,5,Source,No,1,Generic comment
+7597,33,Red,Scouter2,Northern Lights,Place3,3,2,LocationB,0,1,2,Location3,No,2,Source,No,4,Generic comment
+1844,33,Red,Scouter1,Northern Lights,Place2,2,3,LocationB,1,4,2,Location2,No,3,Source,Yes,2,Generic comment
+1545,33,Red,Scouter3,Northern Lights,Place1,1,3,LocationC,3,4,0,Location3,Yes,5,Ground,No,3,Generic comment
+3557,33,Blue,Scouter1,Northern Lights,Place3,1,1,LocationC,2,0,2,Location3,Yes,3,Source,Yes,5,Generic comment
+3987,33,Blue,Scouter1,Northern Lights,Place2,2,1,LocationB,6,0,1,Location3,No,2,Source,No,4,Generic comment
+8612,33,Blue,Scouter1,Northern Lights,Place3,2,3,LocationC,2,1,2,Location1,Yes,2,Source,No,5,Generic comment
+942,34,Red,Scouter1,Northern Lights,Place2,0,2,LocationC,2,3,1,Location1,Yes,4,Ground,No,4,Generic comment
+8077,34,Red,Scouter1,Northern Lights,Place3,0,1,LocationC,8,4,2,Location3,No,4,Source,No,3,Generic comment
+8235,34,Red,Scouter3,Northern Lights,Place1,0,0,LocationC,0,3,1,Location1,Yes,3,Ground,Yes,1,Generic comment
+9036,34,Blue,Scouter3,Northern Lights,Place3,2,0,LocationB,1,0,2,Location2,Yes,4,Ground,Yes,5,Generic comment
+9419,34,Blue,Scouter3,Northern Lights,Place1,3,3,LocationC,4,2,1,Location2,No,2,Source,Yes,2,Generic comment
+1532,34,Blue,Scouter1,Northern Lights,Place1,2,3,LocationA,5,3,0,Location3,Yes,4,Ground,Yes,4,Generic comment
+6009,35,Red,Scouter3,Northern Lights,Place1,1,3,LocationC,2,2,0,Location1,No,5,Source,No,1,Generic comment
+8509,35,Red,Scouter1,Northern Lights,Place1,3,1,LocationC,1,5,0,Location3,Yes,2,Ground,No,2,Generic comment
+6788,35,Red,Scouter1,Northern Lights,Place1,2,2,LocationB,1,1,1,Location3,Yes,3,Ground,Yes,3,Generic comment
+3341,35,Blue,Scouter2,Northern Lights,Place2,1,3,LocationB,8,3,1,Location2,Yes,5,Source,No,3,Generic comment
+1120,35,Blue,Scouter3,Northern Lights,Place1,2,1,LocationA,10,4,1,Location2,No,3,Source,No,4,Generic comment
+9081,35,Blue,Scouter2,Northern Lights,Place2,2,0,LocationA,2,5,0,Location2,Yes,1,Ground,No,5,Generic comment
+3987,36,Red,Scouter2,Northern Lights,Place3,1,2,LocationA,9,4,0,Location2,Yes,4,Ground,Yes,2,Generic comment
+9662,36,Red,Scouter1,Northern Lights,Place3,2,3,LocationC,2,4,1,Location3,No,5,Source,Yes,5,Generic comment
+6352,36,Red,Scouter2,Northern Lights,Place2,3,0,LocationC,1,4,0,Location2,No,1,Source,Yes,2,Generic comment
+6775,36,Blue,Scouter3,Northern Lights,Place1,0,3,LocationA,7,5,0,Location2,No,1,Source,No,2,Generic comment
+1532,36,Blue,Scouter2,Northern Lights,Place1,1,1,LocationC,8,1,2,Location2,Yes,2,Ground,No,5,Generic comment
+1778,36,Blue,Scouter2,Northern Lights,Place2,1,3,LocationC,6,1,1,Location1,No,3,Source,No,2,Generic comment
+3974,37,Red,Scouter2,Northern Lights,Place1,0,0,LocationA,7,1,1,Location2,No,1,Source,No,5,Generic comment
+8954,37,Red,Scouter1,Northern Lights,Place3,2,3,LocationC,7,4,0,Location2,Yes,1,Source,No,5,Generic comment
+5603,37,Red,Scouter1,Northern Lights,Place1,1,0,LocationA,0,5,1,Location3,No,4,Ground,Yes,5,Generic comment
+7788,37,Blue,Scouter2,Northern Lights,Place3,3,0,LocationA,9,2,1,Location1,No,2,Source,Yes,3,Generic comment
+4820,37,Blue,Scouter3,Northern Lights,Place3,0,2,LocationC,1,4,0,Location3,No,5,Ground,No,4,Generic comment
+8409,37,Blue,Scouter3,Northern Lights,Place1,0,0,LocationC,4,5,2,Location1,No,5,Ground,Yes,2,Generic comment
+9015,38,Red,Scouter3,Northern Lights,Place1,0,3,LocationC,9,3,0,Location1,No,1,Ground,Yes,5,Generic comment
+9036,38,Red,Scouter1,Northern Lights,Place1,3,3,LocationB,4,3,0,Location3,Yes,4,Ground,No,3,Generic comment
+8954,38,Red,Scouter2,Northern Lights,Place1,3,3,LocationC,8,5,0,Location3,Yes,3,Ground,No,5,Generic comment
+6775,38,Blue,Scouter2,Northern Lights,Place1,3,3,LocationB,10,0,0,Location2,No,3,Source,Yes,5,Generic comment
+9144,38,Blue,Scouter2,Northern Lights,Place3,3,0,LocationA,2,5,1,Location2,No,2,Ground,Yes,1,Generic comment
+6440,38,Blue,Scouter2,Northern Lights,Place3,3,2,LocationA,5,0,0,Location1,No,1,Source,Yes,4,Generic comment
+7982,39,Red,Scouter1,Northern Lights,Place3,1,0,LocationA,1,2,0,Location3,No,5,Source,No,3,Generic comment
+8212,39,Red,Scouter2,Northern Lights,Place2,2,2,LocationB,10,3,2,Location1,No,5,Ground,Yes,3,Generic comment
+3650,39,Red,Scouter3,Northern Lights,Place3,2,0,LocationC,5,3,1,Location2,No,5,Source,Yes,2,Generic comment
+6773,39,Blue,Scouter1,Northern Lights,Place1,3,1,LocationB,10,4,2,Location1,Yes,2,Ground,No,4,Generic comment
+8235,39,Blue,Scouter3,Northern Lights,Place3,2,1,LocationB,4,3,0,Location2,No,4,Ground,No,3,Generic comment
+9605,39,Blue,Scouter2,Northern Lights,Place2,1,2,LocationB,4,4,1,Location2,No,4,Source,Yes,5,Generic comment
+2683,40,Red,Scouter3,Northern Lights,Place1,0,2,LocationC,3,4,2,Location3,No,5,Ground,Yes,3,Generic comment
+3940,40,Red,Scouter1,Northern Lights,Place1,2,0,LocationB,0,4,1,Location1,No,4,Source,Yes,5,Generic comment
+5704,40,Red,Scouter2,Northern Lights,Place1,0,3,LocationC,5,0,1,Location1,No,2,Source,Yes,4,Generic comment
+6440,40,Blue,Scouter3,Northern Lights,Place2,2,0,LocationC,9,1,0,Location3,Yes,5,Ground,Yes,4,Generic comment
+8409,40,Blue,Scouter3,Northern Lights,Place2,2,3,LocationB,6,4,1,Location2,Yes,2,Ground,Yes,3,Generic comment
+4636,40,Blue,Scouter1,Northern Lights,Place2,1,2,LocationC,10,4,0,Location3,Yes,4,Source,Yes,2,Generic comment
+1286,41,Red,Scouter1,Northern Lights,Place1,2,1,LocationA,2,3,1,Location1,No,1,Source,Yes,4,Generic comment
+8820,41,Red,Scouter2,Northern Lights,Place3,1,0,LocationA,5,4,0,Location2,Yes,3,Ground,No,3,Generic comment
+4754,41,Red,Scouter3,Northern Lights,Place2,1,3,LocationB,0,4,2,Location2,No,1,Source,No,4,Generic comment
+3940,41,Blue,Scouter1,Northern Lights,Place1,3,2,LocationA,0,2,0,Location2,No,3,Ground,No,2,Generic comment
+1532,41,Blue,Scouter3,Northern Lights,Place3,0,1,LocationC,0,3,0,Location3,No,4,Ground,No,1,Generic comment
+4276,41,Blue,Scouter2,Northern Lights,Place3,0,0,LocationA,10,1,2,Location1,No,2,Ground,Yes,4,Generic comment
+1402,42,Red,Scouter2,Northern Lights,Place1,3,3,LocationB,1,3,1,Location3,No,1,Source,Yes,2,Generic comment
+3816,42,Red,Scouter2,Northern Lights,Place2,1,0,LocationA,7,5,2,Location3,Yes,5,Source,No,4,Generic comment
+7482,42,Red,Scouter2,Northern Lights,Place1,2,0,LocationC,8,3,0,Location3,No,4,Ground,No,5,Generic comment
+9015,42,Blue,Scouter3,Northern Lights,Place2,2,0,LocationB,8,3,1,Location3,Yes,2,Ground,Yes,3,Generic comment
+6352,42,Blue,Scouter3,Northern Lights,Place3,3,0,LocationB,5,0,1,Location3,No,1,Ground,Yes,1,Generic comment
+9171,42,Blue,Scouter1,Northern Lights,Place3,0,2,LocationB,6,4,2,Location2,No,5,Ground,Yes,4,Generic comment
+5603,43,Red,Scouter3,Northern Lights,Place3,0,1,LocationA,7,0,1,Location3,No,4,Source,No,2,Generic comment
+1545,43,Red,Scouter2,Northern Lights,Place2,2,3,LocationB,5,5,2,Location3,Yes,2,Source,Yes,2,Generic comment
+1036,43,Red,Scouter3,Northern Lights,Place1,0,0,LocationC,7,4,0,Location3,Yes,2,Source,No,4,Generic comment
+1286,43,Blue,Scouter3,Northern Lights,Place2,0,0,LocationA,1,2,1,Location1,No,4,Source,Yes,3,Generic comment
+6038,43,Blue,Scouter3,Northern Lights,Place3,1,1,LocationC,5,1,0,Location3,Yes,4,Ground,Yes,1,Generic comment
+6788,43,Blue,Scouter3,Northern Lights,Place2,2,0,LocationA,7,0,1,Location1,Yes,1,Source,No,3,Generic comment
+9081,44,Red,Scouter2,Northern Lights,Place3,0,0,LocationA,0,2,1,Location1,No,1,Ground,No,1,Generic comment
+4820,44,Red,Scouter3,Northern Lights,Place3,3,2,LocationC,5,3,2,Location1,Yes,3,Source,Yes,2,Generic comment
+9085,44,Red,Scouter2,Northern Lights,Place2,1,3,LocationC,3,3,1,Location3,Yes,2,Ground,Yes,5,Generic comment
+4886,44,Blue,Scouter3,Northern Lights,Place2,3,1,LocationA,3,3,0,Location1,No,2,Source,Yes,5,Generic comment
+8228,44,Blue,Scouter3,Northern Lights,Place3,1,1,LocationC,6,0,0,Location1,No,4,Ground,No,4,Generic comment
+5704,44,Blue,Scouter2,Northern Lights,Place3,3,3,LocationA,4,2,2,Location3,Yes,4,Ground,Yes,2,Generic comment
+1286,45,Red,Scouter2,Northern Lights,Place2,0,2,LocationC,5,2,0,Location3,Yes,5,Ground,No,1,Generic comment
+1421,45,Red,Scouter2,Northern Lights,Place1,3,3,LocationC,9,1,0,Location3,No,5,Source,Yes,2,Generic comment
+7982,45,Red,Scouter2,Northern Lights,Place1,1,0,LocationB,5,0,0,Location1,No,1,Source,No,3,Generic comment
+4886,45,Blue,Scouter2,Northern Lights,Place3,2,2,LocationC,1,5,0,Location1,Yes,2,Ground,Yes,3,Generic comment
+3943,45,Blue,Scouter2,Northern Lights,Place2,3,0,LocationC,1,0,1,Location1,No,5,Source,Yes,5,Generic comment
+8820,45,Blue,Scouter3,Northern Lights,Place3,3,3,LocationA,7,0,0,Location3,No,4,Ground,Yes,1,Generic comment
+4601,46,Red,Scouter1,Northern Lights,Place1,0,1,LocationB,1,0,1,Location1,No,5,Source,Yes,2,Generic comment
+7788,46,Red,Scouter2,Northern Lights,Place3,0,2,LocationC,8,0,0,Location1,No,1,Ground,No,3,Generic comment
+4276,46,Red,Scouter2,Northern Lights,Place1,2,3,LocationC,1,5,2,Location3,No,2,Ground,Yes,1,Generic comment
+8612,46,Blue,Scouter1,Northern Lights,Place2,3,1,LocationC,1,0,0,Location3,Yes,5,Source,Yes,5,Generic comment
+5672,46,Blue,Scouter3,Northern Lights,Place1,0,1,LocationA,10,2,0,Location1,Yes,5,Source,Yes,4,Generic comment
+1933,46,Blue,Scouter1,Northern Lights,Place3,3,0,LocationB,0,2,2,Location1,No,1,Source,Yes,1,Generic comment
+1084,47,Red,Scouter2,Northern Lights,Place3,2,1,LocationB,2,0,1,Location1,No,5,Ground,No,5,Generic comment
+5672,47,Red,Scouter1,Northern Lights,Place3,1,3,LocationC,1,3,0,Location3,Yes,2,Ground,Yes,5,Generic comment
+7597,47,Red,Scouter2,Northern Lights,Place2,2,1,LocationC,0,0,0,Location2,Yes,5,Ground,No,4,Generic comment
+3872,47,Blue,Scouter3,Northern Lights,Place1,0,0,LocationB,10,2,1,Location3,No,4,Source,No,5,Generic comment
+9036,47,Blue,Scouter2,Northern Lights,Place2,3,3,LocationA,8,1,0,Location1,Yes,5,Ground,No,1,Generic comment
+1778,47,Blue,Scouter2,Northern Lights,Place3,3,0,LocationA,3,5,0,Location3,No,4,Source,No,3,Generic comment
+9419,48,Red,Scouter3,Northern Lights,Place2,3,3,LocationB,10,4,2,Location3,No,5,Ground,No,1,Generic comment
+4636,48,Red,Scouter3,Northern Lights,Place1,3,1,LocationB,0,2,0,Location1,Yes,4,Ground,Yes,5,Generic comment
+3510,48,Red,Scouter3,Northern Lights,Place2,3,2,LocationB,3,5,1,Location3,No,4,Source,Yes,4,Generic comment
+5406,48,Blue,Scouter1,Northern Lights,Place2,1,1,LocationC,0,4,0,Location2,Yes,3,Ground,No,2,Generic comment
+9605,48,Blue,Scouter1,Northern Lights,Place2,1,0,LocationB,8,0,1,Location2,Yes,5,Ground,Yes,2,Generic comment
+8314,48,Blue,Scouter1,Northern Lights,Place1,3,3,LocationB,10,3,2,Location3,Yes,4,Source,No,4,Generic comment
+8456,49,Red,Scouter2,Northern Lights,Place1,1,1,LocationB,5,4,1,Location1,No,5,Source,Yes,1,Generic comment
+9085,49,Red,Scouter3,Northern Lights,Place2,3,2,LocationA,10,2,0,Location3,No,4,Ground,No,1,Generic comment
+9306,49,Red,Scouter1,Northern Lights,Place3,3,1,LocationB,4,0,1,Location1,Yes,2,Source,No,2,Generic comment
+3974,49,Blue,Scouter2,Northern Lights,Place2,3,0,LocationA,0,0,0,Location3,Yes,3,Ground,Yes,2,Generic comment
+8612,49,Blue,Scouter3,Northern Lights,Place3,2,2,LocationB,1,0,1,Location1,Yes,1,Ground,Yes,4,Generic comment
+1036,49,Blue,Scouter1,Northern Lights,Place2,0,0,LocationA,6,5,0,Location2,Yes,4,Source,No,4,Generic comment
+8212,50,Red,Scouter1,Northern Lights,Place3,0,1,LocationB,9,4,1,Location3,No,2,Source,Yes,3,Generic comment
+9419,50,Red,Scouter1,Northern Lights,Place2,1,2,LocationC,0,0,1,Location3,No,2,Source,No,5,Generic comment
+3557,50,Red,Scouter1,Northern Lights,Place3,3,0,LocationB,0,0,1,Location3,Yes,1,Source,No,1,Generic comment
+1647,50,Blue,Scouter3,Northern Lights,Place3,2,0,LocationA,8,0,1,Location2,Yes,5,Ground,Yes,3,Generic comment
+3510,50,Blue,Scouter3,Northern Lights,Place1,1,2,LocationA,9,4,2,Location2,No,3,Source,Yes,5,Generic comment
+1084,50,Blue,Scouter2,Northern Lights,Place1,0,1,LocationC,7,3,0,Location2,Yes,2,Source,Yes,5,Generic comment
+2608,51,Red,Scouter2,Northern Lights,Place2,0,3,LocationA,4,4,1,Location1,No,2,Ground,No,2,Generic comment
+8314,51,Red,Scouter2,Northern Lights,Place2,3,0,LocationB,9,2,1,Location3,No,4,Source,Yes,5,Generic comment
+5672,51,Red,Scouter3,Northern Lights,Place3,2,3,LocationA,7,3,2,Location2,No,1,Ground,Yes,1,Generic comment
+967,51,Blue,Scouter3,Northern Lights,Place3,2,3,LocationA,3,0,1,Location1,No,3,Ground,Yes,4,Generic comment
+9577,51,Blue,Scouter2,Northern Lights,Place3,3,3,LocationC,0,5,1,Location2,Yes,3,Source,No,4,Generic comment
+9144,51,Blue,Scouter3,Northern Lights,Place1,1,1,LocationC,6,3,2,Location2,Yes,2,Source,Yes,3,Generic comment
+8228,52,Red,Scouter2,Northern Lights,Place1,3,2,LocationC,9,5,0,Location2,Yes,2,Source,No,4,Generic comment
+3974,52,Red,Scouter3,Northern Lights,Place3,2,3,LocationB,3,2,2,Location1,Yes,3,Source,Yes,2,Generic comment
+4636,52,Red,Scouter1,Northern Lights,Place3,1,0,LocationA,4,4,0,Location1,Yes,4,Source,Yes,3,Generic comment
+6773,52,Blue,Scouter2,Northern Lights,Place3,1,3,LocationB,3,1,2,Location3,No,2,Source,Yes,2,Generic comment
+5672,52,Blue,Scouter3,Northern Lights,Place2,0,3,LocationC,6,2,1,Location1,Yes,2,Ground,Yes,3,Generic comment
+8612,52,Blue,Scouter3,Northern Lights,Place3,0,1,LocationA,8,3,2,Location3,Yes,4,Ground,Yes,2,Generic comment
+6788,53,Red,Scouter1,Northern Lights,Place2,3,0,LocationA,8,3,2,Location2,Yes,1,Source,Yes,4,Generic comment
+1532,53,Red,Scouter2,Northern Lights,Place3,1,3,LocationC,10,2,0,Location3,Yes,5,Ground,No,2,Generic comment
+8954,53,Red,Scouter1,Northern Lights,Place2,2,3,LocationC,9,4,0,Location2,No,2,Source,No,1,Generic comment
+1286,53,Blue,Scouter3,Northern Lights,Place1,3,0,LocationA,6,3,0,Location1,No,2,Source,Yes,1,Generic comment
+7597,53,Blue,Scouter1,Northern Lights,Place3,3,3,LocationC,3,0,1,Location3,No,4,Ground,No,3,Generic comment
+2683,53,Blue,Scouter1,Northern Lights,Place1,3,0,LocationA,2,2,1,Location1,Yes,4,Ground,No,1,Generic comment
+3943,54,Red,Scouter2,Northern Lights,Place3,2,2,LocationC,0,3,1,Location1,Yes,3,Source,No,5,Generic comment
+3872,54,Red,Scouter1,Northern Lights,Place3,1,2,LocationA,6,0,0,Location2,Yes,3,Source,No,2,Generic comment
+9214,54,Red,Scouter1,Northern Lights,Place3,1,3,LocationC,3,5,1,Location2,Yes,5,Source,No,5,Generic comment
+9605,54,Blue,Scouter2,Northern Lights,Place1,3,1,LocationB,7,1,2,Location2,No,3,Ground,No,5,Generic comment
+942,54,Blue,Scouter2,Northern Lights,Place3,2,1,LocationC,6,2,0,Location2,Yes,3,Ground,Yes,2,Generic comment
+6680,54,Blue,Scouter3,Northern Lights,Place2,3,1,LocationA,5,2,1,Location1,Yes,2,Source,Yes,2,Generic comment
+7982,55,Red,Scouter1,Northern Lights,Place1,2,2,LocationC,7,5,2,Location3,Yes,4,Ground,Yes,2,Generic comment
+4837,55,Red,Scouter2,Northern Lights,Place2,1,1,LocationA,10,3,1,Location2,Yes,3,Source,No,5,Generic comment
+9015,55,Red,Scouter3,Northern Lights,Place1,3,3,LocationB,9,5,0,Location3,No,3,Ground,No,3,Generic comment
+7597,55,Blue,Scouter3,Northern Lights,Place2,0,2,LocationA,7,1,2,Location1,Yes,1,Ground,Yes,5,Generic comment
+8509,55,Blue,Scouter2,Northern Lights,Place2,1,1,LocationB,4,1,0,Location2,No,3,Source,Yes,5,Generic comment
+1286,55,Blue,Scouter1,Northern Lights,Place1,1,0,LocationA,10,1,0,Location3,Yes,4,Ground,Yes,1,Generic comment
+9968,56,Red,Scouter3,Northern Lights,Place3,3,3,LocationA,2,3,1,Location3,No,4,Source,No,1,Generic comment
+9015,56,Red,Scouter1,Northern Lights,Place2,0,1,LocationC,2,5,0,Location1,No,2,Source,No,2,Generic comment
+9036,56,Red,Scouter1,Northern Lights,Place1,3,0,LocationA,1,0,0,Location3,Yes,1,Source,No,3,Generic comment
+4754,56,Blue,Scouter3,Northern Lights,Place1,1,0,LocationB,5,4,0,Location1,Yes,5,Source,Yes,1,Generic comment
+1840,56,Blue,Scouter2,Northern Lights,Place2,1,2,LocationB,2,5,1,Location2,Yes,4,Ground,Yes,3,Generic comment
+1421,56,Blue,Scouter1,Northern Lights,Place1,3,3,LocationC,0,2,2,Location1,Yes,5,Ground,Yes,2,Generic comment
+4349,57,Red,Scouter3,Northern Lights,Place3,2,3,LocationA,7,3,2,Location1,Yes,5,Ground,Yes,2,Generic comment
+7597,57,Red,Scouter3,Northern Lights,Place3,3,3,LocationA,6,4,1,Location1,No,4,Ground,No,5,Generic comment
+6697,57,Red,Scouter2,Northern Lights,Place1,2,1,LocationB,3,2,2,Location1,Yes,5,Ground,Yes,1,Generic comment
+9577,57,Blue,Scouter2,Northern Lights,Place3,3,2,LocationB,3,5,2,Location3,Yes,3,Ground,No,3,Generic comment
+1844,57,Blue,Scouter2,Northern Lights,Place1,1,0,LocationB,10,1,0,Location1,Yes,2,Ground,No,1,Generic comment
+4276,57,Blue,Scouter2,Northern Lights,Place1,0,0,LocationB,2,4,1,Location2,Yes,5,Source,No,2,Generic comment
+9662,58,Red,Scouter3,Northern Lights,Place1,0,3,LocationA,7,5,2,Location1,Yes,3,Source,Yes,5,Generic comment
+8375,58,Red,Scouter2,Northern Lights,Place2,1,0,LocationC,0,5,0,Location2,Yes,5,Ground,Yes,5,Generic comment
+5672,58,Red,Scouter3,Northern Lights,Place1,1,2,LocationC,7,3,1,Location3,No,3,Ground,Yes,2,Generic comment
+8212,58,Blue,Scouter3,Northern Lights,Place3,0,1,LocationA,4,5,0,Location1,No,1,Ground,Yes,5,Generic comment
+8820,58,Blue,Scouter1,Northern Lights,Place2,2,3,LocationB,6,1,2,Location2,No,4,Ground,Yes,4,Generic comment
+6680,58,Blue,Scouter1,Northern Lights,Place2,0,0,LocationA,5,5,0,Location2,No,5,Source,Yes,4,Generic comment
+9015,59,Red,Scouter2,Northern Lights,Place3,3,0,LocationA,4,1,0,Location2,No,5,Ground,Yes,2,Generic comment
+9085,59,Red,Scouter3,Northern Lights,Place2,2,2,LocationC,2,5,0,Location3,Yes,5,Source,Yes,5,Generic comment
+5672,59,Red,Scouter3,Northern Lights,Place2,3,2,LocationA,8,4,2,Location3,No,2,Ground,Yes,5,Generic comment
+3974,59,Blue,Scouter1,Northern Lights,Place2,3,1,LocationA,5,1,1,Location1,No,1,Source,Yes,2,Generic comment
+4820,59,Blue,Scouter1,Northern Lights,Place2,3,2,LocationA,4,0,2,Location2,No,1,Source,Yes,1,Generic comment
+1769,59,Blue,Scouter1,Northern Lights,Place1,1,1,LocationA,1,5,2,Location2,Yes,1,Ground,No,1,Generic comment
+6038,60,Red,Scouter2,Northern Lights,Place2,3,0,LocationC,1,2,1,Location1,No,5,Source,Yes,3,Generic comment
+5406,60,Red,Scouter1,Northern Lights,Place1,1,3,LocationC,4,4,0,Location2,Yes,4,Ground,No,4,Generic comment
+1751,60,Red,Scouter3,Northern Lights,Place2,0,3,LocationB,1,3,1,Location2,Yes,1,Source,No,1,Generic comment
+8314,60,Blue,Scouter1,Northern Lights,Place1,3,2,LocationA,6,5,1,Location2,No,5,Source,Yes,2,Generic comment
+9419,60,Blue,Scouter2,Northern Lights,Place3,3,2,LocationC,10,1,2,Location1,Yes,3,Source,Yes,1,Generic comment
+6841,60,Blue,Scouter2,Northern Lights,Place2,1,3,LocationB,8,0,1,Location1,No,3,Source,Yes,3,Generic comment
+3797,61,Red,Scouter2,Northern Lights,Place2,1,0,LocationB,7,4,1,Location2,No,1,Ground,Yes,1,Generic comment
+5672,61,Red,Scouter2,Northern Lights,Place3,1,1,LocationC,9,0,0,Location3,Yes,5,Source,Yes,2,Generic comment
+4452,61,Red,Scouter2,Northern Lights,Place1,0,1,LocationA,0,2,2,Location1,No,2,Ground,Yes,1,Generic comment
+9577,61,Blue,Scouter3,Northern Lights,Place1,0,3,LocationC,5,1,0,Location3,Yes,3,Ground,No,1,Generic comment
+9419,61,Blue,Scouter3,Northern Lights,Place3,0,1,LocationB,0,3,2,Location3,No,3,Source,Yes,2,Generic comment
+1502,61,Blue,Scouter1,Northern Lights,Place3,3,1,LocationB,0,5,2,Location2,No,4,Ground,Yes,1,Generic comment
+1844,62,Red,Scouter2,Northern Lights,Place3,2,3,LocationC,7,0,2,Location1,Yes,5,Ground,Yes,1,Generic comment
+7597,62,Red,Scouter2,Northern Lights,Place3,1,2,LocationC,0,1,0,Location2,Yes,1,Source,Yes,5,Generic comment
+3987,62,Red,Scouter1,Northern Lights,Place3,0,1,LocationC,0,1,1,Location1,Yes,5,Source,Yes,5,Generic comment
+8375,62,Blue,Scouter3,Northern Lights,Place2,0,1,LocationB,2,1,1,Location3,Yes,5,Source,Yes,5,Generic comment
+3510,62,Blue,Scouter2,Northern Lights,Place1,0,0,LocationB,8,4,0,Location2,Yes,2,Source,No,4,Generic comment
+6038,62,Blue,Scouter2,Northern Lights,Place1,0,0,LocationB,4,5,2,Location1,No,4,Ground,No,3,Generic comment
+9081,63,Red,Scouter1,Northern Lights,Place1,3,3,LocationB,8,0,1,Location2,Yes,5,Source,No,2,Generic comment
+8375,63,Red,Scouter1,Northern Lights,Place3,2,2,LocationB,2,0,0,Location1,Yes,5,Source,Yes,1,Generic comment
+4837,63,Red,Scouter1,Northern Lights,Place1,3,3,LocationC,9,0,2,Location1,No,1,Source,No,5,Generic comment
+1502,63,Blue,Scouter3,Northern Lights,Place2,2,2,LocationA,7,4,1,Location3,No,5,Ground,No,5,Generic comment
+9171,63,Blue,Scouter2,Northern Lights,Place2,3,3,LocationC,7,4,0,Location1,Yes,1,Source,No,4,Generic comment
+3835,63,Blue,Scouter3,Northern Lights,Place3,3,2,LocationB,1,4,0,Location3,No,3,Ground,Yes,4,Generic comment
+9605,64,Red,Scouter2,Northern Lights,Place2,1,0,LocationB,3,2,2,Location1,No,3,Ground,No,4,Generic comment
+3974,64,Red,Scouter1,Northern Lights,Place3,1,3,LocationC,2,1,0,Location3,Yes,4,Source,No,4,Generic comment
+942,64,Red,Scouter1,Northern Lights,Place1,1,0,LocationB,9,5,0,Location3,No,5,Ground,No,1,Generic comment
+1421,64,Blue,Scouter2,Northern Lights,Place3,3,0,LocationA,0,4,1,Location3,Yes,3,Source,Yes,1,Generic comment
+1147,64,Blue,Scouter1,Northern Lights,Place3,2,0,LocationB,8,3,1,Location2,Yes,4,Ground,No,3,Generic comment
+9081,64,Blue,Scouter3,Northern Lights,Place1,2,1,LocationC,2,2,1,Location1,Yes,4,Ground,No,1,Generic comment
+8612,65,Red,Scouter1,Northern Lights,Place3,3,0,LocationA,1,2,2,Location1,No,3,Ground,Yes,4,Generic comment
+6788,65,Red,Scouter1,Northern Lights,Place1,3,0,LocationA,2,3,1,Location1,Yes,4,Ground,No,2,Generic comment
+6009,65,Red,Scouter3,Northern Lights,Place1,3,2,LocationB,10,1,1,Location1,No,2,Source,Yes,4,Generic comment
+1769,65,Blue,Scouter1,Northern Lights,Place3,2,3,LocationA,10,5,0,Location2,Yes,4,Source,Yes,4,Generic comment
+2608,65,Blue,Scouter1,Northern Lights,Place1,1,1,LocationA,7,4,1,Location1,No,2,Ground,No,5,Generic comment
+3987,65,Blue,Scouter2,Northern Lights,Place3,0,3,LocationC,8,1,1,Location1,No,3,Ground,No,2,Generic comment
+7111,66,Red,Scouter1,Northern Lights,Place1,3,3,LocationB,6,3,2,Location2,Yes,5,Source,No,2,Generic comment
+3816,66,Red,Scouter2,Northern Lights,Place2,2,0,LocationB,5,4,0,Location2,No,4,Ground,Yes,2,Generic comment
+8456,66,Red,Scouter1,Northern Lights,Place2,1,3,LocationC,7,2,0,Location2,No,3,Source,No,1,Generic comment
+8192,66,Blue,Scouter1,Northern Lights,Place1,0,0,LocationC,0,3,1,Location1,Yes,4,Ground,Yes,2,Generic comment
+6841,66,Blue,Scouter3,Northern Lights,Place2,3,3,LocationA,7,3,2,Location1,Yes,5,Ground,No,2,Generic comment
+6352,66,Blue,Scouter1,Northern Lights,Place3,2,2,LocationC,5,4,1,Location3,Yes,1,Ground,Yes,4,Generic comment
+9085,67,Red,Scouter1,Northern Lights,Place3,1,3,LocationA,8,5,2,Location2,No,4,Source,Yes,5,Generic comment
+6831,67,Red,Scouter2,Northern Lights,Place3,1,0,LocationC,1,0,2,Location2,No,3,Source,Yes,3,Generic comment
+5603,67,Red,Scouter3,Northern Lights,Place3,2,2,LocationB,6,4,1,Location1,No,2,Source,No,4,Generic comment
+8456,67,Blue,Scouter1,Northern Lights,Place2,2,2,LocationA,3,3,0,Location1,No,3,Ground,No,3,Generic comment
+1402,67,Blue,Scouter3,Northern Lights,Place2,2,1,LocationC,5,1,2,Location1,No,1,Ground,Yes,4,Generic comment
+6200,67,Blue,Scouter1,Northern Lights,Place1,3,1,LocationB,10,4,0,Location3,No,3,Ground,No,4,Generic comment
+1769,68,Red,Scouter2,Northern Lights,Place3,3,2,LocationA,9,0,1,Location1,No,1,Source,Yes,1,Generic comment
+9144,68,Red,Scouter3,Northern Lights,Place3,1,0,LocationC,10,5,1,Location2,No,1,Source,Yes,2,Generic comment
+5672,68,Red,Scouter2,Northern Lights,Place2,2,2,LocationA,3,3,0,Location3,No,4,Ground,Yes,3,Generic comment
+6440,68,Blue,Scouter3,Northern Lights,Place1,2,1,LocationA,6,3,0,Location1,No,1,Ground,Yes,3,Generic comment
+1402,68,Blue,Scouter2,Northern Lights,Place2,1,2,LocationB,5,5,1,Location3,No,5,Ground,No,2,Generic comment
+1120,68,Blue,Scouter3,Northern Lights,Place1,1,2,LocationA,6,2,2,Location1,No,4,Source,Yes,3,Generic comment
+8212,69,Red,Scouter2,Northern Lights,Place3,3,2,LocationA,9,1,2,Location1,Yes,1,Ground,No,5,Generic comment
+9214,69,Red,Scouter1,Northern Lights,Place3,0,0,LocationC,0,5,0,Location2,No,5,Source,Yes,4,Generic comment
+8235,69,Red,Scouter3,Northern Lights,Place1,2,0,LocationB,4,5,0,Location1,Yes,4,Source,Yes,5,Generic comment
+942,69,Blue,Scouter2,Northern Lights,Place2,0,0,LocationB,0,5,2,Location3,No,2,Ground,Yes,1,Generic comment
+9306,69,Blue,Scouter3,Northern Lights,Place2,2,1,LocationB,5,1,2,Location2,Yes,3,Ground,Yes,2,Generic comment
+1933,69,Blue,Scouter2,Northern Lights,Place1,0,1,LocationB,3,0,0,Location1,Yes,5,Ground,No,5,Generic comment
+8612,70,Red,Scouter3,Northern Lights,Place2,1,2,LocationA,9,2,0,Location3,No,1,Ground,No,4,Generic comment
+7111,70,Red,Scouter1,Northern Lights,Place1,3,3,LocationA,2,0,0,Location1,Yes,4,Source,Yes,5,Generic comment
+2244,70,Red,Scouter1,Northern Lights,Place3,3,0,LocationC,9,0,2,Location3,Yes,5,Source,Yes,4,Generic comment
+3510,70,Blue,Scouter3,Northern Lights,Place1,2,3,LocationA,6,3,2,Location1,Yes,1,Source,No,4,Generic comment
+1084,70,Blue,Scouter2,Northern Lights,Place2,3,1,LocationA,9,2,2,Location3,No,5,Ground,Yes,1,Generic comment
+1844,70,Blue,Scouter1,Northern Lights,Place1,0,3,LocationC,8,3,1,Location1,No,1,Ground,Yes,4,Generic comment
+6831,71,Red,Scouter1,Northern Lights,Place1,1,1,LocationC,5,0,2,Location3,Yes,3,Ground,No,2,Generic comment
+9577,71,Red,Scouter3,Northern Lights,Place3,2,3,LocationA,1,0,0,Location1,No,4,Source,No,5,Generic comment
+7982,71,Red,Scouter1,Northern Lights,Place2,1,1,LocationA,3,2,1,Location2,No,5,Source,No,3,Generic comment
+3797,71,Blue,Scouter1,Northern Lights,Place2,1,2,LocationB,2,5,1,Location2,No,2,Source,Yes,5,Generic comment
+8820,71,Blue,Scouter1,Northern Lights,Place3,1,2,LocationC,9,2,0,Location3,Yes,5,Ground,Yes,4,Generic comment
+4754,71,Blue,Scouter1,Northern Lights,Place3,1,1,LocationC,7,0,2,Location3,Yes,4,Source,Yes,3,Generic comment
+7597,72,Red,Scouter2,Northern Lights,Place3,0,0,LocationC,5,5,0,Location3,No,4,Source,No,1,Generic comment
+3089,72,Red,Scouter1,Northern Lights,Place1,3,0,LocationA,9,2,0,Location3,Yes,2,Source,No,2,Generic comment
+9577,72,Red,Scouter3,Northern Lights,Place2,1,1,LocationC,6,5,1,Location1,No,1,Ground,Yes,2,Generic comment
+5603,72,Blue,Scouter3,Northern Lights,Place3,2,0,LocationB,4,4,1,Location1,No,3,Ground,No,3,Generic comment
+6200,72,Blue,Scouter2,Northern Lights,Place1,3,2,LocationA,10,1,0,Location2,Yes,3,Ground,Yes,2,Generic comment
+4820,72,Blue,Scouter1,Northern Lights,Place1,1,2,LocationB,3,3,0,Location2,No,4,Source,No,5,Generic comment
+4740,73,Red,Scouter2,Northern Lights,Place3,2,0,LocationA,3,4,0,Location1,No,2,Ground,Yes,3,Generic comment
+3974,73,Red,Scouter2,Northern Lights,Place2,2,0,LocationC,7,3,0,Location3,Yes,4,Source,Yes,2,Generic comment
+8375,73,Red,Scouter3,Northern Lights,Place1,2,1,LocationA,7,1,0,Location3,No,4,Source,Yes,3,Generic comment
+6009,73,Blue,Scouter1,Northern Lights,Place1,3,2,LocationC,10,2,0,Location3,No,3,Ground,No,2,Generic comment
+3650,73,Blue,Scouter1,Northern Lights,Place2,3,2,LocationA,4,4,0,Location2,Yes,3,Source,No,1,Generic comment
+1286,73,Blue,Scouter2,Northern Lights,Place2,3,3,LocationC,0,3,1,Location1,No,5,Source,No,4,Generic comment
+4452,74,Red,Scouter1,Northern Lights,Place2,1,3,LocationB,5,0,1,Location3,Yes,3,Ground,No,5,Generic comment
+4820,74,Red,Scouter2,Northern Lights,Place1,1,1,LocationA,4,2,1,Location2,No,5,Source,Yes,3,Generic comment
+9214,74,Red,Scouter2,Northern Lights,Place1,1,1,LocationC,9,1,2,Location1,Yes,3,Source,No,2,Generic comment
+8612,74,Blue,Scouter2,Northern Lights,Place2,2,2,LocationA,6,5,1,Location3,Yes,4,Source,Yes,5,Generic comment
+3940,74,Blue,Scouter1,Northern Lights,Place3,0,2,LocationA,3,1,0,Location1,No,4,Source,Yes,4,Generic comment
+1502,74,Blue,Scouter3,Northern Lights,Place3,2,0,LocationB,10,2,2,Location3,No,2,Ground,Yes,5,Generic comment
+9419,75,Red,Scouter3,Northern Lights,Place3,1,1,LocationA,2,3,1,Location2,Yes,4,Ground,Yes,3,Generic comment
+7482,75,Red,Scouter3,Northern Lights,Place3,3,0,LocationB,9,4,2,Location2,Yes,2,Ground,No,2,Generic comment
+1036,75,Red,Scouter3,Northern Lights,Place1,0,1,LocationA,1,0,2,Location2,No,3,Ground,No,3,Generic comment
+1286,75,Blue,Scouter3,Northern Lights,Place3,0,0,LocationB,8,5,1,Location1,No,2,Ground,Yes,4,Generic comment
+6773,75,Blue,Scouter2,Northern Lights,Place3,0,1,LocationA,0,1,0,Location2,Yes,2,Source,Yes,1,Generic comment
+6697,75,Blue,Scouter2,Northern Lights,Place3,2,2,LocationC,10,3,0,Location1,Yes,4,Ground,Yes,3,Generic comment
+967,76,Red,Scouter2,Northern Lights,Place3,1,2,LocationB,8,2,1,Location2,Yes,5,Ground,No,4,Generic comment
+2244,76,Red,Scouter2,Northern Lights,Place1,3,2,LocationB,5,4,1,Location2,No,1,Source,No,3,Generic comment
+942,76,Red,Scouter3,Northern Lights,Place2,0,2,LocationC,10,4,2,Location2,No,2,Source,Yes,4,Generic comment
+1036,76,Blue,Scouter3,Northern Lights,Place2,2,3,LocationB,9,5,2,Location3,Yes,2,Source,Yes,2,Generic comment
+9144,76,Blue,Scouter1,Northern Lights,Place3,2,3,LocationC,10,4,0,Location1,Yes,1,Source,Yes,4,Generic comment
+1778,76,Blue,Scouter1,Northern Lights,Place2,0,1,LocationA,4,3,1,Location2,Yes,5,Source,No,3,Generic comment
+9577,77,Red,Scouter1,Northern Lights,Place1,0,3,LocationB,5,5,0,Location1,No,1,Source,No,3,Generic comment
+1036,77,Red,Scouter3,Northern Lights,Place2,2,2,LocationC,5,3,1,Location2,No,3,Source,Yes,3,Generic comment
+9036,77,Red,Scouter1,Northern Lights,Place3,2,3,LocationC,8,5,2,Location1,No,4,Source,Yes,3,Generic comment
+967,77,Blue,Scouter1,Northern Lights,Place3,1,0,LocationA,8,1,1,Location1,Yes,5,Ground,Yes,5,Generic comment
+6697,77,Blue,Scouter3,Northern Lights,Place1,1,0,LocationA,1,0,1,Location1,Yes,5,Ground,No,1,Generic comment
+6831,77,Blue,Scouter3,Northern Lights,Place3,1,2,LocationA,3,2,1,Location1,Yes,4,Ground,No,4,Generic comment
+9171,78,Red,Scouter1,Northern Lights,Place1,1,2,LocationB,4,0,1,Location2,No,1,Ground,No,1,Generic comment
+1120,78,Red,Scouter3,Northern Lights,Place2,3,0,LocationA,4,5,0,Location3,Yes,3,Source,Yes,4,Generic comment
+5406,78,Red,Scouter1,Northern Lights,Place2,2,3,LocationC,3,3,1,Location3,No,4,Source,No,2,Generic comment
+1778,78,Blue,Scouter2,Northern Lights,Place1,1,1,LocationA,5,1,1,Location1,Yes,5,Source,No,2,Generic comment
+6440,78,Blue,Scouter3,Northern Lights,Place2,3,0,LocationC,0,1,2,Location3,Yes,4,Ground,No,3,Generic comment
+9306,78,Blue,Scouter3,Northern Lights,Place2,0,0,LocationB,4,4,1,Location3,No,4,Ground,Yes,4,Generic comment
+9085,79,Red,Scouter3,Northern Lights,Place2,1,2,LocationB,5,0,0,Location2,Yes,2,Source,No,1,Generic comment
+9419,79,Red,Scouter1,Northern Lights,Place1,0,1,LocationA,7,4,2,Location1,No,1,Ground,Yes,3,Generic comment
+4636,79,Red,Scouter3,Northern Lights,Place3,2,3,LocationA,5,0,1,Location2,Yes,1,Ground,No,5,Generic comment
+3797,79,Blue,Scouter1,Northern Lights,Place2,0,2,LocationC,2,1,2,Location2,No,3,Source,No,1,Generic comment
+6352,79,Blue,Scouter2,Northern Lights,Place2,2,0,LocationA,4,5,1,Location3,No,3,Source,No,3,Generic comment
+3510,79,Blue,Scouter2,Northern Lights,Place3,3,3,LocationC,8,0,2,Location1,No,5,Ground,No,3,Generic comment
+7111,80,Red,Scouter1,Northern Lights,Place1,0,0,LocationA,4,4,1,Location3,Yes,5,Source,No,3,Generic comment
+7590,80,Red,Scouter2,Northern Lights,Place1,1,0,LocationB,8,2,2,Location3,No,2,Ground,No,5,Generic comment
+9306,80,Red,Scouter1,Northern Lights,Place3,2,1,LocationC,2,2,0,Location3,Yes,4,Ground,No,5,Generic comment
+6352,80,Blue,Scouter2,Northern Lights,Place1,1,1,LocationB,9,3,0,Location1,No,2,Ground,Yes,3,Generic comment
+2552,80,Blue,Scouter1,Northern Lights,Place2,1,1,LocationC,6,2,2,Location1,Yes,5,Source,No,4,Generic comment
+1036,80,Blue,Scouter2,Northern Lights,Place1,0,1,LocationC,9,4,0,Location1,Yes,5,Ground,Yes,3,Generic comment
+1751,81,Red,Scouter3,Northern Lights,Place1,3,1,LocationB,2,4,0,Location1,Yes,1,Source,No,2,Generic comment
+1036,81,Red,Scouter1,Northern Lights,Place2,0,1,LocationA,3,3,0,Location1,No,1,Ground,No,1,Generic comment
+8509,81,Red,Scouter3,Northern Lights,Place3,3,2,LocationC,0,3,0,Location1,No,1,Ground,No,1,Generic comment
+8375,81,Blue,Scouter1,Northern Lights,Place3,0,3,LocationA,9,5,1,Location1,No,2,Ground,No,1,Generic comment
+9144,81,Blue,Scouter2,Northern Lights,Place3,0,2,LocationA,5,3,2,Location2,No,4,Ground,Yes,4,Generic comment
+6304,81,Blue,Scouter3,Northern Lights,Place3,0,1,LocationB,5,3,0,Location1,Yes,1,Ground,No,3,Generic comment
+9577,82,Red,Scouter2,Northern Lights,Place1,3,1,LocationC,9,2,0,Location1,No,3,Ground,Yes,5,Generic comment
+9214,82,Red,Scouter1,Northern Lights,Place2,1,0,LocationA,4,0,1,Location3,No,4,Ground,No,5,Generic comment
+6680,82,Red,Scouter2,Northern Lights,Place1,2,2,LocationB,10,5,2,Location1,Yes,5,Ground,No,2,Generic comment
+9968,82,Blue,Scouter2,Northern Lights,Place2,3,2,LocationB,3,3,1,Location2,No,3,Ground,No,4,Generic comment
+4740,82,Blue,Scouter1,Northern Lights,Place3,3,2,LocationC,1,1,0,Location1,Yes,1,Ground,No,2,Generic comment
+8509,82,Blue,Scouter1,Northern Lights,Place3,1,2,LocationC,4,0,1,Location2,No,1,Ground,Yes,1,Generic comment
+4349,83,Red,Scouter2,Northern Lights,Place1,2,1,LocationA,8,2,0,Location3,Yes,4,Ground,Yes,1,Generic comment
+1402,83,Red,Scouter1,Northern Lights,Place1,2,0,LocationB,9,3,1,Location1,No,5,Ground,No,2,Generic comment
+5672,83,Red,Scouter3,Northern Lights,Place3,1,3,LocationB,3,5,0,Location1,Yes,2,Source,Yes,1,Generic comment
+1844,83,Blue,Scouter1,Northern Lights,Place3,3,0,LocationA,3,1,1,Location1,Yes,3,Ground,No,4,Generic comment
+3974,83,Blue,Scouter1,Northern Lights,Place3,3,0,LocationA,2,1,0,Location3,Yes,3,Source,Yes,5,Generic comment
+4601,83,Blue,Scouter1,Northern Lights,Place1,3,1,LocationB,5,5,0,Location2,Yes,4,Ground,No,4,Generic comment
+8212,84,Red,Scouter2,Northern Lights,Place1,1,1,LocationA,8,2,2,Location2,Yes,3,Ground,No,5,Generic comment
+4276,84,Red,Scouter2,Northern Lights,Place2,1,1,LocationA,1,5,2,Location3,No,4,Ground,No,4,Generic comment
+8077,84,Red,Scouter3,Northern Lights,Place3,1,2,LocationB,8,1,1,Location3,Yes,3,Source,No,1,Generic comment
+1844,84,Blue,Scouter1,Northern Lights,Place2,2,1,LocationB,7,0,1,Location2,No,2,Ground,No,2,Generic comment
+9605,84,Blue,Scouter1,Northern Lights,Place3,2,1,LocationC,8,1,2,Location1,No,3,Ground,Yes,1,Generic comment
+3089,84,Blue,Scouter3,Northern Lights,Place1,3,3,LocationA,9,5,2,Location1,No,5,Ground,Yes,1,Generic comment
+5951,85,Red,Scouter2,Northern Lights,Place2,2,0,LocationA,2,0,0,Location3,Yes,2,Ground,No,2,Generic comment
+1286,85,Red,Scouter2,Northern Lights,Place1,0,1,LocationA,0,3,1,Location3,Yes,2,Ground,No,2,Generic comment
+4349,85,Red,Scouter1,Northern Lights,Place1,3,2,LocationC,0,3,2,Location2,No,3,Source,No,3,Generic comment
+8375,85,Blue,Scouter1,Northern Lights,Place2,0,1,LocationA,2,2,2,Location1,Yes,2,Ground,No,2,Generic comment
+6841,85,Blue,Scouter2,Northern Lights,Place3,0,2,LocationB,8,3,2,Location3,Yes,5,Source,Yes,2,Generic comment
+1147,85,Blue,Scouter1,Northern Lights,Place1,1,1,LocationA,7,2,2,Location2,No,1,Ground,Yes,2,Generic comment
+7590,86,Red,Scouter3,Northern Lights,Place3,1,2,LocationA,4,1,2,Location1,No,5,Ground,No,2,Generic comment
+1421,86,Red,Scouter3,Northern Lights,Place1,1,1,LocationA,2,1,2,Location1,No,5,Ground,Yes,5,Generic comment
+7482,86,Red,Scouter1,Northern Lights,Place2,2,0,LocationC,10,0,2,Location2,Yes,5,Ground,Yes,2,Generic comment
+3341,86,Blue,Scouter2,Northern Lights,Place2,1,0,LocationB,1,4,2,Location3,Yes,3,Ground,No,2,Generic comment
+6841,86,Blue,Scouter2,Northern Lights,Place3,0,1,LocationA,8,5,1,Location1,Yes,1,Source,Yes,2,Generic comment
+942,86,Blue,Scouter3,Northern Lights,Place3,0,1,LocationC,8,0,2,Location1,No,3,Ground,No,4,Generic comment
+4886,87,Red,Scouter1,Northern Lights,Place2,3,1,LocationC,7,3,2,Location3,No,5,Ground,Yes,4,Generic comment
+5603,87,Red,Scouter3,Northern Lights,Place1,2,3,LocationC,8,3,2,Location3,No,1,Ground,Yes,4,Generic comment
+4820,87,Red,Scouter1,Northern Lights,Place1,1,1,LocationA,5,5,0,Location1,Yes,4,Ground,No,5,Generic comment
+9081,87,Blue,Scouter1,Northern Lights,Place2,3,0,LocationB,3,2,2,Location3,No,3,Source,No,3,Generic comment
+8612,87,Blue,Scouter2,Northern Lights,Place2,3,2,LocationC,2,0,1,Location2,No,5,Ground,Yes,3,Generic comment
+9085,87,Blue,Scouter2,Northern Lights,Place3,1,3,LocationC,1,5,0,Location2,Yes,4,Source,Yes,3,Generic comment
+6009,88,Red,Scouter1,Northern Lights,Place1,3,0,LocationB,3,4,2,Location3,Yes,1,Source,No,4,Generic comment
+4886,88,Red,Scouter2,Northern Lights,Place2,2,3,LocationC,9,1,0,Location3,Yes,5,Ground,Yes,5,Generic comment
+8314,88,Red,Scouter3,Northern Lights,Place1,0,3,LocationB,9,0,1,Location1,No,3,Source,No,1,Generic comment
+1402,88,Blue,Scouter1,Northern Lights,Place1,3,0,LocationB,1,1,0,Location2,Yes,4,Source,No,5,Generic comment
+3557,88,Blue,Scouter1,Northern Lights,Place1,2,0,LocationC,7,3,1,Location3,No,5,Source,Yes,3,Generic comment
+2244,88,Blue,Scouter3,Northern Lights,Place2,0,3,LocationB,3,3,1,Location3,No,2,Ground,No,5,Generic comment
+6697,89,Red,Scouter3,Northern Lights,Place1,1,3,LocationA,9,5,2,Location1,Yes,3,Source,No,5,Generic comment
+1647,89,Red,Scouter3,Northern Lights,Place2,0,0,LocationA,0,2,2,Location2,Yes,3,Ground,No,3,Generic comment
+1502,89,Red,Scouter3,Northern Lights,Place3,3,0,LocationA,5,2,2,Location1,No,2,Source,No,4,Generic comment
+1532,89,Blue,Scouter1,Northern Lights,Place3,2,0,LocationB,5,1,1,Location1,No,1,Ground,Yes,4,Generic comment
+2552,89,Blue,Scouter2,Northern Lights,Place3,0,2,LocationC,8,5,2,Location2,Yes,4,Source,Yes,4,Generic comment
+6200,89,Blue,Scouter2,Northern Lights,Place1,2,1,LocationC,0,1,0,Location2,No,2,Source,No,3,Generic comment
+3940,90,Red,Scouter3,Northern Lights,Place3,1,3,LocationC,8,1,2,Location1,No,3,Ground,No,5,Generic comment
+4886,90,Red,Scouter3,Northern Lights,Place3,0,3,LocationA,5,1,0,Location3,No,2,Ground,No,3,Generic comment
+9139,90,Red,Scouter3,Northern Lights,Place3,2,2,LocationA,6,2,1,Location2,No,3,Ground,No,2,Generic comment
+8954,90,Blue,Scouter3,Northern Lights,Place3,2,2,LocationB,2,5,0,Location1,Yes,1,Source,Yes,5,Generic comment
+6009,90,Blue,Scouter1,Northern Lights,Place3,0,2,LocationB,7,2,1,Location3,No,3,Source,Yes,3,Generic comment
+2608,90,Blue,Scouter1,Northern Lights,Place2,1,3,LocationB,0,4,0,Location2,No,4,Source,No,1,Generic comment
