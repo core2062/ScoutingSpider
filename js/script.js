@@ -1,5 +1,5 @@
 // Load navbar.html into the placeholder div
-fetch("/static/InjectedHtml/navbar.html")
+fetch("InjectedHtml/navbar.html")
     .then(response => response.text())
     .then(data => {
         document.getElementById('navbar-placeholder').innerHTML = data;

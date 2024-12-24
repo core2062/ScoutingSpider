@@ -88,7 +88,7 @@
     </div>
     <script>
         async function loadData() {
-            const csvResponse = await fetch('static/YearlyCSV/RawData2024.csv');
+            const csvResponse = await fetch('YearlyCSV/RawData2024.csv');
             const csvText = await csvResponse.text();
             const csvData = parseCSV(csvText);
 
