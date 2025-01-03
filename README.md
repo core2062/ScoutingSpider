@@ -5,7 +5,7 @@
 > the Main branch this file goes over the static or git hub pages  version
 
 # [FRC Kight Krawler](https://www.team2052.com/frckrawler/)
-This system runs on FRC knight Krawler. a scouting system developed by FRC team 2052 Krawler robotics. the CORE2062Scouting Spider currently runs on 2 CVS files from them the raw data export and the summary two VERY parts to this system. The raw Data file can easly replaced with another csv file look alike 
+This system runs on FRC knight Krawler. a scouting system developed by FRC team 2052 Krawler robotics. the CORE2062Scouting Spider currently runs on 2 CVS files from them the raw data export and the summary two VERY IMPORTANT parts to this system.
 
 # Files and Architecture
 The github pages of this build has a modified flask file architecture; the main difference HTML files at main/root per GitHub index.html Instructions and the rest are put there just for neatness
