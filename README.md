@@ -38,7 +38,7 @@ The system at a bare minim needs, a Team Name, Team Number, Match number, and Al
 backups and archives, Using GitHub actions we have an archival system. were each new branch gets backed up and archived, then a link is manually put in for that previous year. 
 
 ## File system example
-a very pointlessly complicated graph thats also hard to see on github darkmode
+a very pointlessly complicated graph thats also hard to see on github dark mode
 ```mermaid
 %% Graph Definition - Flipped Layout
 graph RL
