@@ -1,281 +1,358 @@
-"Team Number","Team Names","Text Field","Starting Postion","Speaker Autos","Auto Moved","Amp Teleop","Speaker Teleop","Speaker Teleop","Co-op Point","Parking Type","Match Comments","Robot Comments" 
-"1714","MORE Robotics","10: IForgitTheNameSectionTitle","3.0","5.0","100.0","1.0","1.0","1.0","100.0","N/A - 0.0%
-Failed - 0.0%
-parked - 0.0%
-staged - 100.0%
-harmonnized - 0.0%","10: Ge",""
-"1716","Redbird Robotics","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","N/A - 0.0%
-Failed - 20.0%
-parked - 20.0%
-staged - 0.1%
-harmonnized - 0.0%","",""
-"1792","Round Table Robotics","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","N/A - 0.0%
-Failed - 0.0%
-parked - 0.0%
-staged - 0.0%
-harmonnized - 0.0%","",""
-"1806","S.W.A.T.","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","N/A - 0.0%
-Failed - 0.0%
-parked - 0.0%
-staged - 0.0%
-harmonnized - 0.0%","",""
-"2039","Rockford Robotics","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","N/A - 0.0%
-Failed - 0.0%
-parked - 0.0%
-staged - 0.0%
-harmonnized - 0.0%","",""
-"2062","CORE 2062","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","N/A - 0.0%
-Failed - 0.0%
-parked - 0.0%
-staged - 0.0%
-harmonnized - 0.0%","",""
-"2129","Ultraviolet","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","N/A - 0.0%
-Failed - 0.0%
-parked - 0.0%
-staged - 0.0%
-harmonnized - 0.0%","",""
-"2169","KING TeC","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","N/A - 0.0%
-Failed - 0.0%
-parked - 0.0%
-staged - 0.0%
-harmonnized - 0.0%","",""
-"2175","The Fighting Calculators","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","N/A - 0.0%
-Failed - 0.0%
-parked - 0.0%
-staged - 0.0%
-harmonnized - 0.0%","",""
-"2227","Tigers","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","N/A - 0.0%
-Failed - 0.0%
-parked - 0.0%
-staged - 0.0%
-harmonnized - 0.0%","",""
-"2264","Trojan Robotics","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","N/A - 0.0%
-Failed - 0.0%
-parked - 0.0%
-staged - 0.0%
-harmonnized - 0.0%","",""
-"2472","Centurions","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","N/A - 0.0%
-Failed - 0.0%
-parked - 0.0%
-staged - 0.0%
-harmonnized - 0.0%","",""
-"2491","NoMythic","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","N/A - 0.0%
-Failed - 0.0%
-parked - 0.0%
-staged - 0.0%
-harmonnized - 0.0%","",""
-"2501","Bionic Polars","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","N/A - 0.0%
-Failed - 0.0%
-parked - 0.0%
-staged - 0.0%
-harmonnized - 0.0%","",""
-"2512","Duluth East Daredevils","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","N/A - 0.0%
-Failed - 0.0%
-parked - 0.0%
-staged - 0.0%
-harmonnized - 0.0%","",""
-"2574","RoboHuskie","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","N/A - 0.0%
-Failed - 0.0%
-parked - 0.0%
-staged - 0.0%
-harmonnized - 0.0%","",""
-"2846","FireBears","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","N/A - 0.0%
-Failed - 0.0%
-parked - 0.0%
-staged - 0.0%
-harmonnized - 0.0%","",""
-"2855","BEASTBOT","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","N/A - 0.0%
-Failed - 0.0%
-parked - 0.0%
-staged - 0.0%
-harmonnized - 0.0%","",""
-"2987","Rogue Robotics","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","N/A - 0.0%
-Failed - 0.0%
-parked - 0.0%
-staged - 0.0%
-harmonnized - 0.0%","",""
-"3023","STARK Industries","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","N/A - 0.0%
-Failed - 0.0%
-parked - 0.0%
-staged - 0.0%
-harmonnized - 0.0%","",""
-"3082","Chicken Bot Pie","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","N/A - 0.0%
-Failed - 0.0%
-parked - 0.0%
-staged - 0.0%
-harmonnized - 0.0%","",""
-"3100","Lightning Turtles","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","N/A - 0.0%
-Failed - 0.0%
-parked - 0.0%
-staged - 0.0%
-harmonnized - 0.0%","",""
-"3130","The ERRORs","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","N/A - 0.0%
-Failed - 0.0%
-parked - 0.0%
-staged - 0.0%
-harmonnized - 0.0%","",""
-"3206","Royal T-Wrecks","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","N/A - 0.0%
-Failed - 0.0%
-parked - 0.0%
-staged - 0.0%
-harmonnized - 0.0%","",""
-"3212","YME Stingbots","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","N/A - 0.0%
-Failed - 0.0%
-parked - 0.0%
-staged - 0.0%
-harmonnized - 0.0%","",""
-"3297","Full Metal Jackets","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","N/A - 0.0%
-Failed - 0.0%
-parked - 0.0%
-staged - 0.0%
-harmonnized - 0.0%","",""
-"3418","RoboRiot","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","N/A - 0.0%
-Failed - 0.0%
-parked - 0.0%
-staged - 0.0%
-harmonnized - 0.0%","",""
-"3883","Data Bits","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","N/A - 0.0%
-Failed - 0.0%
-parked - 0.0%
-staged - 0.0%
-harmonnized - 0.0%","",""
-"4166","Robostang","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","N/A - 0.0%
-Failed - 0.0%
-parked - 0.0%
-staged - 0.0%
-harmonnized - 0.0%","",""
-"4182","Viking Robotics","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","N/A - 0.0%
-Failed - 0.0%
-parked - 0.0%
-staged - 0.0%
-harmonnized - 0.0%","",""
-"4229","Magnetech","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","N/A - 0.0%
-Failed - 0.0%
-parked - 0.0%
-staged - 0.0%
-harmonnized - 0.0%","",""
-"4230","TopperBots","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","N/A - 0.0%
-Failed - 0.0%
-parked - 0.0%
-staged - 0.0%
-harmonnized - 0.0%","",""
-"4623","Flyer Robotics","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","N/A - 0.0%
-Failed - 0.0%
-parked - 0.0%
-staged - 0.0%
-harmonnized - 0.0%","",""
-"4703","Menahga Gigabot$","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","N/A - 0.0%
-Failed - 0.0%
-parked - 0.0%
-staged - 0.0%
-harmonnized - 0.0%","",""
-"4786","Nicolet FEAR","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","N/A - 0.0%
-Failed - 0.0%
-parked - 0.0%
-staged - 0.0%
-harmonnized - 0.0%","",""
-"5232","Talons","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","N/A - 0.0%
-Failed - 0.0%
-parked - 0.0%
-staged - 0.0%
-harmonnized - 0.0%","",""
-"5271","Open Circuits","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","N/A - 0.0%
-Failed - 0.0%
-parked - 0.0%
-staged - 0.0%
-harmonnized - 0.0%","",""
-"5275","T.I.M.E.-Bots","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","N/A - 0.0%
-Failed - 0.0%
-parked - 0.0%
-staged - 0.0%
-harmonnized - 0.0%","",""
-"5339","Hurricanes","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","N/A - 0.0%
-Failed - 0.0%
-parked - 0.0%
-staged - 0.0%
-harmonnized - 0.0%","",""
-"5720","Jagobotics","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","N/A - 0.0%
-Failed - 0.0%
-parked - 0.0%
-staged - 0.0%
-harmonnized - 0.0%","",""
-"5913","Patriotics","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","N/A - 0.0%
-Failed - 0.0%
-parked - 0.0%
-staged - 0.0%
-harmonnized - 0.0%","",""
-"6044","Circuit Breakers","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","N/A - 0.0%
-Failed - 0.0%
-parked - 0.0%
-staged - 0.0%
-harmonnized - 0.0%","",""
-"6045","Sabre Robotics","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","N/A - 0.0%
-Failed - 0.0%
-parked - 0.0%
-staged - 0.0%
-harmonnized - 0.0%","",""
-"6047","Proctor Frostbyte","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","N/A - 0.0%
-Failed - 0.0%
-parked - 0.0%
-staged - 0.0%
-harmonnized - 0.0%","",""
-"6132","Iron Rangers","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","N/A - 0.0%
-Failed - 0.0%
-parked - 0.0%
-staged - 0.0%
-harmonnized - 0.0%","",""
-"6147","Tonkabots","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","N/A - 0.0%
-Failed - 0.0%
-parked - 0.0%
-staged - 0.0%
-harmonnized - 0.0%","",""
-"6419","ICE","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","N/A - 0.0%
-Failed - 0.0%
-parked - 0.0%
-staged - 0.0%
-harmonnized - 0.0%","",""
-"6574","Ferradermis","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","N/A - 0.0%
-Failed - 0.0%
-parked - 0.0%
-staged - 0.0%
-harmonnized - 0.0%","",""
-"6758","Otternauts","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","N/A - 0.0%
-Failed - 0.0%
-parked - 0.0%
-staged - 0.0%
-harmonnized - 0.0%","",""
-"7273","ZooM 7273","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","N/A - 0.0%
-Failed - 0.0%
-parked - 0.0%
-staged - 0.0%
-harmonnized - 0.0%","",""
-"7530","B.O.S. Robotics","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","N/A - 0.0%
-Failed - 0.0%
-parked - 0.0%
-staged - 0.0%
-harmonnized - 0.0%","",""
-"7619","illumiBOTi","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","N/A - 0.0%
-Failed - 0.0%
-parked - 0.0%
-staged - 0.0%
-harmonnized - 0.0%","",""
-"8122","Mechanical Mustaches","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","N/A - 0.0%
-Failed - 0.0%
-parked - 0.0%
-staged - 0.0%
-harmonnized - 0.0%","",""
-"8700","W.I.R.E.D","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","N/A - 0.0%
-Failed - 0.0%
-parked - 0.0%
-staged - 0.0%
-harmonnized - 0.0%","",""
-"8803","MechaMarines","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","N/A - 0.0%
-Failed - 0.0%
-parked - 0.0%
-staged - 0.0%
-harmonnized - 0.0%","",""
-"8803","MechaMarines","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","N/A - 0.0%
-Failed - 0.0%
-parked - 0.0%
-staged - 0.0%
-
+"Team Number","Team Names","Name","Auto Move","Auto Coral Lvl 1","Auto Coral Lvl 2","Auto Coral Lvl 3","Auto Coral Lvl 4","Auto Algae Removed","Auto Algae Processed","Auto Algae Net","Teleop","Teleop Coral Lvl 1","Teleop Coral Lvl 2","Teleop Coral Lvl 3","Teleop Coral Lvl 4","Teleop Algae Removed","Teleop Algae Processed","Teleop Algae Net","End game","Parking","Did Move Game Elements","Match Comments","Robot Comments"
+"93","NEW Apple Corps","1: , 12: test","50.0","1.0","1.0","1.0","1.0","1.0","1.0","1.0","1: , 12: ","1.0","1.0","1.0","1.0","1.0","1.0","1.0","1: , 12: ","Failed - 0.0%
+Docked - 50.0%
+Shallow - 50.0%
+Deep - 0.0%","Did Move Coral - 100.0%
+Did Move Algae - 50.0%
+Did Score Coral - 100.0%
+Did Score Alge - 100.0%","",""
+"171","Cheese Curd Herd","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","Failed - 0.0%
+Docked - 0.0%
+Shallow - 0.0%
+Deep - 0.0%","Did Move Coral - 0.0%
+Did Move Algae - 0.0%
+Did Score Coral - 0.0%
+Did Score Alge - 0.0%","",""
+"537","Charger Robotics","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","Failed - 0.0%
+Docked - 0.0%
+Shallow - 0.0%
+Deep - 0.0%","Did Move Coral - 0.0%
+Did Move Algae - 0.0%
+Did Score Coral - 0.0%
+Did Score Alge - 0.0%","",""
+"706","Cyberhawks","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","Failed - 0.0%
+Docked - 0.0%
+Shallow - 0.0%
+Deep - 0.0%","Did Move Coral - 0.0%
+Did Move Algae - 0.0%
+Did Score Coral - 0.0%
+Did Score Alge - 0.0%","",""
+"1091","Oriole Assault","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","Failed - 0.0%
+Docked - 0.0%
+Shallow - 0.0%
+Deep - 0.0%","Did Move Coral - 0.0%
+Did Move Algae - 0.0%
+Did Score Coral - 0.0%
+Did Score Alge - 0.0%","",""
+"1675","UPS (Ultimate Protection Squad)","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","Failed - 0.0%
+Docked - 0.0%
+Shallow - 0.0%
+Deep - 0.0%","Did Move Coral - 0.0%
+Did Move Algae - 0.0%
+Did Score Coral - 0.0%
+Did Score Alge - 0.0%","",""
+"1716","Redbird Robotics","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","Failed - 0.0%
+Docked - 0.0%
+Shallow - 0.0%
+Deep - 0.0%","Did Move Coral - 0.0%
+Did Move Algae - 0.0%
+Did Score Coral - 0.0%
+Did Score Alge - 0.0%","",""
+"2062","CORE 2062","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","Failed - 0.0%
+Docked - 0.0%
+Shallow - 0.0%
+Deep - 0.0%","Did Move Coral - 0.0%
+Did Move Algae - 0.0%
+Did Score Coral - 0.0%
+Did Score Alge - 0.0%","",""
+"2169","KING TeC","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","Failed - 0.0%
+Docked - 0.0%
+Shallow - 0.0%
+Deep - 0.0%","Did Move Coral - 0.0%
+Did Move Algae - 0.0%
+Did Score Coral - 0.0%
+Did Score Alge - 0.0%","",""
+"2194","Fondy Fire","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","Failed - 0.0%
+Docked - 0.0%
+Shallow - 0.0%
+Deep - 0.0%","Did Move Coral - 0.0%
+Did Move Algae - 0.0%
+Did Score Coral - 0.0%
+Did Score Alge - 0.0%","",""
+"2225","Rebel Robotics","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","Failed - 0.0%
+Docked - 0.0%
+Shallow - 0.0%
+Deep - 0.0%","Did Move Coral - 0.0%
+Did Move Algae - 0.0%
+Did Score Coral - 0.0%
+Did Score Alge - 0.0%","",""
+"2509","Tigerbots","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","Failed - 0.0%
+Docked - 0.0%
+Shallow - 0.0%
+Deep - 0.0%","Did Move Coral - 0.0%
+Did Move Algae - 0.0%
+Did Score Coral - 0.0%
+Did Score Alge - 0.0%","",""
+"2526","Crimson Robotics","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","Failed - 0.0%
+Docked - 0.0%
+Shallow - 0.0%
+Deep - 0.0%","Did Move Coral - 0.0%
+Did Move Algae - 0.0%
+Did Score Coral - 0.0%
+Did Score Alge - 0.0%","",""
+"2531","RoboHawks","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","Failed - 0.0%
+Docked - 0.0%
+Shallow - 0.0%
+Deep - 0.0%","Did Move Coral - 0.0%
+Did Move Algae - 0.0%
+Did Score Coral - 0.0%
+Did Score Alge - 0.0%","",""
+"2826","Wave Robotics","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","Failed - 0.0%
+Docked - 0.0%
+Shallow - 0.0%
+Deep - 0.0%","Did Move Coral - 0.0%
+Did Move Algae - 0.0%
+Did Score Coral - 0.0%
+Did Score Alge - 0.0%","",""
+"2830","Riverside RoboTigers","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","Failed - 0.0%
+Docked - 0.0%
+Shallow - 0.0%
+Deep - 0.0%","Did Move Coral - 0.0%
+Did Move Algae - 0.0%
+Did Score Coral - 0.0%
+Did Score Alge - 0.0%","",""
+"2977","Sir Lancer Bots","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","Failed - 0.0%
+Docked - 0.0%
+Shallow - 0.0%
+Deep - 0.0%","Did Move Coral - 0.0%
+Did Move Algae - 0.0%
+Did Score Coral - 0.0%
+Did Score Alge - 0.0%","",""
+"3055","Furious George","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","Failed - 0.0%
+Docked - 0.0%
+Shallow - 0.0%
+Deep - 0.0%","Did Move Coral - 0.0%
+Did Move Algae - 0.0%
+Did Score Coral - 0.0%
+Did Score Alge - 0.0%","",""
+"3090","Chaotic Robotics","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","Failed - 0.0%
+Docked - 0.0%
+Shallow - 0.0%
+Deep - 0.0%","Did Move Coral - 0.0%
+Did Move Algae - 0.0%
+Did Score Coral - 0.0%
+Did Score Alge - 0.0%","",""
+"3197","HexHounds","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","Failed - 0.0%
+Docked - 0.0%
+Shallow - 0.0%
+Deep - 0.0%","Did Move Coral - 0.0%
+Did Move Algae - 0.0%
+Did Score Coral - 0.0%
+Did Score Alge - 0.0%","",""
+"3381","Droid Rage","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","Failed - 0.0%
+Docked - 0.0%
+Shallow - 0.0%
+Deep - 0.0%","Did Move Coral - 0.0%
+Did Move Algae - 0.0%
+Did Score Coral - 0.0%
+Did Score Alge - 0.0%","",""
+"3418","RoboRiot","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","Failed - 0.0%
+Docked - 0.0%
+Shallow - 0.0%
+Deep - 0.0%","Did Move Coral - 0.0%
+Did Move Algae - 0.0%
+Did Score Coral - 0.0%
+Did Score Alge - 0.0%","",""
+"3692","Rock N' Robotics","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","Failed - 0.0%
+Docked - 0.0%
+Shallow - 0.0%
+Deep - 0.0%","Did Move Coral - 0.0%
+Did Move Algae - 0.0%
+Did Score Coral - 0.0%
+Did Score Alge - 0.0%","",""
+"4009","Duluth DNA Robotics","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","Failed - 0.0%
+Docked - 0.0%
+Shallow - 0.0%
+Deep - 0.0%","Did Move Coral - 0.0%
+Did Move Algae - 0.0%
+Did Score Coral - 0.0%
+Did Score Alge - 0.0%","",""
+"4011","BANANABOTS","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","Failed - 0.0%
+Docked - 0.0%
+Shallow - 0.0%
+Deep - 0.0%","Did Move Coral - 0.0%
+Did Move Algae - 0.0%
+Did Score Coral - 0.0%
+Did Score Alge - 0.0%","",""
+"4021","igKnightion","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","Failed - 0.0%
+Docked - 0.0%
+Shallow - 0.0%
+Deep - 0.0%","Did Move Coral - 0.0%
+Did Move Algae - 0.0%
+Did Score Coral - 0.0%
+Did Score Alge - 0.0%","",""
+"4054","The Aeronauts","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","Failed - 0.0%
+Docked - 0.0%
+Shallow - 0.0%
+Deep - 0.0%","Did Move Coral - 0.0%
+Did Move Algae - 0.0%
+Did Score Coral - 0.0%
+Did Score Alge - 0.0%","",""
+"4207","PyroBotics","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","Failed - 0.0%
+Docked - 0.0%
+Shallow - 0.0%
+Deep - 0.0%","Did Move Coral - 0.0%
+Did Move Algae - 0.0%
+Did Score Coral - 0.0%
+Did Score Alge - 0.0%","",""
+"4531","STEAMpunk","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","Failed - 0.0%
+Docked - 0.0%
+Shallow - 0.0%
+Deep - 0.0%","Did Move Coral - 0.0%
+Did Move Algae - 0.0%
+Did Score Coral - 0.0%
+Did Score Alge - 0.0%","",""
+"4728","ROCORI Ratcheteers","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","Failed - 0.0%
+Docked - 0.0%
+Shallow - 0.0%
+Deep - 0.0%","Did Move Coral - 0.0%
+Did Move Algae - 0.0%
+Did Score Coral - 0.0%
+Did Score Alge - 0.0%","",""
+"5019","Gearbox Heroes","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","Failed - 0.0%
+Docked - 0.0%
+Shallow - 0.0%
+Deep - 0.0%","Did Move Coral - 0.0%
+Did Move Algae - 0.0%
+Did Score Coral - 0.0%
+Did Score Alge - 0.0%","",""
+"5148","New Berlin Blitz","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","Failed - 0.0%
+Docked - 0.0%
+Shallow - 0.0%
+Deep - 0.0%","Did Move Coral - 0.0%
+Did Move Algae - 0.0%
+Did Score Coral - 0.0%
+Did Score Alge - 0.0%","",""
+"5586","Bond Brigade","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","Failed - 0.0%
+Docked - 0.0%
+Shallow - 0.0%
+Deep - 0.0%","Did Move Coral - 0.0%
+Did Move Algae - 0.0%
+Did Score Coral - 0.0%
+Did Score Alge - 0.0%","",""
+"5826","Avis Automata","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","Failed - 0.0%
+Docked - 0.0%
+Shallow - 0.0%
+Deep - 0.0%","Did Move Coral - 0.0%
+Did Move Algae - 0.0%
+Did Score Coral - 0.0%
+Did Score Alge - 0.0%","",""
+"5903","ThorBots","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","Failed - 0.0%
+Docked - 0.0%
+Shallow - 0.0%
+Deep - 0.0%","Did Move Coral - 0.0%
+Did Move Algae - 0.0%
+Did Score Coral - 0.0%
+Did Score Alge - 0.0%","",""
+"5914","Robotic Warriors","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","Failed - 0.0%
+Docked - 0.0%
+Shallow - 0.0%
+Deep - 0.0%","Did Move Coral - 0.0%
+Did Move Algae - 0.0%
+Did Score Coral - 0.0%
+Did Score Alge - 0.0%","",""
+"6166","Thorobotics","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","Failed - 0.0%
+Docked - 0.0%
+Shallow - 0.0%
+Deep - 0.0%","Did Move Coral - 0.0%
+Did Move Algae - 0.0%
+Did Score Coral - 0.0%
+Did Score Alge - 0.0%","",""
+"6381","Red Raider Robotics","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","Failed - 0.0%
+Docked - 0.0%
+Shallow - 0.0%
+Deep - 0.0%","Did Move Coral - 0.0%
+Did Move Algae - 0.0%
+Did Score Coral - 0.0%
+Did Score Alge - 0.0%","",""
+"6732","BHS RoboRaiders","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","Failed - 0.0%
+Docked - 0.0%
+Shallow - 0.0%
+Deep - 0.0%","Did Move Coral - 0.0%
+Did Move Algae - 0.0%
+Did Score Coral - 0.0%
+Did Score Alge - 0.0%","",""
+"7021","TC Robotics","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","Failed - 0.0%
+Docked - 0.0%
+Shallow - 0.0%
+Deep - 0.0%","Did Move Coral - 0.0%
+Did Move Algae - 0.0%
+Did Score Coral - 0.0%
+Did Score Alge - 0.0%","",""
+"7103","Robo Remedy @ Manitowoc Lutheran High School","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","Failed - 0.0%
+Docked - 0.0%
+Shallow - 0.0%
+Deep - 0.0%","Did Move Coral - 0.0%
+Did Move Algae - 0.0%
+Did Score Coral - 0.0%
+Did Score Alge - 0.0%","",""
+"7619","illumiBOTi","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","Failed - 0.0%
+Docked - 0.0%
+Shallow - 0.0%
+Deep - 0.0%","Did Move Coral - 0.0%
+Did Move Algae - 0.0%
+Did Score Coral - 0.0%
+Did Score Alge - 0.0%","",""
+"8024","Robotans","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","Failed - 0.0%
+Docked - 0.0%
+Shallow - 0.0%
+Deep - 0.0%","Did Move Coral - 0.0%
+Did Move Algae - 0.0%
+Did Score Coral - 0.0%
+Did Score Alge - 0.0%","",""
+"8531","TermiKnightors","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","Failed - 0.0%
+Docked - 0.0%
+Shallow - 0.0%
+Deep - 0.0%","Did Move Coral - 0.0%
+Did Move Algae - 0.0%
+Did Score Coral - 0.0%
+Did Score Alge - 0.0%","",""
+"8700","W.I.R.E.D","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","Failed - 0.0%
+Docked - 0.0%
+Shallow - 0.0%
+Deep - 0.0%","Did Move Coral - 0.0%
+Did Move Algae - 0.0%
+Did Score Coral - 0.0%
+Did Score Alge - 0.0%","",""
+"8701","GRAFFITI","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","Failed - 0.0%
+Docked - 0.0%
+Shallow - 0.0%
+Deep - 0.0%","Did Move Coral - 0.0%
+Did Move Algae - 0.0%
+Did Score Coral - 0.0%
+Did Score Alge - 0.0%","",""
+"8744","Leviathans","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","Failed - 0.0%
+Docked - 0.0%
+Shallow - 0.0%
+Deep - 0.0%","Did Move Coral - 0.0%
+Did Move Algae - 0.0%
+Did Score Coral - 0.0%
+Did Score Alge - 0.0%","",""
+"8821","TVRT-Trojanbots","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","Failed - 0.0%
+Docked - 0.0%
+Shallow - 0.0%
+Deep - 0.0%","Did Move Coral - 0.0%
+Did Move Algae - 0.0%
+Did Score Coral - 0.0%
+Did Score Alge - 0.0%","",""
+"9149","RoboCats","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","Failed - 0.0%
+Docked - 0.0%
+Shallow - 0.0%
+Deep - 0.0%","Did Move Coral - 0.0%
+Did Move Algae - 0.0%
+Did Score Coral - 0.0%
+Did Score Alge - 0.0%","",""
+"9578","Player One","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","Failed - 0.0%
+Docked - 0.0%
+Shallow - 0.0%
+Deep - 0.0%","Did Move Coral - 0.0%
+Did Move Algae - 0.0%
+Did Score Coral - 0.0%
+Did Score Alge - 0.0%","",""
+"9676","Hub City STEAM","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","Failed - 0.0%
+Docked - 0.0%
+Shallow - 0.0%
+Deep - 0.0%","Did Move Coral - 0.0%
+Did Move Algae - 0.0%
+Did Score Coral - 0.0%
+Did Score Alge - 0.0%","",""

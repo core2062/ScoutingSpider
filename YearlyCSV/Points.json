@@ -1,5 +1,22 @@
 {
-    "Speaker Autos": 5,
-    "Amp Teleop": 3,
-    "Parking Type": null
+"Auto Move": 1,
+"Auto Coral Lvl 1": 1,
+"Auto Coral Lvl 2": 2,
+"Auto Coral Lvl 3": 2,
+"Auto Coral Lvl 4": 3,
+"Auto Algae Removed":null,
+"Auto Algae Processed":2,
+"Auto Algae Net": 3,
+"Teleop" : null,
+"Teleop Coral Lvl 1":2,
+"Teleop Coral Lvl 2": 3,
+"Teleop Coral Lvl 3": 3,
+"Teleop Coral Lvl 4": 4,
+"Teleop Algae Removed": 1,
+"Teleop Algae Processed":2,
+"Teleop Algae Net":4,
+"End game": null,
+"Parking": null,
+"Did Move Game Elements": null,
+"Match Comment": null
 }
