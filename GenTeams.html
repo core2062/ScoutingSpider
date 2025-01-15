@@ -75,9 +75,8 @@
                 <img src="images/CORElogoStandard.png" alt="Logo" class="logo-img" id="logo-standard">
                 <img src="images/CORELOGO-Black.png" alt="Hover Logo" class="logo-img-hover" id="logo-hover">
             </a>
-            </div>
+        </div>
         <ul class="nav-links">
-            <!-- Left side links -->
             <div class="nav-left">
                 <li><a href="./index.html">Home</a></li>
                 <li><a href="./OurMatches.html">Our Matches</a></li>
@@ -87,22 +86,21 @@
                 <li><a href="./TeamVS.html">Team VS</a></li>
             </div>
             <li class="dropdown">
-                <a class="dropbtn">Pratice Data Review</a>
+                <a class="dropbtn">Practice Data Review</a>
                 <div class="dropdown-content">
-                    <a href="./PraticeTemplates/GenTeams.html">Review Teams Pratice Data</a>
-                    <a href="./PraticeTemplates/GenMatches.html" >Review Matches Pratice data</a>
-                    <a href="./PraticeTemplates/Leader.html" >Review Pratice Leaderboard</a>
+                    <a href="./PraticeTemplates/GenTeams.html">Review Teams Practice Data</a>
+                    <a href="./PraticeTemplates/GenMatches.html">Review Matches Practice Data</a>
+                    <a href="./PraticeTemplates/Leader.html">Review Practice Leaderboard</a>
                 </div>
             </li>
             <div class="nav-right">
-    
                 <li><a href="./">Documentation</a></li>
                 <li><a href="./">Extra</a></li>
                 <li class="dropdown">
-                    <a href="./" class="dropbtn">year: ReefScape</a>
+                    <a href="./" class="dropbtn">Year: ReefScape</a>
                     <div class="dropdown-content">
                         <a href="./">ReefScape</a>
-                        <a href="./" >Crescendo</a>
+                        <a href="./">Crescendo</a>
                         <a href="./">Charged UP</a>
                     </div>
                 </li>
@@ -111,24 +109,24 @@
     </nav>
     <div class="container">
         <div class="backbox">
-        <h1>Teams</h1>
-        <div class="table-container">
-            <table id="main-table">
-                <tr>
-                    <th>Team Number</th>
-                    <th>Matches Played</th>
-                    <th>Show</th>
-                </tr>
-            </table>
+            <h1>Teams</h1>
+            <div class="table-container">
+                <table id="main-table">
+                    <tr>
+                        <th>Team Number</th>
+                        <th>Matches Played</th>
+                        <th>Show</th>
+                    </tr>
+                </table>
             </div>
         </div>
         <div class="backbox">
-        <div id="2nd-table" class="table-container">
-            <button id="clear-btn" onclick="clearTable();">Clear & Go Up</button>
-            <table id="match-details-table"></table>
+            <div id="2nd-table" class="table-container">
+                <button id="clear-btn" onclick="clearTable();">Clear & Go Up</button>
+                <table id="match-details-table"></table>
+            </div>
         </div>
     </div>
-
     <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
     <script>
         async function loadData() {
@@ -143,10 +141,9 @@
 
                 const matchesDict = {};
                 const matchDataDict = {};
-                const teamsDict = {}; // New dictionary for team-based mapping
+                const teamsDict = {};
 
-                // Group teams by match number and prepare team-to-matches mapping
-                for (const row of csvData) {
+                csvData.forEach(row => {
                     const matchNumber = row['Match Number'];
                     const teamNumber = row['Team Number'];
 
@@ -157,14 +154,13 @@
                     matchesDict[matchNumber].push(teamNumber);
                     matchDataDict[matchNumber].push(row);
 
-                    // Add team-to-matches mapping
                     if (!teamsDict[teamNumber]) {
                         teamsDict[teamNumber] = [];
                     }
                     if (!teamsDict[teamNumber].includes(matchNumber)) {
                         teamsDict[teamNumber].push(matchNumber);
                     }
-                }
+                });
 
                 const sortedTeams = Object.keys(teamsDict).sort((a, b) => parseInt(a) - parseInt(b));
                 generateHTML(sortedTeams, matchesDict, matchDataDict, teamsDict, Object.keys(csvData[0]));
@@ -176,15 +172,13 @@
         function parseCSV(csvText) {
             const lines = csvText.trim().split('\n');
             const headers = lines[0].split(/,(?=(?:(?:[^"]*"){2})*[^"]*$)/).map(header => header.trim().replace(/(^"|"$)/g, ''));
-            const data = lines.slice(1).map(line => {
+            return lines.slice(1).map(line => {
                 const values = line.split(/,(?=(?:(?:[^"]*"){2})*[^"]*$)/).map(value => value.trim().replace(/(^"|"$)/g, ''));
-                const row = {};
-                headers.forEach((header, index) => {
-                    row[header] = values[index] || '';
-                });
-                return row;
+                return headers.reduce((acc, header, index) => {
+                    acc[header] = values[index] || '';
+                    return acc;
+                }, {});
             });
-            return data;
         }
 
         function generateHTML(sortedTeams, matchesDict, matchDataDict, teamsDict, headers) {
@@ -204,21 +198,22 @@
 
             mainTable.innerHTML += firstTableContent;
 
-            // Function to display match details for a specific team
             window.showTeamMatches = function (teamNumber) {
                 const teamMatches = teamsDict[teamNumber];
-                if (!teamMatches) {
+                if (!teamMatches || teamMatches.length === 0) {
                     alert(`No matches found for team ${teamNumber}`);
                     return;
                 }
 
-                const teamMatchesData = teamMatches.flatMap(matchNumber => matchDataDict[matchNumber]);
-                const detailsTable = document.getElementById('match-details-table');
+                const teamMatchesData = teamMatches.flatMap(matchNumber =>
+                    matchDataDict[matchNumber].filter(row => row['Team Number'] === teamNumber)
+                );
 
+                const detailsTable = document.getElementById('match-details-table');
                 const headerRow = `<tr>${headers.map(header => `<th>${header}</th>`).join('')}</tr>`;
-                const dataRows = teamMatchesData.map(row => {
-                    return `<tr>${headers.map(header => `<td>${row[header]}</td>`).join('')}</tr>`;
-                }).join('');
+                const dataRows = teamMatchesData.map(row =>
+                    `<tr>${headers.map(header => `<td>${row[header]}</td>`).join('')}</tr>`
+                ).join('');
 
                 detailsTable.innerHTML = headerRow + dataRows;
                 document.getElementById('2nd-table').style.display = 'block';
@@ -233,7 +228,6 @@
             detailsTable.innerHTML = '';
         }
 
-        // Load data on page load
         loadData();
     </script>
 </body>
