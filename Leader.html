@@ -116,26 +116,34 @@ function calcPosition(row) {
 }
 
 // Function to build the leaderboard tables
+// Function to build the leaderboard tables
 function buildTables(dataset) {
+    // Calculate positions and sort the dataset
+    dataset.forEach(teamData => {
+        teamData.positionsTotal = calcPosition(teamData);
+    });
+    dataset.sort((a, b) => b.positionsTotal - a.positionsTotal);
     const totalTeams = dataset.length;
     let TableSet = `
         <table id="mainTable" style="margin: auto !important;">
             <tr>
+                <th>Rank</th>
                 <th>Team Number</th>
                 <th>Team Name</th>
-                <th>Positions</th>
+                <th>Points</th>
             </tr>
     `;
 
     dataset.forEach((teamData, index) => {
-        const positionsTotal = calcPosition(teamData);
+        const rank = index + 1; // Rank is now based on the sorted order
 
         // Add team data to the main table
         TableSet += `
             <tr onclick="toggleTables(${index})">
+                <td>${rank}</td>
                 <td>${teamData["Team Number"]}</td>
                 <td>${teamData["Team Names"]}</td>
-                <td>${positionsTotal} (Rank: ${index + 1} of ${totalTeams})</td>
+                <td>${teamData.positionsTotal}</td>
             </tr>
         `;
 
@@ -162,7 +170,7 @@ function buildTables(dataset) {
         pointsTable += '</table>';
 
         // Add the sub-table to the main table
-        TableSet += `<tr><td colspan="3">${pointsTable}</td></tr>`;
+        TableSet += `<tr><td colspan="4">${pointsTable}</td></tr>`;
     });
 
     TableSet += '</table>';
