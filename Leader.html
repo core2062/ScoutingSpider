@@ -23,35 +23,56 @@
 <body>
     <nav class="navbar">
         <div class="logo">
-            <a href="index.html">
-                <img src="images/CORElogoStandard.png" alt="Logo" class="logo-img" id="logo-standard">
-                <img src="images/CORELOGO-Black.png" alt="Hover Logo" class="logo-img-hover" id="logo-hover">
+            <a href="/index.html">
+                <img src="/images/CORElogoStandard.png" alt="Logo" class="logo-img" id="logo-standard">
+                <img src="/images/CORELogoBlack.png" alt="Hover Logo" class="logo-img-hover" id="logo-hover">
             </a>
             </div>
         <ul class="nav-links">
-            <!-- Left side links -->
             <div class="nav-left">
-                <li><a href="./index.html">Home</a></li>
-                <li><a href="./OurMatches.html">Our Matches</a></li>
-                <li><a href="./GenMatches.html">Review matches</a></li>
-                <li><a href="./GenTeams.html">Review teams</a></li>
-                <li><a href="./Leader.html">Review Leaderboard</a></li>
-                <li><a href="./TeamVS.html">Team VS</a></li>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/OurMatches.html">Our Matches</a></li>
+                <li class="dropdown">
+                    <a class="dropbtn">Review</a>
+                    <div class="dropdown-content">
+                        <a href="/GenTeams.html">Review teams</a>
+                        <a href="/GenMatches.html">Review matches</a>
+                    </div>
+                </li>
+                <li><a href="/Leader.html">Review Leaderboard</a></li>
+                <li><a href="/TeamVS.html">Team VS</a></li>
+                <li class="dropdown">
+                    <a class="dropbtn">Tools</a>
+                    <div class="dropdown-content">
+                        <a href="./Tools/FancyLeaderbaord.html">Review Teams Pratice Data</a>
+                        <a href="./Tools/PickList.html" >Pick List Helper</a>
+                    </div>
+                </li>
             </div>
             <li class="dropdown">
                 <a class="dropbtn">Pratice Data Review</a>
                 <div class="dropdown-content">
-                    <a href="./PraticeTemplates/GenTeams.html">Review Teams Pratice Data</a>
-                    <a href="./PraticeTemplates/GenMatches.html" >Review Matches Pratice data</a>
-                    <a href="./PraticeTemplates/Leader.html" >Review Pratice Leaderboard</a>
+                    <a href="/PraticeTemplates/GenTeams.html">Review Teams Pratice Data</a>
+                    <a href="/PraticeTemplates/GenMatches.html" >Review Matches Pratice data</a>
+                    <a href="/PraticeTemplates/Leader.html" >Review Pratice Leaderboard</a>
                 </div>
             </li>
             <div class="nav-right">
-    
-                <li><a href="./">Documentation</a></li>
-                <li><a href="./">Extra</a></li>
                 <li class="dropdown">
-                    <a href="./" class="dropbtn">year: ReefScape</a>
+                    <a href="/ArchivedData/ArcData.html" class="dropbtn">Download Our Data</a>
+                    <div class="dropdown-content">
+                        <a href="/ArchivedData/ArcData.html">ReefScape.zip (Not Out yet)</a>
+                        <a href="/ArchivedData/ArcData.html">DemoData.zip</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a class="dropbtn">Extras</a>
+                    <div class="dropdown-content">
+                        <a href="./">Documentation</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="./index.html" class="dropbtn">year: ReefScape</a>
                     <div class="dropdown-content">
                         <a href="./">ReefScape</a>
                         <a href="./" >Crescendo</a>
@@ -63,127 +84,12 @@
     </nav>
     <br>
     <div class="backbox">
-    <h1 >Leaderbord</h1>
-<p>If no data is showing please reload the page </p>
+    <h1 >Leaderboard</h1>
+<p> </p>
     <div id="tableContainer"></div>
     <br>
 </div> 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
-    <script>
-// Path to the JSON file relative to the server's working directory
-const JsonFilePath = 'YearlyCSV/Points.json';
-
-// Initialize the Points object
-let Points = {};
-
-// Fetch and parse the JSON file to dynamically update the Points object
-fetch(JsonFilePath)
-    .then(response => {
-        if (!response.ok) {
-            throw new Error(`HTTP error! Status: ${response.status}`);
-        }
-        return response.json();
-    })
-    .then(data => {
-        Points = data; // Update Points dynamically with the JSON file contents
-        console.log('Points:', Points);
-        fetchCSV(); // Proceed to fetch and process the CSV
-    })
-    .catch(error => console.error('Error loading JSON:', error));
-
-// Function to fetch and parse the CSV file
-async function fetchCSV() {
-    const response = await fetch('YearlyCSV/Summary2024.csv'); // Update path as needed
-    const data = await response.text();
-    Papa.parse(data, {
-        header: true,
-        dynamicTyping: true,
-        complete: function(results) {
-            buildTables(results.data); // Pass parsed CSV data to the table builder
-        }
-    });
-}
-
-// Function to calculate the position score for a team
-function calcPosition(row) {
-    let total = 0;
-    for (const key in Points) {
-        if (Points[key] !== null && row[key] !== null && row[key] !== undefined) {
-            total += Points[key] * row[key]; // Calculate based on point value and team data
-        }
-    }
-    return total;
-}
-
-// Function to build the leaderboard tables
-// Function to build the leaderboard tables
-function buildTables(dataset) {
-    // Calculate positions and sort the dataset
-    dataset.forEach(teamData => {
-        teamData.positionsTotal = calcPosition(teamData);
-    });
-    dataset.sort((a, b) => b.positionsTotal - a.positionsTotal);
-    const totalTeams = dataset.length;
-    let TableSet = `
-        <table id="mainTable" style="margin: auto !important;">
-            <tr>
-                <th>Rank</th>
-                <th>Team Number</th>
-                <th>Team Name</th>
-                <th>Points</th>
-            </tr>
-    `;
-
-    dataset.forEach((teamData, index) => {
-        const rank = index + 1; // Rank is now based on the sorted order
-
-        // Add team data to the main table
-        TableSet += `
-            <tr onclick="toggleTables(${index})">
-                <td>${rank}</td>
-                <td>${teamData["Team Number"]}</td>
-                <td>${teamData["Team Names"]}</td>
-                <td>${teamData.positionsTotal}</td>
-            </tr>
-        `;
-
-        // Create a sub-table for point details
-        let pointsTable = `
-            <table class="secondTable">
-                <tr>
-                    <th>Position</th>
-                    <th>Count</th>
-                    <th>Point Value</th>
-                </tr>
-        `;
-        for (const key in Points) {
-            const count = teamData[key] || 0; // Use 0 if value is null or undefined
-            const pointValue = Points[key] !== null ? (count * Points[key]) : 'N/A';
-            pointsTable += `
-                <tr>
-                    <td>${key}</td>
-                    <td>${count}</td>
-                    <td>${pointValue}</td>
-                </tr>
-            `;
-        }
-        pointsTable += '</table>';
-
-        // Add the sub-table to the main table
-        TableSet += `<tr><td colspan="4">${pointsTable}</td></tr>`;
-    });
-
-    TableSet += '</table>';
-    document.getElementById("tableContainer").innerHTML = TableSet;
-}
-
-// Function to toggle the display of sub-tables
-function toggleTables(index) {
-    const secondTable = document.querySelectorAll('.secondTable')[index];
-    if (secondTable) {
-        secondTable.style.display = secondTable.style.display === 'none' ? 'table' : 'none';
-    }
-}
-    </script>   
+    <script src="js\LeaderScript.js"></script>   
 </body>
 </html>

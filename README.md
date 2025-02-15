@@ -9,12 +9,10 @@ This system runs on FRC knight Krawler. a scouting system developed by FRC team 
 
 # Files and Architecture
 The github pages of this build has a modified flask file architecture; the main difference HTML files at main/root per GitHub index.html Instructions and the rest are put there just for neatness
-## The Yearly CSV Folder
-This Folder Hold CSV logic and other data, even though there labeled as 2024, there meant to be over written with that years data. 
 
 here a list of all data/folder that do need to be updated every competition 
 
- - **RawData2024.csv and Summary.csv**	
+ - **RawData.csv and Summary.csv**	
 	 - This file contains the raw data that is needed for the java script to run properly. The Files are meant to be overwritten every time new data is added. You will get theses file from the knight krawler app which is meant to be paired with this system.
 	 - 
  - **StyleAndLinks.json**
@@ -62,7 +60,7 @@ graph RL
         YPoints --> ATeamsVs
         YStyle[StyleAndLinks.json] --> AIndex
         YStyle --> AOur
-        YRaw[RawData2024.csv] --> AGen
+        YRaw[RawData.csv] --> AGen
         YRaw --> AGean
         YSummary[Summary.csv] --> ALeader
         YSummary --> ATeamsVs
