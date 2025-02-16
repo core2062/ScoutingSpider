@@ -6,27 +6,28 @@ Deep - 0.0%","Did Move Coral - 100.0%
 Did Move Algae - 0.0%
 Did Score Coral - 50.0%
 Did Score Alge - 0.0%","21: Attempted Auto, elevator is decently slow",""
-"537","Charger Robotics","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","Failed - 0.0%
+"537","Charger Robotics","23: Adam G","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","23: ","3.0","0.0","0.0","0.0","0.0","0.0","0.0","23: ","Failed - 100.0%
 Docked - 0.0%
-Shallow - 0.0%
-Deep - 0.0%","Did Move Coral - 0.0%
-Did Move Algae - 0.0%
-Did Score Coral - 0.0%
-Did Score Alge - 0.0%","",""
-"706","Cyberhawks","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","Failed - 0.0%
-Docked - 0.0%
-Shallow - 0.0%
-Deep - 0.0%","Did Move Coral - 0.0%
-Did Move Algae - 0.0%
-Did Score Coral - 0.0%
-Did Score Alge - 0.0%","",""
-"930","Mukwonago BEARs","20: Adam G","0.0","2.0","2.0","0.0","3.0","0.0","0.0","0.0","20: ","0.0","0.0","0.0","0.0","0.0","0.0","0.0","20: ","Failed - 0.0%
-Docked - 100.0%
 Shallow - 0.0%
 Deep - 0.0%","Did Move Coral - 100.0%
 Did Move Algae - 0.0%
 Did Score Coral - 100.0%
-Did Score Alge - 0.0%","20: Did not have a functional Auto,",""
+Did Score Alge - 0.0%","23: No Auto, cables shifted during match",""
+"706","Cyberhawks","31: Adam Grouse","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","31: ","2.0","0.0","0.0","0.0","0.0","0.0","0.0","31: ","Failed - 100.0%
+Docked - 0.0%
+Shallow - 0.0%
+Deep - 0.0%","Did Move Coral - 100.0%
+Did Move Algae - 0.0%
+Did Score Coral - 100.0%
+Did Score Alge - 0.0%","31: Design looks like our Charged up robot, can not pick up anything, got  coral stuck in robot",""
+"930","Mukwonago BEARs","20: Adam G, 26: Adam Grouse
+, 30: Adam Grouse ","0.0","0.67","2.67","0.0","1.0","0.0","0.0","0.0","20: , 26: , 30: ","1.33","0.33","0.0","0.0","0.0","0.0","0.0","20: , 26: , 30: No auto","Failed - 66.67%
+Docked - 33.33%
+Shallow - 0.0%
+Deep - 0.0%","Did Move Coral - 66.67%
+Did Move Algae - 33.33%
+Did Score Coral - 66.67%
+Did Score Alge - 0.0%","20: Did not have a functional Auto,, 30: No Auto, elevator may have gotten damaged reasons: when up once to get to 2 than only did level one",""
 "1091","Oriole Assault","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","Failed - 0.0%
 Docked - 0.0%
 Shallow - 0.0%
@@ -48,20 +49,20 @@ Deep - 0.0%","Did Move Coral - 0.0%
 Did Move Algae - 0.0%
 Did Score Coral - 0.0%
 Did Score Alge - 0.0%","",""
-"1714","MORE Robotics","18: Adam G","100.0","1.0","0.0","0.0","0.0","0.0","0.0","0.0","18: ","0.0","0.0","0.0","0.0","0.0","0.0","0.0","18: ","Failed - 100.0%
+"1714","MORE Robotics","18: Adam G, 27: Adam Grouse","50.0","0.5","0.0","0.5","0.0","0.0","0.0","0.0","18: , 27: ","0.0","0.0","0.0","0.0","0.0","0.0","0.0","18: , 27: ","Failed - 100.0%
 Docked - 0.0%
 Shallow - 0.0%
-Deep - 0.0%","Did Move Coral - 0.0%
-Did Move Algae - 100.0%
-Did Score Coral - 0.0%
-Did Score Alge - 0.0%","18: Gets from feeder, got coral stuck in itself",""
-"1716","Redbird Robotics","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","Failed - 0.0%
+Deep - 0.0%","Did Move Coral - 50.0%
+Did Move Algae - 50.0%
+Did Score Coral - 50.0%
+Did Score Alge - 0.0%","18: Gets from feeder, got coral stuck in itself, 27: No Auto, Dropped a note in itself, kept losing points but dropping them",""
+"1716","Redbird Robotics","25: Adam G","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","25: ","0.0","0.0","0.0","0.0","0.0","0.0","0.0","25: ","Failed - 100.0%
 Docked - 0.0%
 Shallow - 0.0%
 Deep - 0.0%","Did Move Coral - 0.0%
 Did Move Algae - 0.0%
 Did Score Coral - 0.0%
-Did Score Alge - 0.0%","",""
+Did Score Alge - 0.0%","25: Drive train Issues & Element Grabber",""
 "1792","Round Table Robotics","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","Failed - 0.0%
 Docked - 0.0%
 Shallow - 0.0%
@@ -69,13 +70,13 @@ Deep - 0.0%","Did Move Coral - 0.0%
 Did Move Algae - 0.0%
 Did Score Coral - 0.0%
 Did Score Alge - 0.0%","",""
-"2062","CORE 2062","14: Cohen","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","14: ","0.0","0.0","0.0","0.0","0.0","0.0","0.0","14: ","Failed - 0.0%
-Docked - 100.0%
+"2062","CORE 2062","14: Cohen, 24: Adam Grouse","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","14: , 24: ","0.5","1.0","0.0","0.0","0.0","0.0","0.0","14: , 24: ","Failed - 50.0%
+Docked - 50.0%
 Shallow - 0.0%
-Deep - 0.0%","Did Move Coral - 100.0%
-Did Move Algae - 0.0%
+Deep - 0.0%","Did Move Coral - 50.0%
+Did Move Algae - 50.0%
 Did Score Coral - 0.0%
-Did Score Alge - 0.0%","14: Was able to pick up coral, but it slips out from inertia.",""
+Did Score Alge - 0.0%","14: Was able to pick up coral, but it slips out from inertia., 24: No Auto, Attempted to score low did not often work, robot got notes stuck in itself",""
 "2077","Laser Robotics","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","Failed - 0.0%
 Docked - 0.0%
 Shallow - 0.0%
@@ -83,12 +84,12 @@ Deep - 0.0%","Did Move Coral - 0.0%
 Did Move Algae - 0.0%
 Did Score Coral - 0.0%
 Did Score Alge - 0.0%","",""
-"2202","BEAST Robotics","14: Simon","100.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","14: ","0.0","0.0","0.0","0.0","0.0","0.0","0.0","14: ","Failed - 100.0%
-Docked - 0.0%
+"2202","BEAST Robotics","14: Simon, 33: Adam Grouse","50.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","14: , 33: ","0.0","0.5","0.0","0.0","0.0","0.0","0.0","14: , 33: ","Failed - 50.0%
+Docked - 50.0%
 Shallow - 0.0%
-Deep - 0.0%","Did Move Coral - 0.0%
+Deep - 0.0%","Did Move Coral - 50.0%
 Did Move Algae - 0.0%
-Did Score Coral - 0.0%
+Did Score Coral - 50.0%
 Did Score Alge - 0.0%","14: Didn't pick up or move anything",""
 "2506","Saber Robotics","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","Failed - 0.0%
 Docked - 0.0%
@@ -132,13 +133,13 @@ Deep - 0.0%","Did Move Coral - 0.0%
 Did Move Algae - 0.0%
 Did Score Coral - 0.0%
 Did Score Alge - 0.0%","",""
-"5096","The Teutonic Force","16: Adam G","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","16: ","0.0","0.0","0.0","0.0","0.0","0.0","0.0","16: ","Failed - 100.0%
+"5096","The Teutonic Force","16: Adam G, 32: Adam Grouse","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","16: , 32: ","0.0","0.0","0.0","0.0","0.0","0.0","0.0","16: , 32: ","Failed - 100.0%
 Docked - 0.0%
 Shallow - 0.0%
 Deep - 0.0%","Did Move Coral - 0.0%
 Did Move Algae - 0.0%
 Did Score Coral - 0.0%
-Did Score Alge - 0.0%","16: No Auto, lost Comms, has no manipulator",""
+Did Score Alge - 0.0%","16: No Auto, lost Comms, has no manipulator, 32: Its just a fancy drive train",""
 "5148","New Berlin Blitz","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","Failed - 0.0%
 Docked - 0.0%
 Shallow - 0.0%
@@ -174,13 +175,13 @@ Deep - 0.0%","Did Move Coral - 0.0%
 Did Move Algae - 0.0%
 Did Score Coral - 0.0%
 Did Score Alge - 0.0%","",""
-"6574","Ferradermis","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","Failed - 0.0%
+"6574","Ferradermis","28: Adam Grouse","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","28: ","1.0","0.0","0.0","0.0","0.0","0.0","0.0","28: ","Failed - 100.0%
 Docked - 0.0%
 Shallow - 0.0%
 Deep - 0.0%","Did Move Coral - 0.0%
 Did Move Algae - 0.0%
 Did Score Coral - 0.0%
-Did Score Alge - 0.0%","",""
+Did Score Alge - 0.0%","28: They have a rotation based arm, had drive train issues",""
 "7103","Robo Remedy @ Manitowoc Lutheran High School","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","Failed - 0.0%
 Docked - 0.0%
 Shallow - 0.0%
