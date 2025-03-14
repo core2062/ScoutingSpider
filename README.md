@@ -1,4 +1,4 @@
-# Welcome to the (Static Build) Scouting Spider 
+# Welcome to the (Static/Github Build) Scouting Spider 
 
 > Heads Up Most Important information about The **FLASK BUILD**  of the website will be found on [Here](https://github.com/Magicflash67/ScoutingSpider/tree/FlaskServerBuild?tab=readme-ov-file#scoutingspider-flask-build)
 >  *(if Link doesn't work https://github.com/Magicflash67/ScoutingSpider/tree/FlaskServerBuild?tab=readme-ov-file#scoutingspider-flask-build)*
