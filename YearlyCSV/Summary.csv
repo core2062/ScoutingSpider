@@ -1,254 +1,61 @@
-"Team Number","Team Names","Name","Auto Move","Auto Coral Lvl 1","Auto Coral Lvl 2","Auto Coral Lvl 3","Auto Coral Lvl 4","Auto Algae Removed","Auto Algae Processed","Auto Algae Net","Teleop","Teleop Coral Lvl 1","Teleop Coral Lvl 2","Teleop Coral Lvl 3","Teleop Coral Lvl 4","Teleop Algae Removed","Teleop Algae Processed","Teleop Algae Net","End game","Parking","Did Move Game Elements","Match Comments","Robot Comments"
-"171","Cheese Curd Herd","19: Adam G, 21: Adam Grouse","50.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","19: , 21: ","0.0","0.0","0.5","2.5","0.0","0.0","0.0","19: , 21: ","Failed - 100.0%
-Docked - 0.0%
-Shallow - 0.0%
-Deep - 0.0%","Did Move Coral - 100.0%
-Did Move Algae - 0.0%
-Did Score Coral - 50.0%
-Did Score Alge - 0.0%","21: Attempted Auto, elevator is decently slow",""
-"537","Charger Robotics","23: Adam G","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","23: ","3.0","0.0","0.0","0.0","0.0","0.0","0.0","23: ","Failed - 100.0%
-Docked - 0.0%
-Shallow - 0.0%
-Deep - 0.0%","Did Move Coral - 100.0%
-Did Move Algae - 0.0%
-Did Score Coral - 100.0%
-Did Score Alge - 0.0%","23: No Auto, cables shifted during match",""
-"706","Cyberhawks","31: Adam Grouse","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","31: ","2.0","0.0","0.0","0.0","0.0","0.0","0.0","31: ","Failed - 100.0%
-Docked - 0.0%
-Shallow - 0.0%
-Deep - 0.0%","Did Move Coral - 100.0%
-Did Move Algae - 0.0%
-Did Score Coral - 100.0%
-Did Score Alge - 0.0%","31: Design looks like our Charged up robot, can not pick up anything, got  coral stuck in robot",""
-"930","Mukwonago BEARs","20: Adam G, 26: Adam Grouse
-, 30: Adam Grouse ","0.0","0.67","2.67","0.0","1.0","0.0","0.0","0.0","20: , 26: , 30: ","1.33","0.33","0.0","0.0","0.0","0.0","0.0","20: , 26: , 30: No auto","Failed - 66.67%
-Docked - 33.33%
-Shallow - 0.0%
-Deep - 0.0%","Did Move Coral - 66.67%
-Did Move Algae - 33.33%
-Did Score Coral - 66.67%
-Did Score Alge - 0.0%","20: Did not have a functional Auto,, 30: No Auto, elevator may have gotten damaged reasons: when up once to get to 2 than only did level one",""
-"1091","Oriole Assault","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","Failed - 0.0%
-Docked - 0.0%
-Shallow - 0.0%
-Deep - 0.0%","Did Move Coral - 0.0%
-Did Move Algae - 0.0%
-Did Score Coral - 0.0%
-Did Score Alge - 0.0%","",""
-"1259","Paradigm Shift","15: Cohen","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","15: ","0.0","1.0","1.0","2.0","0.0","0.0","0.0","15: ","Failed - 100.0%
-Docked - 0.0%
-Shallow - 0.0%
-Deep - 0.0%","Did Move Coral - 100.0%
-Did Move Algae - 0.0%
-Did Score Coral - 100.0%
-Did Score Alge - 0.0%","",""
-"1306","BadgerBOTS","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","Failed - 0.0%
-Docked - 0.0%
-Shallow - 0.0%
-Deep - 0.0%","Did Move Coral - 0.0%
-Did Move Algae - 0.0%
-Did Score Coral - 0.0%
-Did Score Alge - 0.0%","",""
-"1714","MORE Robotics","18: Adam G, 27: Adam Grouse","50.0","0.5","0.0","0.5","0.0","0.0","0.0","0.0","18: , 27: ","0.0","0.0","0.0","0.0","0.0","0.0","0.0","18: , 27: ","Failed - 100.0%
-Docked - 0.0%
-Shallow - 0.0%
-Deep - 0.0%","Did Move Coral - 50.0%
-Did Move Algae - 50.0%
-Did Score Coral - 50.0%
-Did Score Alge - 0.0%","18: Gets from feeder, got coral stuck in itself, 27: No Auto, Dropped a note in itself, kept losing points but dropping them",""
-"1716","Redbird Robotics","25: Adam G","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","25: ","0.0","0.0","0.0","0.0","0.0","0.0","0.0","25: ","Failed - 100.0%
-Docked - 0.0%
-Shallow - 0.0%
-Deep - 0.0%","Did Move Coral - 0.0%
-Did Move Algae - 0.0%
-Did Score Coral - 0.0%
-Did Score Alge - 0.0%","25: Drive train Issues & Element Grabber",""
-"1792","Round Table Robotics","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","Failed - 0.0%
-Docked - 0.0%
-Shallow - 0.0%
-Deep - 0.0%","Did Move Coral - 0.0%
-Did Move Algae - 0.0%
-Did Score Coral - 0.0%
-Did Score Alge - 0.0%","",""
-"2062","CORE 2062","14: Cohen, 24: Adam Grouse","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","14: , 24: ","0.5","1.0","0.0","0.0","0.0","0.0","0.0","14: , 24: ","Failed - 50.0%
-Docked - 50.0%
-Shallow - 0.0%
-Deep - 0.0%","Did Move Coral - 50.0%
-Did Move Algae - 50.0%
-Did Score Coral - 0.0%
-Did Score Alge - 0.0%","14: Was able to pick up coral, but it slips out from inertia., 24: No Auto, Attempted to score low did not often work, robot got notes stuck in itself",""
-"2077","Laser Robotics","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","Failed - 0.0%
-Docked - 0.0%
-Shallow - 0.0%
-Deep - 0.0%","Did Move Coral - 0.0%
-Did Move Algae - 0.0%
-Did Score Coral - 0.0%
-Did Score Alge - 0.0%","",""
-"2202","BEAST Robotics","14: Simon, 33: Adam Grouse","50.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","14: , 33: ","0.0","0.5","0.0","0.0","0.0","0.0","0.0","14: , 33: ","Failed - 50.0%
-Docked - 50.0%
-Shallow - 0.0%
-Deep - 0.0%","Did Move Coral - 50.0%
-Did Move Algae - 0.0%
-Did Score Coral - 50.0%
-Did Score Alge - 0.0%","14: Didn't pick up or move anything",""
-"2506","Saber Robotics","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","Failed - 0.0%
-Docked - 0.0%
-Shallow - 0.0%
-Deep - 0.0%","Did Move Coral - 0.0%
-Did Move Algae - 0.0%
-Did Score Coral - 0.0%
-Did Score Alge - 0.0%","",""
-"2826","Wave Robotics","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","Failed - 0.0%
-Docked - 0.0%
-Shallow - 0.0%
-Deep - 0.0%","Did Move Coral - 0.0%
-Did Move Algae - 0.0%
-Did Score Coral - 0.0%
-Did Score Alge - 0.0%","",""
-"2830","Riverside RoboTigers","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","Failed - 0.0%
-Docked - 0.0%
-Shallow - 0.0%
-Deep - 0.0%","Did Move Coral - 0.0%
-Did Move Algae - 0.0%
-Did Score Coral - 0.0%
-Did Score Alge - 0.0%","",""
-"3381","Droid Rage","17: Adam Grouse","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","17: ","1.0","0.0","0.0","0.0","0.0","0.0","0.0","17: ","Failed - 100.0%
-Docked - 0.0%
-Shallow - 0.0%
-Deep - 0.0%","Did Move Coral - 100.0%
-Did Move Algae - 0.0%
-Did Score Coral - 0.0%
-Did Score Alge - 0.0%","17: No Auto, late movement",""
-"3418","RoboRiot","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","Failed - 0.0%
-Docked - 0.0%
-Shallow - 0.0%
-Deep - 0.0%","Did Move Coral - 0.0%
-Did Move Algae - 0.0%
-Did Score Coral - 0.0%
-Did Score Alge - 0.0%","",""
-"4531","STEAMpunk","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","Failed - 0.0%
-Docked - 0.0%
-Shallow - 0.0%
-Deep - 0.0%","Did Move Coral - 0.0%
-Did Move Algae - 0.0%
-Did Score Coral - 0.0%
-Did Score Alge - 0.0%","",""
-"5096","The Teutonic Force","16: Adam G, 32: Adam Grouse","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","16: , 32: ","0.0","0.0","0.0","0.0","0.0","0.0","0.0","16: , 32: ","Failed - 100.0%
-Docked - 0.0%
-Shallow - 0.0%
-Deep - 0.0%","Did Move Coral - 0.0%
-Did Move Algae - 0.0%
-Did Score Coral - 0.0%
-Did Score Alge - 0.0%","16: No Auto, lost Comms, has no manipulator, 32: Its just a fancy drive train",""
-"5148","New Berlin Blitz","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","Failed - 0.0%
-Docked - 0.0%
-Shallow - 0.0%
-Deep - 0.0%","Did Move Coral - 0.0%
-Did Move Algae - 0.0%
-Did Score Coral - 0.0%
-Did Score Alge - 0.0%","",""
-"5586","Bond Brigade","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","Failed - 0.0%
-Docked - 0.0%
-Shallow - 0.0%
-Deep - 0.0%","Did Move Coral - 0.0%
-Did Move Algae - 0.0%
-Did Score Coral - 0.0%
-Did Score Alge - 0.0%","",""
-"6223","Arsenal of Engineering","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","Failed - 0.0%
-Docked - 0.0%
-Shallow - 0.0%
-Deep - 0.0%","Did Move Coral - 0.0%
-Did Move Algae - 0.0%
-Did Score Coral - 0.0%
-Did Score Alge - 0.0%","",""
-"6381","Red Raider Robotics","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","Failed - 0.0%
-Docked - 0.0%
-Shallow - 0.0%
-Deep - 0.0%","Did Move Coral - 0.0%
-Did Move Algae - 0.0%
-Did Score Coral - 0.0%
-Did Score Alge - 0.0%","",""
-"6421","WarriorBots","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","Failed - 0.0%
-Docked - 0.0%
-Shallow - 0.0%
-Deep - 0.0%","Did Move Coral - 0.0%
-Did Move Algae - 0.0%
-Did Score Coral - 0.0%
-Did Score Alge - 0.0%","",""
-"6574","Ferradermis","28: Adam Grouse","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","28: ","1.0","0.0","0.0","0.0","0.0","0.0","0.0","28: ","Failed - 100.0%
-Docked - 0.0%
-Shallow - 0.0%
-Deep - 0.0%","Did Move Coral - 0.0%
-Did Move Algae - 0.0%
-Did Score Coral - 0.0%
-Did Score Alge - 0.0%","28: They have a rotation based arm, had drive train issues",""
-"7103","Robo Remedy @ Manitowoc Lutheran High School","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","Failed - 0.0%
-Docked - 0.0%
-Shallow - 0.0%
-Deep - 0.0%","Did Move Coral - 0.0%
-Did Move Algae - 0.0%
-Did Score Coral - 0.0%
-Did Score Alge - 0.0%","",""
-"7619","illumiBOTi","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","Failed - 0.0%
-Docked - 0.0%
-Shallow - 0.0%
-Deep - 0.0%","Did Move Coral - 0.0%
-Did Move Algae - 0.0%
-Did Score Coral - 0.0%
-Did Score Alge - 0.0%","",""
-"7900","Trial N' Terror","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","Failed - 0.0%
-Docked - 0.0%
-Shallow - 0.0%
-Deep - 0.0%","Did Move Coral - 0.0%
-Did Move Algae - 0.0%
-Did Score Coral - 0.0%
-Did Score Alge - 0.0%","",""
-"8701","GRAFFITI","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","Failed - 0.0%
-Docked - 0.0%
-Shallow - 0.0%
-Deep - 0.0%","Did Move Coral - 0.0%
-Did Move Algae - 0.0%
-Did Score Coral - 0.0%
-Did Score Alge - 0.0%","",""
-"9578","Player One","15: Simon","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","15: ","0.0","0.0","0.0","0.0","0.0","0.0","0.0","15: ","Failed - 100.0%
-Docked - 0.0%
-Shallow - 0.0%
-Deep - 0.0%","Did Move Coral - 0.0%
-Did Move Algae - 100.0%
-Did Score Coral - 0.0%
-Did Score Alge - 0.0%","15: Didn't move or pick up ",""
-"9970","Off-Season Demo Team 9970","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","Failed - 0.0%
-Docked - 0.0%
-Shallow - 0.0%
-Deep - 0.0%","Did Move Coral - 0.0%
-Did Move Algae - 0.0%
-Did Score Coral - 0.0%
-Did Score Alge - 0.0%","",""
-"9980","Off-Season Demo Team 9980","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","Failed - 0.0%
-Docked - 0.0%
-Shallow - 0.0%
-Deep - 0.0%","Did Move Coral - 0.0%
-Did Move Algae - 0.0%
-Did Score Coral - 0.0%
-Did Score Alge - 0.0%","",""
-"9990","Off-Season Demo Team 9990","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","Failed - 0.0%
-Docked - 0.0%
-Shallow - 0.0%
-Deep - 0.0%","Did Move Coral - 0.0%
-Did Move Algae - 0.0%
-Did Score Coral - 0.0%
-Did Score Alge - 0.0%","",""
-"9999","Off-Season Demo Team 9999","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","Failed - 0.0%
-Docked - 0.0%
-Shallow - 0.0%
-Deep - 0.0%","Did Move Coral - 0.0%
-Did Move Algae - 0.0%
-Did Score Coral - 0.0%
-Did Score Alge - 0.0%","",""
-"10430","West Bend","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","Failed - 0.0%
-Docked - 0.0%
-Shallow - 0.0%
-Deep - 0.0%","Did Move Coral - 0.0%
-Did Move Algae - 0.0%
-Did Score Coral - 0.0%
-Did Score Alge - 0.0%","",""
+import os
+import subprocess
+import sys
+import shutil
+
+def push_files(raw_path, sum_path, commit_message="Updated CSV Via Script"):
+    repo_url = "https://github.com/core2062/ScoutingSpider.git"
+    repo_name = "ScoutingSpider"
+    repo_path = os.path.join(os.getcwd(), repo_name)
+    
+    # If the repository folder already exists, remove it first
+    if os.path.exists(repo_path):
+        print("Repository already exists, deleting it first...")
+        shutil.rmtree(repo_path)
+    
+    # Clone the repository using git clone
+    clone_cmd = ["git", "clone", repo_url]
+    print("Cloning repository...")
+    subprocess.run(clone_cmd, check=True)
+    
+    # Change to repository directory
+    os.chdir(repo_path)
+    subprocess.run(["git", "pull", "origin", "main"], check=True)
+    
+    # Set default Git identity locally to avoid commit issues
+    subprocess.run(["git", "config", "--local", "user.email", "magicflash67@gmail.com"], check=True)
+    subprocess.run(["git", "config", "--local", "user.name", "Magicflash67"], check=True)
+    
+    # Define destination paths for the files
+    raw_dest = os.path.join(repo_path, "YearlyCSV", "RawData.csv")
+    sum_dest = os.path.join(repo_path, "YearlyCSV", "Summary.csv")
+    
+    print("Copying files...")
+    shutil.copy2(raw_path, raw_dest)
+    shutil.copy2(sum_path, sum_dest)
+    
+    # Stage, commit, and push changes
+    subprocess.run(["git", "add", "YearlyCSV/RawData.csv", "YearlyCSV/Summary.csv"], check=True)
+    subprocess.run(["git", "commit", "-m", commit_message], check=True)
+    subprocess.run(["git", "push", "origin", "main"], check=True)
+    
+    print("Files pushed successfully!")
+    
+    # Change back to the parent directory
+    os.chdir("..")
+    
+    # Delete the cloned repository folder
+    print("Deleting cloned repository folder...")
+    shutil.rmtree(repo_path)
+    print("Cleanup done!")
+
+if __name__ == "__main__":
+    if len(sys.argv) < 3 or len(sys.argv) > 4:
+        print("Usage: python RunToPush.py <raw_path> <sum_path> [commit_message]")
+        sys.exit(1)
+    
+    raw_file = sys.argv[1]
+    sum_file = sys.argv[2]
+    commit_message = sys.argv[3] if len(sys.argv) == 4 else "Updated CSV Via Script"
+    
+    push_files(raw_file, sum_file, commit_message)
