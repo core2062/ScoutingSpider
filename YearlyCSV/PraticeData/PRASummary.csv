@@ -1,130 +1,132 @@
 "Team Number","Team Names","Name","Auto Move","Auto Coral Lvl 1","Auto Coral Lvl 2","Auto Coral Lvl 3","Auto Coral Lvl 4","Auto Algae Removed","Auto Algae Processed","Auto Algae Net","Teleop","Teleop Coral Lvl 1","Teleop Coral Lvl 2","Teleop Coral Lvl 3","Teleop Coral Lvl 4","Teleop Algae Removed","Teleop Algae Processed","Teleop Algae Net","End game","Parking","Did Move Game Elements","Match Comments","Robot Comments"
-"93","NEW Apple Corps","1: , 12: test","50.0","1.0","1.0","1.0","1.0","1.0","1.0","1.0","1: , 12: ","1.0","1.0","1.0","1.0","1.0","1.0","1.0","1: , 12: ","Failed - 0.0%
+"93","NEW Apple Corps","5: Andrew K","100.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","5: ","0.0","0.0","0.0","0.0","0.0","0.0","0.0","5: ","Failed - 100.0%
+Docked - 0.0%
+Shallow - 0.0%
+Deep - 0.0%","Did Move Coral - 0.0%
+Did Move Algae - 0.0%
+Did Score Coral - 0.0%
+Did Score Alge - 0.0%","5: Went wrong way in auto and got e-stopped ",""
+"171","Cheese Curd Herd","2: Kiersten, 9: Isaac Leal","100.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","2: , 9: ","0.0","0.5","0.0","0.0","1.0","0.0","0.0","2: , 9: ","Failed - 100.0%
+Docked - 0.0%
+Shallow - 0.0%
+Deep - 0.0%","Did Move Coral - 50.0%
+Did Move Algae - 100.0%
+Did Score Coral - 50.0%
+Did Score Alge - 0.0%","2: Got a coral stuck in it, 9: Had trouble moving once Teleop started  ",""
+"537","Charger Robotics","3: Cesar Jimenez","100.0","0.0","0.0","0.0","1.0","0.0","0.0","0.0","3: ","1.0","0.0","2.0","4.0","0.0","0.0","0.0","3: ","Failed - 0.0%
+Docked - 100.0%
+Shallow - 0.0%
+Deep - 0.0%","Did Move Coral - 100.0%
+Did Move Algae - 0.0%
+Did Score Coral - 100.0%
+Did Score Alge - 0.0%","3: 
+",""
+"706","Cyberhawks","8: Cesar Jimemez","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","8: ","0.0","0.0","0.0","0.0","0.0","0.0","0.0","8: ","Failed - 100.0%
+Docked - 0.0%
+Shallow - 0.0%
+Deep - 0.0%","Did Move Coral - 0.0%
+Did Move Algae - 0.0%
+Did Score Coral - 0.0%
+Did Score Alge - 0.0%","8: Lost Comps",""
+"1091","Oriole Assault","4: Cesar Jimenez
+","100.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","4: ","1.0","0.0","0.0","1.0","0.0","0.0","0.0","4: ","Failed - 100.0%
+Docked - 0.0%
+Shallow - 0.0%
+Deep - 0.0%","Did Move Coral - 100.0%
+Did Move Algae - 0.0%
+Did Score Coral - 100.0%
+Did Score Alge - 0.0%","",""
+"1675","UPS (Ultimate Protection Squad)","7: Cesar Jimenez","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","7: ","3.0","2.0","0.0","0.0","0.0","0.0","0.0","7: ","Failed - 0.0%
+Docked - 100.0%
+Shallow - 0.0%
+Deep - 0.0%","Did Move Coral - 100.0%
+Did Move Algae - 0.0%
+Did Score Coral - 100.0%
+Did Score Alge - 0.0%","7: No movement of auto",""
+"1716","Redbird Robotics","8: Kiersten","100.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","8: ","0.0","3.0","4.0","0.0","0.0","0.0","0.0","8: ","Failed - 0.0%
+Docked - 100.0%
+Shallow - 0.0%
+Deep - 0.0%","Did Move Coral - 100.0%
+Did Move Algae - 0.0%
+Did Score Coral - 0.0%
+Did Score Alge - 100.0%","",""
+"2062","CORE 2062","4: Andrew H","100.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","4: ","0.0","1.0","0.0","0.0","3.0","2.0","0.0","4: ","Failed - 100.0%
+Docked - 0.0%
+Shallow - 0.0%
+Deep - 0.0%","Did Move Coral - 100.0%
+Did Move Algae - 100.0%
+Did Score Coral - 100.0%
+Did Score Alge - 100.0%","4: Issue with auto direction of motion. Positioning of elevator and robot took time to line up",""
+"2169","KING TeC","2: Andrew H","100.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","2: ","0.0","0.0","0.0","0.0","0.0","2.0","0.0","2: ","Failed - 0.0%
+Docked - 100.0%
+Shallow - 0.0%
+Deep - 0.0%","Did Move Coral - 0.0%
+Did Move Algae - 100.0%
+Did Score Coral - 0.0%
+Did Score Alge - 100.0%","2: Had a coral stuck in mechanism not allowing movement of intake mechanism to pickup algae. Was only able to intake algae sitting on coral on field",""
+"2194","Fondy Fire","9: Cohen Susler","100.0","0.0","0.0","0.0","1.0","0.0","0.0","0.0","9: ","0.0","3.0","1.0","3.0","3.0","2.0","1.0","9: ","Failed - 0.0%
+Docked - 100.0%
+Shallow - 0.0%
+Deep - 0.0%","Did Move Coral - 100.0%
+Did Move Algae - 100.0%
+Did Score Coral - 100.0%
+Did Score Alge - 100.0%","",""
+"2225","Rebel Robotics","3: Cohen Susler","100.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","3: ","0.0","0.0","0.0","0.0","2.0","2.0","0.0","3: ","Failed - 0.0%
+Docked - 100.0%
+Shallow - 0.0%
+Deep - 0.0%","Did Move Coral - 0.0%
+Did Move Algae - 100.0%
+Did Score Coral - 0.0%
+Did Score Alge - 100.0%","",""
+"2509","Tigerbots","7: Cohen Susler","100.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","7: ","0.0","0.0","0.0","0.0","1.0","0.0","0.0","7: ","Failed - 0.0%
+Docked - 100.0%
+Shallow - 0.0%
+Deep - 0.0%","Did Move Coral - 100.0%
+Did Move Algae - 100.0%
+Did Score Coral - 0.0%
+Did Score Alge - 0.0%","",""
+"2526","Crimson Robotics","8: Isaac Leal","100.0","1.0","0.0","0.0","0.0","0.0","0.0","0.0","8: ","0.0","0.0","0.0","0.0","5.0","0.0","6.0","8: ","Failed - 100.0%
+Docked - 0.0%
+Shallow - 0.0%
+Deep - 0.0%","Did Move Coral - 0.0%
+Did Move Algae - 100.0%
+Did Score Coral - 100.0%
+Did Score Alge - 100.0%","",""
+"2531","RoboHawks","2: Andrew K, 9: Cam","50.0","0.0","0.0","0.0","0.5","0.0","0.0","0.0","2: , 9: ","0.0","0.0","0.5","2.0","1.0","0.0","1.0","2: , 9: ","Failed - 50.0%
 Docked - 50.0%
-Shallow - 50.0%
+Shallow - 0.0%
+Deep - 0.0%","Did Move Coral - 50.0%
+Did Move Algae - 50.0%
+Did Score Coral - 50.0%
+Did Score Alge - 50.0%","2: No movement",""
+"2826","Wave Robotics","5: Andrew H","100.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","5: ","0.0","0.0","0.0","1.0","1.0","0.0","0.0","5: ","Failed - 100.0%
+Docked - 0.0%
+Shallow - 0.0%
+Deep - 0.0%","Did Move Coral - 100.0%
+Did Move Algae - 100.0%
+Did Score Coral - 100.0%
+Did Score Alge - 0.0%","5: Had good lineup, but scoring mechanism had some inconsistentcies. ",""
+"2830","Riverside RoboTigers","4: Kiersten, 10: Cam","100.0","0.5","0.0","0.0","0.0","0.0","0.0","0.0","4: , 10: ","2.0","0.0","0.0","3.0","0.5","0.0","0.0","4: , 10: ","Failed - 100.0%
+Docked - 0.0%
+Shallow - 0.0%
+Deep - 0.0%","Did Move Coral - 100.0%
+Did Move Algae - 0.0%
+Did Score Coral - 50.0%
+Did Score Alge - 0.0%","",""
+"2977","Sir Lancer Bots","2: Ryan Glaser, 10: Cesar Jimenez","100.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","2: , 10: ","0.5","0.0","0.5","1.0","1.5","0.0","0.0","2: , 10: ","Failed - 0.0%
+Docked - 100.0%
+Shallow - 0.0%
 Deep - 0.0%","Did Move Coral - 100.0%
 Did Move Algae - 50.0%
 Did Score Coral - 100.0%
-Did Score Alge - 100.0%","",""
-"171","Cheese Curd Herd","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","Failed - 0.0%
+Did Score Alge - 0.0%","",""
+"3055","Furious George","5: Kiersten","100.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","5: ","1.0","0.0","0.0","0.0","0.0","0.0","0.0","5: ","Failed - 100.0%
 Docked - 0.0%
 Shallow - 0.0%
 Deep - 0.0%","Did Move Coral - 0.0%
 Did Move Algae - 0.0%
 Did Score Coral - 0.0%
-Did Score Alge - 0.0%","",""
-"537","Charger Robotics","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","Failed - 0.0%
-Docked - 0.0%
-Shallow - 0.0%
-Deep - 0.0%","Did Move Coral - 0.0%
-Did Move Algae - 0.0%
-Did Score Coral - 0.0%
-Did Score Alge - 0.0%","",""
-"706","Cyberhawks","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","Failed - 0.0%
-Docked - 0.0%
-Shallow - 0.0%
-Deep - 0.0%","Did Move Coral - 0.0%
-Did Move Algae - 0.0%
-Did Score Coral - 0.0%
-Did Score Alge - 0.0%","",""
-"1091","Oriole Assault","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","Failed - 0.0%
-Docked - 0.0%
-Shallow - 0.0%
-Deep - 0.0%","Did Move Coral - 0.0%
-Did Move Algae - 0.0%
-Did Score Coral - 0.0%
-Did Score Alge - 0.0%","",""
-"1675","UPS (Ultimate Protection Squad)","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","Failed - 0.0%
-Docked - 0.0%
-Shallow - 0.0%
-Deep - 0.0%","Did Move Coral - 0.0%
-Did Move Algae - 0.0%
-Did Score Coral - 0.0%
-Did Score Alge - 0.0%","",""
-"1716","Redbird Robotics","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","Failed - 0.0%
-Docked - 0.0%
-Shallow - 0.0%
-Deep - 0.0%","Did Move Coral - 0.0%
-Did Move Algae - 0.0%
-Did Score Coral - 0.0%
-Did Score Alge - 0.0%","",""
-"2062","CORE 2062","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","Failed - 0.0%
-Docked - 0.0%
-Shallow - 0.0%
-Deep - 0.0%","Did Move Coral - 0.0%
-Did Move Algae - 0.0%
-Did Score Coral - 0.0%
-Did Score Alge - 0.0%","",""
-"2169","KING TeC","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","Failed - 0.0%
-Docked - 0.0%
-Shallow - 0.0%
-Deep - 0.0%","Did Move Coral - 0.0%
-Did Move Algae - 0.0%
-Did Score Coral - 0.0%
-Did Score Alge - 0.0%","",""
-"2194","Fondy Fire","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","Failed - 0.0%
-Docked - 0.0%
-Shallow - 0.0%
-Deep - 0.0%","Did Move Coral - 0.0%
-Did Move Algae - 0.0%
-Did Score Coral - 0.0%
-Did Score Alge - 0.0%","",""
-"2225","Rebel Robotics","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","Failed - 0.0%
-Docked - 0.0%
-Shallow - 0.0%
-Deep - 0.0%","Did Move Coral - 0.0%
-Did Move Algae - 0.0%
-Did Score Coral - 0.0%
-Did Score Alge - 0.0%","",""
-"2509","Tigerbots","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","Failed - 0.0%
-Docked - 0.0%
-Shallow - 0.0%
-Deep - 0.0%","Did Move Coral - 0.0%
-Did Move Algae - 0.0%
-Did Score Coral - 0.0%
-Did Score Alge - 0.0%","",""
-"2526","Crimson Robotics","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","Failed - 0.0%
-Docked - 0.0%
-Shallow - 0.0%
-Deep - 0.0%","Did Move Coral - 0.0%
-Did Move Algae - 0.0%
-Did Score Coral - 0.0%
-Did Score Alge - 0.0%","",""
-"2531","RoboHawks","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","Failed - 0.0%
-Docked - 0.0%
-Shallow - 0.0%
-Deep - 0.0%","Did Move Coral - 0.0%
-Did Move Algae - 0.0%
-Did Score Coral - 0.0%
-Did Score Alge - 0.0%","",""
-"2826","Wave Robotics","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","Failed - 0.0%
-Docked - 0.0%
-Shallow - 0.0%
-Deep - 0.0%","Did Move Coral - 0.0%
-Did Move Algae - 0.0%
-Did Score Coral - 0.0%
-Did Score Alge - 0.0%","",""
-"2830","Riverside RoboTigers","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","Failed - 0.0%
-Docked - 0.0%
-Shallow - 0.0%
-Deep - 0.0%","Did Move Coral - 0.0%
-Did Move Algae - 0.0%
-Did Score Coral - 0.0%
-Did Score Alge - 0.0%","",""
-"2977","Sir Lancer Bots","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","Failed - 0.0%
-Docked - 0.0%
-Shallow - 0.0%
-Deep - 0.0%","Did Move Coral - 0.0%
-Did Move Algae - 0.0%
-Did Score Coral - 0.0%
-Did Score Alge - 0.0%","",""
-"3055","Furious George","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","Failed - 0.0%
-Docked - 0.0%
-Shallow - 0.0%
-Deep - 0.0%","Did Move Coral - 0.0%
-Did Move Algae - 0.0%
-Did Score Coral - 0.0%
-Did Score Alge - 0.0%","",""
+Did Score Alge - 0.0%","5: Very slow and struggled to remove coral from robot",""
 "3090","Chaotic Robotics","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","Failed - 0.0%
 Docked - 0.0%
 Shallow - 0.0%
@@ -132,82 +134,82 @@ Deep - 0.0%","Did Move Coral - 0.0%
 Did Move Algae - 0.0%
 Did Score Coral - 0.0%
 Did Score Alge - 0.0%","",""
-"3197","HexHounds","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","Failed - 0.0%
+"3197","HexHounds","5: Cam","100.0","1.0","0.0","0.0","1.0","0.0","0.0","0.0","5: ","0.0","0.0","0.0","0.0","0.0","0.0","0.0","5: ","Failed - 100.0%
+Docked - 0.0%
+Shallow - 0.0%
+Deep - 0.0%","Did Move Coral - 100.0%
+Did Move Algae - 100.0%
+Did Score Coral - 100.0%
+Did Score Alge - 0.0%","5: Robot stopped moving after attempting to score in net. Light still blinking",""
+"3381","Droid Rage","5: Cohen Susler","100.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","5: ","0.0","0.0","0.0","0.0","5.0","0.0","0.0","5: ","Failed - 0.0%
+Docked - 100.0%
+Shallow - 0.0%
+Deep - 0.0%","Did Move Coral - 0.0%
+Did Move Algae - 100.0%
+Did Score Coral - 0.0%
+Did Score Alge - 100.0%","",""
+"3418","RoboRiot","3: Andrew H","100.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","3: ","0.0","0.0","1.0","0.0","0.0","0.0","0.0","3: ","Failed - 0.0%
+Docked - 100.0%
+Shallow - 0.0%
+Deep - 0.0%","Did Move Coral - 100.0%
+Did Move Algae - 0.0%
+Did Score Coral - 100.0%
+Did Score Alge - 0.0%","3: Took time to line up with feeder station",""
+"3692","Rock N' Robotics","3: Ryan Glaser, 10: Cohen Susler","50.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","3: , 10: ","0.0","0.0","0.0","0.0","0.0","0.0","0.0","3: , 10: ","Failed - 50.0%
+Docked - 50.0%
+Shallow - 0.0%
+Deep - 0.0%","Did Move Coral - 50.0%
+Did Move Algae - 0.0%
+Did Score Coral - 0.0%
+Did Score Alge - 0.0%","3: Lost comms for whole match",""
+"4009","Duluth DNA Robotics","1: Cohen Susler, 3: Kiersten, 8: Cohen Susler","100.0","0.0","0.0","0.0","1.33","0.0","0.0","0.0","1: , 3: , 8: ","0.0","0.33","2.0","4.33","0.33","0.0","0.0","1: , 3: , 8: ","Failed - 66.67%
+Docked - 33.33%
+Shallow - 0.0%
+Deep - 0.0%","Did Move Coral - 100.0%
+Did Move Algae - 0.0%
+Did Score Coral - 66.67%
+Did Score Alge - 0.0%","1: Disconnected for about 5 seconds near the beginning of the match ",""
+"4011","BANANABOTS","7: Cam","100.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","7: ","0.0","0.0","0.0","0.0","0.0","0.0","0.0","7: ","Failed - 100.0%
 Docked - 0.0%
 Shallow - 0.0%
 Deep - 0.0%","Did Move Coral - 0.0%
 Did Move Algae - 0.0%
 Did Score Coral - 0.0%
+Did Score Alge - 0.0%","7: Rammed in auto by teammate, did not move again",""
+"4021","igKnightion","6: Andrew H","100.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","6: ","1.0","0.0","0.0","0.0","0.0","4.0","0.0","6: ","Failed - 0.0%
+Docked - 100.0%
+Shallow - 0.0%
+Deep - 0.0%","Did Move Coral - 0.0%
+Did Move Algae - 0.0%
+Did Score Coral - 0.0%
+Did Score Alge - 0.0%","6: Mostly consistant floor pickup for algae. ",""
+"4054","The Aeronauts","6: Cohen Susler","100.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","6: ","0.0","2.0","0.0","0.0","0.0","0.0","0.0","6: ","Failed - 0.0%
+Docked - 100.0%
+Shallow - 0.0%
+Deep - 0.0%","Did Move Coral - 100.0%
+Did Move Algae - 0.0%
+Did Score Coral - 100.0%
 Did Score Alge - 0.0%","",""
-"3381","Droid Rage","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","Failed - 0.0%
+"4207","PyroBotics","1: Andrew, 9: ","50.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","1: , 9: ","0.5","0.0","0.0","4.0","0.0","0.0","0.0","1: , 9: ","Failed - 0.0%
+Docked - 50.0%
+Shallow - 0.0%
+Deep - 50.0%","Did Move Coral - 50.0%
+Did Move Algae - 0.0%
+Did Score Coral - 50.0%
+Did Score Alge - 0.0%","1: Had difficulty aligning and keeping hold of coral, 9: In auto was fast but not lined up.right",""
+"4531","STEAMpunk","4: Andrew K","100.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","4: ","0.0","0.0","0.0","0.0","0.0","1.0","0.0","4: ","Failed - 0.0%
 Docked - 0.0%
 Shallow - 0.0%
-Deep - 0.0%","Did Move Coral - 0.0%
-Did Move Algae - 0.0%
+Deep - 100.0%","Did Move Coral - 100.0%
+Did Move Algae - 100.0%
 Did Score Coral - 0.0%
-Did Score Alge - 0.0%","",""
-"3418","RoboRiot","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","Failed - 0.0%
+Did Score Alge - 100.0%","4: Removed and scored algae with floor pickup",""
+"4728","ROCORI Ratcheteers","4: Cohen Susler","100.0","0.0","0.0","0.0","1.0","0.0","0.0","0.0","4: ","0.0","7.0","5.0","2.0","0.0","0.0","0.0","4: ","Failed - 0.0%
 Docked - 0.0%
 Shallow - 0.0%
-Deep - 0.0%","Did Move Coral - 0.0%
+Deep - 100.0%","Did Move Coral - 100.0%
 Did Move Algae - 0.0%
-Did Score Coral - 0.0%
-Did Score Alge - 0.0%","",""
-"3692","Rock N' Robotics","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","Failed - 0.0%
-Docked - 0.0%
-Shallow - 0.0%
-Deep - 0.0%","Did Move Coral - 0.0%
-Did Move Algae - 0.0%
-Did Score Coral - 0.0%
-Did Score Alge - 0.0%","",""
-"4009","Duluth DNA Robotics","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","Failed - 0.0%
-Docked - 0.0%
-Shallow - 0.0%
-Deep - 0.0%","Did Move Coral - 0.0%
-Did Move Algae - 0.0%
-Did Score Coral - 0.0%
-Did Score Alge - 0.0%","",""
-"4011","BANANABOTS","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","Failed - 0.0%
-Docked - 0.0%
-Shallow - 0.0%
-Deep - 0.0%","Did Move Coral - 0.0%
-Did Move Algae - 0.0%
-Did Score Coral - 0.0%
-Did Score Alge - 0.0%","",""
-"4021","igKnightion","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","Failed - 0.0%
-Docked - 0.0%
-Shallow - 0.0%
-Deep - 0.0%","Did Move Coral - 0.0%
-Did Move Algae - 0.0%
-Did Score Coral - 0.0%
-Did Score Alge - 0.0%","",""
-"4054","The Aeronauts","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","Failed - 0.0%
-Docked - 0.0%
-Shallow - 0.0%
-Deep - 0.0%","Did Move Coral - 0.0%
-Did Move Algae - 0.0%
-Did Score Coral - 0.0%
-Did Score Alge - 0.0%","",""
-"4207","PyroBotics","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","Failed - 0.0%
-Docked - 0.0%
-Shallow - 0.0%
-Deep - 0.0%","Did Move Coral - 0.0%
-Did Move Algae - 0.0%
-Did Score Coral - 0.0%
-Did Score Alge - 0.0%","",""
-"4531","STEAMpunk","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","Failed - 0.0%
-Docked - 0.0%
-Shallow - 0.0%
-Deep - 0.0%","Did Move Coral - 0.0%
-Did Move Algae - 0.0%
-Did Score Coral - 0.0%
-Did Score Alge - 0.0%","",""
-"4728","ROCORI Ratcheteers","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","Failed - 0.0%
-Docked - 0.0%
-Shallow - 0.0%
-Deep - 0.0%","Did Move Coral - 0.0%
-Did Move Algae - 0.0%
-Did Score Coral - 0.0%
+Did Score Coral - 100.0%
 Did Score Alge - 0.0%","",""
 "5019","Gearbox Heroes","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","Failed - 0.0%
 Docked - 0.0%
@@ -216,13 +218,13 @@ Deep - 0.0%","Did Move Coral - 0.0%
 Did Move Algae - 0.0%
 Did Score Coral - 0.0%
 Did Score Alge - 0.0%","",""
-"5148","New Berlin Blitz","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","Failed - 0.0%
-Docked - 0.0%
+"5148","New Berlin Blitz","9: Cesar Jimenez","100.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","9: ","0.0","0.0","0.0","0.0","0.0","0.0","0.0","9: ","Failed - 0.0%
+Docked - 100.0%
 Shallow - 0.0%
 Deep - 0.0%","Did Move Coral - 0.0%
 Did Move Algae - 0.0%
 Did Score Coral - 0.0%
-Did Score Alge - 0.0%","",""
+Did Score Alge - 0.0%","9: Problems with the elevator, could not drop a coral",""
 "5586","Bond Brigade","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","Failed - 0.0%
 Docked - 0.0%
 Shallow - 0.0%
@@ -230,74 +232,75 @@ Deep - 0.0%","Did Move Coral - 0.0%
 Did Move Algae - 0.0%
 Did Score Coral - 0.0%
 Did Score Alge - 0.0%","",""
-"5826","Avis Automata","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","Failed - 0.0%
+"5826","Avis Automata","2: Cohen Susler, 8: Andrew K","100.0","0.0","0.5","0.5","1.0","0.0","0.0","0.0","2: , 8: ","0.5","0.5","0.5","3.0","0.0","0.0","0.0","2: , 8: ","Failed - 100.0%
 Docked - 0.0%
+Shallow - 0.0%
+Deep - 0.0%","Did Move Coral - 100.0%
+Did Move Algae - 50.0%
+Did Score Coral - 100.0%
+Did Score Alge - 0.0%","2: Get an algae stuck in their elevator
+, 8: Coral got stuck, had trouble lining up and scoring L4 coral",""
+"5903","ThorBots","4: Cam, 9: Andrew K","100.0","1.5","0.0","0.0","0.0","0.0","0.0","0.0","4: , 9: ","0.5","0.0","0.5","3.0","0.0","0.0","0.0","4: , 9: ","Failed - 0.0%
+Docked - 0.0%
+Shallow - 0.0%
+Deep - 100.0%","Did Move Coral - 100.0%
+Did Move Algae - 0.0%
+Did Score Coral - 100.0%
+Did Score Alge - 0.0%","9: Good feeder intake, slow at lining up",""
+"5914","Robotic Warriors","1: Cesar Jimenez, 10: Kiersten","50.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","1: , 10: ","0.5","0.0","0.0","0.0","0.5","2.0","0.0","1: , 10: ","Failed - 100.0%
+Docked - 0.0%
+Shallow - 0.0%
+Deep - 0.0%","Did Move Coral - 50.0%
+Did Move Algae - 50.0%
+Did Score Coral - 50.0%
+Did Score Alge - 0.0%","10: Tipped.over mid match. Before tipping it struggled to remove alge",""
+"6166","Thorobotics","6: Kiersten","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","6: ","0.0","0.0","0.0","0.0","0.0","0.0","0.0","6: ","Failed - 0.0%
+Docked - 100.0%
 Shallow - 0.0%
 Deep - 0.0%","Did Move Coral - 0.0%
 Did Move Algae - 0.0%
 Did Score Coral - 0.0%
-Did Score Alge - 0.0%","",""
-"5903","ThorBots","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","Failed - 0.0%
+Did Score Alge - 0.0%","6: Wasn't moving until last 40 sec, then played defence",""
+"6381","Red Raider Robotics","7: Kiersten","100.0","0.0","0.0","0.0","1.0","0.0","0.0","0.0","7: ","0.0","0.0","0.0","0.0","0.0","0.0","1.0","7: ","Failed - 100.0%
 Docked - 0.0%
+Shallow - 0.0%
+Deep - 0.0%","Did Move Coral - 100.0%
+Did Move Algae - 0.0%
+Did Score Coral - 0.0%
+Did Score Alge - 0.0%","7: Attempted level 4 multiple times but not successful",""
+"6732","BHS RoboRaiders","8: Cam","100.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","8: ","0.0","1.0","0.0","0.0","0.0","0.0","0.0","8: ","Failed - 100.0%
+Docked - 0.0%
+Shallow - 0.0%
+Deep - 0.0%","Did Move Coral - 100.0%
+Did Move Algae - 0.0%
+Did Score Coral - 100.0%
+Did Score Alge - 0.0%","8: Intake broke towards end of game",""
+"7021","TC Robotics","1: Andrew H","100.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","1: ","0.0","0.0","2.0","3.0","1.0","1.0","0.0","1: ","Failed - 0.0%
+Docked - 100.0%
+Shallow - 0.0%
+Deep - 0.0%","Did Move Coral - 100.0%
+Did Move Algae - 100.0%
+Did Score Coral - 100.0%
+Did Score Alge - 100.0%","1: Had some indecisiveness in picking which feed station to obtain coral from, had no missed coral so consistant scoring. ",""
+"7103","Robo Remedy @ Manitowoc Lutheran High School","7: Andrew K","100.0","0.0","0.0","0.0","1.0","0.0","0.0","0.0","7: ","0.0","0.0","0.0","6.0","0.0","0.0","0.0","7: ","Failed - 100.0%
+Docked - 0.0%
+Shallow - 0.0%
+Deep - 0.0%","Did Move Coral - 100.0%
+Did Move Algae - 0.0%
+Did Score Coral - 100.0%
+Did Score Alge - 0.0%","7: Good at lining up and scoring coral. needs to be flush to intake coral.",""
+"7619","illumiBOTi","1: Kiersten","100.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","1: ","0.0","0.0","0.0","5.0","4.0","0.0","0.0","1: ","Failed - 0.0%
+Docked - 100.0%
 Shallow - 0.0%
 Deep - 0.0%","Did Move Coral - 0.0%
 Did Move Algae - 0.0%
 Did Score Coral - 0.0%
-Did Score Alge - 0.0%","",""
-"5914","Robotic Warriors","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","Failed - 0.0%
+Did Score Alge - 0.0%","1: Very efficient at level four",""
+"8024","Robotans","10: Isaac","100.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","10: ","0.0","0.0","0.0","0.0","0.0","0.0","0.0","10: ","Failed - 0.0%
 Docked - 0.0%
 Shallow - 0.0%
-Deep - 0.0%","Did Move Coral - 0.0%
-Did Move Algae - 0.0%
-Did Score Coral - 0.0%
-Did Score Alge - 0.0%","",""
-"6166","Thorobotics","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","Failed - 0.0%
-Docked - 0.0%
-Shallow - 0.0%
-Deep - 0.0%","Did Move Coral - 0.0%
-Did Move Algae - 0.0%
-Did Score Coral - 0.0%
-Did Score Alge - 0.0%","",""
-"6381","Red Raider Robotics","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","Failed - 0.0%
-Docked - 0.0%
-Shallow - 0.0%
-Deep - 0.0%","Did Move Coral - 0.0%
-Did Move Algae - 0.0%
-Did Score Coral - 0.0%
-Did Score Alge - 0.0%","",""
-"6732","BHS RoboRaiders","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","Failed - 0.0%
-Docked - 0.0%
-Shallow - 0.0%
-Deep - 0.0%","Did Move Coral - 0.0%
-Did Move Algae - 0.0%
-Did Score Coral - 0.0%
-Did Score Alge - 0.0%","",""
-"7021","TC Robotics","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","Failed - 0.0%
-Docked - 0.0%
-Shallow - 0.0%
-Deep - 0.0%","Did Move Coral - 0.0%
-Did Move Algae - 0.0%
-Did Score Coral - 0.0%
-Did Score Alge - 0.0%","",""
-"7103","Robo Remedy @ Manitowoc Lutheran High School","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","Failed - 0.0%
-Docked - 0.0%
-Shallow - 0.0%
-Deep - 0.0%","Did Move Coral - 0.0%
-Did Move Algae - 0.0%
-Did Score Coral - 0.0%
-Did Score Alge - 0.0%","",""
-"7619","illumiBOTi","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","Failed - 0.0%
-Docked - 0.0%
-Shallow - 0.0%
-Deep - 0.0%","Did Move Coral - 0.0%
-Did Move Algae - 0.0%
-Did Score Coral - 0.0%
-Did Score Alge - 0.0%","",""
-"8024","Robotans","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","Failed - 0.0%
-Docked - 0.0%
-Shallow - 0.0%
-Deep - 0.0%","Did Move Coral - 0.0%
-Did Move Algae - 0.0%
+Deep - 100.0%","Did Move Coral - 0.0%
+Did Move Algae - 100.0%
 Did Score Coral - 0.0%
 Did Score Alge - 0.0%","",""
 "8531","TermiKnightors","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","Failed - 0.0%
@@ -307,52 +310,53 @@ Deep - 0.0%","Did Move Coral - 0.0%
 Did Move Algae - 0.0%
 Did Score Coral - 0.0%
 Did Score Alge - 0.0%","",""
-"8700","W.I.R.E.D","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","Failed - 0.0%
+"8700","W.I.R.E.D","5: , 10: ","100.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","5: , 10: ","0.5","0.0","0.0","0.0","0.0","0.0","0.0","5: , 10: ","Failed - 100.0%
 Docked - 0.0%
+Shallow - 0.0%
+Deep - 0.0%","Did Move Coral - 100.0%
+Did Move Algae - 0.0%
+Did Score Coral - 50.0%
+Did Score Alge - 0.0%","5: Crash into one of the cages in the red site during autos
+, 10: Had drive train trouble",""
+"8701","GRAFFITI","6: Andrew K","100.0","0.0","0.0","0.0","1.0","0.0","0.0","0.0","6: ","0.0","0.0","0.0","3.0","0.0","0.0","0.0","6: ","Failed - 0.0%
+Docked - 0.0%
+Shallow - 0.0%
+Deep - 100.0%","Did Move Coral - 100.0%
+Did Move Algae - 0.0%
+Did Score Coral - 100.0%
+Did Score Alge - 0.0%","6: Had difficulty lining up for L4 coral in telephone and picking up from feeder station.",""
+"8744","Leviathans","7: Isaac Leal","100.0","0.0","0.0","0.0","1.0","0.0","0.0","0.0","7: ","0.0","1.0","2.0","5.0","0.0","0.0","0.0","7: ","Failed - 100.0%
+Docked - 0.0%
+Shallow - 0.0%
+Deep - 0.0%","Did Move Coral - 100.0%
+Did Move Algae - 0.0%
+Did Score Coral - 100.0%
+Did Score Alge - 0.0%","",""
+"8821","TVRT-Trojanbots","1: Ryan Glaser ","100.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","1: ","3.0","2.0","0.0","0.0","0.0","0.0","0.0","1: hit the cage and bumped it out of the way","Failed - 0.0%
+Docked - 100.0%
+Shallow - 0.0%
+Deep - 0.0%","Did Move Coral - 100.0%
+Did Move Algae - 0.0%
+Did Score Coral - 100.0%
+Did Score Alge - 0.0%","",""
+"9149","RoboCats","3: Andrew K","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","3: ","0.0","0.0","1.0","0.0","0.0","0.0","0.0","3: ","Failed - 0.0%
+Docked - 100.0%
+Shallow - 0.0%
+Deep - 0.0%","Did Move Coral - 100.0%
+Did Move Algae - 0.0%
+Did Score Coral - 100.0%
+Did Score Alge - 0.0%","3: Lost coms, regained coms, scored coral on algae, got coral stuck on robot",""
+"9578","Player One","6: Cesar Jimenez","100.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","6: ","0.0","0.0","0.0","0.0","2.0","1.0","1.0","6: ","Failed - 0.0%
+Docked - 100.0%
+Shallow - 0.0%
+Deep - 0.0%","Did Move Coral - 0.0%
+Did Move Algae - 100.0%
+Did Score Coral - 0.0%
+Did Score Alge - 100.0%","",""
+"9676","Hub City STEAM","6: Cam","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","6: ","0.0","0.0","0.0","0.0","0.0","0.0","0.0","6: ","Failed - 0.0%
+Docked - 100.0%
 Shallow - 0.0%
 Deep - 0.0%","Did Move Coral - 0.0%
 Did Move Algae - 0.0%
 Did Score Coral - 0.0%
-Did Score Alge - 0.0%","",""
-"8701","GRAFFITI","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","Failed - 0.0%
-Docked - 0.0%
-Shallow - 0.0%
-Deep - 0.0%","Did Move Coral - 0.0%
-Did Move Algae - 0.0%
-Did Score Coral - 0.0%
-Did Score Alge - 0.0%","",""
-"8744","Leviathans","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","Failed - 0.0%
-Docked - 0.0%
-Shallow - 0.0%
-Deep - 0.0%","Did Move Coral - 0.0%
-Did Move Algae - 0.0%
-Did Score Coral - 0.0%
-Did Score Alge - 0.0%","",""
-"8821","TVRT-Trojanbots","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","Failed - 0.0%
-Docked - 0.0%
-Shallow - 0.0%
-Deep - 0.0%","Did Move Coral - 0.0%
-Did Move Algae - 0.0%
-Did Score Coral - 0.0%
-Did Score Alge - 0.0%","",""
-"9149","RoboCats","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","Failed - 0.0%
-Docked - 0.0%
-Shallow - 0.0%
-Deep - 0.0%","Did Move Coral - 0.0%
-Did Move Algae - 0.0%
-Did Score Coral - 0.0%
-Did Score Alge - 0.0%","",""
-"9578","Player One","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","Failed - 0.0%
-Docked - 0.0%
-Shallow - 0.0%
-Deep - 0.0%","Did Move Coral - 0.0%
-Did Move Algae - 0.0%
-Did Score Coral - 0.0%
-Did Score Alge - 0.0%","",""
-"9676","Hub City STEAM","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","Failed - 0.0%
-Docked - 0.0%
-Shallow - 0.0%
-Deep - 0.0%","Did Move Coral - 0.0%
-Did Move Algae - 0.0%
-Did Score Coral - 0.0%
-Did Score Alge - 0.0%","",""
+Did Score Alge - 0.0%","6: Went straight to park",""
