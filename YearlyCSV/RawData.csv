@@ -3,7 +3,7 @@
 "93","17","""Nathan Kruepke""","true","0","0","0","0","0","0","0","""""","0","0","0","1","0","0","0","""""","""Deep""","""Did Move Coral"", ""Did Score Coral""","Coral manipulator broke when attempting to score on level 4. Proceeded to play defense."
 "93","28","""Will Haas""","true","0","0","0","1","0","0","0","""""","0","0","0","4","0","0","0","""""","""Docked""","""Did Score Coral""","Played defence well"
 "93","43","""Elise Barnes""","true","0","0","0","1","0","0","0","""""","0","0","0","6","1","0","0","""""","""Deep""","","Focused on scoring coral "
-"93","48","""Nathan Kruepke""","true","0","0","0","1","0","0","0","""""","0","1","2","4","3","0","0","""""","""Docked""","""Did Move Coral"", ""Did Move Algae"", ""Did Score Coral"""
+"93","48","Nathan Kruepke","true","0","0","0","1","0","0","0","","0","1","2","4","3","0","0","","Docked","Did Move Coral, Did Move Algae, Did Score Coral",""
 "93","53","""Cesar Jimenez""","false","0","0","0","1","0","0","0","""""","0","0","4","3","0","0","0","""""","""Docked""","""Did Move Coral"", ""Did Score Coral""","Fast at level 4 but slow at levels 3 and below"
 "171","1","""Adam Grouse-DataRecon""","false","0","0","0","0","0","0","0","""""","0","1","0","0","0","0","0","""""","""No Attempt""","","Got stuck on a Algae"
 "171","12","""Jonathan McMahon""","true","0","0","0","0","0","0","0","""""","0","2","1","0","0","0","0","""""","""No Attempt""","""Did Move Coral"", ""Did Score Coral""","Pretty consistently scored coral in level 2 and level 3."
