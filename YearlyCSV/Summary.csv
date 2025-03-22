@@ -1,125 +1,125 @@
 "Team Number","Team Names","Name","Auto Move","Auto Coral Lvl 1","Auto Coral Lvl 2","Auto Coral Lvl 3","Auto Coral Lvl 4","Auto Algae Removed","Auto Algae Processed","Auto Algae Net","Teleop","Teleop Coral Lvl 1","Teleop Coral Lvl 2","Teleop Coral Lvl 3","Teleop Coral Lvl 4","Teleop Algae Removed","Teleop Algae Processed","Teleop Algae Net","End game","Parking","Did Move Game Elements","Match Comments","Robot Comments"
-"93","NEW Apple Corps","17: Nathan Kruepke","100.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","17: ","0.0","0.0","0.0","1.0","0.0","0.0","0.0","17: ","No Attempt - 0.0%
+"93","NEW Apple Corps","3: Adam Grouse-DataRecon, 17: Nathan Kruepke, 43: Elise Barnes","66.67","0.0","0.0","0.0","0.33","0.0","0.0","0.0","3: , 17: , 43: ","0.0","0.0","0.67","3.0","0.33","0.0","0.0","3: , 17: , 43: ","No Attempt - 0.0%
+Failed - 33.33%
+Docked - 0.0%
+Shallow - 0.0%
+Deep - 66.67%","Did Move Coral - 33.33%
+Did Move Algae - 0.0%
+Did Score Coral - 33.33%
+Did Score Algae - 0.0%","17: Coral manipulator broke when attempting to score on level 4. Proceeded to play defense., 3: Last minute (1 link) chain skip causing them to fail, 43: Focused on scoring coral ",""
+"171","Cheese Curd Herd","1: Adam Grouse-DataRecon, 12: Jonathan McMahon, 18: Cesar Jimenez, 32: Tanner Pickar, 46: Will Haas","60.0","0.0","0.2","0.4","0.0","0.0","0.0","0.0","1: , 12: , 18: , 32: , 46: ","0.0","0.8","0.2","0.0","0.0","0.0","0.0","1: , 12: , 18: , 32: , 46: ","No Attempt - 100.0%
 Failed - 0.0%
 Docked - 0.0%
 Shallow - 0.0%
-Deep - 100.0%","Did Move Coral - 100.0%
+Deep - 0.0%","Did Move Coral - 60.0%
+Did Move Algae - 0.0%
+Did Score Coral - 40.0%
+Did Score Algae - 0.0%","1: Got stuck on a Algae, 18: Slow at restpck.of the coral,slow coral, 12: Pretty consistently scored coral in level 2 and level 3.",""
+"537","Charger Robotics","8: , 16: Ryan Glaser, 36: Simon, 54: Isaac Leal","75.0","0.75","0.0","0.0","0.25","0.0","0.0","0.0","8: , 16: , 36: , 54: ","0.0","0.0","0.5","7.0","0.0","0.0","0.0","8: , 16: , 36: , 54: ","No Attempt - 0.0%
+Failed - 25.0%
+Docked - 50.0%
+Shallow - 0.0%
+Deep - 25.0%","Did Move Coral - 100.0%
 Did Move Algae - 0.0%
 Did Score Coral - 100.0%
-Did Score Algae - 0.0%","17: Coral manipulator broke when attempting to score on level 4. Proceeded to play defense.",""
-"171","Cheese Curd Herd","1: Adam Grouse-DataRecon, 12: Jonathan McMahon, 18: Cesar Jimenez","33.33","0.0","0.33","0.67","0.0","0.0","0.0","0.0","1: , 12: , 18: ","0.0","1.0","0.33","0.0","0.0","0.0","0.0","1: , 12: , 18: ","No Attempt - 100.0%
+Did Score Algae - 0.0%","",""
+"706","Cyberhawks","13: Jonathan McMahon, 35: Simon, 49: Cesar JF","66.67","0.0","0.0","0.0","0.33","0.0","0.0","0.0","13: , 35: , 49: ","0.0","0.0","0.0","0.0","2.33","0.0","2.33","13: , 35: , 49: ","No Attempt - 66.67%
 Failed - 0.0%
-Docked - 0.0%
+Docked - 33.33%
+Shallow - 0.0%
+Deep - 0.0%","Did Move Coral - 66.67%
+Did Move Algae - 66.67%
+Did Score Coral - 33.33%
+Did Score Algae - 66.67%","13: Lost communications, did not play., 35: Unknown issues disabled the robot middle match, 49: Fast and reliable for net algae but lack a lot in coral, coral get stuck in the bot.",""
+"1091","Oriole Assault","5: Adam Grouse-DataRecon, 33: Tanner Pickar, 47: Will Haas","66.67","0.0","0.0","0.0","0.0","0.0","0.0","0.0","5: , 33: , 47: ","1.33","0.0","0.0","0.67","0.0","0.0","0.0","5: , 33: , 47: ","No Attempt - 0.0%
+Failed - 0.0%
+Docked - 100.0%
 Shallow - 0.0%
 Deep - 0.0%","Did Move Coral - 66.67%
 Did Move Algae - 0.0%
 Did Score Coral - 66.67%
-Did Score Algae - 0.0%","1: Got stuck on a Algae, 18: Slow at restpck.of the coral,slow coral, 12: Pretty consistently scored coral in level 2 and level 3.",""
-"537","Charger Robotics","16: Ryan Glaser","100.0","1.0","0.0","0.0","0.0","0.0","0.0","0.0","16: ","0.0","0.0","1.0","7.0","0.0","0.0","0.0","16: ","No Attempt - 0.0%
-Failed - 0.0%
+Did Score Algae - 0.0%","33: Attempted to steal from the other team",""
+"1675","UPS (Ultimate Protection Squad)","2: Adam Grouse-DataRecon, 32: Elise Barnes, 48: Will haas","66.67","0.0","0.33","0.67","0.0","0.0","0.0","0.0","2: , 32: , 48: ","0.33","0.67","2.33","0.0","1.0","0.0","0.0","2: , 32: , 48: ","No Attempt - 33.33%
+Failed - 33.33%
 Docked - 0.0%
 Shallow - 0.0%
-Deep - 100.0%","Did Move Coral - 100.0%
-Did Move Algae - 0.0%
-Did Score Coral - 100.0%
-Did Score Algae - 0.0%","",""
-"706","Cyberhawks","13: Jonathan McMahon","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","13: ","0.0","0.0","0.0","0.0","0.0","0.0","0.0","13: ","No Attempt - 100.0%
-Failed - 0.0%
-Docked - 0.0%
-Shallow - 0.0%
-Deep - 0.0%","Did Move Coral - 0.0%
-Did Move Algae - 0.0%
-Did Score Coral - 0.0%
-Did Score Algae - 0.0%","13: Lost communications, did not play.",""
-"1091","Oriole Assault","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","No Attempt - 0.0%
-Failed - 0.0%
-Docked - 0.0%
-Shallow - 0.0%
-Deep - 0.0%","Did Move Coral - 0.0%
-Did Move Algae - 0.0%
-Did Score Coral - 0.0%
-Did Score Algae - 0.0%","",""
-"1675","UPS (Ultimate Protection Squad)","2: Adam Grouse-DataRecon","0.0","0.0","1.0","2.0","0.0","0.0","0.0","0.0","2: ","1.0","2.0","0.0","0.0","0.0","0.0","0.0","2: ","No Attempt - 100.0%
-Failed - 0.0%
-Docked - 0.0%
-Shallow - 0.0%
-Deep - 0.0%","Did Move Coral - 0.0%
-Did Move Algae - 0.0%
-Did Score Coral - 0.0%
-Did Score Algae - 0.0%","2: Late start due too Comms Issues",""
-"1716","Redbird Robotics","19: Ian Branch","100.0","1.0","0.0","0.0","0.0","0.0","0.0","0.0","19: ","0.0","1.0","1.0","0.0","1.0","0.0","0.0","19: ","No Attempt - 100.0%
-Failed - 0.0%
+Deep - 33.33%","Did Move Coral - 33.33%
+Did Move Algae - 33.33%
+Did Score Coral - 33.33%
+Did Score Algae - 0.0%","2: Late start due too Comms Issues, 32: Focused on scoring coral",""
+"1716","Redbird Robotics","6: Adam Grouse-DataRecon, 19: Ian Branch, 28: Tanner Pickar, 50: Cesar Jimenez","75.0","0.75","0.0","0.0","0.0","0.0","0.0","0.0","6: , 19: , 28: , 50: ","0.0","0.75","1.75","0.0","1.0","0.25","0.0","6: , 19: , 28: , 50: ","No Attempt - 50.0%
+Failed - 50.0%
 Docked - 0.0%
 Shallow - 0.0%
 Deep - 0.0%","Did Move Coral - 100.0%
-Did Move Algae - 100.0%
+Did Move Algae - 75.0%
 Did Score Coral - 100.0%
-Did Score Algae - 0.0%","",""
-"2062","CORE 2062","18: Trey Bentley","100.0","1.0","0.0","0.0","0.0","0.0","0.0","0.0","18: ","0.0","2.0","0.0","0.0","1.0","0.0","0.0","18: ","No Attempt - 0.0%
-Failed - 0.0%
-Docked - 100.0%
+Did Score Algae - 25.0%","50: Lost comps mid game",""
+"2062","CORE 2062","4: Adam Grouse-DataRecon, 9: Adam Grouse-DataRecon, 18: Trey Bentley","100.0","0.33","0.0","0.0","0.0","0.0","0.0","0.0","4: , 9: , 18: ","0.0","2.0","0.33","0.0","0.33","0.0","0.0","4: , 9: , 18: ","No Attempt - 33.33%
+Failed - 33.33%
+Docked - 33.33%
 Shallow - 0.0%
-Deep - 0.0%","Did Move Coral - 0.0%
-Did Move Algae - 100.0%
+Deep - 0.0%","Did Move Coral - 66.67%
+Did Move Algae - 33.33%
 Did Score Coral - 100.0%
 Did Score Algae - 0.0%","18: Fast",""
-"2169","KING TeC","15: Cesar Jimenez","100.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","15: ","0.0","0.0","0.0","0.0","0.0","1.0","2.0","15: ","No Attempt - 100.0%
-Failed - 0.0%
-Docked - 0.0%
+"2169","KING TeC","7: Adam Grouse-DataRecon, 15: Cesar Jimenez, 33: Elise Barnes, 40: Will Haas, 56: Tanner Pickar","80.0","0.4","0.0","0.0","0.0","0.0","0.0","0.0","7: , 15: , 33: , 40: , 56: ","0.0","0.0","0.0","0.2","0.0","0.8","1.6","7: , 15: , 33: , 40: , 56: ","No Attempt - 60.0%
+Failed - 20.0%
+Docked - 20.0%
 Shallow - 0.0%
 Deep - 0.0%","Did Move Coral - 0.0%
-Did Move Algae - 100.0%
+Did Move Algae - 60.0%
 Did Score Coral - 0.0%
-Did Score Algae - 100.0%","15: Can process algae and shoot algae to the net",""
-"2194","Fondy Fire","17: Ian Branch","100.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","17: ","0.0","0.0","0.0","0.0","3.0","1.0","0.0","17: ","No Attempt - 0.0%
+Did Score Algae - 60.0%","15: Can process algae and shoot algae to the net, 7: Got stuck on Algae, 33: Focused on defense and algae processing",""
+"2194","Fondy Fire","8: Adam Grouse-DataRecon, 17: Ian Branch, 47: Cesar Jimenez","33.33","0.0","0.0","0.0","1.33","0.0","0.0","0.0","8: , 17: , 47: ","0.0","0.0","1.67","1.67","1.0","0.33","0.0","8: , 17: , 47: ","No Attempt - 33.33%
 Failed - 0.0%
 Docked - 0.0%
 Shallow - 0.0%
-Deep - 100.0%","Did Move Coral - 0.0%
-Did Move Algae - 100.0%
-Did Score Coral - 0.0%
-Did Score Algae - 100.0%","",""
-"2225","Rebel Robotics","13: Trey Bentley","100.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","13: ","0.0","0.0","0.0","0.0","2.0","4.0","0.0","13: ","No Attempt - 0.0%
+Deep - 66.67%","Did Move Coral - 33.33%
+Did Move Algae - 33.33%
+Did Score Coral - 33.33%
+Did Score Algae - 33.33%","8: Drive train issues",""
+"2225","Rebel Robotics","3: Adam Grouse-DataRecon, 13: Trey Bentley, 31: Tanner pickar, 38: Elise Barnes, 52: Jonathan McMahon","100.0","0.4","0.0","0.0","0.0","0.0","0.0","0.0","3: , 13: , 31: , 38: , 52: ","0.0","0.0","0.4","1.0","3.0","3.6","0.0","3: , 13: , 31: , 38: , 52: ","No Attempt - 20.0%
 Failed - 0.0%
-Docked - 0.0%
-Shallow - 100.0%
+Docked - 20.0%
+Shallow - 20.0%
+Deep - 40.0%","Did Move Coral - 20.0%
+Did Move Algae - 60.0%
+Did Score Coral - 40.0%
+Did Score Algae - 40.0%","13: A little slow, 3: Failed deep climb, qualified for docked, 38: Focused on scoring coral, 52: Did extremely well clearing algae from the reef, working fast and efficiently.",""
+"2509","Tigerbots","6: Adam Grouse-DataRecon, 15: Ryan Glaser, 25: Tanner Pickar, 32: Adam Grouse, 42: Elise Barnes, 55: Jonathan McMahon","66.67","0.17","0.0","0.0","0.33","0.0","0.0","0.0","6: , 15: , 25: , 32: , 42: , 55: ","0.0","0.0","0.0","2.5","0.0","0.0","0.0","6: , 15: , 25: , 32: , 42: , 55: ","No Attempt - 0.0%
+Failed - 16.67%
+Docked - 50.0%
+Shallow - 0.0%
+Deep - 33.33%","Did Move Coral - 83.33%
+Did Move Algae - 0.0%
+Did Score Coral - 83.33%
+Did Score Algae - 0.0%","42: Focused on scoring coral, 55: Seemed to have a couple hiccups aligning themselves, but overall did an alright job.",""
+"2526","Crimson Robotics","8: Adam Grouse-DataRecon, 9: Adam Grouse-DataRecon, 15: Trey Bentley, 24: Elise Barnes, 41: Elise Barnes","80.0","0.4","0.0","0.0","0.0","0.4","0.0","0.0","8: , 9: , 15: , 24: , 41: ","0.0","0.0","0.0","0.0","1.6","0.0","6.4","8: , 9: , 15: , 24: , 41: ","No Attempt - 40.0%
+Failed - 20.0%
+Docked - 40.0%
+Shallow - 0.0%
 Deep - 0.0%","Did Move Coral - 0.0%
-Did Move Algae - 0.0%
+Did Move Algae - 40.0%
 Did Score Coral - 0.0%
-Did Score Algae - 0.0%","13: A little slow",""
-"2509","Tigerbots","15: Ryan Glaser","100.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","15: ","0.0","0.0","0.0","5.0","0.0","0.0","0.0","15: ","No Attempt - 0.0%
-Failed - 100.0%
-Docked - 0.0%
+Did Score Algae - 60.0%","15: Fast and tall, 24: Mostly focused on defense, 41: Focused on algae removal and net",""
+"2531","RoboHawks","6: Adam Grouse-DataRecon, 42: Simon, 52: Trey Bentley","100.0","0.0","0.0","0.0","0.33","0.0","0.0","0.0","6: , 42: , 52: ","0.0","0.67","3.67","1.33","0.67","0.0","0.0","6: , 42: , 52: ","No Attempt - 33.33%
+Failed - 0.0%
+Docked - 33.33%
 Shallow - 0.0%
-Deep - 0.0%","Did Move Coral - 100.0%
-Did Move Algae - 0.0%
+Deep - 33.33%","Did Move Coral - 66.67%
+Did Move Algae - 33.33%
 Did Score Coral - 100.0%
-Did Score Algae - 0.0%","",""
-"2526","Crimson Robotics","15: Trey Bentley","100.0","1.0","0.0","0.0","0.0","1.0","0.0","0.0","15: ","0.0","0.0","0.0","0.0","4.0","0.0","10.0","15: ","No Attempt - 100.0%
-Failed - 0.0%
-Docked - 0.0%
-Shallow - 0.0%
-Deep - 0.0%","Did Move Coral - 0.0%
-Did Move Algae - 0.0%
-Did Score Coral - 0.0%
-Did Score Algae - 100.0%","15: Fast and tall",""
-"2531","RoboHawks","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","No Attempt - 0.0%
-Failed - 0.0%
-Docked - 0.0%
-Shallow - 0.0%
-Deep - 0.0%","Did Move Coral - 0.0%
-Did Move Algae - 0.0%
-Did Score Coral - 0.0%
-Did Score Algae - 0.0%","",""
-"2826","Wave Robotics","17: Cesar Jimenez","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","17: ","0.0","0.0","1.0","1.0","1.0","0.0","0.0","17: ","No Attempt - 0.0%
+Did Score Algae - 0.0%","6: Lost Comms, 52: Fast and good elevator",""
+"2826","Wave Robotics","17: Cesar Jimenez, 23: , 29: Tanner Pickar, 40: Elise Barnes","75.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","17: , 23: , 29: , 40: ","0.0","0.0","1.25","1.75","1.0","0.0","0.0","17: , 23: , 29: , 40: ","No Attempt - 0.0%
 Failed - 0.0%
 Docked - 100.0%
 Shallow - 0.0%
-Deep - 0.0%","Did Move Coral - 100.0%
-Did Move Algae - 100.0%
-Did Score Coral - 100.0%
-Did Score Algae - 0.0%","17: Slow at scoring coral",""
-"2830","Riverside RoboTigers","2: Adam Grouse-DataRecon, 15: Ian Branch","100.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","2: , 15: ","0.5","0.5","0.0","4.5","0.0","0.0","0.0","2: , 15: ","No Attempt - 50.0%
+Deep - 0.0%","Did Move Coral - 75.0%
+Did Move Algae - 75.0%
+Did Score Coral - 75.0%
+Did Score Algae - 0.0%","17: Slow at scoring coral, 29: Attempted to deep but didn't get off fully, 40: Focused on scoring coral",""
+"2830","Riverside RoboTigers","2: Adam Grouse-DataRecon, 15: Ian Branch, 24: simon, 34: Simon","100.0","0.25","0.0","0.0","0.0","0.0","0.0","0.0","2: , 15: , 24: , 34: ","0.5","1.0","0.75","4.5","0.0","0.0","0.0","2: , 15: , 24: , 34: ","No Attempt - 50.0%
 Failed - 50.0%
 Docked - 0.0%
 Shallow - 0.0%
@@ -127,283 +127,283 @@ Deep - 0.0%","Did Move Coral - 100.0%
 Did Move Algae - 0.0%
 Did Score Coral - 100.0%
 Did Score Algae - 0.0%","2: Missed alot scoring then fixed how they were playing",""
-"2977","Sir Lancer Bots","14: Ian Branch","100.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","14: ","0.0","4.0","4.0","0.0","0.0","0.0","0.0","14: ","No Attempt - 100.0%
-Failed - 0.0%
-Docked - 0.0%
-Shallow - 0.0%
-Deep - 0.0%","Did Move Coral - 100.0%
-Did Move Algae - 0.0%
-Did Score Coral - 100.0%
-Did Score Algae - 0.0%","",""
-"3055","Furious George","1: Adam Grouse-DataRemake, 21: Nathan Kruepke","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","1: , 21: ","2.5","0.0","0.0","0.0","0.0","0.0","0.0","1: , 21: ","No Attempt - 0.0%
-Failed - 0.0%
-Docked - 100.0%
-Shallow - 0.0%
-Deep - 0.0%","Did Move Coral - 0.0%
-Did Move Algae - 0.0%
-Did Score Coral - 0.0%
-Did Score Algae - 0.0%","1: No Effective Auto, Slow, drive and element manipulation, 21: Played defense most of the game.",""
-"3090","Chaotic Robotics","2: Adam Grouse-DataRecon, 20: Ian Branch","50.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","2: , 20: ","0.0","0.0","0.0","0.0","2.5","0.0","0.0","2: , 20: ","No Attempt - 0.0%
-Failed - 0.0%
-Docked - 100.0%
-Shallow - 0.0%
-Deep - 0.0%","Did Move Coral - 0.0%
-Did Move Algae - 50.0%
-Did Score Coral - 0.0%
-Did Score Algae - 0.0%","",""
-"3197","HexHounds","18: Ian Branch","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","18: ","0.0","0.0","2.0","2.0","2.0","1.0","8.0","18: ","No Attempt - 100.0%
-Failed - 0.0%
-Docked - 0.0%
-Shallow - 0.0%
-Deep - 0.0%","Did Move Coral - 100.0%
-Did Move Algae - 100.0%
-Did Score Coral - 100.0%
-Did Score Algae - 100.0%","",""
-"3381","Droid Rage","1: , 15: Nathan Kruepke","50.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","1: , 15: ","0.0","0.0","1.5","0.0","1.5","0.0","0.0","1: , 15: ","No Attempt - 0.0%
-Failed - 0.0%
-Docked - 100.0%
-Shallow - 0.0%
-Deep - 0.0%","Did Move Coral - 50.0%
-Did Move Algae - 50.0%
-Did Score Coral - 50.0%
-Did Score Algae - 0.0%","1: Tried (very) earlier climb; played defense",""
-"3418","RoboRiot","13: Ian Branch","100.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","13: ","1.0","0.0","0.0","0.0","0.0","0.0","0.0","13: ","No Attempt - 0.0%
-Failed - 100.0%
-Docked - 0.0%
-Shallow - 0.0%
-Deep - 0.0%","Did Move Coral - 100.0%
-Did Move Algae - 0.0%
-Did Score Coral - 100.0%
-Did Score Algae - 0.0%","",""
-"3692","Rock N' Robotics","1: , 17: Jonathan McMahon","50.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","1: , 17: ","0.0","0.0","0.0","0.0","0.0","0.0","0.0","1: , 17: ","No Attempt - 50.0%
-Failed - 0.0%
-Docked - 50.0%
-Shallow - 0.0%
-Deep - 0.0%","Did Move Coral - 0.0%
-Did Move Algae - 0.0%
-Did Score Coral - 0.0%
-Did Score Algae - 0.0%","1: Lost comms, stopped moving, 17: Tried to score, but had multiple hiccups hindering it.",""
-"4009","Duluth DNA Robotics","13: Ryan Glaser, 18: Nathan Kruepke","100.0","0.0","0.0","0.0","1.5","0.0","0.0","0.0","13: , 18: ","0.5","3.0","2.0","4.5","1.0","0.0","0.0","13: , 18: ","No Attempt - 0.0%
-Failed - 0.0%
-Docked - 50.0%
-Shallow - 0.0%
-Deep - 50.0%","Did Move Coral - 100.0%
-Did Move Algae - 100.0%
-Did Score Coral - 100.0%
-Did Score Algae - 50.0%","18: Worked very well with their teammates to achieve the coral ranking point.",""
-"4011","BANANABOTS","1: , 16: Jonathan McMahon, 21: Ian Branch","33.33","0.0","0.0","0.0","0.0","0.0","0.0","0.0","1: , 16: , 21: ","0.0","0.0","0.0","0.0","0.33","0.0","0.0","1: , 16: , 21: ","No Attempt - 100.0%
+"2977","Sir Lancer Bots","14: Ian Branch, 30: Simon, 51: Will Haas","66.67","0.0","0.0","0.0","0.0","0.0","0.0","0.0","14: , 30: , 51: ","0.33","1.67","2.33","0.0","0.0","0.0","0.0","14: , 30: , 51: ","No Attempt - 100.0%
 Failed - 0.0%
 Docked - 0.0%
 Shallow - 0.0%
 Deep - 0.0%","Did Move Coral - 33.33%
-Did Move Algae - 33.33%
-Did Score Coral - 0.0%
-Did Score Algae - 0.0%","1: Did not Doc even though it could have reasonably, 21: Team did not compete in match, 16: Overall acted more as a algae remover bot.",""
-"4021","igKnightion","19: Ryan Glaser","100.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","19: ","0.0","0.0","0.0","0.0","3.0","0.0","0.0","19: ","No Attempt - 0.0%
-Failed - 100.0%
-Docked - 0.0%
+Did Move Algae - 0.0%
+Did Score Coral - 33.33%
+Did Score Algae - 0.0%","30: Unknown issues disabled the robot",""
+"3055","Furious George","1: Adam Grouse-DataRemake, 21: Nathan Kruepke, 37: Elise Barnes","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","1: , 21: , 37: ","1.67","0.33","0.0","0.0","0.0","0.0","0.0","1: , 21: , 37: ","No Attempt - 0.0%
+Failed - 0.0%
+Docked - 100.0%
 Shallow - 0.0%
 Deep - 0.0%","Did Move Coral - 0.0%
-Did Move Algae - 100.0%
+Did Move Algae - 0.0%
 Did Score Coral - 0.0%
-Did Score Algae - 100.0%","",""
-"4054","The Aeronauts","14: Ryan Glaser, 20: Trey Bentley","100.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","14: , 20: ","0.0","0.0","0.5","0.0","3.5","0.0","0.0","14: , 20: ","No Attempt - 100.0%
+Did Score Algae - 0.0%","1: No Effective Auto, Slow, drive and element manipulation, 21: Played defense most of the game., 37: Focused on scoring coral",""
+"3090","Chaotic Robotics","2: Adam Grouse-DataRecon, 20: Ian Branch, 27: Tanner Pickar, 48: Cesar Jmenez","50.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","2: , 20: , 27: , 48: ","0.0","0.0","0.0","0.0","1.25","0.0","0.25","2: , 20: , 27: , 48: can't do coral.defensive orientated","No Attempt - 25.0%
+Failed - 25.0%
+Docked - 50.0%
+Shallow - 0.0%
+Deep - 0.0%","Did Move Coral - 25.0%
+Did Move Algae - 50.0%
+Did Score Coral - 0.0%
+Did Score Algae - 0.0%","27: Robot was missing its arm so they focused on defense",""
+"3197","HexHounds","6: Adam Grouse-DataRecon, 18: Ian Branch, 41: Simon","33.33","0.0","0.0","0.0","0.67","0.0","0.0","0.0","6: , 18: , 41: ","0.0","0.0","2.0","4.33","0.67","0.33","2.67","6: , 18: , 41: ","No Attempt - 33.33%
 Failed - 0.0%
-Docked - 0.0%
+Docked - 33.33%
+Shallow - 0.0%
+Deep - 33.33%","Did Move Coral - 100.0%
+Did Move Algae - 33.33%
+Did Score Coral - 100.0%
+Did Score Algae - 33.33%","",""
+"3381","Droid Rage","1: , 15: Nathan Kruepke, 25: Elise Barnes, 53: Isaac Leal","50.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","1: , 15: , 25: , 53: ","1.75","0.75","0.75","0.0","1.25","0.0","0.0","1: , 15: , 25: , 53: ","No Attempt - 0.0%
+Failed - 0.0%
+Docked - 100.0%
 Shallow - 0.0%
 Deep - 0.0%","Did Move Coral - 50.0%
 Did Move Algae - 50.0%
 Did Score Coral - 50.0%
-Did Score Algae - 50.0%","20: Stopped working halfway through",""
-"4207","PyroBotics","1: Adam Grouse-DataRecon, 19: Trey Bentley","50.0","0.0","0.0","0.0","1.0","0.0","0.0","0.0","1: , 19: ","0.0","0.0","1.0","4.0","0.5","0.0","0.0","1: , 19: ","No Attempt - 0.0%
+Did Score Algae - 0.0%","1: Tried (very) earlier climb; played defense, 25: Mostly scored coral",""
+"3418","RoboRiot","7: Adam Grouse-DataRecon, 13: Ian Branch, 22: Tanner Pickar, 34: Elise Barnes","50.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","7: , 13: , 22: , 34: ","0.5","0.25","0.25","0.0","0.0","0.0","0.0","7: , 13: , 22: , 34: ","No Attempt - 50.0%
+Failed - 25.0%
+Docked - 25.0%
+Shallow - 0.0%
+Deep - 0.0%","Did Move Coral - 50.0%
+Did Move Algae - 0.0%
+Did Score Coral - 50.0%
+Did Score Algae - 0.0%","7: Could not hold onto elements, 34: Focused on scoring coral",""
+"3692","Rock N' Robotics","1: , 17: Jonathan McMahon, 31: Elise Barnes","66.67","0.0","0.0","0.0","0.0","0.0","0.0","0.0","1: , 17: , 31: ","0.67","0.67","0.33","0.0","0.0","0.0","0.0","1: , 17: , 31: ","No Attempt - 33.33%
+Failed - 0.0%
+Docked - 66.67%
+Shallow - 0.0%
+Deep - 0.0%","Did Move Coral - 0.0%
+Did Move Algae - 0.0%
+Did Score Coral - 0.0%
+Did Score Algae - 0.0%","1: Lost comms, stopped moving, 17: Tried to score, but had multiple hiccups hindering it., 31: Focused on scoring coral",""
+"4009","Duluth DNA Robotics","7: Adam Grouse-DataRecon, 13: Ryan Glaser, 18: Nathan Kruepke, 47: Jonathan McMahon, 55: Trey Bentley","60.0","0.0","0.0","0.0","1.0","0.0","0.0","0.0","7: , 13: , 18: , 47: , 55: ","0.6","3.0","2.6","4.0","0.8","0.0","0.0","7: , 13: , 18: , 47: , 55: ","No Attempt - 20.0%
+Failed - 20.0%
+Docked - 20.0%
+Shallow - 0.0%
+Deep - 40.0%","Did Move Coral - 60.0%
+Did Move Algae - 60.0%
+Did Score Coral - 80.0%
+Did Score Algae - 20.0%","18: Worked very well with their teammates to achieve the coral ranking point., 47: Covered several levels with coral without issue., 55: Good design",""
+"4011","BANANABOTS","1: , 16: Jonathan McMahon, 21: Ian Branch, 50: Jonathan McMahon","50.0","0.25","0.0","0.0","0.0","0.0","0.0","0.0","1: , 16: , 21: , 50: ","0.25","0.0","0.5","0.0","0.25","0.0","0.0","1: , 16: , 21: , 50: ","No Attempt - 100.0%
+Failed - 0.0%
+Docked - 0.0%
+Shallow - 0.0%
+Deep - 0.0%","Did Move Coral - 50.0%
+Did Move Algae - 25.0%
+Did Score Coral - 25.0%
+Did Score Algae - 0.0%","1: Did not Doc even though it could have reasonably, 21: Team did not compete in match, 16: Overall acted more as a algae remover bot.",""
+"4021","igKnightion","4: Adam Grouse-DataRecon, 19: Ryan Glaser, 35: Elise Barnes","100.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","4: , 19: , 35: ","0.0","0.0","0.0","0.0","2.0","0.0","0.0","4: , 19: , 35: ","No Attempt - 66.67%
+Failed - 33.33%
+Docked - 0.0%
+Shallow - 0.0%
+Deep - 0.0%","Did Move Coral - 33.33%
+Did Move Algae - 33.33%
+Did Score Coral - 33.33%
+Did Score Algae - 33.33%","4: Fell,over, 35: Robot got stuck for most of the match",""
+"4054","The Aeronauts","4: Adam Grouse-DataRecon, 14: Ryan Glaser, 20: Trey Bentley, 34: Tanner Pickar, 39: Elise Barnes, 55: Isaac Leal","83.33","0.0","0.0","0.0","0.0","0.0","0.0","0.0","4: , 14: , 20: , 34: , 39: , 55: ","0.0","0.5","1.33","0.0","2.5","0.0","0.0","4: , 14: , 20: , 34: , 39: , 55: ","No Attempt - 33.33%
+Failed - 0.0%
+Docked - 66.67%
+Shallow - 0.0%
+Deep - 0.0%","Did Move Coral - 50.0%
+Did Move Algae - 33.33%
+Did Score Coral - 33.33%
+Did Score Algae - 16.67%","20: Stopped working halfway through, 4: Got stuck Twice, 39: Focused on scoring coral",""
+"4207","PyroBotics","1: Adam Grouse-DataRecon, 9: Adam Grouse-DataRecon, 19: Trey Bentley","33.33","0.0","0.33","0.67","0.67","0.0","0.0","0.0","1: , 9: , 19: ","0.0","0.0","0.67","2.67","0.33","0.0","0.0","1: , 9: , 19: ","No Attempt - 33.33%
+Failed - 0.0%
+Docked - 0.0%
+Shallow - 0.0%
+Deep - 66.67%","Did Move Coral - 33.33%
+Did Move Algae - 33.33%
+Did Score Coral - 66.67%
+Did Score Algae - 0.0%","1: They have a not working high score Autos, 19: Very good",""
+"4531","STEAMpunk","18: Jonathan McMahon, 26: Elise Barnes, 49: Jonathan McMahon, 54: Trey Bentley","100.0","0.0","0.0","0.0","0.0","0.25","0.0","0.0","18: , 26: , 49: , 54: ","0.0","0.5","2.0","0.0","1.0","0.5","0.0","18: , 26: , 49: , 54: ","No Attempt - 0.0%
+Failed - 25.0%
+Docked - 0.0%
+Shallow - 0.0%
+Deep - 75.0%","Did Move Coral - 50.0%
+Did Move Algae - 50.0%
+Did Score Coral - 75.0%
+Did Score Algae - 50.0%","18: Fast and efficient, scoring coral and removing algae., 49: Versatile, a little sluggish, but an excellent scorer., 54: Good design, 26: Focused on coral",""
+"4728","ROCORI Ratcheteers","7: Adam Grouse-DataRecon, 17: Ryan Glaser, 38: Will Haas","66.67","0.0","0.0","0.0","1.0","0.0","0.0","0.0","7: , 17: , 38: ","1.0","3.67","5.67","4.67","0.33","0.0","0.0","7: , 17: , 38: ","No Attempt - 33.33%
+Failed - 0.0%
+Docked - 33.33%
+Shallow - 0.0%
+Deep - 33.33%","Did Move Coral - 100.0%
+Did Move Algae - 0.0%
+Did Score Coral - 100.0%
+Did Score Algae - 0.0%","17: Wow, great speed and accuracy",""
+"5019","Gearbox Heroes","3: Adam Grouse-DataRecon, 21: Trey Bentley, 43: Simon, 51: Nathan Kruepke","75.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","3: , 21: , 43: , 51: ","0.0","0.0","0.0","0.0","0.0","0.0","0.0","3: , 21: , 43: , 51: ","No Attempt - 50.0%
+Failed - 0.0%
+Docked - 50.0%
+Shallow - 0.0%
+Deep - 0.0%","Did Move Coral - 0.0%
+Did Move Algae - 0.0%
+Did Score Coral - 0.0%
+Did Score Algae - 0.0%","21: Failed to score, 3: Played defense poorly, drive train broke., 43: Played defensive, 51: Played defense the entire match.",""
+"5148","New Berlin Blitz","5: Adam Grouse-DataRecon, 16: Nathan Kruepke, 39: Simon , 45: Jonathan McMahon","100.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","5: , 16: , 39: , 45: ","0.0","0.25","0.25","1.25","0.25","0.0","0.0","5: , 16: , 39: , 45: ","No Attempt - 25.0%
+Failed - 25.0%
+Docked - 50.0%
+Shallow - 0.0%
+Deep - 0.0%","Did Move Coral - 75.0%
+Did Move Algae - 25.0%
+Did Score Coral - 25.0%
+Did Score Algae - 0.0%","16: Did not drop any coral on the reef.",""
+"5586","Bond Brigade","5: Adam Grouse-DataRecon, 14: Cesar Jimenez, 19: Jonathan McMahon, 29: Simon","75.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","5: , 14: , 19: , 29: ","0.25","1.25","1.0","0.0","1.75","1.0","0.0","5: , 14: , 19: , 29: ","No Attempt - 25.0%
+Failed - 25.0%
+Docked - 50.0%
+Shallow - 0.0%
+Deep - 0.0%","Did Move Coral - 100.0%
+Did Move Algae - 75.0%
+Did Score Coral - 75.0%
+Did Score Algae - 50.0%","14: Algae and coral options, 19: Really good at algae scoring.",""
+"5826","Avis Automata","4: Adam Grouse-DataRecon, 33: Simon, 39: Will Haas, 53: Jonathan McMahon","75.0","0.0","0.0","0.0","1.75","0.0","0.0","0.0","4: , 33: , 39: , 53: ","0.0","0.0","0.75","5.25","0.0","0.0","0.0","4: , 33: , 39: , 53: ","No Attempt - 50.0%
+Failed - 25.0%
+Docked - 25.0%
+Shallow - 0.0%
+Deep - 0.0%","Did Move Coral - 75.0%
+Did Move Algae - 0.0%
+Did Score Coral - 75.0%
+Did Score Algae - 0.0%","53: Had a couple hiccups, but overall did extremely well.",""
+"5903","ThorBots","8: Adam Grouse-DataRecon, 14: Jonathan McMahon, 19: Cesar Jimenez, 27: Elise Barnes, 43: Will Haas, 52: Isaac Leal","83.33","0.17","0.0","0.0","0.0","0.33","0.0","0.0","8: , 14: , 19: , 27: , 43: , 52: ","0.33","0.33","0.83","4.5","0.33","0.0","0.0","8: , 14: , 19: , 27: , 43: , 52: ","No Attempt - 16.67%
+Failed - 33.33%
+Docked - 0.0%
+Shallow - 0.0%
+Deep - 50.0%","Did Move Coral - 66.67%
+Did Move Algae - 33.33%
+Did Score Coral - 66.67%
+Did Score Algae - 0.0%","19: Consistent and fast at level 4,, 14: Unintentionally removed algae while scoring coral, did a fantastic job scoring level 4 coral., 52: Coral got stuck under the robot for part of the game, 27: Focused on scoring coral",""
+"5914","Robotic Warriors","8: Adam Grouse-DataRecon, 13: Cesar Jimenez, 26: Simon, 37: Simon, 56: Jonathan McMahon","80.0","0.2","0.0","0.2","0.0","0.4","0.2","0.0","8: , 13: , 26: , 37: , 56: ","0.0","0.4","1.0","0.2","1.2","0.0","0.0","8: , 13: , 26: , 37: , 56: ","No Attempt - 20.0%
+Failed - 40.0%
+Docked - 40.0%
+Shallow - 0.0%
+Deep - 0.0%","Did Move Coral - 60.0%
+Did Move Algae - 60.0%
+Did Score Coral - 60.0%
+Did Score Algae - 20.0%","13: Lose comps right after the auto phase, recover comps at the end of the match,had a coral stuck",""
+"6166","Thorobotics","5: Adam Grouse-DataRecon, 17: Trey Bentley, 24: Tanner Pickar, 30: Elise Barnes, 42: will haas","80.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","5: , 17: , 24: , 30: , 42: ","0.2","0.0","0.4","0.0","0.4","0.0","0.0","5: , 17: , 24: , 30: , 42: ","No Attempt - 40.0%
+Failed - 40.0%
+Docked - 20.0%
+Shallow - 0.0%
+Deep - 0.0%","Did Move Coral - 20.0%
+Did Move Algae - 40.0%
+Did Score Coral - 0.0%
+Did Score Algae - 0.0%","17: Technical difficulties halfway through, 5: Played defense properly, drive train broke, 30: Robot was disabled for most of the match",""
+"6381","Red Raider Robotics","8: , 14: Nathan Kruepke, 46: Jonathan McMahon, 56: Trey Bentley","75.0","0.0","0.0","0.0","0.75","0.0","0.0","0.0","8: , 14: , 46: , 56: ","0.25","0.0","0.0","4.5","0.5","0.0","0.0","8: , 14: , 46: , 56: ","No Attempt - 0.0%
+Failed - 0.0%
+Docked - 50.0%
+Shallow - 25.0%
+Deep - 25.0%","Did Move Coral - 75.0%
+Did Move Algae - 50.0%
+Did Score Coral - 100.0%
+Did Score Algae - 0.0%","46: Climbed very quickly, and scored high on level 4 consistently., 56: Great design",""
+"6732","BHS RoboRaiders","2: , 21: Jonathan McMahon, 44: Elise Barnes","33.33","0.0","0.0","0.0","0.0","0.0","0.0","0.0","2: , 21: , 44: ","0.0","0.33","0.0","0.0","0.0","0.0","0.0","2: , 21: , 44: ","No Attempt - 33.33%
+Failed - 33.33%
+Docked - 33.33%
+Shallow - 0.0%
+Deep - 0.0%","Did Move Coral - 33.33%
+Did Move Algae - 0.0%
+Did Score Coral - 33.33%
+Did Score Algae - 0.0%","2: Played effective defense, 21: Did their best, but only managed to score once., 44: Focused on defense",""
+"7021","TC Robotics","5: Adam Grouse-DataRecon, 18: Ryan Glaser t, 38: , 51: Jonathan McMahon","75.0","0.0","0.0","0.0","1.0","0.0","0.0","0.0","5: , 18: , 38: , 51: ","1.25","0.5","2.75","3.0","0.5","0.0","0.75","5: , 18: , 38: , 51: ","No Attempt - 0.0%
+Failed - 0.0%
+Docked - 25.0%
+Shallow - 0.0%
+Deep - 75.0%","Did Move Coral - 100.0%
+Did Move Algae - 50.0%
+Did Score Coral - 100.0%
+Did Score Algae - 50.0%","51: Extremely versatile, and a do-it-all robot.",""
+"7103","Robo Remedy @ Manitowoc Lutheran High School","4: Adam Grouse-DataRecon, 28: Simon, 45: Will Haas,, 54: Jonathan McMahon","100.0","0.0","0.0","0.0","0.75","0.0","0.0","0.0","4: , 28: , 45: , 54: ","0.0","0.0","0.0","1.5","0.0","0.0","0.0","4: , 28: , 45: , 54: ","No Attempt - 75.0%
+Failed - 0.0%
+Docked - 25.0%
+Shallow - 0.0%
+Deep - 0.0%","Did Move Coral - 100.0%
+Did Move Algae - 0.0%
+Did Score Coral - 100.0%
+Did Score Algae - 0.0%","4: Started playing defense around halfway through, then drive train issues, 28: Played defensive, 54: Played defense, did not score many points, and then proceeded to get stuck under an algae.",""
+"7619","illumiBOTi","3: Adam Grouse-DataRecon, 20: Jonathan McMahon, 36: Tanner Pickar, 49: Will Haas","100.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","3: , 20: , 36: , 49: ","0.0","0.0","0.0","3.5","1.5","0.0","0.0","3: , 20: , 36: , 49: ","No Attempt - 25.0%
+Failed - 0.0%
+Docked - 50.0%
+Shallow - 0.0%
+Deep - 25.0%","Did Move Coral - 50.0%
+Did Move Algae - 25.0%
+Did Score Coral - 50.0%
+Did Score Algae - 0.0%","20: Major issue, could not play.",""
+"8024","Robotans","7: Adam Grouse-DataRecon, 19: Nathan Kruepke, 29: Elise Barnes, 48: Jonathan McMahon","50.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","7: , 19: , 29: , 48: ","0.0","0.0","0.0","0.0","0.0","0.0","0.0","7: , 19: , 29: , 48: ","No Attempt - 75.0%
+Failed - 0.0%
+Docked - 0.0%
+Shallow - 0.0%
+Deep - 25.0%","Did Move Coral - 0.0%
+Did Move Algae - 0.0%
+Did Score Coral - 0.0%
+Did Score Algae - 0.0%","19: Played defense for a majority of the game. Then got stuck on a coral., 7: Played defense and deep climbed, 48: Did not score anything, instead went right for climbing., 29: Lost communications",""
+"8531","TermiKnightors","9: Adam Grouse-DataRecon, 16: Ian Branch, 26: Tanner Pickar, 41: Will Haas","100.0","0.0","0.0","0.0","0.5","0.0","0.5","0.0","9: , 16: , 26: , 41: ","0.5","0.0","0.0","0.0","3.75","3.75","0.0","9: , 16: , 26: , 41: ","No Attempt - 50.0%
+Failed - 0.0%
+Docked - 50.0%
+Shallow - 0.0%
+Deep - 0.0%","Did Move Coral - 50.0%
+Did Move Algae - 100.0%
+Did Score Coral - 75.0%
+Did Score Algae - 100.0%","",""
+"8700","W.I.R.E.D","2: Adam Grouse-DataRecon, 13: Nathan Kruepke, 20: Cesar jimenez, 40: Simon, 53: Trey Bentley","80.0","0.4","0.0","0.0","0.0","0.0","0.0","0.0","2: , 13: , 20: , 40: , 53: ","0.2","0.2","0.2","0.0","0.2","0.0","0.0","2: , 13: , 20: , 40: , 53: ","No Attempt - 40.0%
+Failed - 20.0%
+Docked - 40.0%
+Shallow - 0.0%
+Deep - 0.0%","Did Move Coral - 20.0%
+Did Move Algae - 20.0%
+Did Score Coral - 40.0%
+Did Score Algae - 0.0%","13: Did not attempt too score any coral or alga., 20: Very slow at algae and coral, 53: Didn't do a whole lot",""
+"8701","GRAFFITI","30: Tanner Pickar, 45: Cesar Jimenez","100.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","30: , 45: ","0.0","0.0","0.5","2.5","0.0","0.0","0.0","30: , 45: ","No Attempt - 0.0%
 Failed - 0.0%
 Docked - 0.0%
 Shallow - 0.0%
 Deep - 100.0%","Did Move Coral - 50.0%
-Did Move Algae - 50.0%
-Did Score Coral - 100.0%
-Did Score Algae - 0.0%","1: They have a not working high score Autos, 19: Very good",""
-"4531","STEAMpunk","18: Jonathan McMahon","100.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","18: ","0.0","1.0","2.0","0.0","2.0","2.0","0.0","18: ","No Attempt - 0.0%
-Failed - 0.0%
-Docked - 0.0%
-Shallow - 0.0%
-Deep - 100.0%","Did Move Coral - 100.0%
-Did Move Algae - 100.0%
-Did Score Coral - 100.0%
-Did Score Algae - 100.0%","18: Fast and efficient, scoring coral and removing algae.",""
-"4728","ROCORI Ratcheteers","17: Ryan Glaser","100.0","0.0","0.0","0.0","1.0","0.0","0.0","0.0","17: ","0.0","5.0","6.0","7.0","0.0","0.0","0.0","17: ","No Attempt - 100.0%
-Failed - 0.0%
-Docked - 0.0%
-Shallow - 0.0%
-Deep - 0.0%","Did Move Coral - 100.0%
-Did Move Algae - 0.0%
-Did Score Coral - 100.0%
-Did Score Algae - 0.0%","17: Wow, great speed and accuracy",""
-"5019","Gearbox Heroes","21: Trey Bentley","100.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","21: ","0.0","0.0","0.0","0.0","0.0","0.0","0.0","21: ","No Attempt - 0.0%
-Failed - 0.0%
-Docked - 100.0%
-Shallow - 0.0%
-Deep - 0.0%","Did Move Coral - 0.0%
-Did Move Algae - 0.0%
-Did Score Coral - 0.0%
-Did Score Algae - 0.0%","21: Failed to score",""
-"5148","New Berlin Blitz","16: Nathan Kruepke","100.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","16: ","0.0","0.0","0.0","0.0","0.0","0.0","0.0","16: ","No Attempt - 0.0%
-Failed - 0.0%
-Docked - 100.0%
-Shallow - 0.0%
-Deep - 0.0%","Did Move Coral - 100.0%
-Did Move Algae - 0.0%
-Did Score Coral - 0.0%
-Did Score Algae - 0.0%","16: Did not drop any coral on the reef.",""
-"5586","Bond Brigade","14: Cesar Jimenez, 19: Jonathan McMahon","50.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","14: , 19: ","0.0","0.5","0.5","0.0","1.0","1.0","0.0","14: , 19: ","No Attempt - 50.0%
-Failed - 0.0%
-Docked - 50.0%
-Shallow - 0.0%
-Deep - 0.0%","Did Move Coral - 100.0%
-Did Move Algae - 100.0%
-Did Score Coral - 50.0%
-Did Score Algae - 50.0%","14: Algae and coral options, 19: Really good at algae scoring.",""
-"5826","Avis Automata","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","No Attempt - 0.0%
-Failed - 0.0%
-Docked - 0.0%
-Shallow - 0.0%
-Deep - 0.0%","Did Move Coral - 0.0%
-Did Move Algae - 0.0%
-Did Score Coral - 0.0%
-Did Score Algae - 0.0%","",""
-"5903","ThorBots","14: Jonathan McMahon, 19: Cesar Jimenez","100.0","0.5","0.0","0.0","0.0","0.5","0.0","0.0","14: , 19: ","0.0","0.0","0.0","5.0","1.0","0.0","0.0","14: , 19: ","No Attempt - 0.0%
-Failed - 50.0%
-Docked - 0.0%
-Shallow - 0.0%
-Deep - 50.0%","Did Move Coral - 100.0%
-Did Move Algae - 50.0%
-Did Score Coral - 100.0%
-Did Score Algae - 0.0%","19: Consistent and fast at level 4,, 14: Unintentionally removed algae while scoring coral, did a fantastic job scoring level 4 coral.",""
-"5914","Robotic Warriors","13: Cesar Jimenez","100.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","13: ","0.0","0.0","0.0","0.0","0.0","0.0","0.0","13: ","No Attempt - 100.0%
-Failed - 0.0%
-Docked - 0.0%
-Shallow - 0.0%
-Deep - 0.0%","Did Move Coral - 0.0%
-Did Move Algae - 0.0%
-Did Score Coral - 0.0%
-Did Score Algae - 0.0%","13: Lose comps right after the auto phase, recover comps at the end of the match,had a coral stuck",""
-"6166","Thorobotics","17: Trey Bentley","100.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","17: ","0.0","0.0","0.0","0.0","1.0","0.0","0.0","17: ","No Attempt - 0.0%
-Failed - 0.0%
-Docked - 100.0%
-Shallow - 0.0%
-Deep - 0.0%","Did Move Coral - 0.0%
-Did Move Algae - 100.0%
-Did Score Coral - 0.0%
-Did Score Algae - 0.0%","17: Technical difficulties halfway through",""
-"6381","Red Raider Robotics","14: Nathan Kruepke","100.0","0.0","0.0","0.0","1.0","0.0","0.0","0.0","14: ","0.0","0.0","0.0","3.0","1.0","0.0","0.0","14: ","No Attempt - 0.0%
-Failed - 0.0%
-Docked - 100.0%
-Shallow - 0.0%
-Deep - 0.0%","Did Move Coral - 100.0%
-Did Move Algae - 100.0%
-Did Score Coral - 100.0%
-Did Score Algae - 0.0%","",""
-"6732","BHS RoboRaiders","2: , 21: Jonathan McMahon","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","2: , 21: ","0.0","0.5","0.0","0.0","0.0","0.0","0.0","2: , 21: ","No Attempt - 50.0%
-Failed - 50.0%
-Docked - 0.0%
-Shallow - 0.0%
-Deep - 0.0%","Did Move Coral - 50.0%
 Did Move Algae - 0.0%
 Did Score Coral - 50.0%
-Did Score Algae - 0.0%","2: Played effective defense, 21: Did their best, but only managed to score once.",""
-"7021","TC Robotics","18: Ryan Glaser t","100.0","0.0","0.0","0.0","2.0","0.0","0.0","0.0","18: ","5.0","1.0","3.0","2.0","1.0","0.0","0.0","18: ","No Attempt - 0.0%
+Did Score Algae - 0.0%","45: Having problems at releasing their coral",""
+"8744","Leviathans","4: Adam Grouse-DataRecon, 16: Trey Bentley, 21: Cesar Jimenez","100.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","4: , 16: , 21: ","0.33","0.0","1.0","6.67","0.0","0.0","0.0","4: , 16: , 21: ","No Attempt - 66.67%
 Failed - 0.0%
-Docked - 0.0%
-Shallow - 0.0%
-Deep - 100.0%","Did Move Coral - 100.0%
-Did Move Algae - 100.0%
-Did Score Coral - 100.0%
-Did Score Algae - 100.0%","",""
-"7103","Robo Remedy @ Manitowoc Lutheran High School","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","No Attempt - 0.0%
-Failed - 0.0%
-Docked - 0.0%
-Shallow - 0.0%
-Deep - 0.0%","Did Move Coral - 0.0%
-Did Move Algae - 0.0%
-Did Score Coral - 0.0%
-Did Score Algae - 0.0%","",""
-"7619","illumiBOTi","20: Jonathan McMahon","100.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","20: ","0.0","0.0","0.0","1.0","0.0","0.0","0.0","20: ","No Attempt - 100.0%
-Failed - 0.0%
-Docked - 0.0%
-Shallow - 0.0%
-Deep - 0.0%","Did Move Coral - 0.0%
-Did Move Algae - 0.0%
-Did Score Coral - 0.0%
-Did Score Algae - 0.0%","20: Major issue, could not play.",""
-"8024","Robotans","19: Nathan Kruepke","100.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","19: ","0.0","0.0","0.0","0.0","0.0","0.0","0.0","19: ","No Attempt - 100.0%
-Failed - 0.0%
-Docked - 0.0%
-Shallow - 0.0%
-Deep - 0.0%","Did Move Coral - 0.0%
-Did Move Algae - 0.0%
-Did Score Coral - 0.0%
-Did Score Algae - 0.0%","19: Played defense for a majority of the game. Then got stuck on a coral.",""
-"8531","TermiKnightors","16: Ian Branch","100.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","16: ","1.0","0.0","0.0","0.0","6.0","5.0","0.0","16: ","No Attempt - 0.0%
-Failed - 0.0%
-Docked - 100.0%
-Shallow - 0.0%
-Deep - 0.0%","Did Move Coral - 0.0%
-Did Move Algae - 100.0%
-Did Score Coral - 100.0%
-Did Score Algae - 100.0%","",""
-"8700","W.I.R.E.D","2: Adam Grouse-DataRecon, 13: Nathan Kruepke, 20: Cesar jimenez","66.67","0.0","0.0","0.0","0.0","0.0","0.0","0.0","2: , 13: , 20: ","0.0","0.0","0.0","0.0","0.33","0.0","0.0","2: , 13: , 20: ","No Attempt - 33.33%
-Failed - 33.33%
 Docked - 33.33%
 Shallow - 0.0%
-Deep - 0.0%","Did Move Coral - 0.0%
-Did Move Algae - 33.33%
-Did Score Coral - 0.0%
-Did Score Algae - 0.0%","13: Did not attempt too score any coral or alga., 20: Very slow at algae and coral",""
-"8701","GRAFFITI","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","0.0","0.0","0.0","0.0","0.0","0.0","0.0","","No Attempt - 0.0%
-Failed - 0.0%
-Docked - 0.0%
-Shallow - 0.0%
-Deep - 0.0%","Did Move Coral - 0.0%
-Did Move Algae - 0.0%
-Did Score Coral - 0.0%
-Did Score Algae - 0.0%","",""
-"8744","Leviathans","16: Trey Bentley, 21: Cesar Jimenez","100.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","16: , 21: ","0.5","0.0","0.0","7.5","0.0","0.0","0.0","16: , 21: ","No Attempt - 50.0%
-Failed - 0.0%
-Docked - 50.0%
-Shallow - 0.0%
-Deep - 0.0%","Did Move Coral - 50.0%
+Deep - 0.0%","Did Move Coral - 66.67%
 Did Move Algae - 0.0%
 Did Score Coral - 100.0%
 Did Score Algae - 0.0%","21: Fast and consistent level 4 but they miss a lot of coral, 16: Very fast ",""
-"8821","TVRT-Trojanbots","15: Jonathan McMahon, 20: ","100.0","0.5","0.0","0.0","0.0","0.0","0.0","0.0","15: , 20: ","0.0","2.5","2.0","0.0","0.0","0.0","0.0","15: , 20: ","No Attempt - 0.0%
-Failed - 0.0%
-Docked - 100.0%
+"8821","TVRT-Trojanbots","9: Adam Grouse-DataRecon, 15: Jonathan McMahon, 20: , 28: Elise Barnes, 35: Tanner Pickar, 44: Jonathan McMahon","83.33","0.17","0.17","0.0","0.0","0.0","0.0","0.0","9: , 15: , 20: , 28: , 35: , 44: ","0.0","2.67","1.33","0.0","0.0","0.0","0.0","9: , 15: , 20: , 28: , 35: , 44: ","No Attempt - 0.0%
+Failed - 16.67%
+Docked - 83.33%
 Shallow - 0.0%
-Deep - 0.0%","Did Move Coral - 100.0%
+Deep - 0.0%","Did Move Coral - 83.33%
 Did Move Algae - 0.0%
-Did Score Coral - 100.0%
-Did Score Algae - 0.0%","15: Decently scored algae consistently in levels 2 and 3.",""
-"9149","RoboCats","20: Nathan Kruepke","100.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","20: ","0.0","0.0","0.0","0.0","0.0","0.0","0.0","20: ","No Attempt - 100.0%
+Did Score Coral - 83.33%
+Did Score Algae - 0.0%","15: Decently scored algae consistently in levels 2 and 3., 44: Struggled a little at first to score, but eventually found their rhythm and consistently scored in level 2 with coral., 28: Focused on scoring coral ",""
+"9149","RoboCats","5: Adam Grouse-DataRecon, 20: Nathan Kruepke, 27: Simon, 46: Cesar Jimenez","75.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","5: , 20: , 27: , 46: ","0.5","0.5","0.25","0.0","0.0","0.0","0.0","5: , 20: , 27: , 46: ","No Attempt - 25.0%
 Failed - 0.0%
-Docked - 0.0%
+Docked - 75.0%
 Shallow - 0.0%
-Deep - 0.0%","Did Move Coral - 100.0%
+Deep - 0.0%","Did Move Coral - 50.0%
+Did Move Algae - 0.0%
+Did Score Coral - 25.0%
+Did Score Algae - 0.0%","20: Scored 2 coral but they were on a location of the reef that was blocked by algae., 5: The one point they did make was not intended, 27: Played defensive",""
+"9578","Player One","7: Adam Grouse-DataRecon, 16: Cesar Jimenez, 25: Simón, 31: Simon, 37: Tanner Pickar","40.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","7: , 16: , 25: , 31: , 37: ","0.2","0.0","0.0","0.0","1.8","0.2","1.8","7: , 16: , 25: , 31: , 37: ","No Attempt - 0.0%
+Failed - 0.0%
+Docked - 60.0%
+Shallow - 0.0%
+Deep - 40.0%","Did Move Coral - 40.0%
+Did Move Algae - 80.0%
+Did Score Coral - 40.0%
+Did Score Algae - 80.0%","16: Consistant on net and option to do coral on lv1",""
+"9676","Hub City STEAM","6: Adam Grouse-DataRecon, 14: Trey Bentley, 36: Elise Barnes","33.33","0.0","0.0","0.0","0.0","0.0","0.0","0.0","6: , 14: , 36: ","0.0","0.0","0.0","0.0","0.0","0.0","0.0","6: , 14: , 36: ","No Attempt - 33.33%
+Failed - 33.33%
+Docked - 33.33%
+Shallow - 0.0%
+Deep - 0.0%","Did Move Coral - 33.33%
 Did Move Algae - 0.0%
 Did Score Coral - 0.0%
-Did Score Algae - 0.0%","20: Scored 2 coral but they were on a location of the reef that was blocked by algae.",""
-"9578","Player One","16: Cesar Jimenez","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","16: ","1.0","0.0","0.0","0.0","0.0","0.0","3.0","16: ","No Attempt - 0.0%
-Failed - 0.0%
-Docked - 0.0%
-Shallow - 0.0%
-Deep - 100.0%","Did Move Coral - 100.0%
-Did Move Algae - 100.0%
-Did Score Coral - 100.0%
-Did Score Algae - 100.0%","16: Consistant on net and option to do coral on lv1",""
-"9676","Hub City STEAM","14: Trey Bentley","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","14: ","0.0","0.0","0.0","0.0","0.0","0.0","0.0","14: ","No Attempt - 0.0%
-Failed - 0.0%
-Docked - 100.0%
-Shallow - 0.0%
-Deep - 0.0%","Did Move Coral - 100.0%
-Did Move Algae - 0.0%
-Did Score Coral - 0.0%
-Did Score Algae - 0.0%","14: Slow and no scoring",""
+Did Score Algae - 0.0%","14: Slow and no scoring, 6: Tried playing defense, drive train seems off, 36: Focused on defense",""
