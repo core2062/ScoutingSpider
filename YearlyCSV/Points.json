@@ -3,19 +3,17 @@
     "Auto Coral Lvl 2": 2,
     "Auto Coral Lvl 3": 2,
     "Auto Coral Lvl 4": 3,
-    "Auto Algae Removed":null,
+    "Auto Algae Removed": null,
     "Auto Algae Net": 3,
-    "Teleop" : null,
-    "Teleop Coral Lvl 1":2,
+    "Teleop": null,
+    "Teleop Coral Lvl 1": 2,
     "Teleop Coral Lvl 2": 3,
     "Teleop Coral Lvl 3": 3,
     "Teleop Coral Lvl 4": 4,
     "Teleop Algae Removed": 1,
     "Teleop Algae Processed": 2,
-    "Teleop Algae Net":4,
+    "Teleop Algae Net": 4,
     "End game": null,
     "Parking": null,
     "Match Comment": null
-    }
-
-
+}
