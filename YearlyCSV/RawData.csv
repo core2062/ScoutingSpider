@@ -1,299 +1,91 @@
-"Team Number","Match Number","Name","Auto Move","Auto Coral Lvl 1","Auto Coral Lvl 2","Auto Coral Lvl 3","Auto Coral Lvl 4","Auto Algae Removed","Auto Algae Processed","Auto Algae Net","Teleop","Teleop Coral Lvl 1","Teleop Coral Lvl 2","Teleop Coral Lvl 3","Teleop Coral Lvl 4","Teleop Algae Removed","Teleop Algae Processed","Teleop Algae Net","End game","Parking","Did Move Game Elements","Match Comment"
-"93","3","""Adam Grouse-DataRecon""","false","0","0","0","0","0","0","0","""""","0","0","2","2","0","0","0","""""","""Failed""","","Last minute (1 link) chain skip causing them to fail"
-"93","17","""Nathan Kruepke""","true","0","0","0","0","0","0","0","""""","0","0","0","1","0","0","0","""""","""Deep""","""Did Move Coral"", ""Did Score Coral""","Coral manipulator broke when attempting to score on level 4. Proceeded to play defense."
-"93","28","""Will Haas""","true","0","0","0","1","0","0","0","""""","0","0","0","4","0","0","0","""""","""Docked""","""Did Score Coral""","Played defence well"
-"93","43","""Elise Barnes""","true","0","0","0","1","0","0","0","""""","0","0","0","6","1","0","0","""""","""Deep""","","Focused on scoring coral "
-"93","48","Nathan Kruepke","true","0","0","0","1","0","0","0","","0","1","2","4","3","0","0","","Docked","Did Move Coral, Did Move Algae, Did Score Coral",""
-"93","53","""Cesar Jimenez""","false","0","0","0","1","0","0","0","""""","0","0","4","3","0","0","0","""""","""Docked""","""Did Move Coral"", ""Did Score Coral""","Fast at level 4 but slow at levels 3 and below"
-"171","1","""Adam Grouse-DataRecon""","false","0","0","0","0","0","0","0","""""","0","1","0","0","0","0","0","""""","""No Attempt""","","Got stuck on a Algae"
-"171","12","""Jonathan McMahon""","true","0","0","0","0","0","0","0","""""","0","2","1","0","0","0","0","""""","""No Attempt""","""Did Move Coral"", ""Did Score Coral""","Pretty consistently scored coral in level 2 and level 3."
-"171","18","""Cesar Jimenez""","false","0","1","2","0","0","0","0","""""","0","0","0","0","0","0","0","""""","""No Attempt""","""Did Move Coral"", ""Did Score Coral""","Slow at restpck.of the coral,slow coral"
-"171","32","""Tanner Pickar""","true","0","0","0","0","0","0","0","""""","0","0","0","0","0","0","0","""""","""No Attempt""","""Did Move Coral"""
-"171","40","""Nathan Kruepke""","true","0","0","0","0","0","0","0","""""","1","0","0","0","0","0","0","""""","""Docked""","""Did Move Coral"", ""Did Score Coral""","Couldn't consistently score coral."
-"171","46","""Will Haas""","true","0","0","0","0","0","0","0","""""","0","1","0","0","0","0","0","""""","""No Attempt""",""
-"537","8","""""","false","1","0","0","0","0","0","0","""""","0","0","1","3","0","0","0","""""","""Docked""","""Did Move Coral"", ""Did Score Coral"""
-"537","16","""Ryan Glaser""","true","1","0","0","0","0","0","0","""""","0","0","1","7","0","0","0","""""","""Deep""","""Did Move Coral"", ""Did Score Coral"""
-"537","31","""Ian Branch""","true","0","0","0","1","0","0","0","""""","1","0","0","6","0","0","0","""""","""Deep""","""Did Move Coral"", ""Did Score Coral"""
-"537","36","""Simon""","true","1","0","0","0","0","0","0","""""","0","0","0","8","0","0","0","""""","""Failed""","""Did Move Coral"", ""Did Score Coral"""
-"537","54","""Isaac Leal""","true","0","0","0","1","0","0","0","""""","0","0","0","10","0","0","0","""""","""Docked""","""Did Move Coral"", ""Did Score Coral"""
-"706","13","""Jonathan McMahon""","false","0","0","0","0","0","0","0","""""","0","0","0","0","0","0","0","""""","""No Attempt""","","Lost communications, did not play."
-"706","24","""Jonathan McMahon""","true","0","0","0","1","0","0","0","""""","0","0","0","1","0","0","0","""""","""No Attempt""","","Lost communications/suffered electrical issue shortly after teleop began, was unable to play."
-"706","29","""will Haas""","true","0","0","0","0","0","0","0","""""","0","0","0","0","3","0","3","""""","""Deep""","""Did Move Algae"", ""Did Score Algae""","Dif deep climb"
-"706","35","""Simon""","true","0","0","0","1","0","0","0","""""","0","0","0","0","4","0","2","""""","""No Attempt""","""Did Move Coral"", ""Did Move Algae"", ""Did Score Coral"", ""Did Score Algae""","Unknown issues disabled the robot middle match"
-"706","49","""Cesar JF""","true","0","0","0","0","0","0","0","""""","0","0","0","0","3","0","5","""""","""Docked""","""Did Move Coral"", ""Did Move Algae"", ""Did Score Algae""","Fast and reliable for net algae but lack a lot in coral, coral get stuck in the bot."
-"706","54","""""","true","0","0","0","0","0","0","0","""""","0","0","0","0","3","0","7","""""","""Deep""","""Did Move Coral"", ""Did Move Algae"", ""Did Score Algae"""
-"1091","5","""Adam Grouse-DataRecon""","false","0","0","0","0","0","0","0","""""","0","0","0","2","0","0","0","""""","""Docked""","""Did Move Coral"", ""Did Score Coral"""
-"1091","25","""Jonathan McMahon""","true","0","0","0","0","0","0","0","""""","2","0","0","1","0","0","0","""""","""Failed""","""Did Move Coral"", ""Did Score Coral""","Overall did a fair job scoring coral between levels 1 and 4."
-"1091","33","""Tanner Pickar""","true","0","0","0","0","0","0","0","""""","0","0","0","0","0","0","0","""""","""Docked""","","Attempted to steal from the other team"
-"1091","42","""Trey Bentley""","true","0","0","0","0","0","0","0","""""","0","0","0","0","1","0","0","""""","""No Attempt""","""Did Move Algae""","Lost coms and robot turned off"
-"1091","47","""Will Haas""","true","0","0","0","0","0","0","0","""""","4","0","0","0","0","0","0","""""","""Docked""","""Did Move Coral"", ""Did Score Coral"""
-"1675","2","""Adam Grouse-DataRecon""","false","0","1","2","0","0","0","0","""""","1","2","0","0","0","0","0","""""","""No Attempt""","","Late start due too Comms Issues"
-"1675","32","""Elise Barnes""","true","0","0","0","0","0","0","0","""""","0","0","4","0","2","0","0","""""","""Failed""","","Focused on scoring coral"
-"1675","43","""Nathan Kruepke""","true","0","0","0","0","0","0","0","""""","2","2","1","0","1","0","0","""""","""Docked""","""Did Move Coral"", ""Did Move Algae"", ""Did Score Coral"""
-"1675","48","""Will haas""","true","0","0","0","0","0","0","0","""""","0","0","3","0","1","0","0","""""","""Deep""","""Did Move Coral"", ""Did Move Algae"", ""Did Score Coral"""
-"1716","6","""Adam Grouse-DataRecon""","false","0","0","0","0","0","0","0","""""","0","0","3","0","0","0","0","""""","""No Attempt""","""Did Move Coral"", ""Did Score Coral"""
-"1716","19","""Ian Branch""","true","1","0","0","0","0","0","0","""""","0","1","1","0","1","0","0","""""","""No Attempt""","""Did Move Coral"", ""Did Move Algae"", ""Did Score Coral"""
-"1716","28","""Tanner Pickar""","true","1","0","0","0","0","0","0","""""","0","2","2","0","1","0","0","""""","""Failed""","""Did Move Coral"", ""Did Move Algae"", ""Did Score Coral"""
-"1716","39","""Tanner Pickar""","true","1","0","0","0","0","0","0","""""","0","1","2","0","2","2","0","""""","""Docked""","""Did Move Coral"", ""Did Move Algae"", ""Did Score Coral"", ""Did Score Algae"""
-"1716","50","""Cesar Jimenez""","true","1","0","0","0","0","0","0","""""","0","0","1","0","2","1","0","""""","""Failed""","""Did Move Coral"", ""Did Move Algae"", ""Did Score Coral"", ""Did Score Algae""","Lost comps mid game"
-"2062","4","""Adam Grouse-DataRecon""","true","0","0","0","0","0","0","0","""""","0","2","0","0","0","0","0","""""","""Failed""","""Did Move Coral"", ""Did Score Coral"""
-"2062","9","""Adam Grouse-DataRecon""","true","0","0","0","0","0","0","0","""""","0","2","1","0","0","0","0","""""","""No Attempt""","""Did Move Coral"", ""Did Score Coral"""
-"2062","18","""Trey Bentley""","true","1","0","0","0","0","0","0","""""","0","2","0","0","1","0","0","""""","""Docked""","""Did Move Algae"", ""Did Score Coral""","Fast"
-"2062","30","""Will Haas""","true","0","0","0","0","0","0","0","""""","0","0","2","0","3","0","0","""""","""No Attempt""","""Did Move Coral"", ""Did Move Algae"", ""Did Score Coral"""
-"2062","37","""Ryan Glaser""","true","1","0","0","0","0","0","0","""""","1","4","3","0","1","0","0","""""","""Docked""","""Did Move Coral"", ""Did Move Algae"", ""Did Score Coral"", ""Did Score Algae"""
-"2062","50","""Tanner Pickar""","true","1","0","0","0","0","0","0","""""","0","4","0","0","3","1","0","""""","""Docked""","""Did Move Coral"", ""Did Move Algae"", ""Did Score Coral"", ""Did Score Algae"""
-"2062","56","""Cesar Jimenez""","true","0","0","0","0","0","0","0","""""","2","0","0","0","0","0","0","""""","""Docked""","""Did Move Coral"", ""Did Score Coral"""
-"2169","7","""Adam Grouse-DataRecon""","false","0","0","0","0","0","0","0","""""","0","0","0","1","0","0","0","""""","""No Attempt""","","Got stuck on Algae"
-"2169","15","""Cesar Jimenez""","true","0","0","0","0","0","0","0","""""","0","0","0","0","0","1","2","""""","""No Attempt""","""Did Move Algae"", ""Did Score Algae""","Can process algae and shoot algae to the net"
-"2169","26","""Ian Branch""","true","0","0","0","0","0","0","0","""""","0","0","0","0","0","1","2","""""","""Docked""","""Did Move Algae"", ""Did Score Algae"""
-"2169","33","""Elise Barnes""","true","0","0","0","0","0","0","0","""""","0","0","0","0","0","2","0","""""","""Failed""","","Focused on defense and algae processing"
-"2169","40","""Will Haas""","true","1","0","0","0","0","0","0","""""","0","0","0","0","0","0","4","""""","""Docked""","""Did Move Algae"", ""Did Score Algae"""
-"2169","50","""Trey Bentley""","true","0","0","0","0","0","0","0","""""","0","0","0","0","0","1","3","""""","""No Attempt""","""Did Score Algae""","Fast and good shooter"
-"2169","56","""Tanner Pickar""","true","1","0","0","0","0","0","0","""""","0","0","0","0","0","1","2","""""","""No Attempt""","""Did Move Algae"", ""Did Score Algae"""
-"2194","8","""Adam Grouse-DataRecon""","false","0","0","0","2","0","0","0","""""","0","0","2","4","0","0","0","""""","""No Attempt""","""Did Move Coral"", ""Did Score Coral""","Drive train issues"
-"2194","17","""Ian Branch""","true","0","0","0","0","0","0","0","""""","0","0","0","0","3","1","0","""""","""Deep""","""Did Move Algae"", ""Did Score Algae"""
-"2194","25","""Adam""","true","0","0","0","1","0","0","0","""""","0","0","2","3","4","2","0","""""","""No Attempt""","""Did Move Coral"", ""Did Move Algae"", ""Did Score Coral"", ""Did Score Algae"""
-"2194","34","""Ian Branch""","true","0","0","0","2","0","0","0","""""","0","0","0","1","1","0","0","""""","""No Attempt""","""Did Move Coral"", ""Did Move Algae"", ""Did Score Coral""","Robot disabled for most of match dye to unknown errors"
-"2194","40","""Tanner pickar""","true","0","0","0","1","0","0","0","""""","0","0","0","7","2","0","0","""""","""Docked""","""Did Move Coral"", ""Did Move Algae"", ""Did Score Coral"""
-"2194","47","""Cesar Jimenez""","false","0","0","0","2","0","0","0","""""","0","0","3","1","0","0","0","""""","""Deep""",""
-"2225","3","""Adam Grouse-DataRecon""","true","0","0","0","0","0","0","0","""""","0","0","0","0","3","3","0","""""","""Docked""","""Did Move Algae""","Failed deep climb, qualified for docked"
-"2225","13","""Trey Bentley""","true","0","0","0","0","0","0","0","""""","0","0","0","0","2","4","0","""""","""Shallow""","","A little slow"
-"2225","25","""Ian Branch""","true","1","0","0","0","0","0","0","""""","0","0","0","0","4","3","0","""""","""Deep""","""Did Move Algae"", ""Did Score Coral"", ""Did Score Algae"""
-"2225","31","""Tanner pickar""","true","1","0","0","0","0","0","0","""""","0","0","0","0","5","5","0","""""","""Deep""","""Did Move Algae"", ""Did Score Coral"", ""Did Score Algae"""
-"2225","38","""Elise Barnes""","true","0","0","0","0","0","0","0","""""","0","0","2","5","0","0","0","""""","""No Attempt""","","Focused on scoring coral"
-"2225","44","""Nathan Kruepke""","true","1","0","0","0","0","0","0","""""","0","0","0","0","2","6","0","""""","""Deep""","""Did Move Algae"", ""Did Score Coral"", ""Did Score Algae""","Efficiently cleared algae off the floor and put it in the processor."
-"2225","52","""Jonathan McMahon""","true","1","0","0","0","0","0","0","""""","0","0","0","0","5","6","0","""""","""Deep""","""Did Move Coral"", ""Did Move Algae"", ""Did Score Coral"", ""Did Score Algae""","Did extremely well clearing algae from the reef, working fast and efficiently."
-"2509","6","""Adam Grouse-DataRecon""","false","0","0","0","0","0","0","0","""""","0","0","0","2","0","0","0","""""","""Docked""","""Did Move Coral"", ""Did Score Coral"""
-"2509","15","""Ryan Glaser""","true","0","0","0","0","0","0","0","""""","0","0","0","5","0","0","0","""""","""Failed""","""Did Move Coral"", ""Did Score Coral"""
-"2509","25","""Tanner Pickar""","true","1","0","0","0","0","0","0","""""","0","0","0","0","0","0","0","""""","""Docked""","""Did Move Coral"", ""Did Score Coral"""
-"2509","32","""Adam Grouse""","false","0","0","0","1","0","0","0","""""","0","0","0","4","0","0","0","""""","""Deep""","""Did Move Coral"", ""Did Score Coral"""
-"2509","42","""Elise Barnes""","true","0","0","0","0","0","0","0","""""","0","0","0","2","0","0","0","""""","""Docked""","","Focused on scoring coral"
-"2509","50","""Nathan Kruepke""","true","0","0","0","0","0","0","0","""""","0","2","0","1","0","0","0","""""","""Deep""",""
-"2509","55","""Jonathan McMahon""","true","0","0","0","1","0","0","0","""""","0","0","0","2","0","0","0","""""","""Deep""","""Did Move Coral"", ""Did Score Coral""","Seemed to have a couple hiccups aligning themselves, but overall did an alright job."
-"2526","8","""Adam Grouse-DataRecon""","false","0","0","0","0","0","0","0","""""","0","0","0","0","0","0","9","""""","""Docked""","""Did Move Algae"", ""Did Score Algae"""
-"2526","9","""Adam Grouse-DataRecon""","true","0","0","0","0","0","0","0","""""","0","0","0","0","0","0","6","""""","""No Attempt""","""Did Move Algae"", ""Did Score Algae"""
-"2526","15","""Trey Bentley""","true","1","0","0","0","1","0","0","""""","0","0","0","0","4","0","10","""""","""No Attempt""","""Did Score Algae""","Fast and tall"
-"2526","24","""Elise Barnes""","true","1","0","0","0","0","0","0","""""","0","0","0","0","0","0","0","""""","""Docked""","","Mostly focused on defense"
-"2526","33","""Ryan Glaser""","true","1","0","0","0","1","0","0","""""","0","0","0","0","3","0","8","""""","""Docked""","""Did Move Coral"", ""Did Move Algae"", ""Did Score Coral"", ""Did Score Algae"""
-"2526","41","""Elise Barnes""","true","0","0","0","0","1","0","0","""""","0","0","0","0","4","0","7","""""","""Failed""","","Focused on algae removal and net"
-"2526","51","""Trey Bentley""","true","1","0","0","0","1","0","0","""""","0","0","0","0","5","0","9","""""","""Docked""","""Did Score Algae""","Good elevator"
-"2531","6","""Adam Grouse-DataRecon""","true","0","0","0","1","0","0","0","""""","0","0","0","4","0","0","0","""""","""Deep""","""Did Move Coral"", ""Did Score Coral""","Lost Comms"
-"2531","33","""Will haas""","true","0","0","0","0","0","0","0","""""","0","0","9","0","0","0","0","""""","""No Attempt""","""Did Move Coral"", ""Did Score Coral"""
-"2531","42","""Simon""","true","0","0","0","0","0","0","0","""""","0","2","3","0","2","0","0","""""","""No Attempt""","""Did Move Coral"", ""Did Move Algae"", ""Did Score Coral"""
-"2531","47","""Trey Bentley""","true","0","0","0","0","0","0","0","""""","0","0","0","0","3","0","2","""""","""No Attempt""","""Did Score Algae""","Good height"
-"2531","52","""Trey Bentley""","true","0","0","0","0","0","0","0","""""","0","0","8","0","0","0","0","""""","""Docked""","""Did Score Coral""","Fast and good elevator"
-"2826","17","""Cesar Jimenez""","false","0","0","0","0","0","0","0","""""","0","0","1","1","1","0","0","""""","""Docked""","""Did Move Coral"", ""Did Move Algae"", ""Did Score Coral""","Slow at scoring coral"
-"2826","23","""""","true","0","0","0","0","0","0","0","""""","0","0","2","2","1","0","0","""""","""Docked""","""Did Move Coral"", ""Did Move Algae"", ""Did Score Coral"""
-"2826","29","""Tanner Pickar""","true","0","0","0","0","0","0","0","""""","0","0","2","0","1","0","0","""""","""Docked""","""Did Move Coral"", ""Did Move Algae"", ""Did Score Coral""","Attempted to deep but didn't get off fully"
-"2826","40","""Elise Barnes""","true","0","0","0","0","0","0","0","""""","0","0","0","4","1","0","0","""""","""Docked""","","Focused on scoring coral"
-"2826","46","""Nathan Kruepke""","true","0","0","0","0","0","0","0","""""","0","0","0","0","0","0","0","""""","""Docked""","","Played a lot of defense."
-"2830","2","""Adam Grouse-DataRecon""","true","0","0","0","0","0","0","0","""""","1","0","0","4","0","0","0","""""","""Failed""","""Did Move Coral"", ""Did Score Coral""","Missed alot scoring then fixed how they were playing"
-"2830","15","""Ian Branch""","true","0","0","0","0","0","0","0","""""","0","1","0","5","0","0","0","""""","""No Attempt""","""Did Move Coral"", ""Did Score Coral"""
-"2830","24","""simon""","true","1","0","0","0","0","0","0","""""","1","1","3","2","0","0","0","""""","""No Attempt""","""Did Move Coral"", ""Did Score Coral"""
-"2830","34","""Simon""","true","0","0","0","0","0","0","0","""""","0","2","0","7","0","0","0","""""","""Failed""","""Did Move Coral"", ""Did Score Coral"""
-"2830","41","""Trey Bentley""","true","0","0","0","0","0","0","0","""""","0","2","0","6","0","0","0","""""","""No Attempt""","""Did Score Coral""","Good height"
-"2830","46","""Trey Bentley""","true","0","0","0","0","0","0","0","""""","0","0","0","7","1","0","0","""""","""No Attempt""","""Did Score Coral""","Tall and fast"
-"2830","52","""Cesar Jimenez""","true","0","0","0","0","0","0","0","""""","2","0","1","4","0","0","0","""""","""Docked""","""Did Move Coral"", ""Did Score Coral"""
-"2977","14","""Ian Branch""","true","0","0","0","0","0","0","0","""""","0","4","4","0","0","0","0","""""","""No Attempt""","""Did Move Coral"", ""Did Score Coral"""
-"2977","23","""""","false","0","0","0","0","0","0","0","""""","0","0","0","0","0","0","0","""""","""Failed""","","Lost Comms, failed to dock in time"
-"2977","30","""Simon""","false","0","0","0","0","0","0","0","""""","0","0","0","0","0","0","0","""""","""No Attempt""","","Unknown issues disabled the robot"
-"2977","41","""Nathan Kruepke""","true","0","0","0","0","0","0","0","""""","1","2","6","0","0","0","0","""""","""No Attempt""","""Did Move Coral"", ""Did Score Coral"""
-"2977","51","""Will Haas""","true","0","0","0","0","0","0","0","""""","1","1","3","0","0","0","0","""""","""No Attempt""",""
-"3055","1","""Adam Grouse-DataRemake""","false","0","0","0","0","0","0","0","""""","5","0","0","0","0","0","0","""""","""Docked""","","No Effective Auto, Slow, drive and element manipulation"
-"3055","21","""Nathan Kruepke""","false","0","0","0","0","0","0","0","""""","0","0","0","0","0","0","0","""""","""Docked""","","Played defense most of the game."
-"3055","32","""Will haas""","false","0","0","0","0","0","0","0","""""","1","0","0","0","0","0","0","""""","""Docked""","""Did Move Coral"", ""Did Score Coral"""
-"3055","37","""Elise Barnes""","false","0","0","0","0","0","0","0","""""","0","1","0","0","0","0","0","""""","""Docked""","","Focused on scoring coral"
-"3055","47","""Nathan Kruepke""","false","0","0","0","0","0","0","0","""""","1","0","0","0","0","0","0","""""","""Docked""","""Did Score Coral""","Elevator got stuck at its highest point. It wouldn't go back down."
-"3055","54","""Cesar Jimenez""","false","0","0","0","0","0","0","0","""""","0","0","0","0","0","0","0","""""","""Failed""","","Looks like the coral shooter is not working, play defense "
-"3090","2","""Adam Grouse-DataRecon""","false","0","0","0","0","0","0","0","""""","0","0","0","0","3","0","0","""""","""Docked""",""
-"3090","20","""Ian Branch""","true","0","0","0","0","0","0","0","""""","0","0","0","0","2","0","0","""""","""Docked""","""Did Move Algae"""
-"3090","27","""Tanner Pickar""","true","0","0","0","0","0","0","0","""""","0","0","0","0","0","0","0","""""","""No Attempt""","","Robot was missing its arm so they focused on defense"
-"3090","42","""Nathan Kruepke""","true","0","0","0","0","0","0","0","""""","0","0","0","0","0","0","0","""""","""No Attempt""","","Played defense the entire game and got a couple of penalties. Got disabled on the field."
-"3090","48","""Cesar Jmenez""","false","0","0","0","0","0","0","0","""""","0","0","0","0","0","0","1","""can't do coral.defensive orientated""","""Failed""","""Did Move Coral"", ""Did Move Algae"""
-"3197","6","""Adam Grouse-DataRecon""","false","0","0","0","1","0","0","0","""""","0","0","0","0","0","0","0","""""","""Docked""","""Did Move Coral"", ""Did Score Coral"""
-"3197","18","""Ian Branch""","false","0","0","0","0","0","0","0","""""","0","0","2","2","2","1","8","""""","""No Attempt""","""Did Move Coral"", ""Did Move Algae"", ""Did Score Coral"", ""Did Score Algae"""
-"3197","31","""Jonathan McMahon""","true","0","0","0","1","0","0","0","""""","0","0","1","7","0","0","0","""""","""Deep""","""Did Move Coral"", ""Did Score Coral""","Did extremely well scoring level 4 coral consistently and quickly."
-"3197","41","""Simon""","true","0","0","0","1","0","0","0","""""","0","0","4","11","0","0","0","""""","""Deep""","""Did Move Coral"", ""Did Score Coral"""
-"3197","49","""Tanner pickar""","true","0","0","0","2","0","0","0","""""","0","0","0","0","0","0","0","""""","""No Attempt""","""Did Move Coral"", ""Did Score Coral""","Had problems with driving"
-"3197","567","""""","true","0","0","0","1","0","0","0","""""","1","0","0","7","0","0","0","""""","""Deep""","""Did Move Coral"", ""Did Score Coral"""
-"3381","1","""""","false","0","0","0","0","0","0","0","""""","0","0","0","0","1","0","0","""""","""Docked""","","Tried (very) earlier climb; played defense"
-"3381","15","""Nathan Kruepke""","true","0","0","0","0","0","0","0","""""","0","0","3","0","2","0","0","""""","""Docked""","""Did Move Coral"", ""Did Move Algae"", ""Did Score Coral"""
-"3381","25","""Elise Barnes""","false","0","0","0","0","0","0","0","""""","2","1","0","0","1","0","0","""""","""Docked""","","Mostly scored coral"
-"3381","30","""Ian Branch""","true","0","0","0","0","0","0","0","""""","0","0","3","0","2","0","0","""""","""Docked""","""Did Move Coral"", ""Did Move Algae"", ""Did Score Coral"""
-"3381","36","""Ian Branch""","true","0","0","0","0","0","0","0","""""","0","3","6","0","3","0","0","""""","""Docked""","""Did Move Coral"", ""Did Move Algae"", ""Did Score Coral"""
-"3381","43","""Trey Bentley""","true","0","0","0","0","0","0","0","""""","4","2","3","0","0","0","0","""""","""Docked""","""Did Score Coral""","Needs a bit more control"
-"3381","53","""Isaac Leal""","true","0","0","0","0","0","0","0","""""","5","2","0","0","1","0","0","""""","""Docked""","""Did Move Coral"", ""Did Move Algae"", ""Did Score Coral"""
-"3418","7","""Adam Grouse-DataRecon""","false","0","0","0","0","0","0","0","""""","0","0","0","0","0","0","0","""""","""No Attempt""","","Could not hold onto elements"
-"3418","13","""Ian Branch""","true","0","0","0","0","0","0","0","""""","1","0","0","0","0","0","0","""""","""Failed""","""Did Move Coral"", ""Did Score Coral"""
-"3418","22","""Tanner Pickar""","true","0","0","0","0","0","0","0","""""","1","1","0","0","0","0","0","""""","""Docked""","""Did Move Coral"", ""Did Score Coral"""
-"3418","34","""Elise Barnes""","false","0","0","0","0","0","0","0","""""","0","0","1","0","0","0","0","""""","""No Attempt""","","Focused on scoring coral"
-"3418","42","""Tanner Pickar""","true","0","0","0","0","0","0","0","""""","0","1","0","0","0","0","0","""""","""Docked""","""Did Move Coral"", ""Did Score Coral"""
-"3418","49","""Nathan Kruepke""","true","0","0","0","0","0","0","0","""""","1","1","0","0","0","0","0","""""","""Failed""","""Did Move Coral"", ""Did Score Coral"""
-"3692","1","""""","false","0","0","0","0","0","0","0","""""","0","0","0","0","0","0","0","""""","""No Attempt""","","Lost comms, stopped moving"
-"3692","17","""Jonathan McMahon""","true","0","0","0","0","0","0","0","""""","0","0","0","0","0","0","0","""""","""Docked""","","Tried to score, but had multiple hiccups hindering it."
-"3692","31","""Elise Barnes""","true","0","0","0","0","0","0","0","""""","2","2","1","0","0","0","0","""""","""Docked""","","Focused on scoring coral"
-"3692","39","""Trey Bentley""","true","0","0","0","0","0","0","0","""""","0","1","1","0","0","0","0","""""","""Docked""","""Did Score Coral""","Not very accurate"
-"3692","51","""Tanner pickar""","true","0","0","0","0","0","0","0","""""","1","1","0","0","0","0","0","""""","""Docked""","""Did Move Coral"", ""Did Move Algae"", ""Did Score Coral"""
-"4009","7","""Adam Grouse-DataRecon""","false","0","0","0","1","0","0","0","""""","0","5","4","6","0","0","0","""""","""Failed""",""
-"4009","13","""Ryan Glaser""","true","0","0","0","1","0","0","0","""""","0","1","1","7","1","0","0","""""","""Deep""","""Did Move Coral"", ""Did Move Algae"", ""Did Score Coral"", ""Did Score Algae"""
-"4009","18","""Nathan Kruepke""","true","0","0","0","2","0","0","0","""""","1","5","3","2","1","0","0","""""","""Docked""","""Did Move Coral"", ""Did Move Algae"", ""Did Score Coral""","Worked very well with their teammates to achieve the coral ranking point."
-"4009","27","""""","false","0","0","0","0","0","0","0","""""","0","0","2","7","0","0","0","""""","""Deep""","""Did Move Coral"", ""Did Score Coral"""
-"4009","36","""""","true","0","0","0","1","0","0","0","""""","0","1","1","6","1","0","0","""""","""No Attempt""","""Did Move Coral"", ""Did Move Algae"", ""Did Score Coral"", ""Did Score Algae"""
-"4009","47","""Jonathan McMahon""","false","0","0","0","0","0","0","0","""""","2","0","1","2","0","0","0","""""","""No Attempt""","""Did Move Coral"", ""Did Score Coral""","Covered several levels with coral without issue."
-"4009","55","""Trey Bentley""","true","0","0","0","1","0","0","0","""""","0","4","4","3","2","0","0","""""","""Deep""","""Did Move Algae"", ""Did Score Coral""","Good design"
-"4011","1","""""","false","0","0","0","0","0","0","0","""""","0","0","0","0","0","0","0","""""","""No Attempt""","","Did not Doc even though it could have reasonably"
-"4011","16","""Jonathan McMahon""","true","0","0","0","0","0","0","0","""""","0","0","0","0","1","0","0","""""","""No Attempt""","""Did Move Coral"", ""Did Move Algae""","Overall acted more as a algae remover bot."
-"4011","21","""Ian Branch""","false","0","0","0","0","0","0","0","""""","0","0","0","0","0","0","0","""""","""No Attempt""","","Team did not compete in match"
-"4011","27","""Jonathan McMahon""","true","0","0","0","3","0","0","0","""""","0","3","3","3","0","0","0","""""","""Docked""","""Did Move Coral"", ""Did Score Coral""","Had a really strong and fast match, scoring coral amongst a wide variety of levels."
-"4011","35","""Ian Branch""","true","0","0","0","0","0","0","0","""""","2","0","3","0","0","0","0","""""","""No Attempt""","""Did Move Coral"", ""Did Score Coral"""
-"4011","50","""Jonathan McMahon""","true","1","0","0","0","0","0","0","""""","1","0","2","0","0","0","0","""""","""No Attempt""","""Did Move Coral"", ""Did Score Coral"""
-"4021","4","""Adam Grouse-DataRecon""","true","0","0","0","0","0","0","0","""""","0","0","0","0","3","0","0","""""","""No Attempt""","""Did Move Coral"", ""Did Score Coral""","Fell,over"
-"4021","19","""Ryan Glaser""","true","0","0","0","0","0","0","0","""""","0","0","0","0","3","0","0","""""","""Failed""","""Did Move Algae"", ""Did Score Algae"""
-"4021","26","""Adam Grouse""","true","0","0","0","0","0","0","0","""""","0","0","0","0","0","0","0","""""","""Docked""","""Did Move Algae"", ""Did Score Algae""","Coral manipulator broke or doesn't work. "
-"4021","35","""Elise Barnes""","true","0","0","0","0","0","0","0","""""","0","0","0","0","0","0","0","""""","""No Attempt""","","Robot got stuck for most of the match"
-"4021","43","""Tanner pickar""","true","0","0","0","0","0","0","0","""""","0","0","0","0","3","3","0","""""","""Docked""","""Did Move Algae"", ""Did Score Algae"""
-"4021","52","""Jake""","true","0","0","0","0","0","0","0","""""","0","0","0","0","1","6","0","""""","""Docked""","""Did Move Algae"", ""Did Score Algae"""
-"4054","4","""Adam Grouse-DataRecon""","true","0","0","0","0","0","0","0","""""","0","0","0","0","3","0","0","""""","""Docked""","","Got stuck Twice"
-"4054","14","""Ryan Glaser""","true","0","0","0","0","0","0","0","""""","0","0","1","0","5","0","0","""""","""No Attempt""","""Did Move Coral"", ""Did Move Algae"", ""Did Score Coral"", ""Did Score Algae"""
-"4054","20","""Trey Bentley""","true","0","0","0","0","0","0","0","""""","0","0","0","0","2","0","0","""""","""No Attempt""","","Stopped working halfway through"
-"4054","34","""Tanner Pickar""","true","0","0","0","0","0","0","0","""""","0","0","0","0","0","0","0","""""","""Docked""","""Did Move Coral"""
-"4054","39","""Elise Barnes""","false","0","0","0","0","0","0","0","""""","0","1","3","0","2","0","0","""""","""Docked""","","Focused on scoring coral"
-"4054","48","""Tanner Pickar""","true","0","0","0","0","0","0","0","""""","0","1","4","0","1","0","0","""""","""Docked""","""Did Move Coral"", ""Did Move Algae"", ""Did Score Coral"""
-"4054","55","""Isaac Leal""","true","0","0","0","0","0","0","0","""""","0","2","4","0","3","0","0","""""","""Docked""","""Did Move Coral"", ""Did Move Algae"", ""Did Score Coral"""
-"4207","1","""Adam Grouse-DataRecon""","false","0","0","0","1","0","0","0","""""","0","0","1","4","1","0","0","""""","""Deep""","""Did Move Coral"", ""Did Move Algae"", ""Did Score Coral""","They have a not working high score Autos"
-"4207","9","""Adam Grouse-DataRecon""","false","0","1","2","0","0","0","0","""""","0","0","0","0","0","0","0","""""","""No Attempt""",""
-"4207","19","""Trey Bentley""","true","0","0","0","1","0","0","0","""""","0","0","1","4","0","0","0","""""","""Deep""","""Did Score Coral""","Very good"
-"4207","33","""Ian Branch""","true","0","0","0","1","0","0","0","""""","0","2","4","1","2","0","0","""""","""Deep""","""Did Move Coral"", ""Did Move Algae"", ""Did Score Coral"""
-"4207","38","""Trey Bentley""","true","0","0","0","1","0","0","0","""""","0","0","0","0","0","0","0","""""","""Deep""","""Did Score Coral""","Good at defence"
-"4207","45","""Trey Bentley""","true","0","0","0","0","0","0","0","""""","0","0","0","4","0","0","0","""""","""No Attempt""","""Did Score Coral""","Scored well"
-"4207","55","""Cesar JF""","true","0","0","0","0","0","0","0","""""","0","0","2","5","0","0","0","""""","""Deep""","""Did Move Coral"", ""Did Score Coral""","Good job with coral able to reliably score coral level 3 and 4"
-"4531","18","""Jonathan McMahon""","true","0","0","0","0","0","0","0","""""","0","1","2","0","2","2","0","""""","""Deep""","""Did Move Coral"", ""Did Move Algae"", ""Did Score Coral"", ""Did Score Algae""","Fast and efficient, scoring coral and removing algae."
-"4531","26","""Elise Barnes""","true","0","0","0","0","1","0","0","""""","0","0","1","0","0","0","0","""""","""Deep""","","Focused on coral"
-"4531","39","""Nathan Kruepke""","true","0","0","0","0","0","0","0","""""","1","0","2","0","2","2","0","""""","""Docked""","""Did Move Coral"", ""Did Move Algae"", ""Did Score Coral"", ""Did Score Algae"""
-"4531","49","""Jonathan McMahon""","true","0","0","0","0","0","0","0","""""","0","1","3","0","1","0","0","""""","""Failed""","""Did Move Coral"", ""Did Move Algae"", ""Did Score Coral"", ""Did Score Algae""","Versatile, a little sluggish, but an excellent scorer."
-"4531","54","""Trey Bentley""","true","0","0","0","0","0","0","0","""""","0","0","2","0","1","0","0","""""","""Deep""","""Did Score Coral""","Good design"
-"4728","7","""Adam Grouse-DataRecon""","false","0","0","0","2","0","0","0","""""","0","4","7","4","0","0","0","""""","""Docked""","""Did Move Coral"", ""Did Score Coral"""
-"4728","17","""Ryan Glaser""","true","0","0","0","1","0","0","0","""""","0","5","6","7","0","0","0","""""","""No Attempt""","""Did Move Coral"", ""Did Score Coral""","Wow, great speed and accuracy"
-"4728","27","""Ian Branch""","true","0","0","0","1","0","0","0","""""","0","4","4","5","0","0","0","""""","""Failed""","""Did Move Coral"", ""Did Score Coral"""
-"4728","38","""Will Haas""","true","0","0","0","0","0","0","0","""""","3","2","4","3","1","0","0","""""","""Deep""","""Did Move Coral"", ""Did Score Coral"""
-"4728","44","""Trey Bentley""","true","0","0","0","1","0","0","0","""""","0","1","5","3","0","0","0","""""","""Docked""","""Did Score Coral""","Fast Ang good at scoring"
-"5019","3","""Adam Grouse-DataRecon""","false","0","0","0","0","0","0","0","""""","0","0","0","0","0","0","0","""""","""No Attempt""","","Played defense poorly, drive train broke."
-"5019","21","""Trey Bentley""","true","0","0","0","0","0","0","0","""""","0","0","0","0","0","0","0","""""","""Docked""","","Failed to score"
-"5019","34","""Ryan Glaser""","true","0","0","0","0","0","0","0","""""","0","0","0","0","0","0","0","""""","""Docked""",""
-"5019","43","""Simon""","true","0","0","0","0","0","0","0","""""","0","0","0","0","0","0","0","""""","""No Attempt""","","Played defensive"
-"5019","51","""Nathan Kruepke""","true","0","0","0","0","0","0","0","""""","0","0","0","0","0","0","0","""""","""Docked""","","Played defense the entire match."
-"5148","5","""Adam Grouse-DataRecon""","true","0","0","0","0","0","0","0","""""","0","1","1","0","0","0","0","""""","""Failed""",""
-"5148","16","""Nathan Kruepke""","true","0","0","0","0","0","0","0","""""","0","0","0","0","0","0","0","""""","""Docked""","""Did Move Coral""","Did not drop any coral on the reef."
-"5148","23","""Jonathan McMahon""","true","0","0","0","0","0","0","0","""""","0","0","0","0","0","0","0","""""","""No Attempt""","","Lost communications, could not play."
-"5148","32","""Ryan Glaser""","true","0","0","0","0","0","0","0","""""","0","0","0","0","0","0","0","""""","""No Attempt""",""
-"5148","39","""Simon ""","true","0","0","0","0","0","0","0","""""","0","0","0","3","0","0","0","""""","""Docked""","""Did Move Coral"", ""Did Score Coral"""
-"5148","45","""Jonathan McMahon""","true","0","0","0","0","0","0","0","""""","0","0","0","2","1","0","0","""""","""No Attempt""","""Did Move Coral"", ""Did Move Algae"""
-"5148","52","""Nathan Kruepke""","true","0","0","0","0","0","0","0","""""","0","0","0","3","0","0","0","""""","""Docked""","""Did Move Coral"", ""Did Score Coral"""
-"5586","5","""Adam Grouse-DataRecon""","true","0","0","0","0","0","0","0","""""","0","1","2","0","2","0","0","""""","""Failed""","""Did Move Coral"", ""Did Score Coral"""
-"5586","14","""Cesar Jimenez""","false","0","0","0","0","0","0","0","""""","0","1","1","0","0","0","0","""""","""No Attempt""","""Did Move Coral"", ""Did Move Algae"", ""Did Score Coral""","Algae and coral options"
-"5586","19","""Jonathan McMahon""","true","0","0","0","0","0","0","0","""""","0","0","0","0","2","2","0","""""","""Docked""","""Did Move Coral"", ""Did Move Algae"", ""Did Score Algae""","Really good at algae scoring."
-"5586","29","""Simon""","true","0","0","0","0","0","0","0","""""","1","3","1","0","3","2","0","""""","""Docked""","""Did Move Coral"", ""Did Move Algae"", ""Did Score Coral"", ""Did Score Algae"""
-"5586","37","""Will Haas""","false","0","0","0","0","0","0","0","""""","0","1","3","0","1","0","0","""""","""No Attempt""",""
-"5586","53","""Jake""","true","0","0","0","0","0","0","0","""""","0","0","0","0","0","0","0","""""","""Docked""","""Did Move Coral"""
-"5826","4","""Adam Grouse-DataRecon""","false","0","0","0","1","0","0","0","""""","0","0","3","5","0","0","0","""""","""Failed""","""Did Move Coral"", ""Did Score Coral"""
-"5826","24","""Ian Branch""","true","0","0","0","2","0","0","0","""""","0","1","0","6","0","0","0","""""","""No Attempt""","""Did Move Coral"", ""Did Score Coral"""
-"5826","33","""Simon""","true","0","0","0","2","0","0","0","""""","0","0","0","3","0","0","0","""""","""Docked""","""Did Move Coral"", ""Did Score Coral"""
-"5826","39","""Will Haas""","true","0","0","0","2","0","0","0","""""","0","0","0","9","0","0","0","""""","""No Attempt""","""Did Move Coral"", ""Did Score Coral"""
-"5826","44","""Tanner pickar""","true","0","0","0","2","0","0","0","""""","0","0","1","2","1","0","0","""""","""No Attempt""","""Did Move Coral"", ""Did Move Algae"", ""Did Score Coral"""
-"5826","53","""Jonathan McMahon""","true","0","0","0","2","0","0","0","""""","0","0","0","4","0","0","0","""""","""No Attempt""","","Had a couple hiccups, but overall did extremely well."
-"5903","8","""Adam Grouse-DataRecon""","false","0","0","0","0","0","0","0","""""","0","0","3","4","0","0","0","""""","""No Attempt""","""Did Move Coral"", ""Did Score Coral"""
-"5903","14","""Jonathan McMahon""","true","0","0","0","0","1","0","0","""""","0","0","0","6","2","0","0","""""","""Failed""","""Did Move Coral"", ""Did Move Algae"", ""Did Score Coral""","Unintentionally removed algae while scoring coral, did a fantastic job scoring level 4 coral."
-"5903","19","""Cesar Jimenez""","true","1","0","0","0","0","0","0","""""","0","0","0","4","0","0","0","""""","""Deep""","""Did Move Coral"", ""Did Score Coral""","Consistent and fast at level 4,"
-"5903","27","""Elise Barnes""","true","0","0","0","0","0","0","0","""""","0","0","0","6","0","0","0","""""","""Failed""","","Focused on scoring coral"
-"5903","38","""Tanner Pickar""","true","0","0","0","0","1","0","0","""""","0","0","0","7","0","0","0","""""","""Deep""","""Did Move Coral"", ""Did Move Algae"", ""Did Score Coral"""
-"5903","43","""Will Haas""","true","0","0","0","0","0","0","0","""""","2","2","2","3","0","0","0","""""","""Deep""",""
-"5903","52","""Isaac Leal""","true","0","0","0","0","1","0","0","""""","0","0","0","4","0","0","0","""""","""Deep""","""Did Move Coral"", ""Did Move Algae"", ""Did Score Coral""","Coral got stuck under the robot for part of the game"
-"5914","8","""Adam Grouse-DataRecon""","false","0","0","0","0","0","0","0","""""","0","1","0","0","5","0","0","""""","""Failed""","""Did Move Coral"", ""Did Move Algae"", ""Did Score Coral"""
-"5914","13","""Cesar Jimenez""","true","0","0","0","0","0","0","0","""""","0","0","0","0","0","0","0","""""","""No Attempt""","","Lose comps right after the auto phase, recover comps at the end of the match,had a coral stuck"
-"5914","26","""Simon""","true","1","0","0","0","0","0","0","""""","0","0","3","0","1","0","0","""""","""Docked""","""Did Move Coral"", ""Did Move Algae"", ""Did Score Coral"""
-"5914","32","""Ian Branch""","true","0","0","0","0","0","0","0","""""","0","0","2","0","1","2","0","""""","""Docked""","""Did Move Coral"", ""Did Move Algae"", ""Did Score Coral"", ""Did Score Algae"""
-"5914","37","""Simon""","true","0","0","1","0","2","1","0","""""","0","0","0","0","0","0","0","""""","""Failed""","""Did Move Coral"", ""Did Move Algae"", ""Did Score Coral"", ""Did Score Algae"""
-"5914","51","""Cesar Jimenez""","true","1","0","3","0","1","0","0","""""","0","0","0","0","0","0","0","""""","""No Attempt""","""Did Move Coral"", ""Did Move Algae"", ""Did Score Coral""","Pretty solid all around but an algae get stuck for a little while"
-"5914","56","""Jonathan McMahon""","true","0","0","0","0","0","0","0","""""","0","1","2","1","0","0","0","""""","""Docked""",""
-"6166","5","""Adam Grouse-DataRecon""","true","0","0","0","0","0","0","0","""""","0","0","0","0","0","0","0","""""","""No Attempt""","","Played defense properly, drive train broke"
-"6166","17","""Trey Bentley""","true","0","0","0","0","0","0","0","""""","0","0","0","0","1","0","0","""""","""Docked""","""Did Move Algae""","Technical difficulties halfway through"
-"6166","24","""Tanner Pickar""","true","0","0","0","0","0","0","0","""""","0","0","0","0","1","0","0","""""","""Failed""","""Did Move Coral"", ""Did Move Algae"""
-"6166","30","""Elise Barnes""","false","0","0","0","0","0","0","0","""""","0","0","0","0","0","0","0","""""","""Failed""","","Robot was disabled for most of the match"
-"6166","42","""will haas""","true","0","0","0","0","0","0","0","""""","1","0","2","0","0","0","0","""""","""No Attempt""",""
-"6166","49","""Trey Bentley""","true","0","0","0","0","0","0","0","""""","0","0","1","0","1","0","0","""""","""No Attempt""","""Did Move Algae"", ""Did Score Coral""","Could have done more"
-"6381","8","""""","false","0","0","0","0","0","0","0","""""","0","0","0","7","0","0","0","""""","""Docked""","""Did Move Coral"", ""Did Score Coral"""
-"6381","14","""Nathan Kruepke""","true","0","0","0","1","0","0","0","""""","0","0","0","3","1","0","0","""""","""Docked""","""Did Move Coral"", ""Did Move Algae"", ""Did Score Coral"""
-"6381","29","""Jonathan McMahon""","true","0","0","0","0","0","0","0","""""","1","0","0","5","0","0","0","""""","""Shallow""","""Did Move Coral"", ""Did Score Coral""","Did extremely well not only at speed, but also accuracy, almost always scoring coral on level 4."
-"6381","35","""Ryan glaser""","true","0","0","0","0","0","0","0","""""","0","0","0","5","0","0","0","""""","""Deep""","""Did Move Coral"", ""Did Score Coral"""
-"6381","46","""Jonathan McMahon""","true","0","0","0","1","0","0","0","""""","1","0","0","2","0","0","0","""""","""Shallow""","""Did Move Coral"", ""Did Score Coral""","Climbed very quickly, and scored high on level 4 consistently."
-"6381","56","""Trey Bentley""","true","0","0","0","1","0","0","0","""""","0","0","0","6","1","0","0","""""","""Deep""","""Did Move Algae"", ""Did Score Coral""","Great design"
-"6732","2","""""","false","0","0","0","0","0","0","0","""""","0","0","0","0","0","0","0","""""","""Failed""","","Played effective defense"
-"6732","21","""Jonathan McMahon""","false","0","0","0","0","0","0","0","""""","0","1","0","0","0","0","0","""""","""No Attempt""","""Did Move Coral"", ""Did Score Coral""","Did their best, but only managed to score once."
-"6732","28","""Jonathan McMahon""","true","0","0","0","0","0","0","0","""""","0","0","0","0","0","0","0","""""","""No Attempt""","","Spent the game playing really good defense, did not score any points."
-"6732","37","""Ian Branch""","true","0","0","0","0","0","0","0","""""","0","4","0","0","0","0","0","""""","""No Attempt""",""
-"6732","44","""Elise Barnes""","true","0","0","0","0","0","0","0","""""","0","0","0","0","0","0","0","""""","""Docked""","","Focused on defense"
-"6732","55","""Jake""","true","0","0","0","0","0","0","0","""""","0","0","0","0","0","0","0","""""","""No Attempt""","","It played defensively."
-"7021","5","""Adam Grouse-DataRecon""","false","0","0","0","0","0","0","0","""""","0","0","2","2","0","0","0","""""","""Docked""","""Did Move Coral"", ""Did Score Coral"""
-"7021","18","""Ryan Glaser t""","true","0","0","0","2","0","0","0","""""","5","1","3","2","1","0","0","""""","""Deep""","""Did Move Coral"", ""Did Move Algae"", ""Did Score Coral"", ""Did Score Algae"""
-"7021","28","""Ian Branch""","true","0","0","0","2","0","0","0","""""","0","0","4","4","2","0","0","""""","""Deep""","""Did Move Coral"", ""Did Move Algae"", ""Did Score Coral"""
-"7021","38","""""","true","0","0","0","0","0","0","0","""""","0","0","2","5","0","0","0","""""","""Deep""","""Did Move Coral"", ""Did Score Coral"""
-"7021","51","""Jonathan McMahon""","true","0","0","0","2","0","0","0","""""","0","1","4","3","1","0","3","""""","""Deep""","""Did Move Coral"", ""Did Move Algae"", ""Did Score Coral"", ""Did Score Algae""","Extremely versatile, and a do-it-all robot."
-"7103","4","""Adam Grouse-DataRecon""","true","0","0","0","2","0","0","0","""""","0","0","0","3","0","0","0","""""","""No Attempt""","""Did Move Coral"", ""Did Score Coral""","Started playing defense around halfway through, then drive train issues"
-"7103","28","""Simon""","true","0","0","0","1","0","0","0","""""","0","0","0","0","0","0","0","""""","""Docked""","""Did Move Coral"", ""Did Score Coral""","Played defensive"
-"7103","40","""Trey Bentley""","true","0","0","0","2","0","0","0","""""","0","0","0","0","0","0","0","""""","""Docked""","""Did Score Coral""","Good in auto"
-"7103","45","""Will Haas,""","true","0","0","0","0","0","0","0","""""","0","0","0","2","0","0","0","""""","""No Attempt""","""Did Move Coral"", ""Did Score Coral"""
-"7103","54","""Jonathan McMahon""","true","0","0","0","0","0","0","0","""""","0","0","0","1","0","0","0","""""","""No Attempt""","""Did Move Coral"", ""Did Score Coral""","Played a lot of defense. Got stuck on algae."
-"7619","3","""Adam Grouse-DataRecon""","true","0","0","0","0","0","0","0","""""","0","0","0","5","0","0","0","""""","""Deep""","""Did Move Coral"", ""Did Score Coral"""
-"7619","20","""Jonathan McMahon""","true","0","0","0","0","0","0","0","""""","0","0","0","1","0","0","0","""""","""No Attempt""","","Major issue, could not play."
-"7619","29","""Ian Branch""","true","0","0","0","0","0","0","0","""""","0","0","0","5","0","0","0","""""","""Deep""","""Did Move Coral"", ""Did Score Coral"""
-"7619","36","""Tanner Pickar""","true","0","0","0","0","0","0","0","""""","0","0","0","5","3","0","0","""""","""Docked""","""Did Move Coral"", ""Did Move Algae"", ""Did Score Coral"""
-"7619","49","""Will Haas""","true","0","0","0","0","0","0","0","""""","0","0","0","3","3","0","0","""""","""Docked""",""
-"8024","7","""Adam Grouse-DataRecon""","false","0","0","0","0","0","0","0","""""","0","0","0","0","0","0","0","""""","""No Attempt""","","Played defense and deep climbed"
-"8024","19","""Nathan Kruepke""","true","0","0","0","0","0","0","0","""""","0","0","0","0","0","0","0","""""","""No Attempt""","","Played defense for a majority of the game. Then got stuck on a coral."
-"8024","29","""Elise Barnes""","false","0","0","0","0","0","0","0","""""","0","0","0","0","0","0","0","""""","""No Attempt""","","Lost communications"
-"8024","41","""Tanner Pickar""","true","0","0","0","0","0","0","0","""""","0","0","0","0","0","0","0","""""","""Deep""","","They played defense the whole time"
-"8024","48","""Jonathan McMahon""","true","0","0","0","0","0","0","0","""""","0","0","0","0","0","0","0","""""","""Deep""","","Did not score anything, instead went right for climbing."
-"8531","9","""Adam Grouse-DataRecon""","true","0","0","0","2","0","2","0","""""","0","0","0","0","0","0","0","""""","""Docked""","""Did Move Coral"", ""Did Move Algae"", ""Did Score Coral"", ""Did Score Algae"""
-"8531","16","""Ian Branch""","true","0","0","0","0","0","0","0","""""","1","0","0","0","6","5","0","""""","""Docked""","""Did Move Algae"", ""Did Score Coral"", ""Did Score Algae"""
-"8531","26","""Tanner Pickar""","true","0","0","0","0","0","0","0","""""","1","0","0","0","4","3","0","""""","""No Attempt""","""Did Move Coral"", ""Did Move Algae"", ""Did Score Coral"", ""Did Score Algae"""
-"8531","34","""Will Haas""","true","0","0","0","0","0","0","0","""""","0","0","0","0","5","9","0","""""","""Docked""","""Did Move Algae"", ""Did Score Algae""","Quick and accurate"
-"8531","41","""Will Haas""","true","0","0","0","0","0","0","0","""""","0","0","0","0","5","7","0","""""","""No Attempt""","""Did Move Algae"", ""Did Score Algae"""
-"8531","47","""Tanner Pickar""","true","0","0","0","0","0","0","0","""""","0","0","0","0","3","3","0","""""","""Docked""","""Did Move Algae"", ""Did Score Algae"""
-"8700","2","""Adam Grouse-DataRecon""","true","0","0","0","0","0","0","0","""""","0","0","0","0","0","0","0","""""","""Docked""",""
-"8700","13","""Nathan Kruepke""","true","0","0","0","0","0","0","0","""""","0","0","0","0","1","0","0","""""","""No Attempt""","""Did Move Algae""","Did not attempt too score any coral or alga."
-"8700","20","""Cesar jimenez""","false","0","0","0","0","0","0","0","""""","0","0","0","0","0","0","0","""""","""Failed""","","Very slow at algae and coral"
-"8700","40","""Simon""","true","1","0","0","0","0","0","0","""""","0","1","1","0","0","0","0","""""","""No Attempt""","""Did Move Coral"", ""Did Score Coral"""
-"8700","45","""Nathan Kruepke""","true","1","0","0","0","0","0","0","""""","0","1","1","0","1","0","0","""""","""Docked""","""Did Move Coral"", ""Did Move Algae"", ""Did Score Coral"""
-"8700","53","""Trey Bentley""","true","1","0","0","0","0","0","0","""""","1","0","0","0","0","0","0","""""","""Docked""","""Did Score Coral""","Didn't do a whole lot"
-"8701","24","""Adam""","true","0","0","0","0","0","0","0","""""","0","0","0","2","0","0","0","""""","""Docked""","","Easily pushed around, very suspicious noise from drive train"
-"8701","30","""Tanner Pickar""","true","0","0","0","0","0","0","0","""""","0","0","1","5","0","0","0","""""","""Deep""","""Did Move Coral"", ""Did Score Coral"""
-"8701","35","""Will Haas""","true","0","0","0","0","0","0","0","""""","0","1","1","4","2","0","0","""""","""Docked""","""Did Move Coral"", ""Did Score Coral"""
-"8701","45","""Cesar Jimenez""","true","0","0","0","0","0","0","0","""""","0","0","0","0","0","0","0","""""","""Deep""","","Having problems at releasing their coral"
-"8744","4","""Adam Grouse-DataRecon""","true","0","0","0","0","0","0","0","""""","0","0","3","5","0","0","0","""""","""No Attempt""","""Did Move Coral"", ""Did Score Coral"""
-"8744","16","""Trey Bentley""","true","0","0","0","0","0","0","0","""""","1","0","0","10","0","0","0","""""","""Docked""","""Did Score Coral""","Very fast "
-"8744","21","""Cesar Jimenez""","true","0","0","0","0","0","0","0","""""","0","0","0","5","0","0","0","""""","""No Attempt""","""Did Move Coral"", ""Did Score Coral""","Fast and consistent level 4 but they miss a lot of coral"
-"8744","30","""Jonathan McMahon""","true","0","0","0","1","0","0","0","""""","0","0","0","0","0","0","0","""""","""Docked""","","Spent the match playing defense, didn't score many points."
-"8744","38","""Nathan Kruepke""","true","0","0","0","1","0","0","0","""""","3","4","1","5","0","0","0","""""","""No Attempt""","""Did Move Coral"", ""Did Score Coral""","Had a very efficient ground intake system."
-"8744","48","""Trey Bentley""","true","0","0","0","0","0","0","0","""""","3","1","3","0","0","0","0","""""","""No Attempt""","""Did Score Coral""","Fast and good elevator speed"
-"8821","9","""Adam Grouse-DataRecon""","false","0","0","0","0","0","0","0","""""","0","1","0","0","0","0","0","""""","""Docked""","""Did Move Coral"", ""Did Score Coral"""
-"8821","15","""Jonathan McMahon""","true","1","0","0","0","0","0","0","""""","0","1","2","0","0","0","0","""""","""Docked""","""Did Move Coral"", ""Did Score Coral""","Decently scored algae consistently in levels 2 and 3."
-"8821","20","""""","true","0","0","0","0","0","0","0","""""","0","4","2","0","0","0","0","""""","""Docked""","""Did Move Coral"", ""Did Score Coral"""
-"8821","28","""Elise Barnes""","true","0","0","0","0","0","0","0","""""","0","4","0","0","0","0","0","""""","""Failed""","","Focused on scoring coral "
-"8821","35","""Tanner Pickar""","true","0","1","0","0","0","0","0","""""","0","2","4","0","0","0","0","""""","""Docked""","""Did Move Coral"", ""Did Score Coral"""
-"8821","44","""Jonathan McMahon""","true","0","0","0","0","0","0","0","""""","0","4","0","0","0","0","0","""""","""Docked""","""Did Move Coral"", ""Did Score Coral""","Struggled a little at first to score, but eventually found their rhythm and consistently scored in level 2 with coral."
-"9149","5","""Adam Grouse-DataRecon""","true","0","0","0","0","0","0","0","""""","1","0","0","0","0","0","0","""""","""Docked""","","The one point they did make was not intended"
-"9149","20","""Nathan Kruepke""","true","0","0","0","0","0","0","0","""""","0","0","0","0","0","0","0","""""","""No Attempt""","""Did Move Coral""","Scored 2 coral but they were on a location of the reef that was blocked by algae."
-"9149","27","""Simon""","true","0","0","0","0","0","0","0","""""","0","0","0","0","0","0","0","""""","""Docked""","","Played defensive"
-"9149","36","""Will Haas""","true","0","0","0","0","0","0","0","""""","1","0","1","0","0","0","0","""""","""Docked""","""Did Move Coral"", ""Did Score Coral"""
-"9149","46","""Cesar Jimenez""","false","0","0","0","0","0","0","0","""""","1","2","1","0","0","0","0","""""","""Docked""","""Did Move Coral"", ""Did Score Coral"""
-"9578","7","""Adam Grouse-DataRecon""","false","0","0","0","0","0","0","0","""""","0","0","0","0","4","1","0","""""","""Docked""","""Did Move Coral"", ""Did Move Algae"", ""Did Score Coral"", ""Did Score Algae"""
-"9578","16","""Cesar Jimenez""","false","0","0","0","0","0","0","0","""""","1","0","0","0","0","0","3","""""","""Deep""","""Did Move Coral"", ""Did Move Algae"", ""Did Score Coral"", ""Did Score Algae""","Consistant on net and option to do coral on lv1"
-"9578","25","""Simón""","true","0","0","0","0","0","0","0","""""","0","0","0","0","1","0","3","""""","""Deep""","""Did Move Algae"", ""Did Score Algae"""
-"9578","31","""Simon""","false","0","0","0","0","0","0","0","""""","0","0","0","0","2","0","2","""""","""Docked""",""
-"9578","37","""Tanner Pickar""","true","0","0","0","0","0","0","0","""""","0","0","0","0","2","0","1","""""","""Docked""","""Did Move Algae"", ""Did Score Algae"""
-"9578","46","""Tanner pickar""","true","0","0","0","0","0","0","0","""""","0","0","0","0","1","0","1","""""","""Docked""","""Did Move Algae"", ""Did Score Algae""","Arm broke"
-"9676","6","""Adam Grouse-DataRecon""","true","0","0","0","0","0","0","0","""""","0","0","0","0","0","0","0","""""","""No Attempt""","","Tried playing defense, drive train seems off"
-"9676","14","""Trey Bentley""","false","0","0","0","0","0","0","0","""""","0","0","0","0","0","0","0","""""","""Docked""","""Did Move Coral""","Slow and no scoring"
-"9676","26","""Jonathan McMahon""","false","0","0","0","0","0","0","0","""""","1","1","0","0","0","0","0","""""","""Docked""","""Did Move Coral"", ""Did Score Coral""","Seemed like they had a couple hiccups especially with scoring in general as a number of coral they grabbed did fall, but overall the performance was strong."
-"9676","36","""Elise Barnes""","false","0","0","0","0","0","0","0","""""","0","0","0","0","0","0","0","""""","""Failed""","","Focused on defense"
-"9676","45","""Tanner Pickar""","false","0","0","0","0","0","0","0","""""","0","0","0","0","0","0","0","""""","""Docked""","""Did Move Coral""","Had problems with moving at the beginning"
+Timestamp,Match Number,Team Number,Name,AUTOS,Auto Move?,Coral 1,Coral 2,Coral 3,Coral 4,TELEOP,Coral 1,Algae Removed,Algae Processed,Algae Placed In Net,Coral 2,Coral 3,Coral 4,Algae Removed,Algae Processed,Algae Put In Net,Docking Type,Comments,ENDGAME,Coral 4
+3/28/2025 9:50:36,1,8700,Simon,AUTOS,Yes,,,,,TELEOP,,,,,1,2,,,,,Failed,,ENDGAME,
+3/28/2025 9:50:44,1,6318,Isaac Leal,AUTOS,Yes,,,,1,TELEOP,1,,,,,,7,,,,No attempt,,ENDGAME,
+3/28/2025 9:50:48,1,4693,Will Haas,AUTOS,Yes,,,,,TELEOP,,,,,,,,3,5,,Failed,,ENDGAME,
+3/28/2025 9:50:59,1,6317,Jeremiah ,AUTOS,Yes,,,,,TELEOP,,,,,4,4,,3,,,Deep,,ENDGAME,
+3/28/2025 9:51:52,1,6381,Kiersten ,AUTOS,Yes,,,,,TELEOP,,,,,,,3,,,,Failed,Had a level 4 auto that fell off,ENDGAME,
+3/28/2025 10:00:02,2,10553,simon,AUTOS,Yes,,,,,TELEOP,,,,,,,,,,,Deep,Played defense really well,ENDGAME,
+3/28/2025 10:00:07,2,5934,Jeremiah ,AUTOS,Yes,1,,,,TELEOP,4,,,,9,,,,,,Deep,,ENDGAME,
+3/28/2025 10:00:18,2,2530,Will Haas,AUTOS,Yes,,,,3,TELEOP,,,,,4,3,5,2,,2,Deep,,ENDGAME,
+3/28/2025 10:01:04,2,1714,Kiersten ,AUTOS,Yes,,,,1,TELEOP,,,,,,1,2,,,,Deep,Was not able to get coral for most of teleop because of a bot blocking the feeder station.,ENDGAME,
+3/28/2025 10:08:01,3,6947,simon,AUTOS,No,,,,,TELEOP,1,,,,1,1,,,,,Deep,,ENDGAME,
+3/28/2025 10:08:11,3,1732,Jeremiah ,AUTOS,Yes,,,,3,TELEOP,4,,,,1,3,1,1,1,,Shallow,,ENDGAME,
+3/28/2025 10:08:16,3,4607,Kiersten ,AUTOS,Yes,,,,3,TELEOP,,,,,5,,1,,2,,Failed,,ENDGAME,
+3/28/2025 10:08:27,3,7417,Cam,AUTOS,Yes,,,,,TELEOP,,,,,,,,,,,Docked,Played defense,ENDGAME,
+3/28/2025 10:08:41,3,6421,Jonathan McMahon,AUTOS,Yes,,,,,TELEOP,,,,,,1,5,,,,Docked,"Seemed to do the best scoring in Level 4, struggled with lower levels.",ENDGAME,
+3/28/2025 10:08:54,3,2062,Tanner Pickar ,AUTOS,Yes,1,,,,TELEOP,1,,,,1,5,,3,1,,Docked,,ENDGAME,
+3/28/2025 10:17:28,4,8701,Simon,AUTOS,Yes,,,,,TELEOP,,,,,,1,3,,,,Failed,,ENDGAME,
+3/28/2025 10:17:38,4,2077,Cam,AUTOS,Yes,,,,,TELEOP,,,,,,1,,2,,,Docked,,ENDGAME,
+3/28/2025 10:17:40,4,6643,Tanner Pickar ,AUTOS,Yes,,,,,TELEOP,,,,,,,1,1,,,Docked,,ENDGAME,
+3/28/2025 10:17:53,4,2290,Jeremiah ,AUTOS,Yes,,,,1,TELEOP,,,,,,,2,1,,,Docked,,ENDGAME,
+3/28/2025 10:17:59,4,5993,Kiersten ,AUTOS,Yes,,,,,TELEOP,,,,,,2,2,,,,No attempt,,ENDGAME,
+3/28/2025 10:18:00,4,6574,Jonathan McMahon,AUTOS,Yes,1,,,,TELEOP,,,,,,,8,,,,Deep,"Did extremely well scoring in Level 4, and docking in a deep cage.",ENDGAME,
+3/28/2025 10:26:07,5,7900,Jeremiah ,AUTOS,Yes,,,,,TELEOP,,,,,,,,2,,,Docked,,ENDGAME,
+3/28/2025 10:26:07,5,4635,Simon,AUTOS,Yes,,,,1,TELEOP,,,,,2,2,6,3,,1,Deep,Amazing,ENDGAME,
+3/28/2025 10:26:15,5,10264,cam,AUTOS,Yes,,,,,TELEOP,,,,,,2,,,,,Docked,,ENDGAME,
+3/28/2025 10:26:15,5,9401,Kiersten,AUTOS,Yes,,,,1,TELEOP,,,,,1,2,2,1,1,,Deep,,ENDGAME,
+3/28/2025 10:26:21,5,1091,Tanner Pickar ,AUTOS,Yes,,,,1,TELEOP,,1,1,,,,,,,,Docked,,ENDGAME,
+3/28/2025 10:26:55,5,6223,Jonathan McMahon,AUTOS,Yes,,,,,TELEOP,,,,,,2,5,,,,Docked,"Scored in Level 4 well, struggled a little at lower levels.",ENDGAME,
+3/28/2025 10:34:36,6,1306,Cam,AUTOS,Yes,,,,,TELEOP,1,,,,,1,3,,,,Docked,,ENDGAME,
+3/28/2025 10:34:46,6,930,Tanner Pickar ,AUTOS,Yes,,,,,TELEOP,,,,,,,3,1,,,Docked,,ENDGAME,
+3/28/2025 10:35:07,6,6166,Simon,AUTOS,No,,,,,TELEOP,,,,,,,,,,,Docked,Played defense,ENDGAME,
+3/28/2025 10:35:28,6,6024,Kiersten,AUTOS,Yes,,,,1,TELEOP,,,,,,2,3,2,,,No attempt,Got an algee stuck under bot for a few seconds ,ENDGAME,
+3/28/2025 10:36:08,6,4786,Jonathan McMahon,AUTOS,Yes,,,,2,TELEOP,,,,,,2,2,4,,2,Deep,"Extremely fast, extremely efficient, and high scoring.",ENDGAME,
+3/28/2025 10:36:18,6,3354,Cohen Susler,AUTOS,Yes,,,,,TELEOP,,,,,,1,7,2,,,Docked,,ENDGAME,
+3/28/2025 10:43:15,7,3692,Simon,AUTOS,Yes,,,,,TELEOP,,,,,3,,,,,,No attempt,Got stuck on a ball last 15 seconds,ENDGAME,
+3/28/2025 10:43:20,7,2062,Cam,AUTOS,Yes,,,,,TELEOP,,,,,,1,5,,,,Docked,,ENDGAME,
+3/28/2025 10:43:45,7,1792,Kiersten ,AUTOS,Yes,,,,1,TELEOP,,,,,,,7,,,,Docked,Got several penalties around feeder station,ENDGAME,
+3/28/2025 10:43:48,7,5148,Cohen Susler,AUTOS,Yes,,,,,TELEOP,,,,,,2,1,2,,,Docked,,ENDGAME,
+3/28/2025 10:44:06,7,4693,Tanner Pickar ,AUTOS,Yes,,,,,TELEOP,,,,,,,,,3,,Docked,Disabled for most of match,ENDGAME,
+3/28/2025 10:44:07,7,3184,Jonathan McMahon,AUTOS,Yes,,,,,TELEOP,,,,,,3,,3,,3,Docked,,ENDGAME,
+3/28/2025 10:51:14,8,6317,Simon,AUTOS,Yes,,,,,TELEOP,,,,,,7,,2,,,Deep,,ENDGAME,
+3/28/2025 10:51:16,8,2290,Kiersten Van Dreser,AUTOS,Yes,,,,3,TELEOP,,,,,,,8,,,,Docked,,ENDGAME,
+3/28/2025 10:51:21,8,8700,Cam,AUTOS,Yes,1,,,,TELEOP,,,,,,1,,1,,,No attempt,,ENDGAME,
+3/28/2025 10:51:32,8,5993,Tanner Pickar ,AUTOS,No,,,,,TELEOP,,,,,,,3,,,,Docked,,ENDGAME,
+3/28/2025 10:51:39,8,6421,Jonathan McMahon,AUTOS,Yes,,,,,TELEOP,1,,,,,,7,,,,Deep,,ENDGAME,
+3/28/2025 10:52:04,8,7417,Cohen Susler,AUTOS,No,,,,,TELEOP,,,,,,,,,,,No attempt,Not on field,ENDGAME,
+3/28/2025 10:58:33,9,5934,Simon,AUTOS,Yes,2,,,,TELEOP,4,,,,7,,,,,,Deep,,ENDGAME,
+3/28/2025 10:58:41,9,6381,Cam,AUTOS,Yes,,,,,TELEOP,,1,,,,,,3,,3,Docked,,ENDGAME,
+3/28/2025 10:58:46,9,6574,Kiersten,AUTOS,Yes,1,,,,TELEOP,,,,,,,4,,,,Deep,,ENDGAME,
+3/28/2025 10:58:46,9,2077,Jonathan McMahon,AUTOS,Yes,,,,,TELEOP,,,,,1,1,,1,,,Deep,,ENDGAME,
+3/28/2025 10:58:52,9,6223,Tanner Pickar ,AUTOS,Yes,,,,1,TELEOP,,,,,1,3,5,1,,,Deep,,ENDGAME,
+3/28/2025 10:59:38,9,1220,Cohen Susler,AUTOS,Yes,1,,,,TELEOP,5,,,,,,,1,,,Docked,,ENDGAME,
+3/28/2025 11:11:10,10,6947,Simon,AUTOS,Yes,,,,,TELEOP,1,,,,,1,3,,,,Deep,,ENDGAME,
+3/28/2025 11:11:10,10,10553,Kiersten,AUTOS,Yes,,,,,TELEOP,2,,,,1,,,,,,Deep,,ENDGAME,
+3/28/2025 11:11:12,10,1091,Jonathan McMahon,AUTOS,Yes,,,,,TELEOP,,,,,,,,,,,Shallow,"Played defense, didn't score anything.",ENDGAME,
+3/28/2025 11:11:21,10,6024,Cam,AUTOS,Yes,,,,1,TELEOP,,,,,,4,1,2,,,No attempt,,ENDGAME,
+3/28/2025 11:11:24,10,9401,Cohen Susler,AUTOS,Yes,,,,2,TELEOP,,,,,,2,2,1,,,Docked,,ENDGAME,
+3/28/2025 11:13:15,10,4635,Tanner Pickar ,AUTOS,Yes,,,,3,TELEOP,,,,,3,5,6,1,,1,Docked,,ENDGAME,
+3/28/2025 11:20:03,11,5148,Jonathan McMahon,AUTOS,Yes,,,,,TELEOP,,,,,,,3,,,,Docked,Played defense,ENDGAME,
+3/28/2025 11:20:09,11,1306,Tanner Pickar ,AUTOS,Yes,,,,1,TELEOP,,,,,4,1,3,,,,Docked,,ENDGAME,
+3/28/2025 11:20:09,11,6318,Simon,AUTOS,Yes,,,,,TELEOP,,,,,,2,1,2,1,,Docked,Played defense end of match,ENDGAME,
+3/28/2025 11:20:17,11,930,Kiersten ,AUTOS,No,,,,,TELEOP,1,,,,,2,4,1,,,No attempt,,ENDGAME,
+3/28/2025 11:20:17,11,4607,Cam,AUTOS,Yes,,,,1,TELEOP,,,,,,3,4,1,,3,Deep,,ENDGAME,
+3/28/2025 11:27:42,12,2202,Simon,AUTOS,Yes,,,,1,TELEOP,1,,,,5,,,1,1,,Docked,,ENDGAME,
+3/28/2025 11:27:43,12,3354,Jonathan McMahon,AUTOS,Yes,,,,,TELEOP,,,,,,1,6,,,,No attempt,,ENDGAME,
+3/28/2025 11:27:48,12,1732,Kiersten,AUTOS,Yes,,,,2,TELEOP,,,,,,4,2,,2,,Deep,,ENDGAME,
+3/28/2025 11:27:52,12,4786,Cam,AUTOS,Yes,,,,1,TELEOP,,,,,,2,5,2,,2,Docked,,ENDGAME,
+3/28/2025 11:28:04,12,3692,Tanner Pickar ,AUTOS,Yes,,,,,TELEOP,,,,,,,,,,,Docked,Played defense ,ENDGAME,
+3/28/2025 11:35:16,13,3184,Simon,AUTOS,Yes,,,,,TELEOP,,,,,,,,2,,1,Docked,Something broke in their elevator,ENDGAME,
+3/28/2025 11:35:52,13,1714,Jonathan McMahon,AUTOS,Yes,,,,2,TELEOP,,,,,,,6,,,,No attempt,,ENDGAME,
+3/28/2025 11:35:52,13,7900,Kiersten ,AUTOS,Yes,,,,,TELEOP,,,,,,,,,,,Docked,Played defense most of the time,ENDGAME,
+3/28/2025 11:35:57,13,6166,Cam,AUTOS,Yes,,,,,TELEOP,,,,,,3,,1,,,No attempt,,ENDGAME,
+3/28/2025 11:36:10,13,10264,Tanner Pickar ,AUTOS,No,,,,,TELEOP,1,,,,,3,2,2,,,No attempt,,ENDGAME,
+3/28/2025 11:43:52,14,5993,Simon,AUTOS,No,,,,,TELEOP,,,,,,,2,,,,Docked,,ENDGAME,
+3/28/2025 11:43:52,14,6947,Cam,AUTOS,Yes,,,,,TELEOP,,1,,,,1,2,,,,Deep,,ENDGAME,
+3/28/2025 11:43:56,14,5934,Jonathan McMahon,AUTOS,Yes,2,,,,TELEOP,2,,,,3,,,,,,Docked,,ENDGAME,
+3/28/2025 11:44:21,14,6317,Kiersten ,AUTOS,Yes,,,,,TELEOP,,,,,5,,3,1,,,Docked,,ENDGAME,
+3/28/2025 11:44:57,14,2062,Cohen Susler,AUTOS,Yes,,,,,TELEOP,,,,,,2,1,2,,1,Docked,,ENDGAME,
+3/28/2025 11:45:00,14,6381,Tanner Pickar ,AUTOS,Yes,,,,,TELEOP,,,,,,1,4,1,,,Docked,,ENDGAME,
+3/28/2025 11:51:37,15,4607,Kiersten,AUTOS,Yes,,,,3,TELEOP,,,,,,,5,3,,5,Deep,,ENDGAME,
+3/28/2025 11:51:39,15,1792,simon,AUTOS,Yes,,,,1,TELEOP,,,,,2,2,1,1,,,Docked,,ENDGAME,
+3/28/2025 11:51:42,15,2290,Jake,AUTOS,Yes,1,,,,TELEOP,,,,,,,7,,,,Docked,,ENDGAME,
+3/28/2025 11:51:54,15,6024,Cam,AUTOS,Yes,,,,,TELEOP,,,,,,2,1,2,,,Docked,,ENDGAME,
+3/28/2025 11:52:09,15,1220,Tanner Pickar ,AUTOS,Yes,1,,,,TELEOP,,,,,,,,,,,Docked,Played defense ,ENDGAME,
+3/28/2025 11:53:12,15,930,Cohen Susler,AUTOS,No,,,,,TELEOP,,,,,,,,,,,Docked,,ENDGAME,
+3/28/2025 12:02:16,16,8700,Kiersten,AUTOS,Yes,1,,,,TELEOP,,,,,,2,,,,,No attempt,,ENDGAME,
+3/28/2025 12:02:17,16,7417,Simon,AUTOS,Yes,,,,,TELEOP,,,,,,,,3,,,Docked,,ENDGAME,
+3/28/2025 12:02:17,16,4635,Tanner Pickar ,AUTOS,Yes,,,,1,TELEOP,,,,,,2,3,3,1,1,Deep,,ENDGAME,
+3/28/2025 12:02:23,16,6318,Cam,AUTOS,Yes,,,,,TELEOP,,1,,,,5,3,,1,,No attempt,,ENDGAME,
+3/28/2025 12:02:33,16,6223,Jake,AUTOS,Yes,,,,,TELEOP,,,,,4,1,5,,,,Deep,,ENDGAME,
+3/28/2025 12:07:00,16,1732,Cohen Susler,AUTOS,Yes,,,,1,TELEOP,,,,,4,5,5,3,2,,Failed,,ENDGAME,
