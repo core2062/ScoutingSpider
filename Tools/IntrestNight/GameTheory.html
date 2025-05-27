@@ -1,5 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html><html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -25,143 +24,147 @@
       Offense: { Offense: 0, Defense: -2, Support: 1, "Broken Robot": 0 },
       Defense: { Offense: 2, Defense: 0, Support: 1, "Broken Robot": 0 },
       Support: { Offense: -1, Defense: -1, Support: 0, "Broken Robot": 0 }
-    };
+    };const genericReviews = {
+  BEST: "Good — Well done.",
+  MID: "Mid — Decent performance.",
+  BAD: "Bad — Needs improvement."
+};
 
-    const levels = [
-      { name: "The Aggressors", redTeam: ["Offense","Offense","Support"], description: "Red is heavy on scoring with light backup.", reviews: { BEST: "Good — You outplayed two Offense bots; scoring-focused bots can be weak defensively.", MID: "Mid — You managed some stops but couldn’t consistently score; consider more offense.", BAD: "Bad — Too defensive/support-heavy; you allowed Red to dominate scoring." } },
-      { name: "The Fortress", redTeam: ["Defense","Defense","Support"], description: "Red plays super defensively to block your scoring.", reviews: { BEST: "Good — Your Offensive push broke through the wall effectively.", MID: "Mid — You scored sometimes but struggled against heavy defense.", BAD: "Bad — Overly defensive; you never mounted an effective offense." } },
-      { name: "Balanced Blade", redTeam: ["Offense","Defense","Support"], description: "Red has a well-rounded lineup.", reviews: { BEST: "Good — You matched and countered each role nicely.", MID: "Mid — You kept up but lacked edge in one area.", BAD: "Bad — You fell behind in key matchups; rebalance your team." } },
-      { name: "The Decoys", redTeam: ["Support","Support","Offense"], description: "Red’s double support is flexible and deceptive.", reviews: { BEST: "Good — You exploited their deceptive flex, controlling the match.", MID: "Mid — You adapted unevenly; some roles worked, some didn’t.", BAD: "Bad — You were outmaneuvered by their flexibility; adjust roles." } },
-      { name: "Mind Games", redTeam: ["Defense","Offense","Broken Robot"], description: "Red has one broken robot plus defense and offense.", reviews: { BEST: "Good — You balanced offense and defense to exploit the broken bot and now reveal their lineup!", MID: "Mid — You performed reasonably but left points on the table.", BAD: "Bad — You misread their weakness; adjust strategy next time." } }
-    ];
+const levels = [
+  { name: "The Aggressors", redTeam: ["Offense","Offense","Support"], description: "Red is heavy on scoring with light backup.", reviews: genericReviews },
+  { name: "The Fortress", redTeam: ["Defense","Defense","Support"], description: "Red plays super defensively to block your scoring.", reviews: genericReviews },
+  { name: "Balanced Blade", redTeam: ["Offense","Defense","Support"], description: "Red has a well-rounded lineup.", reviews: genericReviews },
+  { name: "The Decoys", redTeam: ["Support","Support","Offense"], description: "Red’s double support is flexible and deceptive.", reviews: genericReviews },
+  { name: "Mind Games", redTeam: ["Defense","Offense","Broken Robot"], description: "Red has one broken robot plus defense and offense.", reviews: genericReviews }
+];
 
-    let currentLevel = 0, submitted = false, result = null;
-    let customMode = false, customSubmitted = false, customResult = null;
+let currentLevel = 0, submitted = false, result = null;
+let customMode = false, customSubmitted = false, customResult = null;
 
-    // Load saved custom teams
-    const savedRed = JSON.parse(localStorage.getItem('customRed') || '[]');
-    const savedBlue = JSON.parse(localStorage.getItem('customBlue') || '[]');
+// Load saved custom teams
+const savedRed = JSON.parse(localStorage.getItem('customRed') || '[]');
+const savedBlue = JSON.parse(localStorage.getItem('customBlue') || '[]');
 
-    function evaluateTeam(team, redTeam, reviews) {
-      let total = 0;
-      team.forEach(blueRole => {
-        redTeam.forEach(redRole => total += scoreMatrix[blueRole][redRole] || 0);
+function evaluateTeam(team, redTeam, reviews) {
+  let total = 0;
+  team.forEach(blueRole => {
+    redTeam.forEach(redRole => total += scoreMatrix[blueRole][redRole] || 0);
+  });
+  const avg = total / (team.length * redTeam.length);
+  const rating = avg > 0.5 ? 'BEST' : avg >= -0.5 ? 'MID' : 'BAD';
+  return { rating, comment: reviews ? reviews[rating] : `Your team average score is ${avg.toFixed(2)}, rating: ${rating}` };
+}
+
+const app = document.getElementById('app');
+function render() {
+  app.innerHTML = '';
+
+  if (customMode) {
+    const card = document.createElement('div'); card.className = 'card';
+    card.innerHTML = '<div class="title">Design Your Own Matchup</div>';
+    const form = document.createElement('div');
+
+    // Legend
+    const legend = document.createElement('div'); legend.className='legend';
+    legend.innerHTML = `<strong>Point System:</strong><br>
+      Offense vs Defense: -2<br>
+      Offense vs Support: +1<br>
+      Defense vs Offense: +2<br>
+      Defense vs Support: +1<br>
+      Support vs Offense/Defense: -1<br>
+      Any vs Broken Robot: 0`;
+    form.appendChild(legend);
+
+    form.innerHTML += '<h3>Select Red Team:</h3>';
+    const redSelects = [0,1,2].map(i => {
+      const sel = document.createElement('select'); sel.id = 'cRed'+i;
+      allRoles.forEach(r => {
+        const opt = document.createElement('option'); opt.value = r; opt.text = r;
+        if (savedRed[i] === r) opt.selected = true;
+        sel.appendChild(opt);
       });
-      const avg = total / (team.length * redTeam.length);
-      const rating = avg > 0.5 ? 'BEST' : avg >= -0.5 ? 'MID' : 'BAD';
-      return { rating, comment: reviews ? reviews[rating] : `Your team average score is ${avg.toFixed(2)}, rating: ${rating}` };
+      form.appendChild(sel);
+      return sel;
+    });
+
+    form.innerHTML += '<h3>Select Blue Team:</h3>';
+    const blueSelects = [0,1,2].map(i => {
+      const sel = document.createElement('select'); sel.id = 'cBlue'+i;
+      roles.forEach(r => {
+        const opt = document.createElement('option'); opt.value = r; opt.text = r;
+        if (savedBlue[i] === r) opt.selected = true;
+        sel.appendChild(opt);
+      });
+      form.appendChild(sel);
+      return sel;
+    });
+
+    const submitBtn = document.createElement('button'); submitBtn.className='button'; submitBtn.innerText='Submit';
+    submitBtn.onclick = () => {
+      const redTeam = redSelects.map(s => s.value);
+      const blueTeam = blueSelects.map(s => s.value);
+      localStorage.setItem('customRed', JSON.stringify(redTeam));
+      localStorage.setItem('customBlue', JSON.stringify(blueTeam));
+      customResult = evaluateTeam(blueTeam, redTeam, null);
+      customSubmitted = true;
+      render();
+    };
+    form.appendChild(submitBtn);
+
+    if (customSubmitted) {
+      const res = document.createElement('div'); res.className='result';
+      res.innerHTML = `<strong>${customResult.comment}</strong>`;
+      form.appendChild(res);
     }
+    const exitBtn = document.createElement('button'); exitBtn.className='button'; exitBtn.innerText='Exit Design'; exitBtn.onclick = () => { customMode=false; render(); };
+    form.appendChild(exitBtn);
+    card.appendChild(form);
+    app.appendChild(card);
+    return;
+  }
 
-    const app = document.getElementById('app');
-    function render() {
-      app.innerHTML = '';
+  if (currentLevel >= levels.length) {
+    const end = document.createElement('div'); end.className = 'card';
+    end.innerHTML = '<div class="title">Congratulations!</div><div>You completed all levels!</div>';
+    const btn = document.createElement('button'); btn.className='button'; btn.innerText='Design Your Own Red & Blue';
+    btn.onclick = () => { customMode = true; render(); };
+    end.appendChild(btn);
+    app.appendChild(end);
+    return;
+  }
 
-      if (customMode) {
-        const card = document.createElement('div'); card.className = 'card';
-        card.innerHTML = '<div class="title">Design Your Own Matchup</div>';
-        const form = document.createElement('div');
+  const lvl = levels[currentLevel];
+  const card = document.createElement('div'); card.className = 'card';
+  card.innerHTML = `<div class="title">Level ${currentLevel+1}: ${lvl.name}</div><div class="description">${lvl.description}</div>`;
+  const redList = document.createElement('div'); redList.innerHTML = '<h3>Red Team:</h3>';
+  const ul = document.createElement('ul');
+  if (currentLevel === 4 && !(submitted && result && result.rating === 'BEST')) ul.innerHTML = '<li>Unknown</li><li>Unknown</li><li>Unknown</li>';
+  else ul.innerHTML = lvl.redTeam.map(r=>`<li>${r}</li>`).join('');
+  redList.appendChild(ul); card.appendChild(redList);
 
-        // Legend
-        const legend = document.createElement('div'); legend.className='legend';
-        legend.innerHTML = `<strong>Point System:</strong><br>
-          Offense vs Defense: -2<br>
-          Offense vs Support: +1<br>
-          Defense vs Offense: +2<br>
-          Defense vs Support: +1<br>
-          Support vs Offense/Defense: -1<br>
-          Any vs Broken Robot: 0`;
-        form.appendChild(legend);
+  const form = document.createElement('div');
+  if (!submitted) {
+    const selects = [0,1,2].map(i => {
+      const sel = document.createElement('select'); sel.id='role'+i;
+      roles.forEach(r => {
+        const opt = document.createElement('option'); opt.value = r; opt.text = r;
+        sel.appendChild(opt);
+      });
+      form.appendChild(sel);
+      return sel;
+    });
+    const submitBtn = document.createElement('button'); submitBtn.className='button'; submitBtn.innerText='Submit';
+    submitBtn.onclick = () => { const team = selects.map(s=>s.value); result = evaluateTeam(team, lvl.redTeam, lvl.reviews); submitted=true; render(); };
+    form.appendChild(submitBtn);
+  } else {
+    const resDiv = document.createElement('div'); resDiv.className='result'; resDiv.innerHTML=`<strong>Review:</strong> ${result.comment}`; form.appendChild(resDiv);
+    const retryBtn = document.createElement('button'); retryBtn.className='button'; retryBtn.innerText='Try Again'; retryBtn.onclick=()=>{submitted=false; result=null; render();}; form.appendChild(retryBtn);
+    const nextBtn = document.createElement('button'); nextBtn.className='button'; nextBtn.innerText='Next Level'; nextBtn.onclick=()=>{currentLevel++; submitted=false; result=null; render();}; form.appendChild(nextBtn);
+  }
+  card.appendChild(form); app.appendChild(card);
+}
+render();
 
-        form.innerHTML += '<h3>Select Red Team:</h3>';
-        const redSelects = [0,1,2].map(i => {
-          const sel = document.createElement('select'); sel.id = 'cRed'+i;
-          allRoles.forEach(r => {
-            const opt = document.createElement('option'); opt.value = r; opt.text = r;
-            if (savedRed[i] === r) opt.selected = true;
-            sel.appendChild(opt);
-          });
-          form.appendChild(sel);
-          return sel;
-        });
-
-        form.innerHTML += '<h3>Select Blue Team:</h3>';
-        const blueSelects = [0,1,2].map(i => {
-          const sel = document.createElement('select'); sel.id = 'cBlue'+i;
-          roles.forEach(r => {
-            const opt = document.createElement('option'); opt.value = r; opt.text = r;
-            if (savedBlue[i] === r) opt.selected = true;
-            sel.appendChild(opt);
-          });
-          form.appendChild(sel);
-          return sel;
-        });
-
-        const submitBtn = document.createElement('button'); submitBtn.className='button'; submitBtn.innerText='Submit';
-        submitBtn.onclick = () => {
-          const redTeam = redSelects.map(s => s.value);
-          const blueTeam = blueSelects.map(s => s.value);
-          // Save selections
-          localStorage.setItem('customRed', JSON.stringify(redTeam));
-          localStorage.setItem('customBlue', JSON.stringify(blueTeam));
-          customResult = evaluateTeam(blueTeam, redTeam, null);
-          customSubmitted = true;
-          render();
-        };
-        form.appendChild(submitBtn);
-
-        if (customSubmitted) {
-          const res = document.createElement('div'); res.className='result';
-          res.innerHTML = `<strong>${customResult.comment}</strong>`;
-          form.appendChild(res);
-        }
-        const exitBtn = document.createElement('button'); exitBtn.className='button'; exitBtn.innerText='Exit Design'; exitBtn.onclick = () => { customMode=false; render(); };
-        form.appendChild(exitBtn);
-        card.appendChild(form);
-        app.appendChild(card);
-        return;
-      }
-
-      if (currentLevel >= levels.length) {
-        const end = document.createElement('div'); end.className = 'card';
-        end.innerHTML = '<div class="title">Congratulations!</div><div>You completed all levels!</div>';
-        const btn = document.createElement('button'); btn.className='button'; btn.innerText='Design Your Own Red & Blue';
-        btn.onclick = () => { customMode = true; render(); };
-        end.appendChild(btn);
-        app.appendChild(end);
-        return;
-      }
-
-      const lvl = levels[currentLevel];
-      const card = document.createElement('div'); card.className = 'card';
-      card.innerHTML = `<div class="title">Level ${currentLevel+1}: ${lvl.name}</div><div class="description">${lvl.description}</div>`;
-      const redList = document.createElement('div'); redList.innerHTML = '<h3>Red Team:</h3>';
-      const ul = document.createElement('ul');
-      if (currentLevel === 4 && !(submitted && result && result.rating === 'BEST')) ul.innerHTML = '<li>Unknown</li><li>Unknown</li><li>Unknown</li>';
-      else ul.innerHTML = lvl.redTeam.map(r=>`<li>${r}</li>`).join('');
-      redList.appendChild(ul); card.appendChild(redList);
-
-      const form = document.createElement('div');
-      if (!submitted) {
-        const selects = [0,1,2].map(i => {
-          const sel = document.createElement('select'); sel.id='role'+i;
-          roles.forEach(r => {
-            const opt = document.createElement('option'); opt.value = r; opt.text = r;
-            sel.appendChild(opt);
-          });
-          form.appendChild(sel);
-          return sel;
-        });
-        const submitBtn = document.createElement('button'); submitBtn.className='button'; submitBtn.innerText='Submit';
-        submitBtn.onclick = () => { const team = selects.map(s=>s.value); result = evaluateTeam(team, lvl.redTeam, lvl.reviews); submitted=true; render(); };
-        form.appendChild(submitBtn);
-      } else {
-        const resDiv = document.createElement('div'); resDiv.className='result'; resDiv.innerHTML=`<strong>Review:</strong> ${result.comment}`; form.appendChild(resDiv);
-        const retryBtn = document.createElement('button'); retryBtn.className='button'; retryBtn.innerText='Try Again'; retryBtn.onclick=()=>{submitted=false; result=null; render();}; form.appendChild(retryBtn);
-        const nextBtn = document.createElement('button'); nextBtn.className='button'; nextBtn.innerText='Next Level'; nextBtn.onclick=()=>{currentLevel++; submitted=false; result=null; render();}; form.appendChild(nextBtn);
-      }
-      card.appendChild(form); app.appendChild(card);
-    }
-    render();
   </script>
 </body>
 </html>
