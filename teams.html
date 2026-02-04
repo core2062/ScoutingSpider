@@ -1,0 +1,586 @@
+<!doctype html>
+<html lang="en-us">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>CORE2062 Scouting — Matches (red top / blue bottom)</title>
+<style>
+:root{
+  --bg:#07080a; --card:#0f1418; --muted:#9aa4ad; --accent:#ff7a00;
+  --accent-soft: rgba(255,122,0,0.08); --accent-strong: rgba(255,122,0,0.18);
+  --red:#c84b4b; --blue:#3b6bd6; --radius:12px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:linear-gradient(180deg,#060708,#0b0f14);color:#e6eef6;font-family:system-ui,Segoe UI,Roboto,Arial;padding:24px;}
+.App{max-width:1300px;margin:auto;display:grid;grid-template-columns:1fr 420px;gap:16px}
+header{grid-column:1/-1;display:flex;justify-content:space-between;align-items:center}
+.Card{background:var(--card);border-radius:var(--radius);padding:16px;border:1px solid rgba(255,255,255,.04);border-left:4px solid var(--accent-soft);box-shadow:0 2px 20px rgba(0,0,0,0.35)}
+aside{height:calc(100vh - 120px);overflow:auto;position:sticky;top:24px}
+.group{margin-bottom:12px;border-radius:10px;overflow:hidden;border:1px solid rgba(255,255,255,0.03);background:linear-gradient(180deg, rgba(255,255,255,0.01), transparent)}
+.group-header{display:flex;align-items:center;gap:8px;padding:10px;cursor:pointer;user-select:none}
+.group-body{padding:6px 10px;display:flex;flex-direction:column;gap:6px}
+.group-match{display:flex;align-items:flex-start;gap:8px;padding:8px;border-radius:8px;cursor:pointer;background:transparent;border:1px solid rgba(255,255,255,0.02)}
+.group-match:hover{background:rgba(255,255,255,0.02)}
+.group-match.selected{outline:2px solid rgba(255,122,0,.18);background:linear-gradient(90deg, rgba(255,122,0,0.03), transparent)}
+.match-number{width:30px;color:var(--accent);font-weight:700;flex-shrink:0}
+.match-teams{flex:1;font-size:13px;white-space:normal;overflow:visible;color:#e6eef6;display:flex;flex-direction:column;gap:6px}
+.team-chip{display:inline-block;padding:3px 6px;border-radius:999px;font-size:12px;margin-right:6px;border:1px solid rgba(255,255,255,0.06);background:transparent;color:var(--muted)}
+.team-chip.red{border-color:rgba(200,75,75,0.12);color:var(--red)}
+.team-chip.blue{border-color:rgba(59,107,214,0.12);color:var(--blue)}
+.match-header{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-bottom:8px}
+.match-vs{font-size:20px;font-weight:700}.match-meta{font-size:13px;color:var(--muted)}.small{font-size:13px;color:var(--muted)}.muted{color:var(--muted)}
+.breakdown-row{display:none;grid-template-columns:1fr 1fr;gap:10px;margin-top:10px}
+.card-half{background:rgba(255,255,255,0.02);padding:10px;border-radius:8px;border:1px solid rgba(255,255,255,0.03);display:flex;flex-direction:column;min-width:0;align-items:stretch}
+
+/* table wrapper: allow vertical growth (page can scroll down) and horizontal scroll inside */
+.left-scroll{
+  overflow-x:auto;        /* horizontal scrolling for wide tables */
+  overflow-y:visible;     /* allow table to grow vertically (no squish) */
+  padding-right:6px;
+  min-width:0;
+  transition:width .12s ease;
+  width:100%;
+}
+
+/* horizontal slider UI (hidden by default) */
+.size-slider-wrap{display:none;align-items:center;gap:8px;margin-bottom:8px}
+.size-slider-wrap.visible{display:flex}
+.size-slider-wrap label{font-size:12px;color:var(--muted);min-width:58px}
+.size-slider{width:100%;-webkit-appearance:none;background:transparent}
+.size-slider::-webkit-slider-runnable-track{height:6px;border-radius:6px}
+.size-slider::-webkit-slider-thumb{-webkit-appearance:none;width:14px;height:14px;border-radius:50%;background:#fff;border:1px solid rgba(0,0,0,0.2);margin-top:-4px}
+
+/* --- TABLE STYLING: orange accents for readability --- */
+/* table grows horizontally as needed and cells stay on a single line */
+.team-table{
+  width: max-content;        /* let table choose width based on content */
+  table-layout: auto;        /* do NOT use fixed layout */
+  border-collapse: collapse;
+  margin-top:6px;
+  background: linear-gradient(180deg, rgba(255,122,0,0.01), transparent);
+  border-left: 4px solid rgba(255,122,0,0.06);
+  border-radius:6px;
+}
+
+/* header */
+.team-table thead th{
+  padding:8px 12px;
+  font-size:0.95rem;
+  font-weight:700;
+  white-space:nowrap;
+  background: linear-gradient(180deg, rgba(255,122,0,0.12), rgba(255,122,0,0.06));
+  color:#071018;
+  border-bottom:2px solid rgba(255,122,0,0.18);
+  text-align:left;
+}
+
+/* body cells: single-line, no vertical squish */
+.team-table th,
+.team-table td{
+  padding:6px 10px;
+  font-size:1rem;            /* keep readable, same as <p> */
+  line-height:1.5;           /* prevent vertical compression */
+  white-space:nowrap;        /* FORCE single line — no wrapping */
+  vertical-align:middle;
+  text-align:left;
+  max-width:none;
+  word-break:normal;
+  overflow:visible;
+  color: #e6eef6;
+}
+
+/* zebra stripes (subtle orange) */
+.team-table tbody tr:nth-child(even) td{
+  background: rgba(255,122,0,0.03);
+}
+.team-table tbody tr:nth-child(odd) td{
+  background: transparent;
+}
+
+/* hover highlight */
+.team-table tbody tr:hover td{
+  background: rgba(255,122,0,0.08);
+}
+
+/* accent first column (quick scan) */
+.team-table tbody td:first-child{
+  color:var(--accent);
+  font-weight:600;
+  padding-left:12px;
+}
+
+/* accent bottom border between rows */
+.team-table tbody td{
+  border-bottom:1px solid rgba(255,122,0,0.06);
+}
+
+/* small screens: ensure wrapper uses width 100% */
+@media (max-width:880px){
+  .left-scroll{width:100%}
+}
+
+/* ensure grid children can shrink in constrained layouts (important) */
+.card-half, .left-scroll, #RedPerTeam, #BluePerTeam {min-width:0}
+
+/* raw json area */
+.raw-json{margin-top:10px;padding:8px;background:rgba(0,0,0,0.25);border-radius:8px;max-height:320px;overflow:auto;font-family:monospace;font-size:12px}
+.controls{display:flex;gap:8px;align-items:center}
+.btn{background:transparent;border:1px solid rgba(255,255,255,0.06);color:inherit;padding:6px 8px;border-radius:6px;cursor:pointer;font-size:13px}
+select.select{background:transparent;border:1px solid rgba(255,255,255,0.06);color:inherit;padding:6px;border-radius:6px}
+footer{grid-column:1/-1;text-align:center;margin-top:12px;color:var(--muted)}
+#RankingsContainer{max-height:calc(100vh - 220px);overflow:auto}
+.warning{background:rgba(255,90,0,0.06);border:1px solid rgba(255,122,0,0.14);padding:8px;border-radius:8px;color:var(--accent);margin-bottom:8px}
+.info{background:rgba(0,0,0,0.25);padding:8px;border-radius:8px;margin-bottom:8px}
+
+/* dropped CSV indicator overlay */
+.drop-overlay{
+  position:fixed;left:0;top:0;right:0;bottom:0;display:flex;align-items:center;justify-content:center;
+  pointer-events:none;opacity:0;transition:opacity .12s ease;
+}
+.drop-overlay.visible{opacity:1;pointer-events:auto}
+.drop-card{background:linear-gradient(180deg, rgba(255,122,0,0.08), rgba(255,122,0,0.03));border:1px solid rgba(255,122,0,0.14);padding:18px;border-radius:12px;color:#fff;box-shadow:0 10px 40px rgba(0,0,0,0.6);max-width:520px;text-align:center}
+.drop-file-name{font-weight:700;margin-top:8px}
+
+/* hidden paragraph used for measurement (offscreen) */
+.measure-p{position:absolute;left:-9999px;top:-9999px;visibility:hidden;white-space:nowrap;}
+
+/* header table tweaks (final) */
+.team-table thead th{
+  padding:8px 12px;
+  font-size:0.95rem;
+  font-weight:700;
+  white-space:nowrap;
+  background: linear-gradient(180deg, rgba(255,122,0,0.45), rgba(255,122,0,0.25));
+  color: #ffffff;
+  border-bottom:2px solid rgba(255,122,0,0.35);
+  text-align:left;
+}
+
+/* ----- ADDED: ScoutingTools card button styles and small compatibility ----- */
+#ScoutingToolsCard { margin-top:12px; }
+#ScoutingToolsCard h3 { margin-bottom:6px; font-size:1.05rem; }
+#ScoutingToolsCard .muted, #ScoutingToolsCard .Muted { color:var(--muted); font-size:13px; display:block; margin-bottom:8px; }
+
+/* Buttons: full-width stacked, accessible spacing */
+.PrimaryBtn, .SecondaryBtn {
+  display:block;
+  width:100%;
+  padding:10px 12px;
+  border-radius:10px;
+  font-weight:600;
+  cursor:pointer;
+  border:1px solid rgba(255,255,255,0.06);
+  background:transparent;
+  color:inherit;
+  text-align:center;
+}
+.PrimaryBtn {
+  background: linear-gradient(90deg, rgba(255,122,0,0.12), rgba(255,122,0,0.06));
+  border-left:4px solid var(--accent);
+  color:#fff;
+}
+.PrimaryBtn:hover { box-shadow: 0 6px 18px rgba(255,122,0,0.06); transform: translateY(-1px); }
+
+.SecondaryBtn {
+  background: rgba(255,255,255,0.02);
+  border:1px solid rgba(255,255,255,0.04);
+  color:var(--muted);
+}
+.SecondaryBtn:hover { background: rgba(255,255,255,0.03); color: #e6eef6; }
+
+/* small screens: keep aside readable */
+@media (max-width:740px){
+  .App{grid-template-columns:1fr}
+  aside{position:relative;height:auto;top:auto}
+}
+</style>
+</head>
+<body>
+<div class="App">
+  <header>
+    <h2>CORE2062 Scouting</h2>
+    <div class="small muted">Matches — red on top, blue on bottom</div>
+  </header>
+
+  <main>
+    <div class="Card">
+      <div class="match-header">
+        <div>
+          <div id="MatchTitle" class="match-vs">Select a match or a team</div>
+          <div id="MatchMeta" class="match-meta">—</div>
+        </div>
+        <div class="controls">
+          <select id="QuickFilter" class="select" title="Quick filter by type"><option value="All">All</option></select>
+          <button id="RefreshRankings" class="btn" title="Refresh rankings">Refresh Rankings</button>
+          <button id="ClearSelection" class="btn" title="Clear (no JS available)">Clear</button>
+        </div>
+      </div>
+
+      <div id="SelectedSummary" class="small muted">Click a team on the right to fetch its scouting CSV rows from the yearly CSV.</div>
+
+      <div id="WarningsArea"></div>
+
+      <div id="BreakdownArea" class="breakdown-row" style="display:none">
+        <div class="card-half" id="AllianceRedCard">
+          <div class="team-title">Team details (red rows)</div>
+          <div id="RedSummary" class="small muted"></div>
+
+          <!-- horizontal width slider for Red -->
+          <div id="RedSliderWrap" class="size-slider-wrap" aria-hidden="true">
+            <label for="RedWidthSlider">Width</label>
+            <input id="RedWidthSlider" class="size-slider" type="range" min="40" max="1000" step="1" value="100" />
+            <div id="RedWidthValue" class="small muted" style="min-width:46px;text-align:right">—</div>
+          </div>
+
+          <!-- table wrapper: vertical growth allowed; horizontal scroll when needed -->
+          <div id="RedPerTeam" class="left-scroll"></div>
+        </div>
+
+        <div class="card-half" id="AllianceBlueCard">
+          <div class="team-title">Team details (blue rows)</div>
+          <div id="BlueSummary" class="small muted"></div>
+
+          <!-- horizontal width slider for Blue -->
+          <div id="BlueSliderWrap" class="size-slider-wrap" aria-hidden="true">
+            <label for="BlueWidthSlider">Width</label>
+            <input id="BlueWidthSlider" class="size-slider" type="range" min="40" max="1000" step="1" value="100" />
+            <div id="BlueWidthValue" class="small muted" style="min-width:46px;text-align:right">—</div>
+          </div>
+
+          <div id="BluePerTeam" class="left-scroll"></div>
+        </div>
+      </div>
+
+      <div id="RawContainer" style="display:block">
+        <div class="small muted">Raw payload (example)</div>
+        <pre id="RawJSON" class="raw-json">{
+  "note": "No live data — JavaScript removed. Paste your match JSON here if you'd like to preview."
+}</pre>
+      </div>
+    </div>
+  </main>
+
+  <aside class="Card">
+    <h3>Team Rankings</h3>
+    <div id="RankingsContainer">
+      <div class="small muted">Loading rankings…</div>
+    </div>
+
+    <!-- INSERTED: Scouting Tools card (visible, styled, accessible) -->
+    <article class="Card" id="ScoutingToolsCard" aria-labelledby="scout-tools-label">
+      <h3 id="scout-tools-label">Scouting Tools</h3>
+      <small class="muted">Quick access to utilities and tools</small>
+
+      <div id="CSVOverrideStatus" class="info small muted" aria-live="polite">
+        Drag & drop a CSV anywhere on the page to override the online CSV.
+      </div>
+
+      <div class="tools-grid">
+        <button class="PrimaryBtn" onclick="window.location.href='/'">Home</button>
+        <button class="SecondaryBtn" onclick="window.location.href='/Matches'">Match Review</button>
+        <button class="SecondaryBtn" onclick="window.location.href='/teams'">Team Review</button>
+        <button id="ClearCSVOverrideBtn" class="SecondaryBtn" style="display:none;margin-top:8px">Clear CSV override</button>
+      </div>
+    </article>
+
+    <hr style="margin:12px 0;border:none;border-top:1px solid rgba(255,255,255,0.03)">
+    <h3 style="margin-top:8px">Matches (static examples)</h3>
+    <div id="GroupsContainer"> <!-- fallback static groups --> </div>
+  </aside>
+
+  <footer>© CORE2062</footer>
+</div>
+
+<!-- Drop overlay -->
+<div id="DropOverlay" class="drop-overlay" aria-hidden="true">
+  <div class="drop-card">
+    <div id="DropMessage">Drop CSV to override online CSV</div>
+    <div id="DropFileName" class="drop-file-name"></div>
+    <div class="small muted" style="margin-top:8px">Override will be used until you clear it.</div>
+  </div>
+</div>
+
+<script>
+/* Horizontal slider and CSV parsing logic unchanged; same handlers as before. 
+   Added: drag & drop CSV override support. */
+
+(function () {
+  const CSV_URL = 'https://core2062.github.io/ScoutingSpider/YearlyCSV/Testing.csv';
+  const RANKING_ENDPOINT = '/teams_ranking_list';
+
+  // override storage (in-memory)
+  let OVERRIDE_CSV_TEXT = null;
+  let OVERRIDE_FILENAME = null;
+
+  function sanitizeBOM(text){ if (!text) return text; if (text.charCodeAt && text.charCodeAt(0) === 0xFEFF) return text.slice(1); return text; }
+  function sniffDelimiter(sample){ if (!sample) return ','; const commas=(sample.match(/,/g)||[]).length; const semis=(sample.match(/;/g)||[]).length; const tabs=(sample.match(/\t/g)||[]).length; if (semis>commas&&semis>tabs) return ';'; if (tabs>commas&&tabs>semis) return '\t'; return ','; }
+  function parseCSVRobust(text){
+    if (!text) return { header:[], data:[], delim:',' };
+    text = sanitizeBOM(text).replace(/\r\n/g,'\n').replace(/\r/g,'\n');
+    const sample = text.split('\n').slice(0,6).join('\n'); const delim = sniffDelimiter(sample);
+    const rows=[]; let cur=[]; let field=''; let inQuotes=false;
+    for (let i=0;i<text.length;i++){ const ch=text[i];
+      if (inQuotes){ if (ch==='"'){ if (text[i+1]==='"'){ field+='"'; i++; } else inQuotes=false; } else field+=ch; }
+      else { if (ch==='"'){ inQuotes=true; } else if (ch===delim){ cur.push(field); field=''; } else if (ch==='\n'){ cur.push(field); rows.push(cur); cur=[]; field=''; } else field+=ch; }
+    }
+    if (field!==''||cur.length>0){ cur.push(field); rows.push(cur); }
+    while(rows.length && rows[rows.length-1].every(c => (c||'').trim()==='')) rows.pop();
+    if (!rows.length) return { header:[], data:[], delim };
+    const header = rows[0].map(h => (h||'').trim());
+    const dataRows = rows.slice(1).filter(r => r.some(c => (c||'').trim() !== ''));
+    const data = dataRows.map(r => { const obj={}; for (let j=0;j<header.length;j++) obj[header[j]||`col${j}`] = (r[j]||'').trim(); return obj; });
+    return { header, data, delim };
+  }
+  function findTeamHeader(header){ if (!header) return null; const low = header.map(h => (h||'').toLowerCase().trim()); const candidates=['team number','team','team_number','team#','team #','teamnumber','team no','team_id','team id','teamnumber']; for (const c of candidates){ const i=low.indexOf(c); if (i!==-1) return header[i]; } for (let i=0;i<low.length;i++){ for (const c of candidates){ if (low[i].includes(c.replace(/[^a-z0-9]/g,''))) return header[i]; } } for (let i=0;i<low.length;i++){ if (low[i].includes('team')||low[i].includes('#')||low[i].includes('number')||/\d/.test(low[i])) return header[i]; } return null; }
+  function findColorHeader(header){ if (!header) return null; const low = header.map(h => (h||'').toLowerCase().trim()); const candidates = ['red or blue','alliance','position','red/blue','alliance color','team color','side']; for (const c of candidates){ const i = low.indexOf(c); if (i !== -1) return header[i]; } for (let i=0;i<low.length;i++){ if (low[i].includes('red')||low[i].includes('blue')||low[i].includes('alliance')||low[i].includes('side')) return header[i]; } return null; }
+  function normalizeTeamValue(v){ if (v===undefined||v===null) return ''; let s=(''+v).trim(); if (!s) return ''; if (s.toLowerCase().startsWith('frc')) s = s.slice(3); const digits = s.replace(/[^0-9]/g,''); return digits.replace(/^0+/,'') || s; }
+
+  function renderTableHTML(header, rows, opts){
+    opts = opts || {};
+    if (!rows || rows.length === 0) return '<div class="small muted">No rows found for this team.</div>';
+    let usedHeaders = header.slice();
+    if (opts.hideEmptyColumns) usedHeaders = header.filter(h => rows.some(r => (r[h]||'').toString().trim() !== ''));
+    if (!usedHeaders.length) return '<div class="small muted">No populated columns to display.</div>';
+    const table = document.createElement('table'); table.className = 'team-table';
+    const thead = document.createElement('thead'); const thr = document.createElement('tr');
+    usedHeaders.forEach(h => { const th = document.createElement('th'); th.textContent = h||''; thr.appendChild(th); });
+    thead.appendChild(thr); table.appendChild(thead);
+    const tbody = document.createElement('tbody');
+    rows.forEach(r => { const tr = document.createElement('tr'); usedHeaders.forEach(h => { const td = document.createElement('td'); td.textContent = r[h]||''; tr.appendChild(td); }); tbody.appendChild(tr); });
+    table.appendChild(tbody); return table.outerHTML;
+  }
+
+  function getAvgPWidth(){ const p=document.createElement('p'); p.className='measure-p'; p.textContent='Sample paragraph for measurement'; document.body.appendChild(p); const rect=p.getBoundingClientRect(); const measured=Math.max(80,Math.round(rect.width)); p.remove(); return measured; }
+  function ensureContainerMinWidthWithSlider(container, sliderWrap, sliderEl, sliderValueEl){
+    if (!container) return;
+    const minP = getAvgPWidth(); const minAllowed = Math.round(minP);
+    container.style.width = 'auto';
+    const contentWidth = container.scrollWidth || container.offsetWidth || container.clientWidth;
+    if (contentWidth >= minAllowed){ container.style.width = ''; if (sliderWrap) { sliderWrap.classList.remove('visible'); sliderWrap.setAttribute('aria-hidden','true'); } return; }
+    container.style.width = minAllowed + 'px';
+    if (!sliderWrap || !sliderEl) return;
+    const minSlider = 40;
+    sliderEl.min = minSlider; sliderEl.max = minAllowed; sliderEl.value = minAllowed; sliderValueEl.textContent = sliderEl.value + 'px';
+    sliderWrap.classList.add('visible'); sliderWrap.setAttribute('aria-hidden','false');
+    if (!sliderEl._hasHandler){ sliderEl.addEventListener('input', () => { const v = Number(sliderEl.value || minSlider); container.style.width = v + 'px'; sliderValueEl.textContent = v + 'px'; }); sliderEl._hasHandler = true; }
+  }
+  function applyHorizontalMinAndSliders(){
+    const redContainer = document.getElementById('RedPerTeam');
+    const blueContainer = document.getElementById('BluePerTeam');
+    ensureContainerMinWidthWithSlider(redContainer, document.getElementById('RedSliderWrap'), document.getElementById('RedWidthSlider'), document.getElementById('RedWidthValue'));
+    ensureContainerMinWidthWithSlider(blueContainer, document.getElementById('BlueSliderWrap'), document.getElementById('BlueWidthSlider'), document.getElementById('BlueWidthValue'));
+  }
+
+  // MAIN: loadTeamData now prefers OVERRIDE_CSV_TEXT when present
+  async function loadTeamData(teamNumber){
+    try {
+      const breakdown = document.getElementById('BreakdownArea');
+      const redPer = document.getElementById('RedPerTeam');
+      const bluePer = document.getElementById('BluePerTeam');
+      if (breakdown) breakdown.style.display = 'grid';
+      if (redPer) redPer.innerHTML = '<div class="small muted">Loading…</div>';
+      if (bluePer) bluePer.innerHTML = '<div class="small muted">Loading…</div>';
+
+      // Use override if present
+      let text;
+      if (OVERRIDE_CSV_TEXT !== null){
+        text = OVERRIDE_CSV_TEXT;
+      } else {
+        const res = await fetch(CSV_URL, {cache:'no-store'});
+        if (!res.ok) throw new Error('CSV fetch failed: ' + res.status);
+        text = await res.text();
+      }
+
+      const { header, data, delim } = parseCSVRobust(text);
+      if (!header || header.length === 0){ if (redPer) redPer.innerHTML=''; if (bluePer) bluePer.innerHTML=''; return; }
+      const teamHeader = findTeamHeader(header) || header[header.length-1];
+      const colorHeader = findColorHeader(header);
+      const matches = data.filter(r => {
+        if (r[teamHeader] && normalizeTeamValue(r[teamHeader]) === normalizeTeamValue(teamNumber)) return true;
+        for (const k of Object.keys(r)){ if (normalizeTeamValue(r[k]) === normalizeTeamValue(teamNumber) || normalizeTeamValue(r[k]) === normalizeTeamValue('frc'+teamNumber)) return true; }
+        return false;
+      });
+      if (matches.length === 0){
+        if (redPer) redPer.innerHTML = '<div class="small muted">No rows to display.</div>';
+        if (bluePer) bluePer.innerHTML = '<div class="small muted">No rows to display.</div>';
+        setTimeout(() => applyHorizontalMinAndSliders(), 50);
+        return;
+      }
+      const redRows=[]; const blueRows=[];
+      matches.forEach(r => {
+        let color = '';
+        if (colorHeader && r[colorHeader]) color = (''+r[colorHeader]).toLowerCase();
+        if (!color){ for (const k of Object.keys(r)){ const v=(r[k]||'').toString().toLowerCase(); if (v==='red'||v==='blue'){ color=v; break; } } }
+        if (color.includes('red')) redRows.push(r); else if (color.includes('blue')) blueRows.push(r); else redRows.push(r);
+      });
+      if (redPer) redPer.innerHTML = renderTableHTML(header, redRows, { hideEmptyColumns: true });
+      if (bluePer) bluePer.innerHTML = renderTableHTML(header, blueRows, { hideEmptyColumns: true });
+      const redCard = document.getElementById('AllianceRedCard'), blueCard = document.getElementById('AllianceBlueCard');
+      if (redRows.length === 0 && blueRows.length > 0){ if (redCard) redCard.style.display='none'; if (blueCard) blueCard.style.display='block'; if (breakdown) breakdown.style.gridTemplateColumns='1fr'; }
+      else if (blueRows.length===0 && redRows.length>0){ if (blueCard) blueCard.style.display='none'; if (redCard) redCard.style.display='block'; if (breakdown) breakdown.style.gridTemplateColumns='1fr'; }
+      else { if (redCard) redCard.style.display='block'; if (blueCard) blueCard.style.display='block'; if (breakdown) breakdown.style.gridTemplateColumns='1fr 1fr'; }
+      setTimeout(() => applyHorizontalMinAndSliders(), 60);
+    } catch (err){
+      const redPer = document.getElementById('RedPerTeam'); if (redPer) redPer.innerHTML = `<div class="small muted">Failed to load CSV: ${err.message||err}</div>`;
+      const bluePer = document.getElementById('BluePerTeam'); if (bluePer) bluePer.innerHTML = '';
+      setTimeout(() => applyHorizontalMinAndSliders(), 50);
+    }
+  }
+
+  function createRankRow(rank, team){
+    const div = document.createElement('div'); div.className='group-match'; div.dataset.team = team;
+    div.innerHTML = `<div class="match-number">${rank}</div><div class="match-teams"><div><strong>frc${team}</strong></div><div class="muted" style="display:block;margin-top:6px"><span class="team-chip">team ${team}</span></div></div>`;
+    div.addEventListener('click', () => { document.querySelectorAll('#RankingsContainer .group-match').forEach(n=>n.classList.remove('selected')); div.classList.add('selected'); loadTeamData(team); });
+    return div;
+  }
+
+  async function loadRankings(){
+    const container = document.getElementById('RankingsContainer');
+    container.innerHTML = '<div class="small muted">Loading rankings…</div>';
+    try {
+      const res = await fetch(RANKING_ENDPOINT, {cache:'no-store'});
+      if (!res.ok) throw new Error('Ranking endpoint returned ' + res.status);
+      const ct = res.headers.get('content-type') || '';
+      let arr = [];
+      if (ct.includes('application/json')) arr = await res.json();
+      else { const txt = await res.text(); try { arr = JSON.parse(txt); } catch(e) { arr = txt.split(/\s*,\s*|\s*\n\s*/).filter(Boolean).map(x => isNaN(Number(x))?x:Number(x)); } }
+      container.innerHTML = ''; const listWrap = document.createElement('div'); listWrap.className='group-body';
+      if (!Array.isArray(arr) || arr.length===0) container.innerHTML = '<div class="small muted">No rankings returned.</div>';
+      else { arr.forEach((team, idx) => { const rank = idx+1; const t = (''+team).replace(/^frc/i,'').trim(); listWrap.appendChild(createRankRow(rank,t)); }); container.appendChild(listWrap); const rawArea = document.getElementById('RawJSON'); if (rawArea) rawArea.textContent = JSON.stringify({rankings:arr},null,2); }
+    } catch (err){ container.innerHTML = `<div class="small muted">Failed to load rankings: ${err.message}</div>`; }
+  }
+
+  // --- Drag & Drop CSV override handlers ---
+  function updateCSVOverrideUI(){
+    const status = document.getElementById('CSVOverrideStatus');
+    const clearBtn = document.getElementById('ClearCSVOverrideBtn');
+    const rawArea = document.getElementById('RawJSON');
+    if (OVERRIDE_CSV_TEXT !== null){
+      status.innerHTML = `Using override CSV: <strong>${OVERRIDE_FILENAME||'dropped.csv'}</strong>`;
+      clearBtn.style.display = 'block';
+      if (rawArea) {
+        // keep raw area small: show first 2000 chars of CSV for debugging (not huge)
+        rawArea.textContent = `/* OVERRIDE CSV — ${OVERRIDE_FILENAME||'dropped.csv'} */\n` + (OVERRIDE_CSV_TEXT.slice(0,2000) + (OVERRIDE_CSV_TEXT.length>2000 ? '\n\n... (truncated) ...' : ''));
+      }
+    } else {
+      status.textContent = 'Drag & drop a CSV anywhere on the page to override the online CSV.';
+      clearBtn.style.display = 'none';
+      if (rawArea) rawArea.textContent = JSON.stringify({note:'No CSV override active'},null,2);
+    }
+  }
+
+  function clearCSVOverride(){
+    OVERRIDE_CSV_TEXT = null;
+    OVERRIDE_FILENAME = null;
+    updateCSVOverrideUI();
+  }
+
+  function handleFileText(name, text){
+    OVERRIDE_CSV_TEXT = text;
+    OVERRIDE_FILENAME = name || 'dropped.csv';
+    updateCSVOverrideUI();
+    // If a team is currently selected (highlighted), re-run the last selection:
+    const selected = document.querySelector('#RankingsContainer .group-match.selected');
+    if (selected && selected.dataset && selected.dataset.team) {
+      loadTeamData(selected.dataset.team);
+    }
+  }
+
+  function readDroppedFiles(files){
+    if (!files || files.length === 0) return;
+    const f = files[0];
+    // Quick type check: accept text/csv or fallback to any text-like file
+    const reader = new FileReader();
+    reader.onload = (e) => {
+      const text = e.target.result;
+      handleFileText(f.name, text);
+      // hide overlay
+      hideDropOverlay();
+    };
+    reader.onerror = () => {
+      alert('Failed to read dropped file.');
+      hideDropOverlay();
+    };
+    // read as text (utf-8)
+    reader.readAsText(f);
+  }
+
+  // overlay helpers
+  const overlay = document.getElementById('DropOverlay');
+  const dropMessage = document.getElementById('DropMessage');
+  const dropFileName = document.getElementById('DropFileName');
+
+  function showDropOverlay(msg){
+    dropMessage.textContent = msg || 'Drop CSV to override online CSV';
+    dropFileName.textContent = '';
+    overlay.classList.add('visible');
+    overlay.setAttribute('aria-hidden','false');
+  }
+  function showDropOverlayWithName(name){
+    dropMessage.textContent = 'Drop to replace override with:';
+    dropFileName.textContent = name;
+    overlay.classList.add('visible');
+    overlay.setAttribute('aria-hidden','false');
+  }
+  function hideDropOverlay(){
+    overlay.classList.remove('visible');
+    overlay.setAttribute('aria-hidden','true');
+  }
+
+  // attach global drag/drop events to the document
+  (function attachDragDrop(){
+    let counter = 0;
+    document.addEventListener('dragenter', (ev) => {
+      ev.preventDefault();
+      counter++;
+      const items = ev.dataTransfer && ev.dataTransfer.items;
+      if (items && items.length){
+        // pick nice preview name if possible
+        const first = items[0];
+        const name = first && first.getAsFile && first.getAsFile() ? (first.getAsFile().name || '') : '';
+        showDropOverlayWithName(name || '');
+      } else {
+        showDropOverlay();
+      }
+    });
+    document.addEventListener('dragover', (ev) => {
+      ev.preventDefault();
+      ev.dataTransfer.dropEffect = 'copy';
+    });
+    document.addEventListener('dragleave', (ev) => {
+      ev.preventDefault();
+      counter = Math.max(0, counter-1);
+      if (counter === 0) hideDropOverlay();
+    });
+    document.addEventListener('drop', (ev) => {
+      ev.preventDefault();
+      counter = 0;
+      hideDropOverlay();
+      const files = ev.dataTransfer && ev.dataTransfer.files;
+      if (!files || files.length === 0) return;
+      // only accept first file; warn if not a CSV
+      const f = files[0];
+      const name = f.name || '';
+      const ext = name.split('.').pop().toLowerCase();
+      if (ext !== 'csv' && f.type && !f.type.startsWith('text') ){
+        // still try to read text files, but warn user
+        if (!confirm('Dropped file does not look like CSV. Attempt to read it anyway?')) return;
+      }
+      readDroppedFiles(files);
+    });
+  })();
+
+  // wire up clear override button
+  document.getElementById('ClearCSVOverrideBtn')?.addEventListener('click', () => { clearCSVOverride(); });
+
+  // expose functions for debugging
+  window.debugScouting = { loadRankings, loadTeamData, parseCSVRobust, clearCSVOverride };
+
+  document.getElementById('ClearSelection')?.addEventListener('click', () => { const breakdown=document.getElementById('BreakdownArea'); if (breakdown) breakdown.style.display='none'; document.getElementById('MatchTitle').textContent='Select a match or a team'; document.getElementById('MatchMeta').textContent='—'; document.querySelectorAll('#RankingsContainer .group-match').forEach(n=>n.classList.remove('selected')); });
+  document.getElementById('RefreshRankings')?.addEventListener('click', () => { loadRankings(); });
+
+  window.addEventListener('DOMContentLoaded', () => { try { updateCSVOverrideUI(); loadRankings(); } catch(e){ console.error(e); } });
+})();
+</script>
+</body>
+</html>

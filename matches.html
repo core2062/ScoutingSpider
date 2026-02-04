@@ -1,0 +1,618 @@
+<!doctype html>
+<html lang="en-us">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>CORE2062 Scouting — Matches (red top / blue bottom, orange lines)</title>
+<style>
+:root{
+  --bg:#07080a;
+  --card:#0f1418;
+  --muted:#9aa4ad;
+  --accent:#ff7a00; /* orange accent */
+  --accent-soft: rgba(255,122,0,0.08);
+  --red:#c84b4b;
+  --red-soft:rgba(200,75,75,0.12);
+  --blue:#3b6bd6;
+  --blue-soft:rgba(59,107,214,0.12);
+  --radius:12px;
+}
+
+/* base layout */
+*{box-sizing:border-box;margin:0;padding:0}
+body{
+  background:linear-gradient(180deg,#060708,#0b0f14);
+  color:#e6eef6;
+  font-family:system-ui,Segoe UI,Roboto,Arial;
+  padding:24px;
+}
+
+/* Slightly narrower main and wider sidebar (kept from prior) */
+.App{max-width:1300px;margin:auto;display:grid;grid-template-columns:1fr 420px;gap:16px}
+
+header{grid-column:1/-1;display:flex;justify-content:space-between;align-items:center}
+
+/* Main card gets subtle orange accent on left and slightly stronger border lines for readability */
+.Card{
+  background:var(--card);
+  border-radius:var(--radius);
+  padding:16px;
+  border:1px solid rgba(255,255,255,.04);
+  border-left:4px solid var(--accent-soft);
+  box-shadow: 0 2px 20px rgba(0,0,0,0.35);
+}
+
+aside{height:calc(100vh - 120px);overflow:auto;position:sticky;top:24px}
+
+/* match list layout (right column) */
+.group{
+  margin-bottom:12px;
+  border-radius:10px;
+  overflow:hidden;
+  border:1px solid rgba(255,255,255,0.03);
+  background: linear-gradient(180deg, rgba(255,255,255,0.01), transparent);
+}
+.group-header{
+  display:flex;
+  align-items:center;
+  gap:8px;
+  padding:10px;
+  cursor:pointer;
+  user-select:none;
+}
+.group-header:hover{background:rgba(255,255,255,0.02)}
+.group-title{font-weight:700}
+.group-count{margin-left:auto;color:var(--muted);font-size:13px}
+.group-body{padding:6px 10px;display:flex;flex-direction:column;gap:6px}
+.group-body.collapsed{display:none}
+
+/* match rows in group */
+.group-match{
+  display:flex;
+  align-items:flex-start;
+  gap:8px;
+  padding:8px;
+  border-radius:8px;
+  cursor:pointer;
+  background:transparent;
+  border:1px solid rgba(255,255,255,0.02);
+}
+.group-match:hover{background:rgba(255,255,255,0.02)}
+.group-match.selected{outline:2px solid rgba(255,122,0,.18);background:linear-gradient(90deg, rgba(255,122,0,0.03), transparent)}
+.match-number{width:30px;color:var(--accent);font-weight:700;flex-shrink:0}
+.match-teams{flex:1;font-size:13px;white-space:normal;overflow:visible;color:#e6eef6;display:flex;flex-direction:column;gap:6px}
+
+/* team chips: mild highlighting only; compact */
+.team-chip{
+  display:inline-block;
+  padding:3px 6px;
+  border-radius:999px;
+  font-size:12px;
+  margin-right:6px;
+  border:1px solid rgba(255,255,255,0.06);
+  background:transparent;
+  color:var(--muted);
+}
+.team-chip.red{
+  border-color:var(--red-soft);
+  color:var(--red);
+  box-shadow:none;
+}
+.team-chip.blue{
+  border-color:var(--blue-soft);
+  color:var(--blue);
+  box-shadow:none;
+}
+
+/* small type badge (subtle) */
+.match-type-badge{
+  padding:4px 6px;border-radius:6px;font-size:12px;color:#fff;margin-left:6px;opacity:0.95;
+}
+.badge-qual{background:#2B6CB0}
+.badge-qf{background:#8B5CF6}
+.badge-sf{background:#D97706}
+.badge-final{background:#C53030}
+.badge-practice{background:#4A5568}
+.badge-unknown{background:#718096}
+
+/* main area (middle) */
+.match-header{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-bottom:8px}
+.match-vs{font-size:20px;font-weight:700}
+.match-meta{font-size:13px;color:var(--muted)}
+.small{font-size:13px;color:var(--muted)}
+.muted{color:var(--muted)}
+
+/* Breakdown area remains blank until a match is selected; when present, emphasize table borders lightly with accent */
+.breakdown-row{
+  display:none;
+  grid-template-columns: 1fr 1fr;
+  gap:10px;
+  margin-top:10px;
+}
+.card-half{
+  background:rgba(255,255,255,0.02);
+  padding:10px;border-radius:8px;
+  border:1px solid rgba(255,255,255,0.03);
+}
+
+/* team / detail tables — subtle orange divider lines for readability */
+.team-table{width:100%;border-collapse:collapse;margin-top:6px}
+.team-table th{
+  padding:6px;border-bottom:1px solid rgba(255,255,255,0.03);text-align:left;color:var(--muted);font-weight:600;
+}
+.team-table td{
+  padding:6px;border-bottom:1px solid rgba(255,122,0,0.08);text-align:left;font-size:14px;
+}
+
+/* raw JSON box */
+.raw-json{margin-top:10px;padding:8px;background:rgba(0,0,0,0.25);border-radius:8px;max-height:320px;overflow:auto;font-family:monospace;font-size:12px}
+
+/* controls */
+.controls{display:flex;gap:8px;align-items:center}
+.btn{background:transparent;border:1px solid rgba(255,255,255,0.06);color:inherit;padding:6px 8px;border-radius:6px;cursor:pointer;font-size:13px}
+select.select{background:transparent;border:1px solid rgba(255,255,255,0.06);color:inherit;padding:6px;border-radius:6px}
+
+/* footer */
+footer{grid-column:1/-1;text-align:center;margin-top:12px;color:var(--muted)}
+
+/* ----- ADDED: Scouting Tools card styles ----- */
+#ScoutingToolsCard{ margin:12px 0; padding:12px; border-radius:10px; background:linear-gradient(180deg, rgba(255,122,0,0.02), transparent); border:1px solid rgba(255,255,255,0.03); }
+#ScoutingToolsCard h3{ margin-bottom:6px; font-size:1rem; }
+#ScoutingToolsCard .muted{ display:block; margin-bottom:10px; color:var(--muted); font-size:13px; }
+
+/* buttons inside scouting card */
+.ScoutGrid{ display:grid; gap:8px; }
+.PrimaryBtn, .SecondaryBtn{
+  display:block; width:100%; padding:10px 12px; border-radius:10px; font-weight:700; cursor:pointer;
+  border:1px solid rgba(255,255,255,0.06); background:transparent; color:inherit; text-align:center;
+}
+.PrimaryBtn{
+  background: linear-gradient(90deg, rgba(255,122,0,0.12), rgba(255,122,0,0.06));
+  color:#fff; border-left:4px solid var(--accent);
+}
+.PrimaryBtn:hover{ transform:translateY(-1px); box-shadow:0 8px 22px rgba(255,122,0,0.05); }
+.SecondaryBtn{ background:rgba(255,255,255,0.02); color:var(--muted); }
+.SecondaryBtn:hover{ background:rgba(255,255,255,0.03); color:#e6eef6; }
+
+/* responsive: move aside under main on small screens */
+@media (max-width:740px){
+  .App{grid-template-columns:1fr}
+  aside{position:relative;height:auto;top:auto}
+}
+</style>
+</head>
+<body>
+<div class="App">
+  <header>
+    <h2>CORE2062 Scouting</h2>
+    <div class="small muted">Matches — red on top, blue on bottom; subtle orange table lines</div>
+  </header>
+
+  <main>
+    <div class="Card">
+      <div class="match-header">
+        <div>
+          <div id="MatchTitle" class="match-vs">Select a match</div>
+          <div id="MatchMeta" class="match-meta">—</div>
+        </div>
+        <div class="controls">
+          <select id="QuickFilter" class="select" title="Quick filter by type">
+            <option value="All">All</option>
+          </select>
+          <button id="ClearSelection" class="btn">Clear</button>
+        </div>
+      </div>
+
+      <div id="SelectedSummary" class="small muted">Click a match on the right to see full details</div>
+
+      <!-- Breakdown area left blank until selection -->
+      <div id="BreakdownArea" class="breakdown-row" style="display:none">
+        <div class="card-half" id="AllianceRedCard">
+          <div class="team-title">Red alliance summary</div>
+          <div id="RedSummary" class="small muted"></div>
+          <div id="RedPerTeam"></div>
+        </div>
+        <div class="card-half" id="AllianceBlueCard">
+          <div class="team-title">Blue alliance summary</div>
+          <div id="BlueSummary" class="small muted"></div>
+          <div id="BluePerTeam"></div>
+        </div>
+      </div>
+
+      <div id="RawContainer" style="display:none">
+        <div class="small muted">Raw payload (full)</div>
+        <pre id="RawJSON" class="raw-json"></pre>
+      </div>
+    </div>
+  </main>
+
+  <aside class="Card">
+    <!-- Scouting Tools inserted above Matches -->
+    <article id="ScoutingToolsCard" aria-labelledby="scout-tools-label">
+      <h3 id="scout-tools-label">Scouting Tools</h3>
+      <small class="muted">Quick access to utilities and tools</small>
+
+      <div class="ScoutGrid">
+        <button class="PrimaryBtn" onclick="window.location.href='/'">Home</button>
+        <button class="SecondaryBtn" onclick="window.location.href='/Matches'">Match Review</button>
+        <button class="SecondaryBtn" onclick="window.location.href='/teams'">Team Review</button>
+      </div>
+    </article>
+
+    <h3>Matches (grouped)</h3>
+    <div id="GroupsContainer">Loading…</div>
+  </aside>
+
+  <footer>© CORE2062</footer>
+</div>
+
+<script>
+/* ---------- utilities ---------- */
+
+async function fetchMatches(){
+  const res = await fetch('/match_matches',{cache:'no-store'});
+  if(!res.ok) throw new Error('Failed to fetch /match_matches');
+  return res.json();
+}
+
+function safeGet(obj, path, fallback=undefined){
+  if(!obj) return fallback;
+  const parts = path.split('.');
+  let cur = obj;
+  for(const p of parts){
+    if(cur == null) return fallback;
+    cur = cur[p];
+  }
+  return cur === undefined ? fallback : cur;
+}
+
+function isLikelyMatchObject(obj){
+  if(!obj || typeof obj !== 'object') return false;
+  return !!(obj.MatchKey || obj.match_key || obj.key || obj.MatchNum || obj.match_number || obj.detailed || obj.Simple || obj.Red || obj.Blue || obj.red || obj.blue);
+}
+
+function extractMatchesFromResponse(data){
+  if(Array.isArray(data)) return data;
+  if(data && typeof data === 'object'){
+    const possibleArrays = ['matches','items','data','docs','results'];
+    for(const k of possibleArrays) if(Array.isArray(data[k])) return data[k];
+    const values = Object.values(data);
+    if(values.length > 0 && values.every(v => typeof v === 'object')){
+      const filtered = values.filter(isLikelyMatchObject);
+      if(filtered.length > 0) return filtered;
+    }
+    if(isLikelyMatchObject(data)) return [data];
+  }
+  return [];
+}
+
+/* ensure we show full 'frc####' style IDs */
+function ensureFullTeamId(t){
+  if(typeof t === 'string'){
+    return t.match(/^frc/i) ? t : 'frc' + t;
+  }
+  // numbers or other types
+  return 'frc' + String(t);
+}
+
+function extractMatchNumber(raw, fallbackIndex){
+  const candidates = [
+    raw.MatchNum, raw.match_number, raw.matchNum, raw.MatchNumber,
+    safeGet(raw,'simple.match_number'), safeGet(raw,'detailed.match_number'),
+    safeGet(raw,'simple.matchNum'), safeGet(raw,'detailed.matchNum')
+  ];
+  for(const c of candidates){ if(c!=null && c!=='' && !Number.isNaN(Number(c))) return Number(c); }
+  const key = raw.key || raw.MatchKey || safeGet(raw,'detailed.key') || safeGet(raw,'simple.key') || '';
+  if(key && typeof key === 'string'){
+    const m = key.match(/(?:_|-)?(?:qm|qf|sf|f|m|match)?\D*?(\d+)(?!.*\d)/i);
+    if(m) return Number(m[1]);
+    const m2 = key.match(/(?:qm|qf|sf|f)(\d+)/i);
+    if(m2) return Number(m2[1]);
+  }
+  return fallbackIndex != null ? Number(fallbackIndex) : null;
+}
+
+function determineMatchType(raw){
+  const comp = (raw.comp_level || safeGet(raw,'simple.comp_level') || safeGet(raw,'detailed.comp_level') || '').toString().toLowerCase();
+  if(comp.includes('qm') || comp.includes('qual') || comp === 'q') return 'Qualification';
+  if(comp.includes('qf') || comp.includes('quarter') || comp.includes('ef')) return 'Quarterfinal';
+  if(comp.includes('sf') || comp.includes('semi')) return 'Semifinal';
+  if(comp === 'f' || comp.includes('final')) return 'Final';
+  if(comp.includes('pr') || comp.includes('practice') || comp.includes('pm')) return 'Practice';
+  const key = (raw.key || raw.MatchKey || safeGet(raw,'detailed.key') || '').toString().toLowerCase();
+  if(key.includes('_qm') || /_qm\d+/i.test(key) || key.match(/(^|_|\b)qm\b/)) return 'Qualification';
+  if(key.includes('_qf') || key.match(/qf\d+/)) return 'Quarterfinal';
+  if(key.includes('_sf') || key.match(/sf\d+/)) return 'Semifinal';
+  if(key.includes('_f') || key.match(/_f\d+/) || key.match(/final/)) return 'Final';
+  if(key.includes('practice') || key.match(/pm\d+/)) return 'Practice';
+  return 'Unknown';
+}
+
+function normalizeMatch(raw, fallbackIndex){
+  const simple = raw.simple || raw.Simple || null;
+  const detailed = raw.detailed || raw.Detailed || null;
+  const event_key = raw.event_key || safeGet(simple,'event_key') || safeGet(detailed,'event_key') || null;
+  const key = raw.key || raw.MatchKey || safeGet(simple,'key') || safeGet(detailed,'key') || null;
+  const matchNum = extractMatchNumber(raw, fallbackIndex);
+  const redTeamsRaw = (safeGet(simple,'alliances.red.team_keys') || safeGet(detailed,'alliances.red.team_keys') || raw.Red || raw.red || raw.redTeams || raw.RedTeams || []) ;
+  const blueTeamsRaw = (safeGet(simple,'alliances.blue.team_keys') || safeGet(detailed,'alliances.blue.team_keys') || raw.Blue || raw.blue || raw.blueTeams || raw.BlueTeams || []) ;
+  const redTeams = Array.isArray(redTeamsRaw) ? redTeamsRaw.map(ensureFullTeamId) : [];
+  const blueTeams = Array.isArray(blueTeamsRaw) ? blueTeamsRaw.map(ensureFullTeamId) : [];
+  let redScore = raw.red_score ?? safeGet(detailed,'score_breakdown.red.totalPoints') ?? safeGet(simple,'alliances.red.score') ?? null;
+  let blueScore = raw.blue_score ?? safeGet(detailed,'score_breakdown.blue.totalPoints') ?? safeGet(simple,'alliances.blue.score') ?? null;
+  if(redScore == null) redScore = safeGet(detailed,'score_breakdown.red.totalPoints', null) ?? safeGet(detailed,'score_breakdown.red.total', null);
+  if(blueScore == null) blueScore = safeGet(detailed,'score_breakdown.blue.totalPoints', null) ?? safeGet(detailed,'score_breakdown.blue.total', null);
+  const winning_alliance = raw.winning_alliance || safeGet(detailed,'winning_alliance') || (redScore != null && blueScore != null ? (redScore > blueScore ? 'red' : (blueScore > redScore ? 'blue' : null)) : null);
+  const type = determineMatchType(raw);
+  return {
+    raw, key, event_key, matchNum,
+    redTeams, blueTeams,
+    redScore, blueScore, winning_alliance, detailed, simple, matchType: type
+  };
+}
+
+/* ---------- UI helpers ---------- */
+
+function badgeClassForType(type){
+  switch((type||'').toLowerCase()){
+    case 'qualification': return 'badge-qual';
+    case 'quarterfinal': return 'badge-qf';
+    case 'semifinal': return 'badge-sf';
+    case 'final': return 'badge-final';
+    case 'practice': return 'badge-practice';
+    default: return 'badge-unknown';
+  }
+}
+function badgeTextForType(type){
+  switch((type||'').toLowerCase()){
+    case 'qualification': return 'QUAL';
+    case 'quarterfinal': return 'QF';
+    case 'semifinal': return 'SF';
+    case 'final': return 'FINAL';
+    case 'practice': return 'PRACTICE';
+    default: return 'UNK';
+  }
+}
+
+/* ---------- render grouped sidebar (red top, blue bottom) ---------- */
+
+function renderGroups(normalized, filter='All'){
+  const container = document.getElementById('GroupsContainer');
+  container.innerHTML = '';
+
+  if(!Array.isArray(normalized) || normalized.length === 0){
+    container.innerHTML = '<div class="small muted">No matches returned</div>'; return;
+  }
+
+  // group by matchType
+  const groups = {};
+  normalized.forEach(m => {
+    const t = m.matchType || 'Unknown';
+    if(filter !== 'All' && filter !== t) return;
+    if(!groups[t]) groups[t] = [];
+    groups[t].push(m);
+  });
+
+  // order of groups
+  const order = ['Qualification','Practice','Quarterfinal','Semifinal','Final','Unknown'];
+  const present = Object.keys(groups).sort((a,b)=>{
+    const ai = order.indexOf(a), bi = order.indexOf(b);
+    if(ai === -1 && bi === -1) return a.localeCompare(b);
+    if(ai === -1) return 1;
+    if(bi === -1) return -1;
+    return ai - bi;
+  });
+
+  if(present.length === 0){
+    container.innerHTML = '<div class="small muted">No matches for that filter</div>'; return;
+  }
+
+  present.forEach(type => {
+    const arr = groups[type];
+    // sort by numeric matchNum where available, fallback to key/time
+    arr.sort((a,b) => {
+      const an = (a.matchNum != null) ? Number(a.matchNum) : Infinity;
+      const bn = (b.matchNum != null) ? Number(b.matchNum) : Infinity;
+      if(an !== bn) return an - bn;
+      const at = safeGet(a,'raw.time', 0), bt = safeGet(b,'raw.time', 0);
+      if(at && bt) return Number(at) - Number(bt);
+      return String(a.key || '').localeCompare(String(b.key || ''));
+    });
+
+    // group element
+    const g = document.createElement('div'); g.className = 'group';
+    const header = document.createElement('div'); header.className = 'group-header';
+    header.innerHTML = `<div class="match-type-badge ${badgeClassForType(type)}">${badgeTextForType(type)}</div><div class="group-title">${type}</div><div class="group-count">${arr.length} match${arr.length>1?'es':''}</div>`;
+    const body = document.createElement('div'); body.className = 'group-body';
+
+    // numbered list style rows
+    arr.forEach((m, idx) => {
+      const row = document.createElement('div');
+      row.className = 'group-match';
+      row.dataset.key = m.key || '';
+
+      // red on its own line, blue on its own line (wraps if needed)
+      const redChips = (m.redTeams || []).map(t => `<span class="team-chip red">${t}</span>`).join('');
+      const blueChips = (m.blueTeams || []).map(t => `<span class="team-chip blue">${t}</span>`).join('');
+
+      row.innerHTML = `
+        <div class="match-number">${idx+1}</div>
+        <div class="match-teams">
+          <div><strong>${m.matchNum != null ? ('#'+m.matchNum) : (m.key||'match')}</strong></div>
+          <div class="muted" style="display:block">${redChips}</div>
+          <div class="muted" style="display:block;margin-top:6px">${blueChips}</div>
+        </div>
+        <div class="match-type-badge ${badgeClassForType(type)}" title="${type}" style="margin-left:6px">${badgeTextForType(type)}</div>
+      `;
+      row.addEventListener('click', (ev) => {
+        // remove prev selected
+        document.querySelectorAll('.group-match.selected').forEach(el => el.classList.remove('selected'));
+        row.classList.add('selected');
+        renderMatch(m);
+      });
+      body.appendChild(row);
+    });
+
+    // toggle collapse on header click
+    header.addEventListener('click', () => {
+      body.classList.toggle('collapsed');
+    });
+
+    g.appendChild(header);
+    g.appendChild(body);
+    container.appendChild(g);
+  });
+}
+
+/* ---------- main rendering of selected match ---------- */
+
+function renderMatch(nm){
+  const title = document.getElementById('MatchTitle');
+  const meta = document.getElementById('MatchMeta');
+  title.innerText = `${(nm.redTeams || []).join(', ')}  —  vs  —  ${(nm.blueTeams || []).join(', ')}`;
+  meta.innerText = `${nm.event_key || '—'}  •  #${nm.matchNum ?? '—'} ${nm.key ? '• ' + nm.key : ''} ${nm.matchType ? '• ' + nm.matchType : ''}`;
+
+  document.getElementById('SelectedSummary').innerHTML = `<strong>Score:</strong> Red ${nm.redScore ?? '—'} — Blue ${nm.blueScore ?? '—'}  •  <span class="small muted">Type:</span> ${nm.matchType || 'Unknown'}`;
+
+  // show breakdown if detailed exists
+  const db = (nm.detailed && nm.detailed.score_breakdown) ? nm.detailed.score_breakdown : (nm.raw && nm.raw.detailed && nm.raw.detailed.score_breakdown ? nm.raw.detailed.score_breakdown : null);
+  const breakdownArea = document.getElementById('BreakdownArea');
+  const redSummaryDiv = document.getElementById('RedSummary');
+  const blueSummaryDiv = document.getElementById('BlueSummary');
+  const redPerTeamDiv = document.getElementById('RedPerTeam');
+  const bluePerTeamDiv = document.getElementById('BluePerTeam');
+
+  if(db){
+    breakdownArea.style.display = 'grid';
+    const redData = db.red || {}, blueData = db.blue || {};
+    redSummaryDiv.innerText = JSON.stringify(renderAllianceSummary(redData), null, 2);
+    blueSummaryDiv.innerText = JSON.stringify(renderAllianceSummary(blueData), null, 2);
+
+    const redPerTeam = mapRobotSpecific(redData, nm.redTeams || []);
+    const bluePerTeam = mapRobotSpecific(blueData, nm.blueTeams || []);
+
+    function makeTeamTable(perTeam){
+      const container = document.createElement('div');
+      if(!perTeam || perTeam.length === 0){ container.innerHTML = '<div class="muted">No teams</div>'; return container; }
+      const table = document.createElement('table'); table.className = 'team-table';
+      const thead = document.createElement('thead'); const trh = document.createElement('tr');
+      ['Team','Field','Value'].forEach(h=>{ const th = document.createElement('th'); th.innerText = h; trh.appendChild(th); });
+      thead.appendChild(trh); table.appendChild(thead);
+      const tbody = document.createElement('tbody');
+      perTeam.forEach(pt=>{
+        const details = pt.details || {};
+        if(Object.keys(details).length === 0){
+          const tr = document.createElement('tr');
+          const td1 = document.createElement('td'); td1.innerText = pt.team;
+          const td2 = document.createElement('td'); td2.innerText = '—';
+          const td3 = document.createElement('td'); td3.innerText = '—';
+          tr.appendChild(td1); tr.appendChild(td2); tr.appendChild(td3);
+          tbody.appendChild(tr);
+        } else {
+          let first = true;
+          for(const kk of Object.keys(details)){
+            const tr = document.createElement('tr');
+            const td1 = document.createElement('td'); td1.innerText = first ? pt.team : '';
+            const td2 = document.createElement('td'); td2.innerText = kk;
+            const td3 = document.createElement('td'); td3.innerText = String(details[kk]);
+            tr.appendChild(td1); tr.appendChild(td2); tr.appendChild(td3);
+            tbody.appendChild(tr);
+            first = false;
+          }
+        }
+      });
+      table.appendChild(tbody); container.appendChild(table); return container;
+    }
+
+    redPerTeamDiv.innerHTML = ''; bluePerTeamDiv.innerHTML = '';
+    redPerTeamDiv.appendChild(makeTeamTable(redPerTeam)); bluePerTeamDiv.appendChild(makeTeamTable(bluePerTeam));
+  } else {
+    breakdownArea.style.display = 'none';
+    redSummaryDiv && (redSummaryDiv.innerText = '');
+    blueSummaryDiv && (blueSummaryDiv.innerText = '');
+    redPerTeamDiv && (redPerTeamDiv.innerHTML = '');
+    bluePerTeamDiv && (bluePerTeamDiv.innerHTML = '');
+  }
+
+  // raw JSON toggle: show payload area
+  const rawContainer = document.getElementById('RawContainer');
+  const rawPre = document.getElementById('RawJSON');
+  rawPre.innerText = JSON.stringify(nm.raw, null, 2);
+  rawContainer.style.display = 'block';
+}
+
+/* ---------- helpers reused by renderMatch ---------- */
+
+function renderAllianceSummary(allianceData){
+  const keys = ['totalPoints','autoPoints','teleopPoints','endgamePoints','autoCargoTotal','teleopCargoTotal','matchCargoTotal','foulPoints','foulCount','techFoulCount','rp','cargoBonusRankingPoint','hangarBonusRankingPoint','quintetAchieved'];
+  const out = {};
+  keys.forEach(k=>{ if(k in (allianceData||{})) out[k] = allianceData[k]; });
+  if(out.totalPoints == null) out.totalPoints = allianceData && (allianceData.totalPoints ?? allianceData.total ?? null);
+  return out;
+}
+function formatTeam(t){ return ensureFullTeamId(t); }
+function mapRobotSpecific(allianceData, teamKeys){
+  const perTeam = teamKeys.map(k => ({ team: formatTeam(k), details: {} }));
+  for(const k of Object.keys(allianceData || {})){
+    const m = k.match(/(.*?)([1-3])$/);
+    if(m){
+      const base = m[1]; const idx = Number(m[2]) - 1;
+      if(perTeam[idx]) perTeam[idx].details[base] = allianceData[k];
+    }
+  }
+  return perTeam;
+}
+
+/* ---------- load and wire ---------- */
+
+let _normalizedMatches = [];
+
+async function loadAndRender(){
+  const container = document.getElementById('GroupsContainer');
+  container.innerHTML = 'Loading…';
+  try{
+    const data = await fetchMatches();
+    let matches = extractMatchesFromResponse(data);
+    const normalized = matches.map((m, idx) => normalizeMatch(m, idx+1));
+    _normalizedMatches = normalized;
+
+    // populate quick filter
+    const qf = document.getElementById('QuickFilter');
+    const types = Array.from(new Set(normalized.map(m => m.matchType || 'Unknown')));
+    const preferred = ['Qualification','Practice','Quarterfinal','Semifinal','Final','Unknown'];
+    types.sort((a,b)=>{
+      const ai = preferred.indexOf(a), bi = preferred.indexOf(b);
+      if(ai === -1 && bi === -1) return a.localeCompare(b);
+      if(ai === -1) return 1;
+      if(bi === -1) return -1;
+      return ai - bi;
+    });
+    qf.innerHTML = '<option value="All">All</option>';
+    types.forEach(t => { const o = document.createElement('option'); o.value = t; o.innerText = t; qf.appendChild(o); });
+
+    // render groups initially (All)
+    renderGroups(normalized, 'All');
+
+    // wire quick filter
+    qf.onchange = () => { renderGroups(_normalizedMatches, qf.value); };
+
+    // clear selection button
+    document.getElementById('ClearSelection').onclick = () => {
+      document.querySelectorAll('.group-match.selected').forEach(el => el.classList.remove('selected'));
+      document.getElementById('MatchTitle').innerText = 'Select a match';
+      document.getElementById('MatchMeta').innerText = '—';
+      document.getElementById('SelectedSummary').innerText = 'Click a match on the right to see full details';
+      document.getElementById('BreakdownArea').style.display = 'none';
+      document.getElementById('RawContainer').style.display = 'none';
+    };
+
+  }catch(e){
+    container.innerHTML = '<div class="small muted">Failed to load matches</div>';
+    console.error(e);
+  }
+}
+
+document.addEventListener('DOMContentLoaded', loadAndRender);
+</script>
+</body>
+</html>

@@ -1,100 +1,571 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en-us">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CORE SCOUTING WEB</title>
-    <link rel="icon" type="image/x-icon" href="images/favIcon.png">
-    <link rel="stylesheet" href="css/style.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>CORE SCOUTING WEB — Sleek</title>
+  <link rel="icon" href="/static/images/favIcon.png" />
+  <style>
+    :root{
+      --bg:#07080a;
+      --card:#0f1418;
+      --muted:#9aa4ad;
+      --accent:#ff7a00;
+      --glass: rgba(255,255,255,0.03);
+      --glass-2: rgba(255,255,255,0.02);
+      --radius:14px;
+      --gap:16px;
+      --max-width:1400px;
+    }
+    *{box-sizing:border-box;margin:0;padding:0}
+    html,body{height:100%}
+    body{
+      font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+      background: linear-gradient(180deg,#060708 0%, #0b0f14 100%);
+      color:#e6eef6;
+      -webkit-font-smoothing:antialiased;
+      -moz-osx-font-smoothing:grayscale;
+      padding:28px 28px 120px;
+      display:flex;
+      justify-content:center;
+    }
+    .AppContainer{
+      width:100%;
+      max-width:var(--max-width);
+      display:grid;
+      grid-template-columns: 1fr minmax(300px, 38%);
+      gap:var(--gap);
+      align-items:start;
+    }
+    .Header{ grid-column:1/-1; display:flex; justify-content:space-between; align-items:center; gap:12px; margin-bottom:6px; }
+    .LogoBox{ display:flex; align-items:center; gap:12px; cursor:pointer; width:220px; height:56px; }
+    .LogoImage{ width:56px;height:56px;object-fit:contain;border-radius:8px; transition:transform .28s ease; }
+    .BrandText{ display:flex;flex-direction:column; line-height:1; font-weight:700; color:#fff; }
+    .BrandText small{ font-weight:500; color:var(--muted); font-size:12px }
+    .Controls{ display:flex; gap:12px; align-items:center; margin-left:auto; }
+    .SearchInput{ background:var(--glass); border:1px solid rgba(255,255,255,0.04); padding:10px 12px; border-radius:10px; min-width:220px; color:inherit; outline:none; transition:box-shadow .2s ease; }
+    .IconButton{ background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01)); border:1px solid rgba(255,255,255,0.03); padding:8px 10px;border-radius:10px;cursor:pointer; display:inline-flex;align-items:center;gap:8px; color:var(--muted); }
+    .IconButton strong{ color:var(--accent); font-weight:700 }
+    .Main{ background:transparent; display:flex; flex-direction:column; gap:var(--gap); min-height:60vh; }
+    .Hero{ background:linear-gradient(90deg, rgba(255,122,0,0.06), rgba(255,122,0,0.03)); border-radius:var(--radius); padding:22px; display:flex; gap:20px; align-items:center; border:1px solid rgba(255,255,255,0.03); box-shadow: 0 6px 24px rgba(0,0,0,0.6); }
+    .PrimaryBtn{ background:linear-gradient(180deg,var(--accent), #ff6a00); color:#071016; padding:10px 14px; border-radius:10px; border:none; cursor:pointer; font-weight:700; }
+    .SecondaryBtn{ background:transparent; border:1px solid rgba(255,255,255,0.04); padding:10px 12px; border-radius:10px; color:var(--muted); cursor:pointer; }
+    .CardsRow{ display:grid; grid-template-columns:1fr 1fr; gap:var(--gap); }
+    .Card{ background:linear-gradient(180deg, rgba(255,255,255,0.01), rgba(255,255,255,0.02)); border-radius:12px; padding:14px; border:1px solid rgba(255,255,255,0.03); min-height:160px; display:flex; flex-direction:column; gap:12px; }
+    .EmbedFrame{ width:100%; height:220px; border-radius:10px; border:0; background:#061014; overflow:hidden; display:block; }
+    .MatchPanel{ background:linear-gradient(180deg,#071019, #071017); border-radius:12px; padding:16px; border:1px solid rgba(255,255,255,0.03); height:calc(100vh - 120px); overflow:auto; position:sticky; top:28px; }
+    .MatchItem{ padding:10px; border-radius:8px; margin-bottom:8px; background:linear-gradient(180deg, rgba(255,255,255,0.01), transparent); display:flex; justify-content:space-between; align-items:center; border:1px solid rgba(255,255,255,0.02); cursor:pointer; }
+    .Muted{ color:var(--muted) }
+    .CoreMatch{ border-left:4px solid var(--accent); font-weight:700; color:var(--accent); box-shadow:0 6px 18px rgba(255,122,0,0.06); }
+    .ApiSummary{ margin-top:10px; font-size:13px; color:var(--muted); white-space:pre-wrap }
+    footer{
+      grid-column:1/-1;
+      margin-top:12px;
+      color:var(--muted);
+      font-size:13px;
+      text-align:center;
+      position:relative;
+      z-index:120;
+      background:transparent;
+      padding:10px 0;
+    }
+    .WidgetsPanel{
+      position:fixed;
+      left:28px;
+      top:28px;
+      width:360px;
+      max-width:calc(100% - 56px);
+      transform:translateX(-420px);
+      transition:transform .36s cubic-bezier(.2,.9,.2,1);
+      background:linear-gradient(180deg,var(--card), rgba(15,20,24,0.9));
+      border-radius:16px;
+      padding:18px;
+      box-shadow:0 10px 30px rgba(2,6,10,0.6);
+      z-index:80;
+      backdrop-filter: blur(6px) saturate(120%);
+      border:1px solid rgba(255,255,255,0.03);
+    }
+    .WidgetsPanel.Open{ transform:none }
+    .SmallText{ font-size:12px; color:var(--muted) }
+    .StatusOk{ color:#8dfb9b }
+    .StatusErr{ color:#ff8a8a }
+
+    @media (max-width:980px){
+      .AppContainer{ grid-template-columns:1fr; padding-bottom:160px }
+      .MatchPanel{ position:relative; height:auto; top:auto; order:2 }
+      .WidgetsPanel{ left:8px; top:8px }
+      .CardsRow{ grid-template-columns:1fr }
+    }
+
+    /* Match list layout */
+    #MatchList { display:flex; flex-direction:column; gap:8px; padding:6px 0; width:100%; }
+    .match-row {
+      display:flex;
+      gap:12px;
+      align-items:center;
+      padding:8px;
+      border-radius:8px;
+      background:rgba(255,255,255,0.02);
+      width:100%;
+      flex-wrap:nowrap;
+      min-width:0;
+      justify-content:space-between;
+      overflow:hidden;
+    }
+    .match-num { flex: 0 0 64px; min-width:56px; font-weight:700; color:#fff; }
+    .alliance { display:flex; gap:8px; align-items:center; padding:6px 10px; border-radius:6px; flex:1 1 auto; min-width: 120px; min-width:0; overflow:hidden; }
+    .alliance.red { background: linear-gradient(90deg, rgba(255,80,80,0.12), rgba(255,80,80,0.06)); border:1px solid rgba(255,80,80,0.12); }
+    .alliance.blue { background: linear-gradient(90deg, rgba(80,160,255,0.12), rgba(80,160,255,0.06)); border:1px solid rgba(80,160,255,0.12); }
+    .team { padding:4px 8px; border-radius:4px; background:rgba(0,0,0,0.12); color:#fff; font-weight:600; white-space:nowrap; text-overflow:ellipsis; overflow:hidden; }
+    .teams { display:flex; gap:6px; flex-wrap:nowrap; min-width:0; overflow:hidden; }
+    .muted { color: rgba(255,255,255,0.55); font-size:0.9rem; }
+    .no-matches { color: rgba(255,255,255,0.45); padding:8px; }
+
+    /* Make embed card fill its widget */
+    .CardsRow { align-items: stretch; } /* ensure cards stretch to same row height */
+
+    .Card.embed {
+      display: flex;
+      flex-direction: column;
+      padding: 0;
+      overflow: hidden;
+      min-height: 360px;
+    }
+
+    .Card.embed > h3 {
+      margin: 0;
+      padding: 14px;
+      background: linear-gradient(180deg, rgba(255,255,255,0.01), rgba(255,255,255,0.02));
+      border-bottom: 1px solid rgba(255,255,255,0.03);
+    }
+
+    #BlueEmbedWrap {
+      display: flex;
+      flex-direction: column;
+      flex: 1 1 auto;
+      min-height: 0;
+      padding: 12px;
+      gap: 8px;
+      background: transparent;
+    }
+
+    .EmbedFrame {
+      flex: 1 1 auto;
+      width: 100%;
+      height: 100%;
+      min-height: 0;
+      border-radius: 8px;
+      border: 0;
+      background: #061014;
+      display: block;
+    }
+
+    /* When widgets are open on small screens, hide the matches pane so tools stay visible */
+    @media (max-width: 980px) {
+      body.scouting-open #MatchPanel {
+        display: none !important;
+      }
+
+      body.scouting-open .WidgetsPanel {
+        transform: none !important;
+        left: 8px;
+        top: 8px;
+        z-index: 250;
+      }
+
+      body.scouting-open .AppContainer {
+        padding-bottom: 160px;
+      }
+    }
+
+    /* Desktop: dim matches behind widgets (non-destructive) */
+    @media (min-width: 981px) {
+      body.scouting-open #MatchPanel {
+        filter: blur(2px) saturate(.9);
+        opacity: 0.85;
+        pointer-events: none;
+      }
+
+      body.scouting-open .WidgetsPanel {
+        z-index: 400;
+      }
+    }
+
+    /* === "too small" visual helpers === */
+    body.screen-too-small .AppContainer {
+      opacity: 0.98;
+    }
+    body.screen-too-small .WidgetsPanel {
+      transform: none !important;
+      left: 8px;
+      top: 8px;
+      z-index: 999;
+    }
+  </style>
 </head>
 <body>
-    <nav class="navbar">
-        <div class="logo">
-            <a href="./index.html">
-                <img src="./images/CORElogoStandard.png" alt="Logo" class="logo-img" id="logo-standard">
-                <img src="./images/CORELogoBlack.png" alt="Hover Logo" class="logo-img-hover" id="logo-hover">
-            </a>
-            </div>
-        <ul class="nav-links">
-            <div class="nav-left">
-                <li><a href="./index.html">Home</a></li>
-                <li><a href="./OurMatches.html">Our Matches</a></li>
-                <li class="dropdown">
-                    <a class="dropbtn">Review</a>
-                    <div class="dropdown-content">
-                        <a href="./GenTeams.html">Review teams</a>
-                        <a href="./GenMatches.html">Review matches</a>
-                        <a href="./Leader.html">Review Leaderboard</a>
-                    </div>
-                </li>
-                <li class="dropdown">
-                    <a class="dropbtn">Tools</a>
-                    <div class="dropdown-content">
-                        <a href="./TeamVS.html">Team VS</a>
-                        <a href="./Tools/GameGen.html">Double Elims predictor</a>
-                        <a href="./Tools/PickList.html" >Pick List Helper</a>
-                    </div>
-                </li>
-            </div>
-            <li class="dropdown">
-                <a class="dropbtn">Pratice Data Review</a>
-                <div class="dropdown-content">
-                    <a href="./PraticeTemplates/GenTeams.html">Review Teams Pratice Data</a>
-                    <a href="./PraticeTemplates/GenMatches.html" >Review Matches Pratice data</a>
-                    <a href="./PraticeTemplates/Leader.html" >Review Pratice Leaderboard</a>
-                </div>
-            </li>
-            <div class="nav-right">
-                <li class="dropdown">
-                    <a href="./ArchivedData/ArcData.html" class="dropbtn">Download Our Data</a>
-                    <div class="dropdown-content">
-                        <a href="./ArchivedData/ArcData.html">ReefScape.zip (Not Out yet)</a>
-                        <a href="./ArchivedData/ArcData.html">DemoData.zip</a>
-                    </div>
-                </li>
-                <li class="dropdown">
-                    <a class="dropbtn">Extras</a>
-                    <div class="dropdown-content">
-                        <a href="./">Documentation</a>
-                    </div>
-                </li>
-                <li class="dropdown">
-                    <a href="./index.html" class="dropbtn">year: ReefScape</a>
-                    <div class="dropdown-content">
-                        <a href="./">ReefScape</a>
-                        <a href="./" >Crescendo</a>
-                        <a href="./">Charged UP</a>
-                    </div>
-                </li>
-            </div>
-        </ul>
-    </nav>
-    <div class="backbox">
-    <h1 >WELCOME TO THE CORE2062 Scouting Website</h1>
-<h2>Current Game: Seven Rivers</h2>
-<h2>Last Posted DataDump: 11AM- RAW ONLY DATA (Only Match/team Review will be open)</h2>
-</div>
-    <br><br>
-    <div class="backbox">
-    <h2> Seven River Regional 2025 </h2>
-    <div class="flexBox">
-        <img src='images/BlueAllinceLogo.jpeg'width="25%" height="75%">
-        <!-- The embed link will be set dynamically -->
-        <embed id="blueAllianceEmbed" type="text/html" width="100%">
-    </div>
-    <br>
-    <div >
-    <h2>Statbotics Seven River Regional 2025 </h2>
-    <div class="flexBox">
-        <img src='images/StatBotics.png'width="25%" height="75%">
-        <!-- The embed link will be set dynamically -->
-        <embed id="statBoticsEmbed" type="text/html" width="100%">
-    </div>
-</div>
-</div>
-    <br><br><br>
+  <div class="AppContainer" id="AppContainer">
+    <header class="Header">
+      <div class="NavBar">
+        <div class="LogoBox" onclick="GoHome()">
+          <img src="/CORELogo" alt="CORE Logo" class="LogoImage" id="LogoStandard">
+          <div class="BrandText">
+            <span>CORE2062 Scouting</span>
+            <small id="EventNameSmall">—</small>
+          </div>
+        </div>
+        <div class="Controls">
+          <input class="SearchInput" placeholder="Search teams, matches, widgets..." id="SearchInput" oninput="FilterMatches()" />
+          <button class="IconButton" onclick="ToggleWidgets()"><strong>Widgets</strong></button>
+          <button class="IconButton" onclick="ToggleMatchPanel()">Matches</button>
+        </div>
+      </div>
+    </header>
 
-    <div id="endContent" class="hidden"></div>
-   <script src='js\IndexLinkScript.js'> </script> 
+    <main class="Main">
+      <section class="Hero">
+        <div style="display:flex;gap:14px;align-items:center">
+          <img src="/CORELogo" alt="logo" style="width:72px;height:72px;border-radius:10px;object-fit:contain">
+          <div class="HeroText">
+            <h1>WELCOME TO THE CORE2062 Scouting WEBSITE</h1>
+          </div>
+        </div>
+
+        <div style="display:flex;flex-direction:column;gap:10px;margin-left:auto">
+          <div style="display:flex;gap:8px">
+            <button class="PrimaryBtn" onclick="window.location.href='/teams'">Review Teams</button>
+            <button class="SecondaryBtn" onclick="OpenQuickAction('Download')">Download Data</button>
+            <button class="SecondaryBtn" onclick="window.location.href='/Matches'">Open Matches</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="CardsRow" aria-label="Embeds">
+        <article class="Card">
+          <h3>Blue Alliance</h3>
+          <small class="Muted">Live event / match feed</small>
+
+          <div id="BlueEmbedWrap" style="margin-top:10px; display:flex; flex-direction:column; gap:8px;">
+            <iframe class="EmbedFrame" id="BlueAllianceEmbed" src="" title="Blue Alliance" loading="lazy" allowfullscreen></iframe>
+            <div id="BlueEmbedStatus" class="Muted" style="font-size:13px">Loading embed…</div>
+          </div>
+        </article>
+
+        <article class="Card" id="ScoutingToolsCard">
+          <h3>Scouting Tools</h3>
+          <small class="Muted">Quick access to utilities and tools</small>
+
+          <div style="display:grid;gap:8px;margin-top:12px">
+            <button class="PrimaryBtn" onclick="window.location.href='/'">Home</button>
+            <button class="SecondaryBtn" onclick="window.location.href='/Matches'">Match Review</button>
+            <button class="SecondaryBtn" onclick="window.location.href='/teams'">Team Review</button>
+          </div>
+        </article>
+      </section>
+    </main>
+
+    <aside class="MatchPanel" id="MatchPanel">
+      <div class="Row" style="margin-bottom:10px; display:flex; align-items:center;">
+        <h3 style="margin:0">Matches</h3>
+        <div style="flex:1"></div>
+        <button class="SecondaryBtn" style="padding:6px 10px" onclick="ClearMatchFilter()">Clear</button>
+      </div>
+
+      <div id="MatchList"><div class="Muted">Loading…</div></div>
+    </aside>
+
+    <footer id="SiteFooter">© CORE2062 Scouting · Built for speed & clarity · Dark • Orange theme</footer>
+  </div>
+
+  <aside class="WidgetsPanel" id="WidgetsPanel" aria-hidden="true">
+    <div class="Widget">
+      <!-- Button controls removed as requested. Kept status + summary fields. -->
+      <div id="ApiSummary" class="ApiSummary">—</div>
+      <div style="margin-top:12px">
+        <div id="TbaStatus" class="SmallText Muted">Server: checking…</div>
+        <div id="TbaError" class="SmallText StatusErr" style="display:none;margin-top:6px"></div>
+      </div>
+    </div>
+  </aside>
+
+  <script>
+    
+  (function () {
+    // ---------- CONFIG ----------
+    const SMALL_WIDTH = 520;   // px
+    const SMALL_HEIGHT = 640;  // px
+    const WIDGETS_HIDE_MATCHES_BREAKPOINT = 980;
+
+    // ---------- SAFE STUBS ----------
+    window.GoHome = function () { try { window.location.href = '/'; } catch (e) { console.log('GoHome', e); } };
+    window.OpenQuickAction = function (action) {
+      console.log('OpenQuickAction:', action);
+      if (action === 'Review') window.location.href = '/Matches/';
+    };
+
+    // ---------- BLUE ALLIANCE EMBED ----------
+    async function loadBlueAllianceEmbed() {
+      const iframe = document.getElementById('BlueAllianceEmbed');
+      const status = document.getElementById('BlueEmbedStatus');
+      if (!iframe || !status) return;
+
+      status.textContent = 'Loading embed…';
+      status.style.cursor = 'default';
+      status.onclick = null;
+
+      try {
+        const res = await fetch('/index_TBASite', { cache: 'no-store' });
+        if (!res.ok) throw new Error('Network response not ok: ' + res.status);
+
+        const contentType = (res.headers.get('content-type') || '').toLowerCase();
+        let body = contentType.includes('application/json') ? await res.json() : await res.text();
+        let url = null;
+
+        if (typeof body === 'string') {
+          const text = body.trim();
+          const ifMatch = text.match(/<iframe[^>]*src=(?:"|')([^"']+)(?:"|')/i);
+          if (ifMatch) url = ifMatch[1];
+          else {
+            const urlMatch = text.match(/https?:\/\/[^\s"']+/i);
+            if (urlMatch) url = urlMatch[0];
+            else if (text.length > 0) url = text;
+          }
+        } else if (Array.isArray(body) && body.length) {
+          const first = body[0];
+          url = (typeof first === 'string') ? first : (first.link || first.url || first.embed || first.src || null);
+        } else if (body && typeof body === 'object') {
+          url = body.link || body.url || body.embed || body.iframe || body.src || null;
+        }
+
+        if (!url) throw new Error('No URL found in /index_TBASite response');
+
+        if (/^\/\//.test(url)) url = window.location.protocol + url;
+        if (!/^https?:\/\//i.test(url) && url.startsWith('/')) url = window.location.origin + url;
+
+        iframe.src = url;
+        status.textContent = 'Embed loaded.';
+        status.style.cursor = 'pointer';
+        status.onclick = () => { window.open(url, '_blank'); };
+      } catch (err) {
+        console.error('Error loading Blue Alliance embed:', err);
+        status.textContent = 'Embed unavailable — open event page';
+        status.style.cursor = 'pointer';
+        status.onclick = () => { window.open('/index_TBASite', '_blank'); };
+      }
+    }
+
+    // ---------- MATCHES: load + render ----------
+    function _matchKey(m) {
+      if (m == null) return '__null';
+      const mn = m.MatchNum;
+      if (mn === null || mn === undefined || mn === '') {
+        const r = (m.Red || []).join(',');
+        const b = (m.Blue || []).join(',');
+        return `__no_${r}|${b}`;
+      }
+      return `#${mn}`;
+    }
+
+    function _normalizeAndSort(matches) {
+      if (!Array.isArray(matches)) return [];
+      const map = new Map();
+      for (const m of matches) {
+        const key = _matchKey(m);
+        if (!map.has(key)) map.set(key, m);
+      }
+      const numeric = [];
+      const nonNumeric = [];
+      for (const [k, v] of map.entries()) {
+        const numMatch = /^#(\d+)$/.exec(k);
+        if (numMatch) numeric.push({k, v, n: parseInt(numMatch[1], 10)});
+        else nonNumeric.push({k, v});
+      }
+      numeric.sort((a, b) => a.n - b.n);
+      return numeric.map(x => x.v).concat(nonNumeric.map(x => x.v));
+    }
+
+    function _buildMatchRow(m) {
+      const row = document.createElement('div');
+      row.className = 'match-row';
+      row.dataset.matchnum = (m.MatchNum !== undefined && m.MatchNum !== null) ? String(m.MatchNum) : '';
+      const num = document.createElement('div'); num.className = 'match-num';
+      num.textContent = (m.MatchNum !== undefined && m.MatchNum !== null) ? `#${m.MatchNum}` : '—';
+      const redBox = document.createElement('div'); redBox.className = 'alliance red';
+      const redLabel = document.createElement('div'); redLabel.className = 'label'; redLabel.textContent = 'Red';
+      const redTeams = document.createElement('div'); redTeams.className = 'teams';
+      (m.Red || []).forEach(t => { const tEl = document.createElement('div'); tEl.className = 'team'; tEl.textContent = t; redTeams.appendChild(tEl); });
+      redBox.appendChild(redLabel); redBox.appendChild(redTeams);
+
+      const blueBox = document.createElement('div'); blueBox.className = 'alliance blue';
+      const blueLabel = document.createElement('div'); blueLabel.className = 'label'; blueLabel.textContent = 'Blue';
+      const blueTeams = document.createElement('div'); blueTeams.className = 'teams';
+      (m.Blue || []).forEach(t => { const tEl = document.createElement('div'); tEl.className = 'team'; tEl.textContent = t; blueTeams.appendChild(tEl); });
+      blueBox.appendChild(blueLabel); blueBox.appendChild(blueTeams);
+
+      row.appendChild(num); row.appendChild(redBox); row.appendChild(blueBox);
+      return row;
+    }
+
+    async function LoadAndRenderMatches() {
+      const container = document.getElementById('MatchList');
+      if (!container) return;
+      container.innerHTML = '<div class="muted">Loading matches…</div>';
+      try {
+        const res = await fetch('/index_matches', {cache: 'no-store'});
+        if (!res.ok) throw new Error('Network response not ok');
+        const raw = await res.json();
+        const matches = _normalizeAndSort(raw);
+        if (!matches.length) { container.innerHTML = '<div class="no-matches">No matches available.</div>'; return; }
+        const fragment = document.createDocumentFragment();
+        matches.forEach(m => fragment.appendChild(_buildMatchRow(m)));
+        container.innerHTML = ''; container.appendChild(fragment);
+        _attachCompactObserver(container);
+      } catch (err) {
+        container.innerHTML = `<div class="no-matches">Error loading matches.</div>`;
+        console.error('LoadAndRenderMatches error', err);
+      }
+    }
+
+    // ---------- Compact observer ----------
+    let _compactObserver = null;
+    function _attachCompactObserver(container) {
+      if (_compactObserver) return;
+      const applyCompact = () => {
+        const width = container.clientWidth;
+        const compact = width < 520;
+        container.querySelectorAll('.match-row').forEach(row => {
+          if (compact) row.classList.add('compact'); else row.classList.remove('compact');
+        });
+      };
+      applyCompact();
+      _compactObserver = new ResizeObserver(() => applyCompact());
+      _compactObserver.observe(container);
+    }
+
+    // ---------- Search / Filter ----------
+    function FilterMatches() {
+      const q = (document.getElementById('SearchInput')?.value || '').trim().toLowerCase();
+      const rows = document.querySelectorAll('#MatchList .match-row');
+      if (!rows) return;
+      rows.forEach(r => {
+        if (!q) { r.style.display = ''; return; }
+        const matchNum = (r.dataset.matchnum || '').toLowerCase();
+        const text = r.textContent.toLowerCase();
+        const matchesNum = matchNum && matchNum.replace('#','') === q;
+        r.style.display = (matchesNum || text.includes(q)) ? '' : 'none';
+      });
+    }
+    window.FilterMatches = FilterMatches;
+
+    // ---------- Toggle Widgets ----------
+    function ToggleWidgets() {
+      const panel = document.getElementById('WidgetsPanel');
+      if (!panel) return;
+      const isOpen = panel.classList.toggle('Open');
+      panel.setAttribute('aria-hidden', !isOpen);
+      document.body.classList.toggle('scouting-open', isOpen);
+      if (isOpen) {
+        const tools = document.getElementById('ScoutingToolsCard');
+        if (tools) setTimeout(() => tools.scrollIntoView({ behavior: 'smooth', block: 'center' }), 200);
+      }
+    }
+    window.ToggleWidgets = ToggleWidgets;
+
+    // ---------- Toggle Match Panel (safe) ----------
+    window.ToggleMatchPanel = function () {
+      const mp = document.getElementById('MatchPanel');
+      if (!mp) return;
+      const hidden = mp.style.display === 'none' || window.getComputedStyle(mp).display === 'none';
+      mp.style.display = hidden ? '' : 'none';
+    };
+
+    // ---------- Clear Match Filter ----------
+    window.ClearMatchFilter = function () { const input = document.getElementById('SearchInput'); if (input) { input.value = ''; FilterMatches(); } };
+
+    // ---------- Remove / Restore helper (preserve ability to restore) ----------
+    const detachedStore = { matchPanel: null, footer: null };
+    function detachElement(el) {
+      if (!el) return null;
+      if (!el.parentNode) return { el, parent: null, nextSibling: null };
+      const parent = el.parentNode;
+      const next = el.nextSibling;
+      parent.removeChild(el);
+      return { el, parent, nextSibling: next };
+    }
+    function restoreElement(record) {
+      if (!record || !record.el || !record.parent) return;
+      if (record.nextSibling && record.nextSibling.parentNode === record.parent) {
+        record.parent.insertBefore(record.el, record.nextSibling);
+      } else {
+        record.parent.appendChild(record.el);
+      }
+    }
+
+    // ---------- Small-screen watcher: remove matches+footer when too small (width OR height) ----------
+    (function smallScreenWatcher() {
+      const body = document.body;
+      const app = document.getElementById('AppContainer') || document.querySelector('.AppContainer');
+
+      function setTooSmallState(isTooSmall) {
+        body.classList.toggle('screen-too-small', isTooSmall);
+        if (isTooSmall) {
+          if (!detachedStore.matchPanel) detachedStore.matchPanel = detachElement(document.getElementById('MatchPanel'));
+          if (!detachedStore.footer) detachedStore.footer = detachElement(document.getElementById('SiteFooter'));
+        } else {
+          if (detachedStore.matchPanel && detachedStore.matchPanel.el && detachedStore.matchPanel.parent) {
+            restoreElement(detachedStore.matchPanel);
+            detachedStore.matchPanel = null;
+          }
+          if (detachedStore.footer && detachedStore.footer.el && detachedStore.footer.parent) {
+            restoreElement(detachedStore.footer);
+            detachedStore.footer = null;
+          }
+        }
+      }
+
+      function evaluateSize() {
+        const viewportW = window.innerWidth || document.documentElement.clientWidth;
+        const viewportH = window.innerHeight || document.documentElement.clientHeight;
+        const appW = app ? app.clientWidth : viewportW;
+        const appH = app ? app.clientHeight : viewportH;
+        const effectiveW = Math.min(viewportW, appW);
+        const effectiveH = Math.min(viewportH, appH);
+        const tooSmall = (effectiveW <= SMALL_WIDTH) || (effectiveH <= SMALL_HEIGHT);
+        setTooSmallState(tooSmall);
+      }
+
+      function debounce(fn, wait = 120) {
+        let t = null;
+        return function () { clearTimeout(t); t = setTimeout(fn, wait); };
+      }
+
+      const onResize = debounce(evaluateSize, 120);
+      window.addEventListener('resize', onResize);
+      window.addEventListener('orientationchange', onResize);
+
+      if (window.ResizeObserver && app) {
+        const ro = new ResizeObserver(entries => {
+          for (const e of entries) {
+            const w = Math.round(e.contentRect.width);
+            const h = Math.round(e.contentRect.height);
+            const tooSmall = (w <= SMALL_WIDTH) || (h <= SMALL_HEIGHT);
+            setTooSmallState(tooSmall);
+          }
+        });
+        ro.observe(app);
+      }
+
+      document.addEventListener('DOMContentLoaded', evaluateSize);
+      if (document.readyState === 'complete' || document.readyState === 'interactive') evaluateSize();
+    })();
+
+    // ---------- Initialization ----------
+    document.addEventListener('DOMContentLoaded', function () {
+      loadBlueAllianceEmbed();
+      LoadAndRenderMatches();
+    });
+
+  })();
+  </script>
 </body>
 </html>

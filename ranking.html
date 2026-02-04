@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en-us">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>CORE2062 Scouting — Leaderboards</title>
+
+<style>
+:root{
+  --bg:#07080a; --card:#0f1418; --muted:#9aa4ad; --accent:#ff7a00;
+  --radius:12px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:linear-gradient(180deg,#060708,#0b0f14);color:#e6eef6;font-family:system-ui;padding:24px;}
+
+.App{
+  max-width:1600px;
+  margin:auto;
+  display:grid;
+  grid-template-columns: 1fr 540px;
+  gap:16px
+}
+
+.Card{
+  background:var(--card);
+  border-radius:var(--radius);
+  padding:16px;
+  border:1px solid rgba(255,255,255,.04);
+}
+
+/* --- TOOL BUTTONS --- */
+.tools-grid{
+  display:flex;
+  flex-direction:column;
+  gap:8px;
+  margin-bottom:14px;
+}
+.PrimaryBtn{
+  background:var(--accent);
+  border:none;
+  padding:8px;
+  border-radius:8px;
+  font-weight:600;
+  cursor:pointer;
+}
+.SecondaryBtn{
+  background:transparent;
+  border:1px solid rgba(255,255,255,0.1);
+  padding:8px;
+  border-radius:8px;
+  color:var(--muted);
+  cursor:pointer;
+}
+
+/* Rankings list */
+.group-match{
+  display:flex;
+  gap:8px;
+  padding:8px;
+  border-radius:8px;
+  cursor:grab;
+  border:1px solid rgba(255,255,255,0.05);
+}
+.match-number{width:30px;color:var(--accent);font-weight:700}
+
+/* Leaderboards */
+.Leaderboards{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:12px}
+.Board{border-radius:10px;padding:8px;border:1px solid rgba(255,255,255,0.05);min-height:120px;display:flex;flex-direction:column}
+.List{flex:1;overflow:auto;display:flex;flex-direction:column;gap:6px}
+.ListItem{display:flex;gap:8px;padding:8px;border-radius:8px;background:rgba(255,255,255,0.04);cursor:grab}
+.ListItem.dragging{opacity:.4}
+.Placeholder{height:46px;border:2px dashed rgba(255,122,0,0.3);border-radius:8px}
+</style>
+</head>
+
+<body>
+<div class="App">
+
+  <main>
+    <div class="Card">
+      <h3>Leaderboards</h3>
+      <div class="Leaderboards">
+        <div class="Board"><h4>A</h4><div class="List" id="BoardA"></div></div>
+        <div class="Board"><h4>B</h4><div class="List" id="BoardB"></div></div>
+        <div class="Board"><h4>C</h4><div class="List" id="BoardC"></div></div>
+      </div>
+    </div>
+  </main>
+
+  <aside class="Card">
+
+    <!-- ✅ ADDED TOOL GRID -->
+    <div class="tools-grid">
+      <button class="PrimaryBtn" onclick="window.location.href='/'">Home</button>
+      <button class="SecondaryBtn" onclick="window.location.href='/Matches'">Match Review</button>
+      <button class="SecondaryBtn" onclick="window.location.href='/teams'">Team Review</button>
+      <button id="ClearCSVOverrideBtn" class="SecondaryBtn" style="display:none;margin-top:8px">Clear CSV override</button>
+    </div>
+
+    <h3>Team Rankings</h3>
+    <div id="RankingsContainer"></div>
+  </aside>
+
+</div>
+
+<script>
+const rankings = [2062, 254, 1114, 1678, 4414, 1323, 900, 3476];
+
+function createRankRow(rank, team){
+  const div = document.createElement('div');
+  div.className='group-match';
+  div.draggable=true;
+  div.dataset.team=team;
+  div.innerHTML=`<div class="match-number">${rank}</div><div>frc${team}</div>`;
+  div.addEventListener('dragstart', handleSourceDragStart);
+  return div;
+}
+rankings.forEach((t,i)=>RankingsContainer.appendChild(createRankRow(i+1,t)));
+
+function makeListItem(team){
+  const item=document.createElement('div');
+  item.className='ListItem';
+  item.draggable=true;
+  item.dataset.team=team;
+  item.dataset.itemId='i-'+Date.now()+Math.random();
+  item.innerHTML=`<div style="color:var(--accent)">#${team}</div><div>frc${team}</div>`;
+  item.addEventListener('dragstart',handleItemDragStart);
+  item.addEventListener('dragend',()=>item.classList.remove('dragging'));
+  return item;
+}
+
+function handleSourceDragStart(e){
+  e.dataTransfer.setData('text/team',this.dataset.team);
+  e.dataTransfer.setData('text/from','rankings');
+}
+
+function handleItemDragStart(e){
+  e.dataTransfer.setData('text/team',this.dataset.team);
+  e.dataTransfer.setData('text/from','board');
+  e.dataTransfer.setData('text/item-id',this.dataset.itemId);
+  this.classList.add('dragging');
+}
+
+document.querySelectorAll('.List').forEach(list=>{
+  list.addEventListener('dragover',e=>{
+    e.preventDefault();
+    const after=getDragAfterElement(list,e.clientY);
+    removePH(list);
+    const ph=createPH();
+    if(after==null) list.appendChild(ph);
+    else list.insertBefore(ph,after);
+  });
+
+  list.addEventListener('drop',e=>{
+    e.preventDefault();
+    const team=e.dataTransfer.getData('text/team');
+    const from=e.dataTransfer.getData('text/from');
+    const itemId=e.dataTransfer.getData('text/item-id');
+    if(!team) return;
+
+    let item;
+    if(from==='board') item=document.querySelector(`[data-item-id="${itemId}"]`);
+    if(!item) item=makeListItem(team);
+
+    const ph=list.querySelector('.Placeholder');
+    if(ph) list.insertBefore(item,ph);
+    else list.appendChild(item);
+
+    removePH(list);
+  });
+});
+
+function createPH(){const d=document.createElement('div');d.className='Placeholder';return d;}
+function removePH(list){list.querySelectorAll('.Placeholder').forEach(p=>p.remove());}
+
+function getDragAfterElement(container,y){
+  const els=[...container.querySelectorAll('.ListItem:not(.dragging)')];
+  return els.reduce((closest,child)=>{
+    const box=child.getBoundingClientRect();
+    const offset=y-box.top-box.height/2;
+    if(offset<0&&offset>closest.offset){return{offset,element:child}}
+    else return closest;
+  },{offset:Number.NEGATIVE_INFINITY}).element;
+}
+</script>
+</body>
+</html>
