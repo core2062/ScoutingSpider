@@ -1,8 +1,4 @@
-# Welcome to the (Static/Github Build) Scouting Spider 
-
-> Heads Up Most Important information about The **FLASK BUILD**  of the website will be found on [Here](https://github.com/Magicflash67/ScoutingSpider/tree/FlaskServerBuild?tab=readme-ov-file#scoutingspider-flask-build)
->  *(if Link doesn't work https://github.com/Magicflash67/ScoutingSpider/tree/FlaskServerBuild?tab=readme-ov-file#scoutingspider-flask-build)*
-> the Main branch this file goes over the static or git hub pages  version
+# Welcome to the (Static/Github Build) Scouting Spider--This page is currently under reconstrustion and is ment to be resigned for the 2026 year
 
 # [FRC Kight Krawler](https://www.team2052.com/frckrawler/)
 This system runs on FRC knight Krawler. a scouting system developed by FRC team 2052 Krawler robotics. the CORE2062 Scouting Spider currently runs on 2 CVS files from them the raw data export and the summary two VERY IMPORTANT parts to this system.
