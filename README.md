@@ -1,16 +1,14 @@
 # Welcome to the (Static/Github Build) Scouting Spider--This page is currently under reconstrustion and is ment to be resigned for the 2026 year
 
-# [FRC Kight Krawler](https://www.team2052.com/frckrawler/)
-This system runs on FRC knight Krawler. a scouting system developed by FRC team 2052 Krawler robotics. the CORE2062 Scouting Spider currently runs on 2 CVS files from them the raw data export and the summary two VERY IMPORTANT parts to this system.
+This system runs on DATA
 
 # Files and Architecture
 The github pages of this build has a modified flask file architecture; the main difference HTML files at main/root per GitHub index.html Instructions and the rest are put there just for neatness
 
 here a list of all data/folder that do need to be updated every competition 
 
- - **RawData.csv and Summary.csv**	
-	 - This file contains the raw data that is needed for the java script to run properly. The Files are meant to be overwritten every time new data is added. You will get theses file from the knight krawler app which is meant to be paired with this system.
-	 - 
+ - **RawData.csv and Summary.csv**
+	 - These files contain the raw data needed for the JavaScript to run properly. The files are meant to be overwritten every time new data is added. You will get these files from your scouting data collection process or app.
  - **StyleAndLinks.json**
 	 - This file is meant to be a better or cleaning way of editing links without needing to go into the system. 
 	 
