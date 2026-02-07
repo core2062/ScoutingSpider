@@ -70,6 +70,10 @@ body{background:linear-gradient(180deg,#060708,#0b0f14);color:#e6eef6;font-famil
 .ListItem{display:flex;gap:8px;padding:8px;border-radius:8px;background:rgba(255,255,255,0.04);cursor:grab}
 .ListItem.dragging{opacity:.4}
 .Placeholder{height:46px;border:2px dashed rgba(255,122,0,0.3);border-radius:8px}
+
+/* drag-over visual state */
+.List.drag-over { outline: 2px solid var(--accent); background: rgba(255,122,0,0.06); }
+.small.muted { color: var(--muted); font-size:13px; padding:8px 0; }
 </style>
 </head>
 
@@ -80,7 +84,7 @@ body{background:linear-gradient(180deg,#060708,#0b0f14);color:#e6eef6;font-famil
     <div class="Card">
       <h3>Leaderboards</h3>
       <div class="Leaderboards">
-        <div class="Board"><h4>A</h4><div class="List" id="BoardA"></div></div>
+        <div class="Board"><h4>YES</h4><div class="List" id="BoardA"></div></div>
         <div class="Board"><h4>B</h4><div class="List" id="BoardB"></div></div>
         <div class="Board"><h4>C</h4><div class="List" id="BoardC"></div></div>
       </div>
@@ -94,6 +98,7 @@ body{background:linear-gradient(180deg,#060708,#0b0f14);color:#e6eef6;font-famil
       <button class="PrimaryBtn" onclick="window.location.href='/'">Home</button>
       <button class="SecondaryBtn" onclick="window.location.href='/Matches'">Match Review</button>
       <button class="SecondaryBtn" onclick="window.location.href='/teams'">Team Review</button>
+      <button class="SecondaryBtn" onclick="window.location.href='/Ranking'">Ranking Review</button>
       <button id="ClearCSVOverrideBtn" class="SecondaryBtn" style="display:none;margin-top:8px">Clear CSV override</button>
     </div>
 
@@ -104,84 +109,191 @@ body{background:linear-gradient(180deg,#060708,#0b0f14);color:#e6eef6;font-famil
 </div>
 
 <script>
-const rankings = [2062, 254, 1114, 1678, 4414, 1323, 900, 3476];
+/* Robust drag & drop handlers with safe dataTransfer reads and stable placeholders.
+   - Recalculate insertion position on drop (uses mouse Y) so "drop twice" bug is gone.
+*/
+
+const RankingsContainer = document.getElementById('RankingsContainer');
 
 function createRankRow(rank, team){
   const div = document.createElement('div');
   div.className='group-match';
   div.draggable=true;
-  div.dataset.team=team;
+  div.dataset.team=String(team);
   div.innerHTML=`<div class="match-number">${rank}</div><div>frc${team}</div>`;
-  div.addEventListener('dragstart', handleSourceDragStart);
+
+  div.addEventListener('dragstart', function(e) {
+    try { e.dataTransfer.setData('text/team', this.dataset.team); } catch(_) {}
+    try { e.dataTransfer.setData('text/plain', this.dataset.team); } catch(_) {}
+    try { e.dataTransfer.setData('text/from', 'rankings'); } catch(_) {}
+    e.dataTransfer.effectAllowed = 'copy';
+  });
+
   return div;
 }
-rankings.forEach((t,i)=>RankingsContainer.appendChild(createRankRow(i+1,t)));
+
+function loadRankings() {
+  if (!RankingsContainer) return;
+  RankingsContainer.innerHTML = '<div class="small muted">Loading rankings…</div>';
+  fetch('/index_ranking_list')
+    .then(r => {
+      if (!r.ok) throw new Error('HTTP ' + r.status);
+      return r.json();
+    })
+    .then(arr => {
+      RankingsContainer.innerHTML = '';
+      if (!Array.isArray(arr) || arr.length === 0) {
+        RankingsContainer.innerHTML = '<div class="small muted">No rankings returned.</div>';
+        return;
+      }
+      arr.forEach((team, i) => {
+        RankingsContainer.appendChild(createRankRow(i+1, team));
+      });
+    })
+    .catch(err => {
+      RankingsContainer.innerHTML = `<div class="small muted">Failed to load rankings: ${err && err.message ? err.message : err}</div>`;
+    });
+}
+
+window.addEventListener('DOMContentLoaded', loadRankings);
 
 function makeListItem(team){
   const item=document.createElement('div');
   item.className='ListItem';
   item.draggable=true;
-  item.dataset.team=team;
-  item.dataset.itemId='i-'+Date.now()+Math.random();
+  item.dataset.team=String(team);
+  item.dataset.itemId='i-'+Date.now()+'-'+Math.floor(Math.random()*1000000);
   item.innerHTML=`<div style="color:var(--accent)">#${team}</div><div>frc${team}</div>`;
-  item.addEventListener('dragstart',handleItemDragStart);
+
+  item.addEventListener('dragstart',function(e){
+    try { e.dataTransfer.setData('text/team', this.dataset.team); } catch(_) {}
+    try { e.dataTransfer.setData('text/plain', this.dataset.team); } catch(_) {}
+    try { e.dataTransfer.setData('text/from', 'board'); } catch(_) {}
+    try { e.dataTransfer.setData('text/item-id', this.dataset.itemId); } catch(_) {}
+    this.classList.add('dragging');
+    e.dataTransfer.effectAllowed = 'move';
+  });
+
   item.addEventListener('dragend',()=>item.classList.remove('dragging'));
   return item;
 }
 
-function handleSourceDragStart(e){
-  e.dataTransfer.setData('text/team',this.dataset.team);
-  e.dataTransfer.setData('text/from','rankings');
-}
+function createPH(){ const d=document.createElement('div'); d.className='Placeholder'; return d; }
+function removePH(list){ if(!list) return; list.querySelectorAll('.Placeholder').forEach(p=>p.remove()); }
 
-function handleItemDragStart(e){
-  e.dataTransfer.setData('text/team',this.dataset.team);
-  e.dataTransfer.setData('text/from','board');
-  e.dataTransfer.setData('text/item-id',this.dataset.itemId);
-  this.classList.add('dragging');
-}
-
-document.querySelectorAll('.List').forEach(list=>{
-  list.addEventListener('dragover',e=>{
-    e.preventDefault();
-    const after=getDragAfterElement(list,e.clientY);
-    removePH(list);
-    const ph=createPH();
-    if(after==null) list.appendChild(ph);
-    else list.insertBefore(ph,after);
-  });
-
-  list.addEventListener('drop',e=>{
-    e.preventDefault();
-    const team=e.dataTransfer.getData('text/team');
-    const from=e.dataTransfer.getData('text/from');
-    const itemId=e.dataTransfer.getData('text/item-id');
-    if(!team) return;
-
-    let item;
-    if(from==='board') item=document.querySelector(`[data-item-id="${itemId}"]`);
-    if(!item) item=makeListItem(team);
-
-    const ph=list.querySelector('.Placeholder');
-    if(ph) list.insertBefore(item,ph);
-    else list.appendChild(item);
-
-    removePH(list);
-  });
-});
-
-function createPH(){const d=document.createElement('div');d.className='Placeholder';return d;}
-function removePH(list){list.querySelectorAll('.Placeholder').forEach(p=>p.remove());}
-
-function getDragAfterElement(container,y){
+/* get element after pointer (for insertion), or null for append */
+function getDragAfterElement(container, y){
   const els=[...container.querySelectorAll('.ListItem:not(.dragging)')];
-  return els.reduce((closest,child)=>{
-    const box=child.getBoundingClientRect();
-    const offset=y-box.top-box.height/2;
-    if(offset<0&&offset>closest.offset){return{offset,element:child}}
-    else return closest;
-  },{offset:Number.NEGATIVE_INFINITY}).element;
+  let closest = {offset: Number.NEGATIVE_INFINITY, element: null};
+  els.forEach(child => {
+    const box = child.getBoundingClientRect();
+    const offset = y - box.top - box.height / 2;
+    if (offset < 0 && offset > closest.offset) {
+      closest = { offset, element: child };
+    }
+  });
+  return closest.element;
 }
+
+/* Per-list dragenter/dragleave counter to prevent flicker when entering children */
+document.querySelectorAll('.List').forEach(list=>{
+  let counter = 0;
+  list.addEventListener('dragenter', (e)=>{
+    e.preventDefault();
+    counter++;
+    list.classList.add('drag-over');
+  });
+
+  list.addEventListener('dragover', e=>{
+    e.preventDefault();
+
+    // show placeholder at correct spot
+    const after = getDragAfterElement(list, e.clientY);
+    removePH(list);
+    const ph = createPH();
+    if (after == null) list.appendChild(ph);
+    else list.insertBefore(ph, after);
+
+    // determine dropEffect safely (some browsers block getData on dragover)
+    let from = '';
+    try { from = e.dataTransfer.getData('text/from') || ''; } catch(_) { from = ''; }
+    try { e.dataTransfer.dropEffect = (from === 'board') ? 'move' : 'copy'; } catch(_) {}
+  });
+
+  list.addEventListener('dragleave', (e)=>{
+    counter = Math.max(0, counter-1);
+    if (counter === 0) {
+      list.classList.remove('drag-over');
+      removePH(list);
+    }
+  });
+
+  list.addEventListener('drop', e=>{
+    e.preventDefault();
+    counter = 0;
+    list.classList.remove('drag-over');
+
+    let team = '';
+    let from = '';
+    let itemId = '';
+
+    try { team = e.dataTransfer.getData('text/team') || ''; } catch(_) {}
+    try { from = e.dataTransfer.getData('text/from') || ''; } catch(_) {}
+    try { itemId = e.dataTransfer.getData('text/item-id') || ''; } catch(_) {}
+
+    // Fallback parsing
+    if(!team) {
+      try {
+        let txt = e.dataTransfer.getData('text/plain') || '';
+        const m = txt.match(/frc\s*(\d+)|\b(\d{2,6})\b/i);
+        if(m) team = m[1] || m[2];
+      } catch(_) {}
+    }
+    if(!team) {
+      removePH(list);
+      return;
+    }
+
+    let itemNode = null;
+
+    // If moving an existing board item
+    if(from === 'board' && itemId) {
+      itemNode = document.querySelector(`[data-item-id="${itemId}"]`);
+      if(itemNode) {
+        const dup = [...list.querySelectorAll('.ListItem')]
+          .find(li => li.dataset.team === team && li.dataset.itemId !== itemId);
+        if(dup) {
+          removePH(list);
+          return;
+        }
+        if(itemNode.parentNode) itemNode.parentNode.removeChild(itemNode);
+        itemNode.classList.remove('dragging');
+      }
+    }
+
+    // Create new item if needed
+    if(!itemNode) {
+      if([...list.querySelectorAll('.ListItem')].some(li => li.dataset.team === team)) {
+        removePH(list);
+        return;
+      }
+      itemNode = makeListItem(team);
+    }
+
+    // Recompute exact insertion position using mouse Y
+    const after = getDragAfterElement(list, e.clientY);
+
+    if(after == null) list.appendChild(itemNode);
+    else list.insertBefore(itemNode, after);
+
+    removePH(list);
+  });
+}); /* <-- CORRECT CLOSURE for forEach */
+  
+/* Attach Clear CSV override button behavior (left as a stub in your UI) */
+document.getElementById('ClearCSVOverrideBtn')?.addEventListener('click', () => {
+  alert('Clear CSV override clicked (wire to your clear function)');
+});
 </script>
 </body>
 </html>
