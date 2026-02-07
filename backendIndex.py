@@ -5,7 +5,7 @@ from datetime import date, datetime
 from typing import List, Optional, Any
 
 # Prefer environment variable for API key; fallback only for quick local testing.
-TBA_KEY = os.environ.get("TBA_KEY", "Mf6XGOLova7aomjlCmggiRRqsu9WwtNP6xaW4SAlblfADVmmrIygAI7rpyDniU4m")
+TBA_KEY = os.environ.get("TBA_KEY", " YOUR TBA KEY HERE")
 tba = TBA(TBA_KEY)
 
 # sensible defaults when module is imported by a web app

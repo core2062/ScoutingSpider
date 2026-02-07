@@ -301,11 +301,25 @@ footer{grid-column:1/-1;text-align:center;margin-top:12px;color:var(--muted)}
 </div>
 
 <script>
-/* Horizontal slider and CSV parsing logic unchanged; same handlers as before. 
-   Added: drag & drop CSV override support. */
+
+// === CONFIGURABLE: URL to JSON config for columns to show ===
+const COLUMN_CONFIG_URL = 'https://example.com/column_config.json'; // <-- Set your JSON URL here
+let COLUMN_CONFIG = null;
+
+// Fetch the column config JSON at startup
+async function fetchColumnConfig() {
+  try {
+    const res = await fetch(COLUMN_CONFIG_URL, {cache:'no-store'});
+    if (!res.ok) throw new Error('Failed to fetch column config: ' + res.status);
+    COLUMN_CONFIG = await res.json();
+  } catch (e) {
+    console.warn('Column config fetch failed:', e);
+    COLUMN_CONFIG = null;
+  }
+}
 
 (function () {
-  const CSV_URL = 'https://core2062.github.io/ScoutingSpider/YearlyCSV/Testing.csv';
+  const CSV_URL = 'https://core2062.github.io/ScoutingSpider/YearlyCSV/RawData.csv';
   const RANKING_ENDPOINT = '/teams_ranking_list';
 
   // override storage (in-memory)
@@ -339,7 +353,11 @@ footer{grid-column:1/-1;text-align:center;margin-top:12px;color:var(--muted)}
     opts = opts || {};
     if (!rows || rows.length === 0) return '<div class="small muted">No rows found for this team.</div>';
     let usedHeaders = header.slice();
-    if (opts.hideEmptyColumns) usedHeaders = header.filter(h => rows.some(r => (r[h]||'').toString().trim() !== ''));
+    // Only hide columns with COLUMN_CONFIG value === null
+    if (COLUMN_CONFIG && typeof COLUMN_CONFIG === 'object') {
+      usedHeaders = usedHeaders.filter(h => COLUMN_CONFIG[h] !== null);
+    }
+    if (opts.hideEmptyColumns) usedHeaders = usedHeaders.filter(h => rows.some(r => (r[h]||'').toString().trim() !== ''));
     if (!usedHeaders.length) return '<div class="small muted">No populated columns to display.</div>';
     const table = document.createElement('table'); table.className = 'team-table';
     const thead = document.createElement('thead'); const thr = document.createElement('tr');
@@ -580,6 +598,8 @@ footer{grid-column:1/-1;text-align:center;margin-top:12px;color:var(--muted)}
   document.getElementById('RefreshRankings')?.addEventListener('click', () => { loadRankings(); });
 
   window.addEventListener('DOMContentLoaded', () => { try { updateCSVOverrideUI(); loadRankings(); } catch(e){ console.error(e); } });
+  // Fetch column config before anything else
+  fetchColumnConfig();
 })();
 </script>
 </body>

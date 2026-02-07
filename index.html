@@ -116,7 +116,20 @@
     .alliance { display:flex; gap:8px; align-items:center; padding:6px 10px; border-radius:6px; flex:1 1 auto; min-width: 120px; min-width:0; overflow:hidden; }
     .alliance.red { background: linear-gradient(90deg, rgba(255,80,80,0.12), rgba(255,80,80,0.06)); border:1px solid rgba(255,80,80,0.12); }
     .alliance.blue { background: linear-gradient(90deg, rgba(80,160,255,0.12), rgba(80,160,255,0.06)); border:1px solid rgba(80,160,255,0.12); }
-    .team { padding:4px 8px; border-radius:4px; background:rgba(0,0,0,0.12); color:#fff; font-weight:600; white-space:nowrap; text-overflow:ellipsis; overflow:hidden; }
+    .team {
+      padding:4px 8px;
+      border-radius:4px;
+      background:rgba(0,0,0,0.12);
+      color:#fff;
+      font-weight:600;
+      white-space:nowrap;
+      min-width:0;
+      width:auto;
+      font-size: min(1.2vw, 14px);
+      flex-shrink:1;
+      overflow:visible;
+      text-overflow:unset;
+    }
     .teams { display:flex; gap:6px; flex-wrap:nowrap; min-width:0; overflow:hidden; }
     .muted { color: rgba(255,255,255,0.55); font-size:0.9rem; }
     .no-matches { color: rgba(255,255,255,0.45); padding:8px; }
