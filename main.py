@@ -24,7 +24,7 @@ from typing import Optional
 
 import backendIndex
 import app as Server
-
+import Viewer as Browser
 
 
 def _normalize_team_arg(team_arg: Optional[str]) -> Optional[str]:
@@ -110,40 +110,12 @@ def main():
 
     print('SelectedURL ->', SelectedURL)
 
-    # Spawn a terminal instance to show output
-    import subprocess
-    import time
-    if SelectedURL:
-        print("Launching terminal for dashboard output...")
-        # Open the URL in a terminal (Windows: use start, Linux/Mac: use xdg-open/open)
-        try:
-            if sys.platform.startswith('win'):
-                proc = subprocess.Popen(["start", SelectedURL], shell=True)
-            elif sys.platform.startswith('darwin'):
-                proc = subprocess.Popen(["open", SelectedURL])
-            else:
-                proc = subprocess.Popen(["xdg-open", SelectedURL])
-        except Exception as e:
-            print("Failed to launch terminal/browser:", e)
-            proc = None
-        # Wait for terminal/browser to close
-        if proc is not None:
-            try:
-                proc.wait()
-            except Exception:
-                pass
-        print("Terminal/browser closed. Shutting down server.")
-        # Optionally, stop the server here if needed
-        # If Server.run() is non-blocking, add shutdown logic if available
-        if hasattr(Server, 'shutdown'):
-            try:
-                Server.shutdown()
-            except Exception as e:
-                print("Error shutting down server:", e)
-        else:
-            print("No shutdown method found for server.")
-    else:
-        print("No URL to launch.")
+    # Run the browser viewer (this is blocking in your original call)
+    try:
+        Browser.run(address=SelectedURL, blocking=True, title="CORE2062 Dashboard")
+    except Exception as e:
+        print('Error starting Browser.run():', e)
+        raise
 
 
 if __name__ == '__main__':
